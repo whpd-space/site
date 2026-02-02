@@ -20,7 +20,6 @@ CONTENT_MARKER = '{{CONTENT}}'
 # Pages to build (filename, title)
 PAGES = [
     ('index.html', 'The Wormhole Police'),
-    ('Home.html', 'The Wormhole Police'),
     ('Mission.html', 'The Wormhole Police - Mission'),
     ('AboutUs.html', 'The Wormhole Police - About Us'),
     ('ContactUs.html', 'The Wormhole Police - Contact Us'),
