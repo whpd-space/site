@@ -19,9 +19,9 @@ class CustomHandler(SimpleHTTPRequestHandler):
         return super().send_error(code, message, explain)
 
 if __name__ == '__main__':
-    os.chdir('.')  # Serve from current dir
-    httpd = HTTPServer(('0.0.0.0', 8080), CustomHandler)
-    print("Serving on http://localhost:8080")
+    os.chdir('docs')  # Serve from docs directory
+    httpd = HTTPServer(('0.0.0.0', 8082), CustomHandler)
+    print("Serving from docs/ on http://localhost:8082")
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
