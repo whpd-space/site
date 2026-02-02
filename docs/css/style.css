@@ -196,7 +196,6 @@ body {
 	border-radius: var(--border-radius);
 	box-shadow: var(--shadow-xl);
 	padding: var(--spacing-sm);
-	margin-top: var(--spacing-xs);
 	backdrop-filter: blur(10px);
 	animation: slideDown var(--transition-base);
 }
