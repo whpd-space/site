@@ -1,41 +1,25 @@
-var NavBar = ` 
-   <div id="bluespace">
-      <img src="images/whpd-banner.png" alt="">
-   </div>
-  <div id="header">
-   <div="navbar">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="Mission.html">Mission</a></li>
-        <li><a href="LegalLibrary.html">Legal Library</a></li>
-        <li>
-          <a href="#">Resources</a>
-          <ul class="dropdown">
-            <li><a href="MarkeeDragonRedirect.html">Markee Dragon</a></li>
-            <li><a href="HighsecBuybackRedirect.html">Highsec Buyback</a></li>
-            <li><a href="LowsecBuybackRedirect.html">Lowsec Buyback</a></li>
-            <li><a href="FreeSkillPointsRedirect.html">Free Skill Points</a></li>
-          </ul>
-        </li>
-        <li><a href="AboutUs.html">About Us</a></li>
-        <li><a href="ContactUs.html">Contact Us</a></li>
-      </ul>
-    </div>
-  </div>
-  <div id="whitespace">
-  </div>
-`;
-
-var Footer = ` 
-  <div id="whitespace">
-  </div>
-  <div id="footer">
-      <p>&copy; YC 127 WHPD | ALL RIGHTS RESERVED</p>
-  </div>
-`;
-
-// inserting NavBar into header container
-document.getElementById('header-container').innerHTML = NavBar;
-        
-// inserting Footer into footer container
-document.getElementById('footer-container').innerHTML = Footer;
+// Mobile menu toggle
+document.addEventListener('DOMContentLoaded', function() {
+	const menuToggle = document.getElementById('menu-toggle');
+	const navbar = document.getElementById('navbar');
+	
+	if (menuToggle && navbar) {
+		menuToggle.addEventListener('click', function() {
+			this.classList.toggle('active');
+			navbar.classList.toggle('active');
+			
+			const isExpanded = this.classList.contains('active');
+			this.setAttribute('aria-expanded', isExpanded);
+		});
+		
+		// Close menu when clicking on a link
+		const navLinks = navbar.querySelectorAll('a');
+		navLinks.forEach(link => {
+			link.addEventListener('click', function() {
+				menuToggle.classList.remove('active');
+				navbar.classList.remove('active');
+				menuToggle.setAttribute('aria-expanded', 'false');
+			});
+		});
+	}
+});
