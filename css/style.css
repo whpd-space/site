@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: monospace;
+}
+
+ul {
+	align-items: center;
+	list-style: none;
+	background: #22438C;
+}
+
+ul li {
+	display: inline-block;
+	position: relative;
+}
+
+ul li a {
+	display: block;
+	padding: 20px 25px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	fopnt-size: 20px;
+}
+
+ul li ul.dropdown li {
+	display: block;
+}
+
+ul li ul.dropdown {
+	width: 100%;
+	background: #22438C;
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+
+ul li a:hover {
+	background: #112C66;
+}
+
+ul li:hover ul.dropdown {
+	display: block;
+}
+
+h1 {
+	padding: 20px 15px;
+	text-align: center;
+}
+
+h2 {
+	padding: 15px 25px;
+}
+
+h3 {
+	padding: 10px 35px;
+}
+
+
+h4,
+p,
+details {
+	padding: 5px 45px;
+}
+
+p {
+	padding: 5px 45px;
+}
+
+ul {
+	list-style: none;
+	background: #22438C;
+}
+
+#bluespace {
+	background-color: #22438C;
+	min-height: 84px;
+	padding: 10px;
+}
+
+#whitespace {
+	background-color: #FFF;
+	min-height: 84px;
+}
+
+#header-container {
+	min-height: 245px;
+}
+
+#footer {
+	min-height: 124px;
+}
+
+#footer p {
+	display: block;
+	padding: 20px 15px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	height: 84px;
+	background: #22438C;
+	color: #FFF;
+}
