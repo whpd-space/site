@@ -134,6 +134,11 @@ body {
 	align-items: center;
 }
 
+#navbar {
+	flex: 1;
+	width: 100%;
+}
+
 .menu-toggle {
 	display: none;
 	background: none;
