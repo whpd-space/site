@@ -22,4 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
 			});
 		});
 	}
+
+	const yc_year = new Date().getFullYear() - 1898;
+	const footer = `<p>&copy; YC ${yc_year} WHPD | ALL RIGHTS RESERVED</p>`;
+	document.getElementById('footer').innerHTML = footer;
 });
