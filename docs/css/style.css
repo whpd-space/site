@@ -43,11 +43,6 @@
 	--shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
 	--shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
 	--shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
-	
-	/* Transitions */
-	--transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
-	--transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
-	--transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ========================================
@@ -102,12 +97,6 @@ body {
 		radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
 		radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.15) 0%, transparent 50%);
 	pointer-events: none;
-	animation: pulse 8s ease-in-out infinite;
-}
-
-@keyframes pulse {
-	0%, 100% { opacity: 0.5; }
-	50% { opacity: 1; }
 }
 
 #bluespace img {
@@ -148,7 +137,6 @@ body {
 	position: absolute;
 	right: var(--spacing-md);
 	top: 50%;
-	transform: translateY(-50%);
 	z-index: 101;
 	width: 44px;
 	height: 44px;
@@ -164,19 +152,15 @@ body {
 	height: 2px;
 	background: var(--color-text);
 	border-radius: 2px;
-	transition: all var(--transition-base);
 }
 
 .menu-toggle.active span:nth-child(1) {
-	transform: translateY(7px) rotate(45deg);
 }
 
 .menu-toggle.active span:nth-child(2) {
-	opacity: 0;
 }
 
 .menu-toggle.active span:nth-child(3) {
-	transform: translateY(-7px) rotate(-45deg);
 }
 
 #navbar ul {
@@ -206,7 +190,6 @@ body {
 	font-weight: 500;
 	font-size: 0.95rem;
 	letter-spacing: 0.01em;
-	transition: all var(--transition-base);
 	border-radius: var(--border-radius);
 	position: relative;
 }
@@ -216,17 +199,15 @@ body {
 	position: absolute;
 	bottom: 0.5rem;
 	left: 50%;
+	transform: translateX(-50%);
 	width: 0;
 	height: 2px;
 	background: var(--color-primary-light);
-	transition: all var(--transition-base);
-	transform: translateX(-50%);
 }
 
 #navbar ul li a:hover {
 	background: var(--color-surface-hover);
 	color: var(--color-primary-light);
-	transform: translateY(-1px);
 }
 
 #navbar ul li a:hover::after {
@@ -246,18 +227,6 @@ body {
 	box-shadow: var(--shadow-xl);
 	padding: var(--spacing-sm);
 	backdrop-filter: blur(10px);
-	animation: slideDown var(--transition-base);
-}
-
-@keyframes slideDown {
-	from {
-		opacity: 0;
-		transform: translateY(-10px);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
 }
 
 #navbar ul li:hover ul.dropdown {
@@ -300,7 +269,7 @@ h1 {
 	font-size: clamp(2rem, 5vw, 3rem);
 	font-weight: 700;
 	margin-bottom: var(--spacing-xl);
-	text-align: center;
+	text-align: left;
 	background: linear-gradient(135deg, var(--color-primary-light), var(--color-secondary));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -346,7 +315,6 @@ p:last-child {
 a {
 	color: var(--color-primary-light);
 	text-decoration: none;
-	transition: color var(--transition-base);
 }
 
 a:hover {
@@ -366,7 +334,6 @@ details {
 	border-radius: var(--border-radius-lg);
 	padding: var(--spacing-lg);
 	margin: var(--spacing-lg) 0;
-	transition: all var(--transition-base);
 }
 
 details:hover {
@@ -382,7 +349,6 @@ details summary {
 	padding: var(--spacing-sm);
 	margin: calc(var(--spacing-sm) * -1);
 	border-radius: var(--border-radius);
-	transition: all var(--transition-base);
 }
 
 details summary:hover {
@@ -403,10 +369,13 @@ details[open] summary {
 	background: var(--color-bg-secondary);
 	border-top: 1px solid var(--color-bg-tertiary);
 	margin-top: auto;
+	padding: 0 var(--spacing-md);
 }
 
 #footer p {
-	padding: var(--spacing-xl);
+	max-width: var(--container-width);
+	margin: 0 auto;
+	padding: var(--spacing-xl) 0;
 	text-align: center;
 	color: var(--color-text-muted);
 	font-size: 0.875rem;
@@ -431,7 +400,6 @@ details[open] summary {
 		border-bottom: 1px solid var(--color-bg-tertiary);
 		max-height: 0;
 		overflow: hidden;
-		transition: max-height var(--transition-slow);
 		box-shadow: var(--shadow-lg);
 	}
 	
@@ -511,3 +479,54 @@ details[open] summary {
 
 .mt-0 { margin-top: 0; }
 .mb-0 { margin-bottom: 0; }
+
+/* ========================================
+   Officer Cards
+   ======================================== */
+
+.officer-card {
+	display: flex;
+	align-items: flex-start;
+	gap: var(--spacing-lg);
+	background: var(--color-surface);
+	border: 1px solid var(--color-bg-tertiary);
+	border-radius: var(--border-radius-lg);
+	padding: var(--spacing-xl);
+	margin-bottom: var(--spacing-xl);
+	box-shadow: var(--shadow-md);
+}
+
+.officer-card img {
+	width: 128px;
+	height: 128px;
+	border-radius: var(--border-radius-lg);
+	flex-shrink: 0;
+	border: 2px solid var(--color-primary);
+}
+
+.officer-info {
+	flex: 1;
+}
+
+.officer-info h2 {
+	margin: 0 0 var(--spacing-md) 0;
+	color: var(--color-accent);
+	font-size: 1.5rem;
+}
+
+.officer-info p {
+	margin: var(--spacing-xs) 0;
+	color: var(--color-text-secondary);
+}
+
+@media (max-width: 600px) {
+	.officer-card {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	
+	.officer-card img {
+		width: 100px;
+		height: 100px;
+	}
+}
