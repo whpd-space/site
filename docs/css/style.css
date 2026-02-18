@@ -164,6 +164,7 @@ body {
 	position: absolute;
 	right: var(--spacing-md);
 	top: 50%;
+	transform: translateY(-50%);
 	z-index: 101;
 	width: 44px;
 	height: 44px;
@@ -414,6 +415,10 @@ details[open] summary {
    ======================================== */
 
 @media (max-width: 768px) {
+	#header {
+		min-height: 56px;
+	}
+
 	#bluespace .site-banner {
 		flex-direction: column;
 		gap: var(--spacing-sm);
