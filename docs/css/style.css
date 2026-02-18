@@ -84,6 +84,13 @@ body {
 	box-shadow: var(--shadow-lg);
 	position: relative;
 	overflow: hidden;
+	display: block;
+	text-decoration: none;
+}
+
+#bluespace:hover {
+	text-decoration: none;
+	color: inherit;
 }
 
 #bluespace::before {
@@ -523,6 +530,33 @@ details[open] summary {
 .mb-0 { margin-bottom: 0; }
 
 /* ========================================
+   MemeFleet
+   ======================================== */
+
+.memefleet-intro {
+	display: flex;
+	align-items: flex-start;
+	gap: var(--spacing-lg);
+	margin-bottom: var(--spacing-lg);
+}
+
+.memefleet-logo {
+	width: 260px;
+	max-width: 42%;
+	height: auto;
+	flex-shrink: 0;
+}
+
+.memefleet-content h2 {
+	margin-top: 0;
+}
+
+.memefleet-content ul {
+	padding-left: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+/* ========================================
    Officer Cards
    ======================================== */
 
@@ -562,6 +596,16 @@ details[open] summary {
 }
 
 @media (max-width: 600px) {
+	.memefleet-intro {
+		flex-direction: column;
+		gap: var(--spacing-md);
+	}
+
+	.memefleet-logo {
+		width: min(220px, 100%);
+		max-width: 100%;
+	}
+
 	.officer-card {
 		flex-direction: column;
 		align-items: flex-start;
