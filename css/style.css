@@ -595,6 +595,26 @@ details[open] summary {
 	color: var(--color-text-secondary);
 }
 
+.motivation-brief {
+	display: grid;
+	grid-template-columns: minmax(260px, 1fr) minmax(0, 1fr);
+	gap: var(--spacing-xl);
+	align-items: start;
+}
+
+.motivation-image {
+	width: 100%;
+	height: auto;
+	border: 2px solid var(--color-primary);
+	border-radius: var(--border-radius-lg);
+	box-shadow: var(--shadow-lg);
+	background: var(--color-surface);
+}
+
+.motivation-brief h2 {
+	margin-top: 0;
+}
+
 @media (max-width: 600px) {
 	.memefleet-intro {
 		flex-direction: column;
@@ -614,5 +634,9 @@ details[open] summary {
 	.officer-card img {
 		width: 100px;
 		height: 100px;
+	}
+
+	.motivation-brief {
+		grid-template-columns: 1fr;
 	}
 }
