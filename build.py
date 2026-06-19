@@ -25,6 +25,7 @@ PAGES = [
     ('ContactUs.html', 'The Wormhole Police - Contact Us'),
     ('LegalLibrary.html', 'The Wormhole Police - Legal Library'),
     ('MemeFleet.html', 'The Wormhole Police - MemeFleet'),
+    ('MabelMotivation.html', 'The Wormhole Police - Mabel Motivation'),
     ('404.html', 'The Wormhole Police - 404'),
     ('legislation.html', 'The Wormhole Police - Legislation (Redirect)'),
     ('MarkeeDragonRedirect.html', 'The Wormhole Police - Markee Dragon Redirect'),
