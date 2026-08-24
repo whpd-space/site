@@ -671,8 +671,9 @@ details[open] summary {
 .memefleet-note {
 	margin: var(--spacing-sm) 0 0;
 	color: var(--color-text-muted);
-	font-size: 0.72rem;
+	font-size: clamp(0.5rem, 1.2vw, 0.72rem);
 	text-align: center;
+	white-space: nowrap;
 }
 
 /* ========================================
