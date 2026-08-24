@@ -1,0 +1,22 @@
+{
+  "schema_version": 2,
+  "generated_at": null,
+  "window": {
+    "start": null,
+    "end": null,
+    "seconds": 604800
+  },
+  "source": {
+    "name": "zKillboard",
+    "url": "https://zkillboard.com/",
+    "filter": "kills/w-space/characterID/pastSeconds/604800"
+  },
+  "summary": {
+    "arrests": 0,
+    "suspects": 0,
+    "total_value": 0
+  },
+  "rankings": [],
+  "dirtbags": [],
+  "arrests": []
+}

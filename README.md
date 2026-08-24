@@ -35,6 +35,17 @@ whpd.space/
 3. **Test** with `python3 server.py` (optional)
 4. **Deploy** - commit and push to GitHub
 
+## Arrests Data
+
+`scripts/update_arrests.py` queries zKillboard for the rolling seven-day W-space kill history of every character in `data/officers.json`. Shared killmails are deduplicated, public names are resolved through EVE ESI, and the result is written to `data/arrests.json` for `build.py` to render.
+
+The deploy workflow refreshes this data and republishes the site every day at 01:00 UTC. To refresh it locally:
+
+```bash
+python3 scripts/update_arrests.py
+python3 build.py
+```
+
 ## GitHub Pages Setup
 
 **Repository Settings → Pages:**

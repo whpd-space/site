@@ -219,7 +219,7 @@ body {
 
 #navbar ul li a {
 	display: block;
-	padding: var(--spacing-md) var(--spacing-lg);
+	padding: var(--spacing-md);
 	color: var(--color-text);
 	text-decoration: none;
 	font-weight: 500;
@@ -639,4 +639,403 @@ details[open] summary {
 	.motivation-brief {
 		grid-template-columns: 1fr;
 	}
+}
+
+/* ========================================
+   Arrests
+   ======================================== */
+
+.arrests-page {
+	--arrest-accent: #38bdf8;
+	--arrest-warn: #fbbf24;
+	--arrest-border: rgba(148, 163, 184, 0.2);
+}
+
+.arrests-hero {
+	position: relative;
+	overflow: hidden;
+	padding: clamp(1.5rem, 5vw, 3rem);
+	margin-bottom: var(--spacing-lg);
+	border: 1px solid rgba(56, 189, 248, 0.35);
+	border-radius: var(--border-radius-lg);
+	background:
+		linear-gradient(120deg, rgba(30, 64, 175, 0.34), rgba(15, 23, 42, 0.92) 62%),
+		repeating-linear-gradient(-45deg, transparent 0 16px, rgba(56, 189, 248, 0.035) 16px 32px);
+	box-shadow: var(--shadow-xl);
+}
+
+.arrests-hero::after {
+	content: 'WHPD';
+	position: absolute;
+	right: -0.25rem;
+	bottom: -2.25rem;
+	font-size: clamp(5rem, 20vw, 10rem);
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: -0.08em;
+	color: rgba(148, 163, 184, 0.055);
+	pointer-events: none;
+}
+
+.arrests-hero h1 {
+	position: relative;
+	z-index: 1;
+	margin: var(--spacing-xs) 0 var(--spacing-md);
+	font-size: clamp(2.5rem, 9vw, 5rem);
+	letter-spacing: 0.08em;
+}
+
+.arrests-hero p {
+	position: relative;
+	z-index: 1;
+	max-width: 62ch;
+	margin: 0;
+	font-size: 1.05rem;
+}
+
+.arrest-kicker {
+	display: block;
+	color: var(--arrest-accent);
+	font-size: 0.72rem;
+	font-weight: 700;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.arrests-meta {
+	display: flex;
+	justify-content: space-between;
+	gap: var(--spacing-md);
+	padding: var(--spacing-sm) var(--spacing-md);
+	margin-bottom: var(--spacing-xl);
+	border: 1px solid var(--arrest-border);
+	border-radius: var(--border-radius);
+	color: var(--color-text-muted);
+	font-size: 0.78rem;
+}
+
+.arrest-summary,
+.arrest-rankings,
+.recent-arrests {
+	margin-top: var(--spacing-2xl);
+}
+
+.arrest-summary > h2 {
+	margin: 0 0 var(--spacing-md);
+	font-size: 1rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-text-muted);
+}
+
+.arrest-stat-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: var(--spacing-md);
+}
+
+.arrest-stat {
+	min-width: 0;
+	padding: var(--spacing-lg);
+	border: 1px solid var(--arrest-border);
+	border-radius: var(--border-radius-lg);
+	background: linear-gradient(145deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.78));
+	box-shadow: var(--shadow-md);
+}
+
+.arrest-stat strong,
+.arrest-stat span {
+	display: block;
+}
+
+.arrest-stat strong {
+	overflow: hidden;
+	margin-bottom: 0.15rem;
+	color: var(--color-text);
+	font-size: clamp(1.3rem, 4vw, 2rem);
+	line-height: 1.25;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.arrest-stat span {
+	color: var(--color-text-muted);
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.arrest-section-heading {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	gap: var(--spacing-xl);
+	margin-bottom: var(--spacing-lg);
+}
+
+.arrest-section-heading h2 {
+	margin: var(--spacing-xs) 0 0;
+}
+
+.arrest-section-heading h2 span {
+	color: var(--color-text-muted);
+	font-size: 0.7em;
+}
+
+.arrest-section-heading p {
+	max-width: none;
+	margin: 0;
+	color: var(--color-text-muted);
+	font-size: 0.8rem;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.arrest-table-wrap {
+	overflow: hidden;
+	border: 1px solid var(--arrest-border);
+	border-radius: var(--border-radius-lg);
+	background: var(--color-surface);
+	box-shadow: var(--shadow-lg);
+}
+
+.arrest-rankings table,
+.dirtbag-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.arrest-rankings th,
+.arrest-rankings td,
+.dirtbag-table th,
+.dirtbag-table td {
+	padding: var(--spacing-md);
+	border-bottom: 1px solid var(--arrest-border);
+	text-align: left;
+	vertical-align: middle;
+}
+
+.arrest-rankings thead th,
+.dirtbag-table thead th {
+	background: rgba(15, 23, 42, 0.62);
+	color: var(--color-text-muted);
+	font-size: 0.68rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.arrest-rankings tbody tr:last-child th,
+.arrest-rankings tbody tr:last-child td,
+.dirtbag-table tbody tr:last-child th,
+.dirtbag-table tbody tr:last-child td {
+	border-bottom: 0;
+}
+
+.arrest-rankings tbody tr:hover,
+.dirtbag-table tbody tr:hover {
+	background: rgba(51, 65, 85, 0.44);
+}
+
+.arrest-placement {
+	width: 4rem;
+	color: var(--arrest-warn);
+	font-family: var(--font-mono);
+	font-size: 1.05rem;
+	font-weight: 700;
+}
+
+.arrest-personnel {
+	display: flex;
+	align-items: center;
+	gap: var(--spacing-sm);
+	color: var(--color-text);
+}
+
+.arrest-personnel:hover {
+	text-decoration: none;
+}
+
+.arrest-personnel img {
+	border: 1px solid rgba(56, 189, 248, 0.45);
+	border-radius: 50%;
+	background: var(--color-bg);
+}
+
+.arrest-personnel span,
+.arrest-personnel small {
+	display: block;
+}
+
+.arrest-personnel small {
+	margin-top: 0.1rem;
+	color: var(--color-text-muted);
+	font-size: 0.68rem;
+	font-weight: 500;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.arrest-rankings tbody td,
+.dirtbag-table tbody td {
+	color: var(--color-text-secondary);
+	font-variant-numeric: tabular-nums;
+}
+
+.arrest-rankings .arrest-number,
+.dirtbag-table .arrest-number {
+	text-align: right;
+}
+
+.dirtbag-table .public-record,
+.dirtbag-table .public-record::before {
+	text-align: right;
+}
+
+.arrest-rankings .arrest-ranking-empty {
+	padding: var(--spacing-xl);
+	color: var(--color-text-muted);
+	text-align: center;
+}
+
+.arrest-quota-note {
+	margin: var(--spacing-sm) 0 0;
+	color: var(--color-text-muted);
+	font-size: 0.75rem;
+	font-style: italic;
+	text-align: right;
+}
+
+.dirtbag-loss {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 0.1rem;
+	font-size: 0.76rem;
+	text-align: right;
+	width: 100%;
+}
+
+.dirtbag-loss:hover {
+	text-decoration: none;
+}
+
+.dirtbag-loss span {
+	color: var(--color-text-secondary);
+}
+
+.dirtbag-loss strong {
+	color: var(--arrest-accent);
+	font-size: 0.72rem;
+}
+
+.arrests-attribution {
+	margin: var(--spacing-xl) 0 0;
+	color: var(--color-text-muted);
+	font-size: 0.72rem;
+	text-align: center;
+}
+
+@media (max-width: 700px) {
+	.arrests-meta,
+	.arrest-section-heading {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.arrest-section-heading p {
+		font-size: clamp(0.55rem, 2.5vw, 0.8rem);
+		text-align: left;
+	}
+
+	.arrest-stat-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.arrest-stat {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: var(--spacing-md);
+	}
+
+	.arrest-stat strong {
+		margin: 0;
+	}
+
+	.arrest-table-wrap {
+		overflow: visible;
+		border: 0;
+		background: transparent;
+		box-shadow: none;
+	}
+
+	.arrest-rankings thead,
+	.dirtbag-table thead {
+		display: none;
+	}
+
+	.arrest-rankings table,
+	.arrest-rankings tbody,
+	.arrest-rankings tr,
+	.arrest-rankings th,
+	.arrest-rankings td,
+	.dirtbag-table,
+	.dirtbag-table tbody,
+	.dirtbag-table tr,
+	.dirtbag-table th,
+	.dirtbag-table td {
+		display: block;
+		width: 100%;
+	}
+
+	.arrest-rankings tr,
+	.dirtbag-table tr {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		margin-bottom: var(--spacing-md);
+		border: 1px solid var(--arrest-border);
+		border-radius: var(--border-radius-lg);
+		background: var(--color-surface);
+	}
+
+	.arrest-rankings th,
+	.arrest-rankings td,
+	.dirtbag-table th,
+	.dirtbag-table td {
+		border: 0;
+	}
+
+	.arrest-rankings .arrest-placement,
+	.arrest-rankings th[scope='row'],
+	.dirtbag-table .arrest-placement,
+	.dirtbag-table th[scope='row'] {
+		grid-column: 1 / -1;
+	}
+
+	.arrest-rankings .arrest-placement,
+	.dirtbag-table .arrest-placement {
+		padding-bottom: 0;
+	}
+
+	.arrest-rankings td:not(.arrest-placement)::before,
+	.dirtbag-table td:not(.arrest-placement)::before {
+		content: attr(data-label);
+		display: block;
+		margin-bottom: 0.15rem;
+		color: var(--color-text-muted);
+		font-size: 0.6rem;
+		font-weight: 700;
+		letter-spacing: 0.07em;
+		text-transform: uppercase;
+	}
+
+	.dirtbag-table tr {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.dirtbag-table td:last-child {
+		grid-column: 1 / -1;
+	}
+
 }
