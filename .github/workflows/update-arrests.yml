@@ -1,19 +1,10 @@
-name: Build and Deploy Site
+name: Update Arrests
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - 'templates/**'
-      - 'scripts/**'
-      - 'data/**'
-      - '!data/memefleets.json'
-      - 'docs/css/**'
-      - 'docs/js/**'
-      - 'build.py'
-      - '.github/workflows/deploy.yml'
+  schedule:
+    # Refresh the rolling seven-day arrest blotter every day at 01:00 UTC.
+    - cron: '0 1 * * *'
 
 permissions:
   contents: write
@@ -23,24 +14,33 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  update-arrests:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
+      - name: Update arrests from zKillboard
+        run: python3 scripts/update_arrests.py
+
       - name: Build site
         run: python3 build.py
-      
-      - name: Deploy to gh-pages
+
+      - name: Prepare Arrests page
+        run: |
+          mkdir -p publish
+          cp docs/Arrests.html publish/Arrests.html
+
+      - name: Deploy Arrests page
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: ./publish
           publish_branch: gh-pages
+          keep_files: true

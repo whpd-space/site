@@ -14,7 +14,7 @@ from pathlib import Path
 WINDOW_SECONDS = 7 * 24 * 60 * 60
 ZKILL_URL = 'https://zkillboard.com/api/kills/w-space/characterID/{character_id}/pastSeconds/604800/page/{page}/'
 ESI_NAMES_URL = 'https://esi.evetech.net/latest/universe/names/?datasource=tranquility'
-USER_AGENT = 'whpd.space arrests updater (https://whpd.space; https://github.com/whpd-space/site)'
+USER_AGENT = 'whpd.space zKill updater (https://whpd.space; https://github.com/whpd-space/site)'
 MAX_ZKILL_PAGES = 5
 ZKILL_PAGE_LIMIT = 1000
 

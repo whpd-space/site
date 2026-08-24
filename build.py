@@ -16,6 +16,7 @@ from pathlib import Path
 TEMPLATE_DIR = Path('templates')
 OUTPUT_DIR = Path('docs')
 ARRESTS_DATA_FILE = Path('data/arrests.json')
+MEMEFLEETS_DATA_FILE = Path('data/memefleets.json')
 
 # Template markers
 TITLE_MARKER = '{{TITLE}}'
@@ -166,6 +167,63 @@ def render_arrests_content(data_file=ARRESTS_DATA_FILE):
     return '\n'.join(sections)
 
 
+def render_memefleet_stats(data_file=MEMEFLEETS_DATA_FILE):
+    """Render historical MemeFleet statistics from the generated JSON."""
+    with open(data_file, 'r', encoding='utf-8') as stats_file:
+        data = json.load(stats_file)
+
+    escape = lambda value: html.escape(str(value), quote=True)
+    fleets = data.get('fleets', [])
+    sections = [
+        '<section class="memefleet-history" aria-labelledby="memefleet-history-title">',
+        '<div class="memefleet-history-heading">',
+        '<div><span class="memefleet-kicker">Weekly reports</span><h2 id="memefleet-history-title">MemeFleet Statistics</h2></div>',
+        '<p>Sunday enforcement activity from 1–3 PM Eastern.</p>',
+        '</div>',
+    ]
+
+    if data.get('generated_at'):
+        sections.append(
+            f'<p class="memefleet-updated">Last refreshed {escape(format_timestamp(data["generated_at"]))}</p>'
+        )
+    else:
+        sections.append('<p class="memefleet-updated">Awaiting the first GitHub Actions refresh</p>')
+
+    if fleets:
+        sections.extend([
+            '<div class="memefleet-table-wrap"><table class="memefleet-table">',
+            '<thead><tr><th scope="col">Date</th><th class="memefleet-number" scope="col">Participants</th><th class="memefleet-number" scope="col">Systems Protected</th><th class="memefleet-number" scope="col">Arrests</th><th class="memefleet-number" scope="col">Total Cases Value</th></tr></thead>',
+            '<tbody>',
+        ])
+        for fleet in fleets:
+            fleet_date = datetime.fromisoformat(fleet['date'])
+            date_label = f'{fleet_date:%B} {fleet_date.day}, {fleet_date:%Y}'
+            sections.extend([
+                '<tr>',
+                '<th scope="row" data-label="Date">',
+                f'<time datetime="{escape(fleet["date"])}">{escape(date_label)}</time>',
+                f'<small>1–3 PM {escape(fleet["timezone"])}</small>',
+                '</th>',
+                f'<td class="memefleet-number" data-label="Participants">{int(fleet["participants_max"]):,}</td>',
+                f'<td class="memefleet-number" data-label="Systems Protected">{int(fleet["systems_protected"]):,}</td>' if 'systems_protected' in fleet else '<td class="memefleet-number" data-label="Systems Protected">—</td>',
+                f'<td class="memefleet-number" data-label="Arrests">{int(fleet["arrests"]):,}</td>',
+                f'<td class="memefleet-number" data-label="Total Cases Value">{escape(format_isk(fleet["total_value"]))}</td>',
+                '</tr>',
+            ])
+        sections.extend([
+            '</tbody></table></div>',
+            '<p class="memefleet-note">Participants is based on the maximum number of participants recorded on a single arrest during each fleet.</p>',
+        ])
+    else:
+        sections.append('<div class="memefleet-empty">No completed fleet reports have been generated yet.</div>')
+
+    sections.extend([
+        '<p class="memefleet-attribution">Killmail data supplied by <a href="https://zkillboard.com/" target="_blank" rel="noopener noreferrer">zKillboard</a>.</p>',
+        '</section>',
+    ])
+    return '\n'.join(sections)
+
+
 def get_content(filename):
     """Get content from .content.html file in templates directory."""
     content_file = TEMPLATE_DIR / filename.replace('.html', '.content.html')
@@ -221,6 +279,8 @@ def main():
 
         if filename == 'Arrests.html':
             content = content.replace('{{ARRESTS_CONTENT}}', render_arrests_content())
+        if filename == 'MemeFleet.html':
+            content = content.replace('{{MEMEFLEET_STATS}}', render_memefleet_stats())
         
         # Build the page
         build_page(base_template, output_file, title, content)

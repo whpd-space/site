@@ -1,0 +1,58 @@
+name: Update MemeFleet Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Sunday 23:00 UTC is at least three hours after the 15:00 Eastern fleet end.
+    - cron: '0 23 * * 0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: whpd-pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  update-memefleet-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Update MemeFleet history from zKillboard
+        run: python3 scripts/update_memefleet_stats.py
+
+      - name: Build site
+        run: python3 build.py
+
+      - name: Commit updated MemeFleet history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/memefleets.json
+          if git diff --cached --quiet; then
+            echo "MemeFleet history is already current."
+          else
+            git commit -m "Update MemeFleet stats"
+            git push
+          fi
+
+      - name: Prepare MemeFleet page
+        run: |
+          mkdir -p publish
+          cp docs/MemeFleet.html publish/MemeFleet.html
+
+      - name: Deploy MemeFleet page
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./publish
+          publish_branch: gh-pages
+          keep_files: true

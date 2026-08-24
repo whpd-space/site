@@ -556,6 +556,125 @@ details[open] summary {
 	margin-bottom: 1.5rem;
 }
 
+.memefleet-history {
+	margin-top: var(--spacing-2xl);
+}
+
+.memefleet-history-heading {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	gap: var(--spacing-xl);
+	margin-bottom: var(--spacing-sm);
+}
+
+.memefleet-history-heading h2 {
+	margin: var(--spacing-xs) 0 0;
+}
+
+.memefleet-history-heading > p {
+	max-width: none;
+	margin: 0;
+	color: var(--color-text-muted);
+	font-size: 0.78rem;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.memefleet-kicker {
+	display: block;
+	color: var(--color-accent);
+	font-size: 0.72rem;
+	font-weight: 700;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.memefleet-updated {
+	margin: 0 0 var(--spacing-lg);
+	color: var(--color-text-muted);
+	font-size: 0.72rem;
+}
+
+.memefleet-table-wrap {
+	overflow: hidden;
+	border: 1px solid var(--color-bg-tertiary);
+	border-radius: var(--border-radius-lg);
+	background: var(--color-surface);
+	box-shadow: var(--shadow-lg);
+}
+
+.memefleet-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.memefleet-table th,
+.memefleet-table td {
+	padding: var(--spacing-md);
+	border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+	text-align: left;
+	vertical-align: middle;
+}
+
+.memefleet-table thead th {
+	background: rgba(15, 23, 42, 0.62);
+	color: var(--color-text-muted);
+	font-size: 0.68rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.memefleet-table tbody tr:last-child th,
+.memefleet-table tbody tr:last-child td {
+	border-bottom: 0;
+}
+
+.memefleet-table tbody tr:hover {
+	background: rgba(51, 65, 85, 0.44);
+}
+
+.memefleet-table tbody th {
+	color: var(--color-text);
+}
+
+.memefleet-table tbody th small {
+	display: block;
+	margin-top: 0.1rem;
+	color: var(--color-text-muted);
+	font-size: 0.66rem;
+	font-weight: 500;
+	letter-spacing: 0.05em;
+}
+
+.memefleet-table .memefleet-number {
+	color: var(--color-text-secondary);
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+.memefleet-empty {
+	padding: var(--spacing-xl);
+	border: 1px dashed var(--color-bg-tertiary);
+	border-radius: var(--border-radius-lg);
+	color: var(--color-text-muted);
+	text-align: center;
+}
+
+.memefleet-attribution {
+	margin: var(--spacing-md) 0 0;
+	color: var(--color-text-muted);
+	font-size: 0.72rem;
+	text-align: center;
+}
+
+.memefleet-note {
+	margin: var(--spacing-sm) 0 0;
+	color: var(--color-text-muted);
+	font-size: 0.72rem;
+	text-align: center;
+}
+
 /* ========================================
    Officer Cards
    ======================================== */
@@ -624,6 +743,66 @@ details[open] summary {
 	.memefleet-logo {
 		width: min(220px, 100%);
 		max-width: 100%;
+	}
+
+	.memefleet-history-heading {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: var(--spacing-sm);
+	}
+
+	.memefleet-history-heading > p {
+		font-size: clamp(0.6rem, 2.6vw, 0.78rem);
+		text-align: left;
+	}
+
+	.memefleet-table-wrap {
+		overflow: visible;
+		border: 0;
+		background: transparent;
+		box-shadow: none;
+	}
+
+	.memefleet-table thead {
+		display: none;
+	}
+
+	.memefleet-table,
+	.memefleet-table tbody,
+	.memefleet-table tr,
+	.memefleet-table th,
+	.memefleet-table td {
+		display: block;
+		width: 100%;
+	}
+
+	.memefleet-table tr {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-bottom: var(--spacing-md);
+		border: 1px solid var(--color-bg-tertiary);
+		border-radius: var(--border-radius-lg);
+		background: var(--color-surface);
+	}
+
+	.memefleet-table th,
+	.memefleet-table td {
+		border: 0;
+	}
+
+	.memefleet-table th[scope='row'] {
+		grid-column: 1 / -1;
+	}
+
+	.memefleet-table td::before {
+		content: attr(data-label);
+		display: block;
+		margin-bottom: 0.15rem;
+		color: var(--color-text-muted);
+		font-size: 0.58rem;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
 	}
 
 	.officer-card {

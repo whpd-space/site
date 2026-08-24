@@ -39,10 +39,21 @@ whpd.space/
 
 `scripts/update_arrests.py` queries zKillboard for the rolling seven-day W-space kill history of every character in `data/officers.json`. Shared killmails are deduplicated, public names are resolved through EVE ESI, and the result is written to `data/arrests.json` for `build.py` to render.
 
-The deploy workflow refreshes this data and republishes the site every day at 01:00 UTC. To refresh it locally:
+The **Update Arrests** workflow refreshes and republishes only the Arrests page every day at 01:00 UTC. To refresh it locally:
 
 ```bash
 python3 scripts/update_arrests.py
+python3 build.py
+```
+
+## MemeFleet Statistics
+
+`scripts/update_memefleet_stats.py` retrieves historical W-space kills for The Wormhole Police alliance from July 2020 onward, then keeps kills from completed Sunday 1–3 PM `America/New_York` fleet windows. Each report includes the maximum participant count, unique systems protected, arrests, and total case value. Weeks with no recorded value are omitted. Once a history exists, normal updates fetch only the current and previous months and merge them into the stored dataset; pass `--full` to rebuild the entire history.
+
+The **Update MemeFleet Stats** workflow runs Sundays at 23:00 UTC—at least three hours after the fleet ends in both standard and daylight time—commits the refreshed history to `main`, and republishes `MemeFleet.html`. It can also be run manually from GitHub Actions.
+
+```bash
+python3 scripts/update_memefleet_stats.py
 python3 build.py
 ```
 
