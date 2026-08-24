@@ -11,6 +11,7 @@ on:
       - 'data/**'
       - '!data/memefleets.json'
       - 'docs/css/**'
+      - 'docs/images/**'
       - 'docs/js/**'
       - 'build.py'
       - '.github/workflows/deploy.yml'

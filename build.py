@@ -9,6 +9,7 @@ import os
 import re
 import json
 import html
+import hashlib
 from datetime import datetime
 from pathlib import Path
 
@@ -21,6 +22,10 @@ MEMEFLEETS_DATA_FILE = Path('data/memefleets.json')
 # Template markers
 TITLE_MARKER = '{{TITLE}}'
 CONTENT_MARKER = '{{CONTENT}}'
+PAGE_URL_MARKER = '{{PAGE_URL}}'
+CSS_VERSION_MARKER = '{{CSS_VERSION}}'
+JS_VERSION_MARKER = '{{JS_VERSION}}'
+SITE_URL = 'https://whpd.space'
 
 # Pages to build (filename, title)
 PAGES = [
@@ -212,7 +217,7 @@ def render_memefleet_stats(data_file=MEMEFLEETS_DATA_FILE):
             ])
         sections.extend([
             '</tbody></table></div>',
-            '<p class="memefleet-note">Participants is based on the maximum number of participants recorded on a single arrest during each fleet.</p>',
+            '<p class="memefleet-note">Participants is the maximum headcount on a single arrest during each fleet.</p>',
         ])
     else:
         sections.append('<div class="memefleet-empty">No completed fleet reports have been generated yet.</div>')
@@ -236,6 +241,11 @@ def get_content(filename):
         return f.read().strip()
 
 
+def asset_version(path):
+    """Return a short content hash for browser cache busting."""
+    return hashlib.sha256(path.read_bytes()).hexdigest()[:12]
+
+
 def build_page(template_path, output_path, title, content):
     """Build a page from template with given title and content."""
     with open(template_path, 'r', encoding='utf-8') as f:
@@ -244,6 +254,10 @@ def build_page(template_path, output_path, title, content):
     # Replace markers
     output = template.replace(TITLE_MARKER, title)
     output = output.replace(CONTENT_MARKER, content)
+    page_url = f'{SITE_URL}/' if output_path.name == 'index.html' else f'{SITE_URL}/{output_path.name}'
+    output = output.replace(PAGE_URL_MARKER, page_url)
+    output = output.replace(CSS_VERSION_MARKER, asset_version(OUTPUT_DIR / 'css/style.css'))
+    output = output.replace(JS_VERSION_MARKER, asset_version(OUTPUT_DIR / 'js/site.js'))
     
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(output)

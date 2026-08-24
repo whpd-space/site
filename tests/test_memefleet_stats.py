@@ -148,7 +148,7 @@ class MemeFleetStatsTests(unittest.TestCase):
         self.assertIn('Total Cases Value', rendered)
         self.assertNotIn('Total arrest value', rendered)
         self.assertIn(
-            'Participants is based on the maximum number of participants recorded on a single arrest during each fleet.',
+            'Participants is the maximum headcount on a single arrest during each fleet.',
             rendered,
         )
 
