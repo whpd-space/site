@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -31,6 +33,18 @@ jobs:
 
       - name: Build site
         run: python3 build.py
+
+      - name: Commit updated arrest data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/arrests.json
+          if git diff --cached --quiet; then
+            echo "Arrest data is already current."
+          else
+            git commit -m "Update arrest data"
+            git push origin HEAD:main
+          fi
 
       - name: Prepare Arrests page
         run: |

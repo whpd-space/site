@@ -39,7 +39,7 @@ whpd.space/
 
 `scripts/update_arrests.py` queries zKillboard for the rolling seven-day W-space kill history of every character in `data/officers.json`. Shared killmails are deduplicated, public names are resolved through EVE ESI, and the result is written to `data/arrests.json` for `build.py` to render.
 
-The **Update Arrests** workflow refreshes and republishes only the Arrests page every day at 01:00 UTC. To refresh it locally:
+The **Update Arrests** workflow runs every day at 01:00 UTC, commits the refreshed arrest data to `main`, and republishes the Arrests page. To refresh it locally:
 
 ```bash
 python3 scripts/update_arrests.py

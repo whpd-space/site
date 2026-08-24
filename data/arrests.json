@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "generated_at": null,
+  "generated_at": "2026-08-24T20:51:37Z",
   "window": {
-    "start": null,
-    "end": null,
+    "start": "2026-08-17T20:51:37Z",
+    "end": "2026-08-24T20:51:37Z",
     "seconds": 604800
   },
   "source": {
@@ -12,11 +12,3065 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 0,
-    "suspects": 0,
-    "total_value": 0
+    "arrests": 91,
+    "suspects": 52,
+    "total_value": 7471985912.55
   },
-  "rankings": [],
-  "dirtbags": [],
-  "arrests": []
+  "rankings": [
+    {
+      "character_id": 1633218082,
+      "name": "Squizz Caphinator",
+      "rank": "Officer",
+      "arrests": 30,
+      "final_blows": 25,
+      "case_value": 1335411388.25,
+      "placement": 1
+    },
+    {
+      "character_id": 2120817710,
+      "name": "Muh 'Mabel' Mabebu",
+      "rank": "Officer",
+      "arrests": 29,
+      "final_blows": 25,
+      "case_value": 4177170772.42,
+      "placement": 2
+    },
+    {
+      "character_id": 91565688,
+      "name": "Damoraath Sponge",
+      "rank": "Officer",
+      "arrests": 18,
+      "final_blows": 18,
+      "case_value": 925953683.96,
+      "placement": 3
+    },
+    {
+      "character_id": 96847792,
+      "name": "Vinnegar Douchay",
+      "rank": "Chief of Police",
+      "arrests": 10,
+      "final_blows": 7,
+      "case_value": 803534333.59,
+      "placement": 4
+    },
+    {
+      "character_id": 1922855106,
+      "name": "10of15",
+      "rank": "Deputy",
+      "arrests": 9,
+      "final_blows": 0,
+      "case_value": 1083614960.76,
+      "placement": 5
+    },
+    {
+      "character_id": 2120163218,
+      "name": "BLiTzD86",
+      "rank": "Officer",
+      "arrests": 5,
+      "final_blows": 1,
+      "case_value": 2104694546.01,
+      "placement": 6
+    }
+  ],
+  "dirtbags": [
+    {
+      "character_id": 2124509490,
+      "name": "Darckar",
+      "corporation_id": 1000165,
+      "corporation_name": "Hedion University",
+      "arrests": 4,
+      "total_value": 51926385.86,
+      "most_expensive_loss": {
+        "killmail_id": 137941832,
+        "time": "2026-08-23T18:45:19Z",
+        "total_value": 47172404.87,
+        "ship_type_id": 29248,
+        "ship_name": "Magnate",
+        "system_id": 31000210,
+        "system_name": "J152014"
+      },
+      "placement": 1
+    },
+    {
+      "character_id": 91236926,
+      "name": "Black Moccasin",
+      "corporation_id": 98636501,
+      "corporation_name": "Worm Holers Anonymous",
+      "arrests": 2,
+      "total_value": 1958509275.26,
+      "most_expensive_loss": {
+        "killmail_id": 137830672,
+        "time": "2026-08-19T02:12:51Z",
+        "total_value": 1958499275.26,
+        "ship_type_id": 85086,
+        "ship_name": "Cenotaph",
+        "system_id": 31001164,
+        "system_name": "J114508"
+      },
+      "placement": 2
+    },
+    {
+      "character_id": 95611138,
+      "name": "Eugene Kouvo",
+      "corporation_id": 98812477,
+      "corporation_name": "Khanid Industrial Syndicate",
+      "arrests": 2,
+      "total_value": 1185638360.4,
+      "most_expensive_loss": {
+        "killmail_id": 137920489,
+        "time": "2026-08-23T01:29:19Z",
+        "total_value": 1153199985.15,
+        "ship_type_id": 670,
+        "ship_name": "Capsule",
+        "system_id": 31000772,
+        "system_name": "J144739"
+      },
+      "placement": 3
+    },
+    {
+      "character_id": 1180808382,
+      "name": "Laetia Lee",
+      "corporation_id": 98111928,
+      "corporation_name": "Cosmic Explorations",
+      "arrests": 2,
+      "total_value": 897922713.59,
+      "most_expensive_loss": {
+        "killmail_id": 137939832,
+        "time": "2026-08-23T17:27:46Z",
+        "total_value": 507874444.55,
+        "ship_type_id": 670,
+        "ship_name": "Capsule",
+        "system_id": 31000472,
+        "system_name": "J122832"
+      },
+      "placement": 4
+    },
+    {
+      "character_id": 2112441840,
+      "name": "Vlad Shkar4",
+      "corporation_id": 98578366,
+      "corporation_name": "tacita mortem in vacuum",
+      "arrests": 2,
+      "total_value": 599540421.42,
+      "most_expensive_loss": {
+        "killmail_id": 137959990,
+        "time": "2026-08-24T17:07:18Z",
+        "total_value": 411751446.41,
+        "ship_type_id": 11188,
+        "ship_name": "Anathema",
+        "system_id": 31000478,
+        "system_name": "J110823"
+      },
+      "placement": 5
+    },
+    {
+      "character_id": 161858994,
+      "name": "d'Okairon",
+      "corporation_id": 98639740,
+      "corporation_name": "SEX BEYOND THE STARS",
+      "arrests": 2,
+      "total_value": 518450390.09,
+      "most_expensive_loss": {
+        "killmail_id": 137817857,
+        "time": "2026-08-18T13:33:59Z",
+        "total_value": 518440390.09,
+        "ship_type_id": 29988,
+        "ship_name": "Proteus",
+        "system_id": 31000161,
+        "system_name": "J133653"
+      },
+      "placement": 6
+    },
+    {
+      "character_id": 2124613719,
+      "name": "Tiainen Aurilen",
+      "corporation_id": 98022595,
+      "corporation_name": "Syndicate Society",
+      "arrests": 2,
+      "total_value": 240790128.53,
+      "most_expensive_loss": {
+        "killmail_id": 137820051,
+        "time": "2026-08-18T15:25:02Z",
+        "total_value": 167867182.52,
+        "ship_type_id": 33468,
+        "ship_name": "Astero",
+        "system_id": 31000161,
+        "system_name": "J133653"
+      },
+      "placement": 7
+    },
+    {
+      "character_id": 938118505,
+      "name": "Taela Fervoux",
+      "corporation_id": 1690293235,
+      "corporation_name": "LumiForge Inc",
+      "arrests": 2,
+      "total_value": 145008769.05,
+      "most_expensive_loss": {
+        "killmail_id": 137808058,
+        "time": "2026-08-18T00:51:02Z",
+        "total_value": 100927382.64,
+        "ship_type_id": 670,
+        "ship_name": "Capsule",
+        "system_id": 31001161,
+        "system_name": "J114358"
+      },
+      "placement": 8
+    },
+    {
+      "character_id": 2121141929,
+      "name": "Alissar Fen",
+      "corporation_id": 98835765,
+      "corporation_name": "Clan X",
+      "arrests": 2,
+      "total_value": 110804605.07,
+      "most_expensive_loss": {
+        "killmail_id": 137923102,
+        "time": "2026-08-23T03:35:48Z",
+        "total_value": 73847105.07,
+        "ship_type_id": 11182,
+        "ship_name": "Cheetah",
+        "system_id": 31000410,
+        "system_name": "J142547"
+      },
+      "placement": 9
+    },
+    {
+      "character_id": 2123697663,
+      "name": "Steven Drake",
+      "corporation_id": 98841827,
+      "corporation_name": "Hellbounds Crawlers",
+      "arrests": 2,
+      "total_value": 110730962.21,
+      "most_expensive_loss": {
+        "killmail_id": 137918560,
+        "time": "2026-08-22T23:42:22Z",
+        "total_value": 110720962.21,
+        "ship_type_id": 11192,
+        "ship_name": "Buzzard",
+        "system_id": 31001074,
+        "system_name": "J131025"
+      },
+      "placement": 10
+    },
+    {
+      "character_id": 2124553021,
+      "name": "Fefe Mosa",
+      "corporation_id": 98834808,
+      "corporation_name": "Oblivion Sub-Extraction",
+      "arrests": 2,
+      "total_value": 102489915.87,
+      "most_expensive_loss": {
+        "killmail_id": 137806948,
+        "time": "2026-08-17T23:07:14Z",
+        "total_value": 95094239.43,
+        "ship_type_id": 670,
+        "ship_name": "Capsule",
+        "system_id": 31000259,
+        "system_name": "J102414"
+      },
+      "placement": 11
+    },
+    {
+      "character_id": 2116221459,
+      "name": "xXFlitzer44Xx",
+      "corporation_id": 98252033,
+      "corporation_name": "Vision Inc",
+      "arrests": 2,
+      "total_value": 69897590.61,
+      "most_expensive_loss": {
+        "killmail_id": 137941511,
+        "time": "2026-08-23T18:33:35Z",
+        "total_value": 69887590.61,
+        "ship_type_id": 29340,
+        "ship_name": "Osprey Navy Issue",
+        "system_id": 31001741,
+        "system_name": "J102055"
+      },
+      "placement": 12
+    },
+    {
+      "character_id": 2123603292,
+      "name": "OakTree66",
+      "corporation_id": 98451927,
+      "corporation_name": "HALO - United Nations Space Command",
+      "arrests": 2,
+      "total_value": 66157695.12,
+      "most_expensive_loss": {
+        "killmail_id": 137850265,
+        "time": "2026-08-20T00:34:33Z",
+        "total_value": 66147695.12,
+        "ship_type_id": 33697,
+        "ship_name": "Prospect",
+        "system_id": 31000374,
+        "system_name": "J114835"
+      },
+      "placement": 13
+    },
+    {
+      "character_id": 2118929229,
+      "name": "Eskaari Outamon",
+      "corporation_id": 98839345,
+      "corporation_name": "ronnoctrading Corporation",
+      "arrests": 2,
+      "total_value": 51275361.41,
+      "most_expensive_loss": {
+        "killmail_id": 137868666,
+        "time": "2026-08-20T20:52:06Z",
+        "total_value": 51265361.41,
+        "ship_type_id": 12032,
+        "ship_name": "Manticore",
+        "system_id": 31001114,
+        "system_name": "J103353"
+      },
+      "placement": 14
+    },
+    {
+      "character_id": 2122750657,
+      "name": "Vladomir Vladomirivitch",
+      "corporation_id": 98818601,
+      "corporation_name": "Cult of Magik",
+      "arrests": 2,
+      "total_value": 42942352.92,
+      "most_expensive_loss": {
+        "killmail_id": 137920888,
+        "time": "2026-08-23T01:59:22Z",
+        "total_value": 42932352.92,
+        "ship_type_id": 605,
+        "ship_name": "Heron",
+        "system_id": 31000772,
+        "system_name": "J144739"
+      },
+      "placement": 15
+    },
+    {
+      "character_id": 2124351715,
+      "name": "Captain Saber",
+      "corporation_id": 98819319,
+      "corporation_name": "New Eden Capsuleers",
+      "arrests": 2,
+      "total_value": 20674765.96,
+      "most_expensive_loss": {
+        "killmail_id": 137884671,
+        "time": "2026-08-21T17:48:16Z",
+        "total_value": 16659774.21,
+        "ship_type_id": 89240,
+        "ship_name": "Pioneer",
+        "system_id": 31001100,
+        "system_name": "J131802"
+      },
+      "placement": 16
+    },
+    {
+      "character_id": 2124581090,
+      "name": "Sm01",
+      "corporation_id": 1000044,
+      "corporation_name": "School of Applied Knowledge",
+      "arrests": 2,
+      "total_value": 19852781.84,
+      "most_expensive_loss": {
+        "killmail_id": 137820060,
+        "time": "2026-08-18T15:25:14Z",
+        "total_value": 19842781.84,
+        "ship_type_id": 32880,
+        "ship_name": "Venture",
+        "system_id": 31000290,
+        "system_name": "J143421"
+      },
+      "placement": 17
+    },
+    {
+      "character_id": 2124568857,
+      "name": "Hobert",
+      "corporation_id": 98835273,
+      "corporation_name": "New Horizons Mining and Industry",
+      "arrests": 2,
+      "total_value": 19191847.91,
+      "most_expensive_loss": {
+        "killmail_id": 137888546,
+        "time": "2026-08-21T20:13:55Z",
+        "total_value": 19181847.91,
+        "ship_type_id": 32880,
+        "ship_name": "Venture",
+        "system_id": 31000307,
+        "system_name": "J103547"
+      },
+      "placement": 18
+    },
+    {
+      "character_id": 2124569782,
+      "name": "GURZA ZMEY",
+      "corporation_id": 1000045,
+      "corporation_name": "Science and Trade Institute",
+      "arrests": 2,
+      "total_value": 18798366.19,
+      "most_expensive_loss": {
+        "killmail_id": 137898179,
+        "time": "2026-08-22T06:05:08Z",
+        "total_value": 18788366.19,
+        "ship_type_id": 605,
+        "ship_name": "Heron",
+        "system_id": 31001326,
+        "system_name": "J213534"
+      },
+      "placement": 19
+    },
+    {
+      "character_id": 2123513742,
+      "name": "Nolen Conter",
+      "corporation_id": 98834345,
+      "corporation_name": "Noche Sombria",
+      "arrests": 2,
+      "total_value": 15757354.24,
+      "most_expensive_loss": {
+        "killmail_id": 137871909,
+        "time": "2026-08-21T01:17:13Z",
+        "total_value": 15747354.24,
+        "ship_type_id": 628,
+        "ship_name": "Arbitrator",
+        "system_id": 31000332,
+        "system_name": "J133245"
+      },
+      "placement": 20
+    },
+    {
+      "character_id": 2123550372,
+      "name": "SaltyFoe3",
+      "corporation_id": 98825124,
+      "corporation_name": "Silent Waddlers",
+      "arrests": 2,
+      "total_value": 10780415.52,
+      "most_expensive_loss": {
+        "killmail_id": 137824985,
+        "time": "2026-08-18T20:03:35Z",
+        "total_value": 10770415.52,
+        "ship_type_id": 605,
+        "ship_name": "Heron",
+        "system_id": 31000122,
+        "system_name": "J172907"
+      },
+      "placement": 21
+    },
+    {
+      "character_id": 2124503232,
+      "name": "Danillesse Hau Viliana",
+      "corporation_id": 1000115,
+      "corporation_name": "University of Caille",
+      "arrests": 2,
+      "total_value": 8390926.24,
+      "most_expensive_loss": {
+        "killmail_id": 137893219,
+        "time": "2026-08-22T00:13:39Z",
+        "total_value": 7641162.0,
+        "ship_type_id": 607,
+        "ship_name": "Imicus",
+        "system_id": 31000661,
+        "system_name": "J103854"
+      },
+      "placement": 22
+    },
+    {
+      "character_id": 2115307532,
+      "name": "Vitar Toralen",
+      "corporation_id": 98637669,
+      "corporation_name": "F.13 - Union of Russians",
+      "arrests": 2,
+      "total_value": 7368351.36,
+      "most_expensive_loss": {
+        "killmail_id": 137822490,
+        "time": "2026-08-18T17:54:44Z",
+        "total_value": 7358351.36,
+        "ship_type_id": 605,
+        "ship_name": "Heron",
+        "system_id": 31000952,
+        "system_name": "J102143"
+      },
+      "placement": 23
+    },
+    {
+      "character_id": 2124191443,
+      "name": "Alexis Traveler",
+      "corporation_id": 1000044,
+      "corporation_name": "School of Applied Knowledge",
+      "arrests": 2,
+      "total_value": 7013386.1,
+      "most_expensive_loss": {
+        "killmail_id": 137878969,
+        "time": "2026-08-21T12:56:23Z",
+        "total_value": 6005468.53,
+        "ship_type_id": 670,
+        "ship_name": "Capsule",
+        "system_id": 31001100,
+        "system_name": "J131802"
+      },
+      "placement": 24
+    },
+    {
+      "character_id": 94535062,
+      "name": "Burnhouser Catalyzt",
+      "corporation_id": 98307099,
+      "corporation_name": "Missiles 2 Uranus",
+      "arrests": 2,
+      "total_value": 5910149.64,
+      "most_expensive_loss": {
+        "killmail_id": 137957293,
+        "time": "2026-08-24T14:35:59Z",
+        "total_value": 5900149.64,
+        "ship_type_id": 607,
+        "ship_name": "Imicus",
+        "system_id": 31000478,
+        "system_name": "J110823"
+      },
+      "placement": 25
+    }
+  ],
+  "arrests": [
+    {
+      "killmail_id": 137960183,
+      "time": "2026-08-24T17:17:18Z",
+      "system_id": 31000478,
+      "system_name": "J110823",
+      "total_value": 56484781.65,
+      "points": 11,
+      "victim": {
+        "character_id": 92012735,
+        "name": "Bubalubs",
+        "corporation_id": 98112203,
+        "corporation_name": "Neon Incorporated",
+        "ship_type_id": 89648,
+        "ship_name": "Venture Consortium Issue"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 5622,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137959994,
+      "time": "2026-08-24T17:07:32Z",
+      "system_id": 31000478,
+      "system_name": "J110823",
+      "total_value": 187788975.01,
+      "points": 1,
+      "victim": {
+        "character_id": 2112441840,
+        "name": "Vlad Shkar4",
+        "corporation_id": 98578366,
+        "corporation_name": "tacita mortem in vacuum",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 454,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137959990,
+      "time": "2026-08-24T17:07:18Z",
+      "system_id": 31000478,
+      "system_name": "J110823",
+      "total_value": 411751446.41,
+      "points": 6,
+      "victim": {
+        "character_id": 2112441840,
+        "name": "Vlad Shkar4",
+        "corporation_id": 98578366,
+        "corporation_name": "tacita mortem in vacuum",
+        "ship_type_id": 11188,
+        "ship_name": "Anathema"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1531,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137957319,
+      "time": "2026-08-24T14:37:14Z",
+      "system_id": 31000478,
+      "system_name": "J110823",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 94535062,
+        "name": "Burnhouser Catalyzt",
+        "corporation_id": 98307099,
+        "corporation_name": "Missiles 2 Uranus",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 449,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137957293,
+      "time": "2026-08-24T14:35:59Z",
+      "system_id": 31000478,
+      "system_name": "J110823",
+      "total_value": 5900149.64,
+      "points": 1,
+      "victim": {
+        "character_id": 94535062,
+        "name": "Burnhouser Catalyzt",
+        "corporation_id": 98307099,
+        "corporation_name": "Missiles 2 Uranus",
+        "ship_type_id": 607,
+        "ship_name": "Imicus"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 893,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137950291,
+      "time": "2026-08-24T03:51:19Z",
+      "system_id": 31001067,
+      "system_name": "J112854",
+      "total_value": 140427474.21,
+      "points": 1,
+      "victim": {
+        "character_id": 2124543491,
+        "name": "ChaloGPR",
+        "corporation_id": 98829471,
+        "corporation_name": "Brigada 49",
+        "ship_type_id": 33468,
+        "ship_name": "Astero"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 2105,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137944793,
+      "time": "2026-08-23T20:51:11Z",
+      "system_id": 31000699,
+      "system_name": "J121952",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 95906166,
+        "name": "batty batty",
+        "corporation_id": 1000182,
+        "corporation_name": "Tribal Liberation Force",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 429,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137944784,
+      "time": "2026-08-23T20:50:11Z",
+      "system_id": 31000699,
+      "system_name": "J121952",
+      "total_value": 1591312.06,
+      "points": 1,
+      "victim": {
+        "character_id": 95906166,
+        "name": "batty batty",
+        "corporation_id": 1000182,
+        "corporation_name": "Tribal Liberation Force",
+        "ship_type_id": 586,
+        "ship_name": "Probe"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 957,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137944329,
+      "time": "2026-08-23T20:29:33Z",
+      "system_id": 31000699,
+      "system_name": "J121952",
+      "total_value": 159285.12,
+      "points": 1,
+      "victim": {
+        "character_id": 2124609762,
+        "name": "Olide Olerie",
+        "corporation_id": 98403734,
+        "corporation_name": "Subsidy H.R.S.",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 432,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137944327,
+      "time": "2026-08-23T20:29:23Z",
+      "system_id": 31000699,
+      "system_name": "J121952",
+      "total_value": 4272184.78,
+      "points": 1,
+      "victim": {
+        "character_id": 2124609762,
+        "name": "Olide Olerie",
+        "corporation_id": 98403734,
+        "corporation_name": "Subsidy H.R.S.",
+        "ship_type_id": 586,
+        "ship_name": "Probe"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 917,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137941834,
+      "time": "2026-08-23T18:45:27Z",
+      "system_id": 31000210,
+      "system_name": "J152014",
+      "total_value": 2706694.29,
+      "points": 1,
+      "victim": {
+        "character_id": 2124509490,
+        "name": "Darckar",
+        "corporation_id": 1000165,
+        "corporation_name": "Hedion University",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 433,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137941832,
+      "time": "2026-08-23T18:45:19Z",
+      "system_id": 31000210,
+      "system_name": "J152014",
+      "total_value": 47172404.87,
+      "points": 1,
+      "victim": {
+        "character_id": 2124509490,
+        "name": "Darckar",
+        "corporation_id": 1000165,
+        "corporation_name": "Hedion University",
+        "ship_type_id": 29248,
+        "ship_name": "Magnate"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 927,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137941685,
+      "time": "2026-08-23T18:40:56Z",
+      "system_id": 31001149,
+      "system_name": "J115502",
+      "total_value": 112560868.16,
+      "points": 1,
+      "victim": {
+        "character_id": 2115605486,
+        "name": "Tuennes Millowitsch",
+        "corporation_id": 98613461,
+        "corporation_name": "White Scars Industries",
+        "ship_type_id": 17480,
+        "ship_name": "Procurer"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 297,
+          "ship_type_id": 11174,
+          "ship_name": "Keres"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137941535,
+      "time": "2026-08-23T18:34:59Z",
+      "system_id": 31001741,
+      "system_name": "J102055",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2116221459,
+        "name": "xXFlitzer44Xx",
+        "corporation_id": 98252033,
+        "corporation_name": "Vision Inc",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 11174,
+          "ship_name": "Keres"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137941511,
+      "time": "2026-08-23T18:33:35Z",
+      "system_id": 31001741,
+      "system_name": "J102055",
+      "total_value": 69887590.61,
+      "points": 1,
+      "victim": {
+        "character_id": 2116221459,
+        "name": "xXFlitzer44Xx",
+        "corporation_id": 98252033,
+        "corporation_name": "Vision Inc",
+        "ship_type_id": 29340,
+        "ship_name": "Osprey Navy Issue"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 115,
+          "ship_type_id": 11174,
+          "ship_name": "Keres"
+        },
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 0,
+          "ship_name": "Unknown ship"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137941333,
+      "time": "2026-08-23T18:24:47Z",
+      "system_id": 31000210,
+      "system_name": "J152014",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2115189099,
+        "name": "Teo Derden",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 406,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137941259,
+      "time": "2026-08-23T18:23:14Z",
+      "system_id": 31000210,
+      "system_name": "J152014",
+      "total_value": 239632.16,
+      "points": 6,
+      "victim": {
+        "character_id": 2115189099,
+        "name": "Teo Derden",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 603,
+        "ship_name": "Merlin"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1767,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137941025,
+      "time": "2026-08-23T18:17:34Z",
+      "system_id": 31001161,
+      "system_name": "J114358",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2120841865,
+        "name": "GogoFly",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 11174,
+          "ship_name": "Keres"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137940997,
+      "time": "2026-08-23T18:16:25Z",
+      "system_id": 31001161,
+      "system_name": "J114358",
+      "total_value": 1176501.7,
+      "points": 1,
+      "victim": {
+        "character_id": 2120841865,
+        "name": "GogoFly",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 11174,
+          "ship_name": "Keres"
+        },
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137940201,
+      "time": "2026-08-23T17:42:55Z",
+      "system_id": 31000210,
+      "system_name": "J152014",
+      "total_value": 772988.68,
+      "points": 1,
+      "victim": {
+        "character_id": 2124509490,
+        "name": "Darckar",
+        "corporation_id": 1000165,
+        "corporation_name": "Hedion University",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 11174,
+          "ship_name": "Keres"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137940198,
+      "time": "2026-08-23T17:42:50Z",
+      "system_id": 31000210,
+      "system_name": "J152014",
+      "total_value": 1274298.02,
+      "points": 1,
+      "victim": {
+        "character_id": 2124509490,
+        "name": "Darckar",
+        "corporation_id": 1000165,
+        "corporation_name": "Hedion University",
+        "ship_type_id": 29248,
+        "ship_name": "Magnate"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 11174,
+          "ship_name": "Keres"
+        },
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        },
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137939832,
+      "time": "2026-08-23T17:27:46Z",
+      "system_id": 31000472,
+      "system_name": "J122832",
+      "total_value": 507874444.55,
+      "points": 1,
+      "victim": {
+        "character_id": 1180808382,
+        "name": "Laetia Lee",
+        "corporation_id": 98111928,
+        "corporation_name": "Cosmic Explorations",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 11174,
+          "ship_name": "Keres"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137939830,
+      "time": "2026-08-23T17:27:40Z",
+      "system_id": 31000472,
+      "system_name": "J122832",
+      "total_value": 390048269.04,
+      "points": 1,
+      "victim": {
+        "character_id": 1180808382,
+        "name": "Laetia Lee",
+        "corporation_id": 98111928,
+        "corporation_name": "Cosmic Explorations",
+        "ship_type_id": 11963,
+        "ship_name": "Rapier"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 29,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 11174,
+          "ship_name": "Keres"
+        },
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 6467,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137923107,
+      "time": "2026-08-23T03:36:01Z",
+      "system_id": 31000410,
+      "system_name": "J142547",
+      "total_value": 36957500.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2121141929,
+        "name": "Alissar Fen",
+        "corporation_id": 98835765,
+        "corporation_name": "Clan X",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 454,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137923102,
+      "time": "2026-08-23T03:35:48Z",
+      "system_id": 31000410,
+      "system_name": "J142547",
+      "total_value": 73847105.07,
+      "points": 6,
+      "victim": {
+        "character_id": 2121141929,
+        "name": "Alissar Fen",
+        "corporation_id": 98835765,
+        "corporation_name": "Clan X",
+        "ship_type_id": 11182,
+        "ship_name": "Cheetah"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1450,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137920896,
+      "time": "2026-08-23T02:00:03Z",
+      "system_id": 31000772,
+      "system_name": "J144739",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2122750657,
+        "name": "Vladomir Vladomirivitch",
+        "corporation_id": 98818601,
+        "corporation_name": "Cult of Magik",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 435,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137920888,
+      "time": "2026-08-23T01:59:22Z",
+      "system_id": 31000772,
+      "system_name": "J144739",
+      "total_value": 42932352.92,
+      "points": 3,
+      "victim": {
+        "character_id": 2122750657,
+        "name": "Vladomir Vladomirivitch",
+        "corporation_id": 98818601,
+        "corporation_name": "Cult of Magik",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 957,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137920489,
+      "time": "2026-08-23T01:29:19Z",
+      "system_id": 31000772,
+      "system_name": "J144739",
+      "total_value": 1153199985.15,
+      "points": 1,
+      "victim": {
+        "character_id": 95611138,
+        "name": "Eugene Kouvo",
+        "corporation_id": 98812477,
+        "corporation_name": "Khanid Industrial Syndicate",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 474,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137920488,
+      "time": "2026-08-23T01:29:10Z",
+      "system_id": 31000772,
+      "system_name": "J144739",
+      "total_value": 32438375.25,
+      "points": 1,
+      "victim": {
+        "character_id": 95611138,
+        "name": "Eugene Kouvo",
+        "corporation_id": 98812477,
+        "corporation_name": "Khanid Industrial Syndicate",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1820,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137918603,
+      "time": "2026-08-22T23:43:46Z",
+      "system_id": 31001074,
+      "system_name": "J131025",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2123697663,
+        "name": "Steven Drake",
+        "corporation_id": 98841827,
+        "corporation_name": "Hellbounds Crawlers",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 461,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137918560,
+      "time": "2026-08-22T23:42:22Z",
+      "system_id": 31001074,
+      "system_name": "J131025",
+      "total_value": 110720962.21,
+      "points": 1,
+      "victim": {
+        "character_id": 2123697663,
+        "name": "Steven Drake",
+        "corporation_id": 98841827,
+        "corporation_name": "Hellbounds Crawlers",
+        "ship_type_id": 11192,
+        "ship_name": "Buzzard"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1385,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137917361,
+      "time": "2026-08-22T22:25:34Z",
+      "system_id": 31000682,
+      "system_name": "J235759",
+      "total_value": 55733131.72,
+      "points": 6,
+      "victim": {
+        "character_id": 92073998,
+        "name": "Alex TE-Rex",
+        "corporation_id": 98737423,
+        "corporation_name": "Anomalous Empire",
+        "ship_type_id": 607,
+        "ship_name": "Imicus"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1015,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137916026,
+      "time": "2026-08-22T21:22:23Z",
+      "system_id": 31000563,
+      "system_name": "J105352",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2118132476,
+        "name": "Lev Moldoon",
+        "corporation_id": 98754600,
+        "corporation_name": "Zeta Reticuli Blackpill Alliance",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 424,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137916005,
+      "time": "2026-08-22T21:21:19Z",
+      "system_id": 31000563,
+      "system_name": "J105352",
+      "total_value": 2639208.89,
+      "points": 1,
+      "victim": {
+        "character_id": 2118132476,
+        "name": "Lev Moldoon",
+        "corporation_id": 98754600,
+        "corporation_name": "Zeta Reticuli Blackpill Alliance",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 925,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137898192,
+      "time": "2026-08-22T06:06:41Z",
+      "system_id": 31001326,
+      "system_name": "J213534",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124569782,
+        "name": "GURZA ZMEY",
+        "corporation_id": 1000045,
+        "corporation_name": "Science and Trade Institute",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 528,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137898179,
+      "time": "2026-08-22T06:05:08Z",
+      "system_id": 31001326,
+      "system_name": "J213534",
+      "total_value": 18788366.19,
+      "points": 1,
+      "victim": {
+        "character_id": 2124569782,
+        "name": "GURZA ZMEY",
+        "corporation_id": 1000045,
+        "corporation_name": "Science and Trade Institute",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 977,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137897457,
+      "time": "2026-08-22T04:59:03Z",
+      "system_id": 31000753,
+      "system_name": "J102739",
+      "total_value": 97051692.02,
+      "points": 1,
+      "victim": {
+        "character_id": 2124203959,
+        "name": "Hibbiz",
+        "corporation_id": 98832351,
+        "corporation_name": "Eat My Box",
+        "ship_type_id": 89649,
+        "ship_name": "Outrider"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 4990,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137897223,
+      "time": "2026-08-22T04:39:18Z",
+      "system_id": 31000176,
+      "system_name": "J152006",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124395701,
+        "name": "Hanna Weatherlight Navigator",
+        "corporation_id": 98403734,
+        "corporation_name": "Subsidy H.R.S.",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 447,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137897206,
+      "time": "2026-08-22T04:38:06Z",
+      "system_id": 31000176,
+      "system_name": "J152006",
+      "total_value": 1686843.42,
+      "points": 1,
+      "victim": {
+        "character_id": 2124395701,
+        "name": "Hanna Weatherlight Navigator",
+        "corporation_id": 98403734,
+        "corporation_name": "Subsidy H.R.S.",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 955,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137893222,
+      "time": "2026-08-22T00:13:48Z",
+      "system_id": 31000661,
+      "system_name": "J103854",
+      "total_value": 749764.24,
+      "points": 1,
+      "victim": {
+        "character_id": 2124503232,
+        "name": "Danillesse Hau Viliana",
+        "corporation_id": 1000115,
+        "corporation_name": "University of Caille",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 442,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137893219,
+      "time": "2026-08-22T00:13:39Z",
+      "system_id": 31000661,
+      "system_name": "J103854",
+      "total_value": 7641162.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124503232,
+        "name": "Danillesse Hau Viliana",
+        "corporation_id": 1000115,
+        "corporation_name": "University of Caille",
+        "ship_type_id": 607,
+        "ship_name": "Imicus"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 989,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137889546,
+      "time": "2026-08-21T20:55:08Z",
+      "system_id": 31000040,
+      "system_name": "J144913",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124603980,
+        "name": "Sajatoma Huken Kashuken",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 413,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137889531,
+      "time": "2026-08-21T20:54:17Z",
+      "system_id": 31000040,
+      "system_name": "J144913",
+      "total_value": 960717.46,
+      "points": 1,
+      "victim": {
+        "character_id": 2124603980,
+        "name": "Sajatoma Huken Kashuken",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 798,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137888575,
+      "time": "2026-08-21T20:15:24Z",
+      "system_id": 31000307,
+      "system_name": "J103547",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124568857,
+        "name": "Hobert",
+        "corporation_id": 98835273,
+        "corporation_name": "New Horizons Mining and Industry",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 429,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137888546,
+      "time": "2026-08-21T20:13:55Z",
+      "system_id": 31000307,
+      "system_name": "J103547",
+      "total_value": 19181847.91,
+      "points": 1,
+      "victim": {
+        "character_id": 2124568857,
+        "name": "Hobert",
+        "corporation_id": 98835273,
+        "corporation_name": "New Horizons Mining and Industry",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 2217,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137885813,
+      "time": "2026-08-21T18:38:18Z",
+      "system_id": 31000385,
+      "system_name": "J151548",
+      "total_value": 3666788.49,
+      "points": 1,
+      "victim": {
+        "character_id": 2124607890,
+        "name": "Mave90g",
+        "corporation_id": 1000045,
+        "corporation_name": "Science and Trade Institute",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 878,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137884676,
+      "time": "2026-08-21T17:48:25Z",
+      "system_id": 31001100,
+      "system_name": "J131802",
+      "total_value": 4014991.75,
+      "points": 1,
+      "victim": {
+        "character_id": 2124351715,
+        "name": "Captain Saber",
+        "corporation_id": 98819319,
+        "corporation_name": "New Eden Capsuleers",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 551,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137884671,
+      "time": "2026-08-21T17:48:16Z",
+      "system_id": 31001100,
+      "system_name": "J131802",
+      "total_value": 16659774.21,
+      "points": 1,
+      "victim": {
+        "character_id": 2124351715,
+        "name": "Captain Saber",
+        "corporation_id": 98819319,
+        "corporation_name": "New Eden Capsuleers",
+        "ship_type_id": 89240,
+        "ship_name": "Pioneer"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 4519,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137884155,
+      "time": "2026-08-21T17:24:55Z",
+      "system_id": 31000687,
+      "system_name": "J224217",
+      "total_value": 9708516.86,
+      "points": 1,
+      "victim": {
+        "character_id": 2114409683,
+        "name": "EValentine",
+        "corporation_id": 98519367,
+        "corporation_name": "One-Winged Angel's",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 894,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137878969,
+      "time": "2026-08-21T12:56:23Z",
+      "system_id": 31001100,
+      "system_name": "J131802",
+      "total_value": 6005468.53,
+      "points": 1,
+      "victim": {
+        "character_id": 2124191443,
+        "name": "Alexis Traveler",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 558,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137878961,
+      "time": "2026-08-21T12:56:08Z",
+      "system_id": 31001100,
+      "system_name": "J131802",
+      "total_value": 1007917.57,
+      "points": 1,
+      "victim": {
+        "character_id": 2124191443,
+        "name": "Alexis Traveler",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1339,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137871917,
+      "time": "2026-08-21T01:18:02Z",
+      "system_id": 31000332,
+      "system_name": "J133245",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2123513742,
+        "name": "Nolen Conter",
+        "corporation_id": 98834345,
+        "corporation_name": "Noche Sombria",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 458,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137871909,
+      "time": "2026-08-21T01:17:13Z",
+      "system_id": 31000332,
+      "system_name": "J133245",
+      "total_value": 15747354.24,
+      "points": 44,
+      "victim": {
+        "character_id": 2123513742,
+        "name": "Nolen Conter",
+        "corporation_id": 98834345,
+        "corporation_name": "Noche Sombria",
+        "ship_type_id": 628,
+        "ship_name": "Arbitrator"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 12927,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137868687,
+      "time": "2026-08-20T20:53:31Z",
+      "system_id": 31001114,
+      "system_name": "J103353",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2118929229,
+        "name": "Eskaari Outamon",
+        "corporation_id": 98839345,
+        "corporation_name": "ronnoctrading Corporation",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 458,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137868666,
+      "time": "2026-08-20T20:52:06Z",
+      "system_id": 31001114,
+      "system_name": "J103353",
+      "total_value": 51265361.41,
+      "points": 18,
+      "victim": {
+        "character_id": 2118929229,
+        "name": "Eskaari Outamon",
+        "corporation_id": 98839345,
+        "corporation_name": "ronnoctrading Corporation",
+        "ship_type_id": 12032,
+        "ship_name": "Manticore"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1722,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137866232,
+      "time": "2026-08-20T18:52:22Z",
+      "system_id": 31000900,
+      "system_name": "J131228",
+      "total_value": 93550773.36,
+      "points": 6,
+      "victim": {
+        "character_id": 2115338327,
+        "name": "King Of Star",
+        "corporation_id": 98595110,
+        "corporation_name": "Absolute Order",
+        "ship_type_id": 72913,
+        "ship_name": "Imicus Navy Issue"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 3304,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137864601,
+      "time": "2026-08-20T17:18:39Z",
+      "system_id": 31000775,
+      "system_name": "J212906",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124582178,
+        "name": "Jameson Ripley",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 416,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137864592,
+      "time": "2026-08-20T17:17:44Z",
+      "system_id": 31000775,
+      "system_name": "J212906",
+      "total_value": 3521806.39,
+      "points": 3,
+      "victim": {
+        "character_id": 2124582178,
+        "name": "Jameson Ripley",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1473,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137863096,
+      "time": "2026-08-20T15:35:55Z",
+      "system_id": 31000854,
+      "system_name": "J164126",
+      "total_value": 780474.09,
+      "points": 1,
+      "victim": {
+        "character_id": 2124629080,
+        "name": "Aleran Melcarion",
+        "corporation_id": 98795010,
+        "corporation_name": "Naval Defence Boot Camp",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 433,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137863095,
+      "time": "2026-08-20T15:35:47Z",
+      "system_id": 31000854,
+      "system_name": "J164126",
+      "total_value": 1832052.42,
+      "points": 1,
+      "victim": {
+        "character_id": 2124629080,
+        "name": "Aleran Melcarion",
+        "corporation_id": 98795010,
+        "corporation_name": "Naval Defence Boot Camp",
+        "ship_type_id": 607,
+        "ship_name": "Imicus"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1009,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137850277,
+      "time": "2026-08-20T00:35:58Z",
+      "system_id": 31000374,
+      "system_name": "J114835",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2123603292,
+        "name": "OakTree66",
+        "corporation_id": 98451927,
+        "corporation_name": "HALO - United Nations Space Command",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 461,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137850265,
+      "time": "2026-08-20T00:34:33Z",
+      "system_id": 31000374,
+      "system_name": "J114835",
+      "total_value": 66147695.12,
+      "points": 3,
+      "victim": {
+        "character_id": 2123603292,
+        "name": "OakTree66",
+        "corporation_id": 98451927,
+        "corporation_name": "HALO - United Nations Space Command",
+        "ship_type_id": 33697,
+        "ship_name": "Prospect"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 3783,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137846676,
+      "time": "2026-08-19T20:42:17Z",
+      "system_id": 31000394,
+      "system_name": "J122821",
+      "total_value": 232400211.85,
+      "points": 1,
+      "victim": {
+        "character_id": 2123759700,
+        "name": "Julian Sens Arnolles",
+        "corporation_id": 1000115,
+        "corporation_name": "University of Caille",
+        "ship_type_id": 11172,
+        "ship_name": "Helios"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 1797,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137830686,
+      "time": "2026-08-19T02:14:35Z",
+      "system_id": 31001164,
+      "system_name": "J114508",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 91236926,
+        "name": "Black Moccasin",
+        "corporation_id": 98636501,
+        "corporation_name": "Worm Holers Anonymous",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 447,
+          "ship_type_id": 0,
+          "ship_name": "Unknown ship"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137830672,
+      "time": "2026-08-19T02:12:51Z",
+      "system_id": 31001164,
+      "system_name": "J114508",
+      "total_value": 1958499275.26,
+      "points": 11,
+      "victim": {
+        "character_id": 91236926,
+        "name": "Black Moccasin",
+        "corporation_id": 98636501,
+        "corporation_name": "Worm Holers Anonymous",
+        "ship_type_id": 85086,
+        "ship_name": "Cenotaph"
+      },
+      "officers": [
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 4115,
+          "ship_type_id": 85086,
+          "ship_name": "Cenotaph"
+        },
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 890,
+          "ship_type_id": 0,
+          "ship_name": "Unknown ship"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137825010,
+      "time": "2026-08-18T20:04:52Z",
+      "system_id": 31000122,
+      "system_name": "J172907",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2123550372,
+        "name": "SaltyFoe3",
+        "corporation_id": 98825124,
+        "corporation_name": "Silent Waddlers",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 481,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137824985,
+      "time": "2026-08-18T20:03:35Z",
+      "system_id": 31000122,
+      "system_name": "J172907",
+      "total_value": 10770415.52,
+      "points": 1,
+      "victim": {
+        "character_id": 2123550372,
+        "name": "SaltyFoe3",
+        "corporation_id": 98825124,
+        "corporation_name": "Silent Waddlers",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 2585,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137822516,
+      "time": "2026-08-18T17:55:57Z",
+      "system_id": 31000952,
+      "system_name": "J102143",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2115307532,
+        "name": "Vitar Toralen",
+        "corporation_id": 98637669,
+        "corporation_name": "F.13 - Union of Russians",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 558,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137822490,
+      "time": "2026-08-18T17:54:44Z",
+      "system_id": 31000952,
+      "system_name": "J102143",
+      "total_value": 7358351.36,
+      "points": 1,
+      "victim": {
+        "character_id": 2115307532,
+        "name": "Vitar Toralen",
+        "corporation_id": 98637669,
+        "corporation_name": "F.13 - Union of Russians",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1109,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137821486,
+      "time": "2026-08-18T16:50:47Z",
+      "system_id": 31001699,
+      "system_name": "J151021",
+      "total_value": 53969880.53,
+      "points": 7,
+      "victim": {
+        "character_id": 1614733620,
+        "name": "Ledy Pain",
+        "corporation_id": 98837244,
+        "corporation_name": "Fafnir's Eclipse",
+        "ship_type_id": 17478,
+        "ship_name": "Retriever"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 13447,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137820218,
+      "time": "2026-08-18T15:33:35Z",
+      "system_id": 31000161,
+      "system_name": "J133653",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2115244535,
+        "name": "Ferenitus Valryon",
+        "corporation_id": 1000167,
+        "corporation_name": "State War Academy",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 413,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137820187,
+      "time": "2026-08-18T15:31:58Z",
+      "system_id": 31000161,
+      "system_name": "J133653",
+      "total_value": 1837127.77,
+      "points": 6,
+      "victim": {
+        "character_id": 2115244535,
+        "name": "Ferenitus Valryon",
+        "corporation_id": 1000167,
+        "corporation_name": "State War Academy",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1216,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137820097,
+      "time": "2026-08-18T15:26:49Z",
+      "system_id": 31000290,
+      "system_name": "J143421",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124581090,
+        "name": "Sm01",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 429,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137820060,
+      "time": "2026-08-18T15:25:14Z",
+      "system_id": 31000290,
+      "system_name": "J143421",
+      "total_value": 19842781.84,
+      "points": 3,
+      "victim": {
+        "character_id": 2124581090,
+        "name": "Sm01",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 1617,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137820059,
+      "time": "2026-08-18T15:25:13Z",
+      "system_id": 31000161,
+      "system_name": "J133653",
+      "total_value": 72922946.01,
+      "points": 1,
+      "victim": {
+        "character_id": 2124613719,
+        "name": "Tiainen Aurilen",
+        "corporation_id": 98022595,
+        "corporation_name": "Syndicate Society",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 452,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137820051,
+      "time": "2026-08-18T15:25:02Z",
+      "system_id": 31000161,
+      "system_name": "J133653",
+      "total_value": 167867182.52,
+      "points": 1,
+      "victim": {
+        "character_id": 2124613719,
+        "name": "Tiainen Aurilen",
+        "corporation_id": 98022595,
+        "corporation_name": "Syndicate Society",
+        "ship_type_id": 33468,
+        "ship_name": "Astero"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1682,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137819365,
+      "time": "2026-08-18T14:49:49Z",
+      "system_id": 31000892,
+      "system_name": "J205027",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124625857,
+        "name": "Krilkpac",
+        "corporation_id": 98816965,
+        "corporation_name": "interficite piratas",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 413,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137819351,
+      "time": "2026-08-18T14:49:01Z",
+      "system_id": 31000892,
+      "system_name": "J205027",
+      "total_value": 5694798.93,
+      "points": 1,
+      "victim": {
+        "character_id": 2124625857,
+        "name": "Krilkpac",
+        "corporation_id": 98816965,
+        "corporation_name": "interficite piratas",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1921,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137817910,
+      "time": "2026-08-18T13:36:34Z",
+      "system_id": 31000161,
+      "system_name": "J133653",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2122251913,
+        "name": "Reyrederi Mad Hareka",
+        "corporation_id": 1000171,
+        "corporation_name": "Republic University",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137817889,
+      "time": "2026-08-18T13:35:34Z",
+      "system_id": 31000161,
+      "system_name": "J133653",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 161858994,
+        "name": "d'Okairon",
+        "corporation_id": 98639740,
+        "corporation_name": "SEX BEYOND THE STARS",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137817857,
+      "time": "2026-08-18T13:33:59Z",
+      "system_id": 31000161,
+      "system_name": "J133653",
+      "total_value": 518440390.09,
+      "points": 31,
+      "victim": {
+        "character_id": 161858994,
+        "name": "d'Okairon",
+        "corporation_id": 98639740,
+        "corporation_name": "SEX BEYOND THE STARS",
+        "ship_type_id": 29988,
+        "ship_name": "Proteus"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 10050,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137815874,
+      "time": "2026-08-18T11:58:04Z",
+      "system_id": 31000952,
+      "system_name": "J102143",
+      "total_value": 34192522.12,
+      "points": 1,
+      "victim": {
+        "character_id": 2120199365,
+        "name": "Renin Paltoomo",
+        "corporation_id": 320656615,
+        "corporation_name": "Black Hole Drifters",
+        "ship_type_id": 33697,
+        "ship_name": "Prospect"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 3955,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137810531,
+      "time": "2026-08-18T03:53:37Z",
+      "system_id": 31001005,
+      "system_name": "J125833",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124494614,
+        "name": "SuperLegend",
+        "corporation_id": 366498483,
+        "corporation_name": "Unquestionable Prosperity",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 432,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137810519,
+      "time": "2026-08-18T03:52:53Z",
+      "system_id": 31001005,
+      "system_name": "J125833",
+      "total_value": 5590555.6,
+      "points": 10,
+      "victim": {
+        "character_id": 2124494614,
+        "name": "SuperLegend",
+        "corporation_id": 366498483,
+        "corporation_name": "Unquestionable Prosperity",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 934,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137809301,
+      "time": "2026-08-18T02:18:19Z",
+      "system_id": 31000771,
+      "system_name": "J215151",
+      "total_value": 229398698.38,
+      "points": 1,
+      "victim": {
+        "character_id": 2117015146,
+        "name": "Cortin Adoulin",
+        "corporation_id": 98598714,
+        "corporation_name": "DarkSeedUnity",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137808058,
+      "time": "2026-08-18T00:51:02Z",
+      "system_id": 31001161,
+      "system_name": "J114358",
+      "total_value": 100927382.64,
+      "points": 1,
+      "victim": {
+        "character_id": 938118505,
+        "name": "Taela Fervoux",
+        "corporation_id": 1690293235,
+        "corporation_name": "LumiForge Inc",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 184,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        },
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 276,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137808053,
+      "time": "2026-08-18T00:50:48Z",
+      "system_id": 31001161,
+      "system_name": "J114358",
+      "total_value": 44081386.41,
+      "points": 1,
+      "victim": {
+        "character_id": 938118505,
+        "name": "Taela Fervoux",
+        "corporation_id": 1690293235,
+        "corporation_name": "LumiForge Inc",
+        "ship_type_id": 11188,
+        "ship_name": "Anathema"
+      },
+      "officers": [
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 220,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        },
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 477,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137807849,
+      "time": "2026-08-18T00:29:02Z",
+      "system_id": 31000555,
+      "system_name": "J145211",
+      "total_value": 20412400.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2121118439,
+        "name": "Ikpa Shakiel",
+        "corporation_id": 98780965,
+        "corporation_name": "Ikpa Shakiel Corporation",
+        "ship_type_id": 33475,
+        "ship_name": "Mobile Tractor Unit"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 49419,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137807524,
+      "time": "2026-08-17T23:51:41Z",
+      "system_id": 31001849,
+      "system_name": "J120134",
+      "total_value": 14512400.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2122741910,
+        "name": "Needaname A",
+        "corporation_id": 98805903,
+        "corporation_name": "Drifters Brewery",
+        "ship_type_id": 33475,
+        "ship_name": "Mobile Tractor Unit"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 48650,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137806948,
+      "time": "2026-08-17T23:07:14Z",
+      "system_id": 31000259,
+      "system_name": "J102414",
+      "total_value": 95094239.43,
+      "points": 1,
+      "victim": {
+        "character_id": 2124553021,
+        "name": "Fefe Mosa",
+        "corporation_id": 98834808,
+        "corporation_name": "Oblivion Sub-Extraction",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 425,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137806945,
+      "time": "2026-08-17T23:07:06Z",
+      "system_id": 31000259,
+      "system_name": "J102414",
+      "total_value": 7395676.44,
+      "points": 1,
+      "victim": {
+        "character_id": 2124553021,
+        "name": "Fefe Mosa",
+        "corporation_id": 98834808,
+        "corporation_name": "Oblivion Sub-Extraction",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 899,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    }
+  ]
 }
