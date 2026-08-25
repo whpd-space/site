@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-24T20:51:37Z",
+  "generated_at": "2026-08-25T02:14:43Z",
   "window": {
-    "start": "2026-08-17T20:51:37Z",
-    "end": "2026-08-24T20:51:37Z",
+    "start": "2026-08-18T02:14:43Z",
+    "end": "2026-08-25T02:14:43Z",
     "seconds": 604800
   },
   "source": {
@@ -12,9 +12,9 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 91,
-    "suspects": 52,
-    "total_value": 7471985912.55
+    "arrests": 85,
+    "suspects": 48,
+    "total_value": 7189562427.63
   },
   "rankings": [
     {
@@ -30,28 +30,19 @@
       "character_id": 2120817710,
       "name": "Muh 'Mabel' Mabebu",
       "rank": "Officer",
-      "arrests": 29,
+      "arrests": 27,
       "final_blows": 25,
-      "case_value": 4177170772.42,
+      "case_value": 4032162003.37,
       "placement": 2
     },
     {
       "character_id": 91565688,
       "name": "Damoraath Sponge",
       "rank": "Officer",
-      "arrests": 18,
-      "final_blows": 18,
-      "case_value": 925953683.96,
+      "arrests": 16,
+      "final_blows": 16,
+      "case_value": 823463768.09,
       "placement": 3
-    },
-    {
-      "character_id": 96847792,
-      "name": "Vinnegar Douchay",
-      "rank": "Chief of Police",
-      "arrests": 10,
-      "final_blows": 7,
-      "case_value": 803534333.59,
-      "placement": 4
     },
     {
       "character_id": 1922855106,
@@ -60,15 +51,24 @@
       "arrests": 9,
       "final_blows": 0,
       "case_value": 1083614960.76,
+      "placement": 4
+    },
+    {
+      "character_id": 96847792,
+      "name": "Vinnegar Douchay",
+      "rank": "Chief of Police",
+      "arrests": 8,
+      "final_blows": 5,
+      "case_value": 768609533.59,
       "placement": 5
     },
     {
       "character_id": 2120163218,
       "name": "BLiTzD86",
       "rank": "Officer",
-      "arrests": 5,
-      "final_blows": 1,
-      "case_value": 2104694546.01,
+      "arrests": 3,
+      "final_blows": 0,
+      "case_value": 1959685776.96,
       "placement": 6
     }
   ],
@@ -200,24 +200,6 @@
       "placement": 7
     },
     {
-      "character_id": 938118505,
-      "name": "Taela Fervoux",
-      "corporation_id": 1690293235,
-      "corporation_name": "LumiForge Inc",
-      "arrests": 2,
-      "total_value": 145008769.05,
-      "most_expensive_loss": {
-        "killmail_id": 137808058,
-        "time": "2026-08-18T00:51:02Z",
-        "total_value": 100927382.64,
-        "ship_type_id": 670,
-        "ship_name": "Capsule",
-        "system_id": 31001161,
-        "system_name": "J114358"
-      },
-      "placement": 8
-    },
-    {
       "character_id": 2121141929,
       "name": "Alissar Fen",
       "corporation_id": 98835765,
@@ -233,7 +215,7 @@
         "system_id": 31000410,
         "system_name": "J142547"
       },
-      "placement": 9
+      "placement": 8
     },
     {
       "character_id": 2123697663,
@@ -251,25 +233,7 @@
         "system_id": 31001074,
         "system_name": "J131025"
       },
-      "placement": 10
-    },
-    {
-      "character_id": 2124553021,
-      "name": "Fefe Mosa",
-      "corporation_id": 98834808,
-      "corporation_name": "Oblivion Sub-Extraction",
-      "arrests": 2,
-      "total_value": 102489915.87,
-      "most_expensive_loss": {
-        "killmail_id": 137806948,
-        "time": "2026-08-17T23:07:14Z",
-        "total_value": 95094239.43,
-        "ship_type_id": 670,
-        "ship_name": "Capsule",
-        "system_id": 31000259,
-        "system_name": "J102414"
-      },
-      "placement": 11
+      "placement": 9
     },
     {
       "character_id": 2116221459,
@@ -287,7 +251,7 @@
         "system_id": 31001741,
         "system_name": "J102055"
       },
-      "placement": 12
+      "placement": 10
     },
     {
       "character_id": 2123603292,
@@ -305,7 +269,7 @@
         "system_id": 31000374,
         "system_name": "J114835"
       },
-      "placement": 13
+      "placement": 11
     },
     {
       "character_id": 2118929229,
@@ -323,7 +287,7 @@
         "system_id": 31001114,
         "system_name": "J103353"
       },
-      "placement": 14
+      "placement": 12
     },
     {
       "character_id": 2122750657,
@@ -341,7 +305,7 @@
         "system_id": 31000772,
         "system_name": "J144739"
       },
-      "placement": 15
+      "placement": 13
     },
     {
       "character_id": 2124351715,
@@ -359,7 +323,7 @@
         "system_id": 31001100,
         "system_name": "J131802"
       },
-      "placement": 16
+      "placement": 14
     },
     {
       "character_id": 2124581090,
@@ -377,7 +341,7 @@
         "system_id": 31000290,
         "system_name": "J143421"
       },
-      "placement": 17
+      "placement": 15
     },
     {
       "character_id": 2124568857,
@@ -395,7 +359,7 @@
         "system_id": 31000307,
         "system_name": "J103547"
       },
-      "placement": 18
+      "placement": 16
     },
     {
       "character_id": 2124569782,
@@ -413,7 +377,7 @@
         "system_id": 31001326,
         "system_name": "J213534"
       },
-      "placement": 19
+      "placement": 17
     },
     {
       "character_id": 2123513742,
@@ -431,7 +395,7 @@
         "system_id": 31000332,
         "system_name": "J133245"
       },
-      "placement": 20
+      "placement": 18
     },
     {
       "character_id": 2123550372,
@@ -449,7 +413,7 @@
         "system_id": 31000122,
         "system_name": "J172907"
       },
-      "placement": 21
+      "placement": 19
     },
     {
       "character_id": 2124503232,
@@ -467,7 +431,7 @@
         "system_id": 31000661,
         "system_name": "J103854"
       },
-      "placement": 22
+      "placement": 20
     },
     {
       "character_id": 2115307532,
@@ -485,7 +449,7 @@
         "system_id": 31000952,
         "system_name": "J102143"
       },
-      "placement": 23
+      "placement": 21
     },
     {
       "character_id": 2124191443,
@@ -503,7 +467,7 @@
         "system_id": 31001100,
         "system_name": "J131802"
       },
-      "placement": 24
+      "placement": 22
     },
     {
       "character_id": 94535062,
@@ -520,6 +484,42 @@
         "ship_name": "Imicus",
         "system_id": 31000478,
         "system_name": "J110823"
+      },
+      "placement": 23
+    },
+    {
+      "character_id": 2124625857,
+      "name": "Krilkpac",
+      "corporation_id": 98816965,
+      "corporation_name": "interficite piratas",
+      "arrests": 2,
+      "total_value": 5704798.93,
+      "most_expensive_loss": {
+        "killmail_id": 137819351,
+        "time": "2026-08-18T14:49:01Z",
+        "total_value": 5694798.93,
+        "ship_type_id": 605,
+        "ship_name": "Heron",
+        "system_id": 31000892,
+        "system_name": "J205027"
+      },
+      "placement": 24
+    },
+    {
+      "character_id": 2124494614,
+      "name": "SuperLegend",
+      "corporation_id": 366498483,
+      "corporation_name": "Unquestionable Prosperity",
+      "arrests": 2,
+      "total_value": 5600555.6,
+      "most_expensive_loss": {
+        "killmail_id": 137810519,
+        "time": "2026-08-18T03:52:53Z",
+        "total_value": 5590555.6,
+        "ship_type_id": 605,
+        "ship_name": "Heron",
+        "system_id": 31001005,
+        "system_name": "J125833"
       },
       "placement": 25
     }
@@ -2887,186 +2887,6 @@
           "rank": "Officer",
           "final_blow": false,
           "damage_done": 0,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137808058,
-      "time": "2026-08-18T00:51:02Z",
-      "system_id": 31001161,
-      "system_name": "J114358",
-      "total_value": 100927382.64,
-      "points": 1,
-      "victim": {
-        "character_id": 938118505,
-        "name": "Taela Fervoux",
-        "corporation_id": 1690293235,
-        "corporation_name": "LumiForge Inc",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 184,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        },
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 276,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137808053,
-      "time": "2026-08-18T00:50:48Z",
-      "system_id": 31001161,
-      "system_name": "J114358",
-      "total_value": 44081386.41,
-      "points": 1,
-      "victim": {
-        "character_id": 938118505,
-        "name": "Taela Fervoux",
-        "corporation_id": 1690293235,
-        "corporation_name": "LumiForge Inc",
-        "ship_type_id": 11188,
-        "ship_name": "Anathema"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 220,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        },
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 477,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137807849,
-      "time": "2026-08-18T00:29:02Z",
-      "system_id": 31000555,
-      "system_name": "J145211",
-      "total_value": 20412400.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2121118439,
-        "name": "Ikpa Shakiel",
-        "corporation_id": 98780965,
-        "corporation_name": "Ikpa Shakiel Corporation",
-        "ship_type_id": 33475,
-        "ship_name": "Mobile Tractor Unit"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
-          "final_blow": true,
-          "damage_done": 49419,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137807524,
-      "time": "2026-08-17T23:51:41Z",
-      "system_id": 31001849,
-      "system_name": "J120134",
-      "total_value": 14512400.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2122741910,
-        "name": "Needaname A",
-        "corporation_id": 98805903,
-        "corporation_name": "Drifters Brewery",
-        "ship_type_id": 33475,
-        "ship_name": "Mobile Tractor Unit"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
-          "final_blow": true,
-          "damage_done": 48650,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137806948,
-      "time": "2026-08-17T23:07:14Z",
-      "system_id": 31000259,
-      "system_name": "J102414",
-      "total_value": 95094239.43,
-      "points": 1,
-      "victim": {
-        "character_id": 2124553021,
-        "name": "Fefe Mosa",
-        "corporation_id": 98834808,
-        "corporation_name": "Oblivion Sub-Extraction",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 425,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137806945,
-      "time": "2026-08-17T23:07:06Z",
-      "system_id": 31000259,
-      "system_name": "J102414",
-      "total_value": 7395676.44,
-      "points": 1,
-      "victim": {
-        "character_id": 2124553021,
-        "name": "Fefe Mosa",
-        "corporation_id": 98834808,
-        "corporation_name": "Oblivion Sub-Extraction",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 899,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
