@@ -4,7 +4,7 @@ import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from build import render_arrests_content
+from build import render_arrests_content, render_donuts_recipient
 from scripts.update_arrests import build_dataset
 
 
@@ -89,6 +89,23 @@ class ArrestDatasetTests(unittest.TestCase):
 
         self.assertEqual(dataset['summary']['arrests'], 0)
         self.assertTrue(all(officer['arrests'] == 0 for officer in dataset['rankings']))
+
+    def test_donuts_recipient_is_the_top_ranked_personnel_member(self):
+        dataset = build_dataset(
+            self.officers,
+            [self.make_killmail()],
+            self.names,
+            self.now,
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            data_file = Path(temp_dir) / 'arrests.json'
+            data_file.write_text(json.dumps(dataset), encoding='utf-8')
+            rendered = render_donuts_recipient(data_file)
+
+        self.assertIn("Today's Donuts Recipient", rendered)
+        self.assertIn('Second Deputy', rendered)
+        self.assertIn('https://zkillboard.com/character/202/', rendered)
+        self.assertIn('<strong>1</strong><small>Final blows</small>', rendered)
 
     def test_systems_protected_counts_unique_arrest_systems(self):
         dataset = build_dataset(

@@ -832,54 +832,118 @@ details[open] summary {
 }
 
 .arrests-hero {
-	position: relative;
-	overflow: hidden;
-	padding: clamp(1.5rem, 5vw, 3rem);
-	margin-bottom: var(--spacing-lg);
-	border: 1px solid rgba(56, 189, 248, 0.35);
-	border-radius: var(--border-radius-lg);
-	background:
-		linear-gradient(120deg, rgba(30, 64, 175, 0.34), rgba(15, 23, 42, 0.92) 62%),
-		repeating-linear-gradient(-45deg, transparent 0 16px, rgba(56, 189, 248, 0.035) 16px 32px);
-	box-shadow: var(--shadow-xl);
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	align-items: stretch;
+	gap: var(--spacing-xl);
+	margin-bottom: var(--spacing-xl);
 }
 
-.arrests-hero::after {
-	content: 'WHPD';
-	position: absolute;
-	right: -0.25rem;
-	bottom: -2.25rem;
-	font-size: clamp(5rem, 20vw, 10rem);
-	font-weight: 700;
-	line-height: 1;
-	letter-spacing: -0.08em;
-	color: rgba(148, 163, 184, 0.055);
-	pointer-events: none;
+.arrests-hero-copy {
+	align-self: center;
 }
 
 .arrests-hero h1 {
-	position: relative;
-	z-index: 1;
-	margin: var(--spacing-xs) 0 var(--spacing-md);
-	font-size: clamp(2.5rem, 9vw, 5rem);
-	letter-spacing: 0.08em;
+	margin: var(--spacing-xs) 0 var(--spacing-lg);
 }
 
 .arrests-hero p {
-	position: relative;
-	z-index: 1;
-	max-width: 62ch;
 	margin: 0;
-	font-size: 1.05rem;
 }
 
 .arrest-kicker {
 	display: block;
-	color: var(--arrest-accent);
+	color: var(--color-accent);
 	font-size: 0.72rem;
 	font-weight: 700;
 	letter-spacing: 0.14em;
 	text-transform: uppercase;
+}
+
+.donuts-recipient {
+	padding: var(--spacing-lg);
+	border: 1px solid var(--arrest-border);
+	border-radius: var(--border-radius-lg);
+	background: var(--color-surface);
+	box-shadow: var(--shadow-md);
+}
+
+.donuts-recipient h2 {
+	margin: var(--spacing-xs) 0 var(--spacing-lg);
+	font-size: 1.35rem;
+}
+
+.donuts-recipient-person {
+	display: flex;
+	align-items: center;
+	gap: var(--spacing-md);
+	color: var(--color-text);
+}
+
+.donuts-recipient-person:hover {
+	text-decoration: none;
+}
+
+.donuts-recipient-person img {
+	width: 72px;
+	height: 72px;
+	border: 1px solid var(--arrest-border);
+	border-radius: 50%;
+	background: var(--color-bg);
+}
+
+.donuts-recipient-person span,
+.donuts-recipient-person small {
+	display: block;
+}
+
+.donuts-recipient-person strong {
+	font-size: 1.05rem;
+}
+
+.donuts-recipient-person small {
+	margin-top: 0.15rem;
+	color: var(--color-text-muted);
+	font-size: 0.68rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.donuts-recipient-stats {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: var(--spacing-sm);
+	margin-top: var(--spacing-lg);
+}
+
+.donuts-recipient-stats > span {
+	padding: var(--spacing-sm);
+	border-radius: var(--border-radius);
+	background: rgba(15, 23, 42, 0.55);
+}
+
+.donuts-recipient-stats strong,
+.donuts-recipient-stats small {
+	display: block;
+}
+
+.donuts-recipient-stats strong {
+	font-size: 1.2rem;
+	font-variant-numeric: tabular-nums;
+}
+
+.donuts-recipient-stats small {
+	color: var(--color-text-muted);
+	font-size: 0.65rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.donuts-recipient-empty {
+	margin: 0;
+	color: var(--color-text-muted);
 }
 
 .arrests-meta {
@@ -1135,6 +1199,10 @@ details[open] summary {
 }
 
 @media (max-width: 700px) {
+	.arrests-hero {
+		grid-template-columns: 1fr;
+	}
+
 	.arrests-meta,
 	.arrest-section-heading {
 		align-items: flex-start;

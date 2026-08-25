@@ -63,6 +63,41 @@ def format_timestamp(value):
     return f'{timestamp:%b} {timestamp.day}, {timestamp:%Y} at {timestamp:%H:%M} UTC'
 
 
+def render_donuts_recipient(data_file=ARRESTS_DATA_FILE):
+    """Render the current top-ranked personnel member for the Arrests hero."""
+    with open(data_file, 'r', encoding='utf-8') as arrests_file:
+        data = json.load(arrests_file)
+
+    rankings = data.get('rankings', [])
+    if not rankings:
+        return '\n'.join([
+            '<aside class="donuts-recipient" aria-labelledby="donuts-recipient-title">',
+            '<span class="arrest-kicker">Top personnel</span>',
+            '<h2 id="donuts-recipient-title">Today\'s Donuts Recipient</h2>',
+            '<p class="donuts-recipient-empty">Awaiting the first personnel report.</p>',
+            '</aside>',
+        ])
+
+    recipient = min(rankings, key=lambda officer: int(officer.get('placement') or 999_999))
+    character_id = int(recipient['character_id'])
+    name = html.escape(str(recipient['name']), quote=True)
+    rank = html.escape(str(recipient['rank']), quote=True)
+    return '\n'.join([
+        '<aside class="donuts-recipient" aria-labelledby="donuts-recipient-title">',
+        '<span class="arrest-kicker">Top personnel</span>',
+        '<h2 id="donuts-recipient-title">Today\'s Donuts Recipient</h2>',
+        f'<a class="donuts-recipient-person" href="https://zkillboard.com/character/{character_id}/" target="_blank" rel="noopener noreferrer">',
+        f'<img src="https://images.evetech.net/characters/{character_id}/portrait?size=128" width="72" height="72" alt="">',
+        f'<span><strong>{name}</strong><small>{rank}</small></span>',
+        '</a>',
+        '<div class="donuts-recipient-stats">',
+        f'<span><strong>{int(recipient.get("arrests", 0)):,}</strong><small>Arrests</small></span>',
+        f'<span><strong>{int(recipient.get("final_blows", 0)):,}</strong><small>Final blows</small></span>',
+        '</div>',
+        '</aside>',
+    ])
+
+
 def render_arrests_content(data_file=ARRESTS_DATA_FILE):
     """Render the generated arrest JSON into the Arrests page."""
     with open(data_file, 'r', encoding='utf-8') as arrests_file:
@@ -344,6 +379,7 @@ def main():
             continue
 
         if filename == 'Arrests.html':
+            content = content.replace('{{DONUTS_RECIPIENT}}', render_donuts_recipient())
             content = content.replace('{{ARRESTS_CONTENT}}', render_arrests_content())
         if filename == 'MemeFleet.html':
             content = content.replace('{{MEMEFLEET_STATS}}', render_memefleet_stats())
