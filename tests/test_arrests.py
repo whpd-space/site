@@ -118,6 +118,9 @@ class ArrestDatasetTests(unittest.TestCase):
 
         self.assertIn('&lt;Test Suspect&gt;', rendered)
         self.assertNotIn('<Test Suspect>', rendered)
+        self.assertNotIn('Rolling seven days ending', rendered)
+        self.assertIn('<span>Rolling seven days</span>', rendered)
+        self.assertIn('<span>Last refreshed Aug 24, 2026 at 01:00 UTC</span>', rendered)
         self.assertIn('https://zkillboard.com/kill/9001/', rendered)
 
     def test_rankings_only_display_personnel_meeting_the_five_arrest_quota(self):

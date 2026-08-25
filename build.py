@@ -89,7 +89,7 @@ def render_arrests_content(data_file=ARRESTS_DATA_FILE):
     sections = ['<div class="arrests-meta">']
     if window.get('end') and data.get('generated_at'):
         sections.extend([
-            f'<span>Rolling seven days ending {escape(format_timestamp(window["end"]))}</span>',
+            '<span>Rolling seven days</span>',
             f'<span>Last refreshed {escape(format_timestamp(data["generated_at"]))}</span>',
         ])
     else:
