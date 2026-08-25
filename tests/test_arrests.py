@@ -36,13 +36,14 @@ class ArrestDatasetTests(unittest.TestCase):
         victim_id=303,
         corporation_id=404,
         ship_type_id=505,
+        solar_system_id=606,
         total_value=1_500_000,
     ):
         occurred_at = occurred_at or self.now - timedelta(hours=1)
         return {
             'killmail_id': killmail_id,
             'killmail_time': occurred_at.isoformat().replace('+00:00', 'Z'),
-            'solar_system_id': 606,
+            'solar_system_id': solar_system_id,
             'victim': {
                 'character_id': victim_id,
                 'corporation_id': corporation_id,
@@ -71,12 +72,15 @@ class ArrestDatasetTests(unittest.TestCase):
 
         self.assertEqual(dataset['summary']['arrests'], 1)
         self.assertEqual(dataset['summary']['suspects'], 1)
+        self.assertEqual(dataset['summary']['systems_protected'], 1)
         self.assertEqual(dataset['summary']['total_value'], 1_500_000)
         self.assertEqual(len(dataset['arrests'][0]['officers']), 2)
         self.assertEqual(dataset['rankings'][0]['character_id'], 202)
         self.assertEqual(dataset['rankings'][0]['final_blows'], 1)
         self.assertEqual(dataset['rankings'][1]['arrests'], 1)
         self.assertEqual(dataset['dirtbags'][0]['arrests'], 1)
+        self.assertEqual(dataset['hotspots'][0]['system_id'], 606)
+        self.assertEqual(dataset['hotspots'][0]['arrests'], 1)
 
     def test_old_and_npc_killmails_are_excluded(self):
         old_killmail = self.make_killmail(9002, self.now - timedelta(days=8))
@@ -85,6 +89,20 @@ class ArrestDatasetTests(unittest.TestCase):
 
         self.assertEqual(dataset['summary']['arrests'], 0)
         self.assertTrue(all(officer['arrests'] == 0 for officer in dataset['rankings']))
+
+    def test_systems_protected_counts_unique_arrest_systems(self):
+        dataset = build_dataset(
+            self.officers,
+            [
+                self.make_killmail(9001, solar_system_id=606),
+                self.make_killmail(9002, solar_system_id=606),
+                self.make_killmail(9003, solar_system_id=607),
+            ],
+            {**self.names, 607: 'J654321'},
+            self.now,
+        )
+
+        self.assertEqual(dataset['summary']['systems_protected'], 2)
 
     def test_rendered_content_escapes_public_names(self):
         dataset = build_dataset(
@@ -152,29 +170,72 @@ class ArrestDatasetTests(unittest.TestCase):
         dirtbag_markup = rendered.split('<section class="top-dirtbags"', 1)[1]
         self.assertLess(dirtbag_markup.index('Test Suspect'), dirtbag_markup.index('Very Expensive Suspect'))
         self.assertIn('https://zkillboard.com/kill/9002/', dirtbag_markup)
-        self.assertIn('<h2 id="top-dirtbags-title">Top 25 Dirtbags</h2>', dirtbag_markup)
+        self.assertIn('<h2 id="top-dirtbags-title">Top 10 Dirtbags</h2>', dirtbag_markup)
         self.assertIn('<th class="arrest-number" scope="col">Case value</th>', dirtbag_markup)
         self.assertIn('<th class="arrest-number public-record" scope="col">Public Record</th>', dirtbag_markup)
         self.assertNotIn('>Total value<', dirtbag_markup)
         self.assertNotIn('Most expensive loss', dirtbag_markup)
 
-    def test_dirtbag_rankings_are_capped_at_twenty_five(self):
+    def test_dirtbag_rankings_are_capped_at_ten(self):
         killmails = [
             self.make_killmail(10_000 + index, victim_id=20_000 + index)
-            for index in range(26)
+            for index in range(11)
         ]
         dataset = build_dataset(self.officers, killmails, self.names, self.now)
 
-        self.assertEqual(len(dataset['dirtbags']), 25)
+        self.assertEqual(len(dataset['dirtbags']), 10)
+
+    def test_hotspots_rank_systems_and_link_the_highest_value_killmail(self):
+        dataset = build_dataset(
+            self.officers,
+            [
+                self.make_killmail(9001, solar_system_id=606, total_value=2_000_000),
+                self.make_killmail(9002, solar_system_id=606, total_value=3_000_000),
+                self.make_killmail(9003, solar_system_id=607, total_value=100_000_000),
+            ],
+            {**self.names, 607: 'J654321'},
+            self.now,
+        )
+
+        self.assertEqual(dataset['hotspots'][0]['system_id'], 606)
+        self.assertEqual(dataset['hotspots'][0]['arrests'], 2)
+        self.assertEqual(dataset['hotspots'][0]['total_value'], 5_000_000)
+        self.assertEqual(dataset['hotspots'][0]['top_killmail']['killmail_id'], 9002)
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            data_file = Path(temp_dir) / 'arrests.json'
+            data_file.write_text(json.dumps(dataset), encoding='utf-8')
+            rendered = render_arrests_content(data_file)
+
+        hotspot_markup = rendered.split('<section class="dirtbag-hotspots"', 1)[1]
+        self.assertIn('<h2 id="dirtbag-hotspots-title">Dirtbag Hotspots</h2>', hotspot_markup)
+        self.assertIn('Top 5 systems by arrests, then total case value.', hotspot_markup)
+        self.assertIn('https://zkillboard.com/system/606/', hotspot_markup)
+        self.assertIn('https://zkillboard.com/kill/9002/', hotspot_markup)
+        self.assertLess(hotspot_markup.index('J123456'), hotspot_markup.index('J654321'))
+
+    def test_hotspot_rankings_are_capped_at_five(self):
+        killmails = [
+            self.make_killmail(
+                10_000 + index,
+                victim_id=20_000 + index,
+                solar_system_id=30_000 + index,
+            )
+            for index in range(6)
+        ]
+        dataset = build_dataset(self.officers, killmails, self.names, self.now)
+
+        self.assertEqual(len(dataset['hotspots']), 5)
 
     def test_empty_seed_renders_before_the_first_actions_refresh(self):
         empty_dataset = {
-            'schema_version': 2,
+            'schema_version': 4,
             'generated_at': None,
             'window': {'start': None, 'end': None, 'seconds': 604800},
-            'summary': {'arrests': 0, 'suspects': 0, 'total_value': 0},
+            'summary': {'arrests': 0, 'suspects': 0, 'systems_protected': 0, 'total_value': 0},
             'rankings': [],
             'dirtbags': [],
+            'hotspots': [],
             'arrests': [],
         }
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -183,8 +244,10 @@ class ArrestDatasetTests(unittest.TestCase):
             rendered = render_arrests_content(data_file)
 
         self.assertIn('Awaiting the first GitHub Actions refresh', rendered)
+        self.assertIn('<strong>0</strong><span>Systems protected</span>', rendered)
         self.assertIn('No personnel met the weekly arrest quota.', rendered)
         self.assertIn('No dirtbags were arrested during this reporting period.', rendered)
+        self.assertIn('No protected systems were recorded during this reporting period.', rendered)
 
 
 if __name__ == '__main__':

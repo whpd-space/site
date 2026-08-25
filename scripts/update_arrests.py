@@ -118,7 +118,7 @@ def collect_name_ids(killmails, officer_ids):
     return {entity_id for entity_id in ids if entity_id}
 
 
-def build_dirtbag_rankings(arrests, limit=25):
+def build_dirtbag_rankings(arrests, limit=10):
     """Group arrests by suspect and return the highest-ranked repeat offenders."""
     dirtbags = {}
     for arrest in arrests:
@@ -159,6 +159,51 @@ def build_dirtbag_rankings(arrests, limit=25):
     for placement, dirtbag in enumerate(rankings, start=1):
         dirtbag['placement'] = placement
         dirtbag['total_value'] = round(dirtbag['total_value'], 2)
+    return rankings
+
+
+def build_hotspot_rankings(arrests, limit=5):
+    """Group arrests by system and rank the busiest enforcement hotspots."""
+    hotspots = {}
+    for arrest in arrests:
+        system_id = int(arrest['system_id'])
+        hotspot = hotspots.setdefault(system_id, {
+            'system_id': system_id,
+            'system_name': arrest['system_name'],
+            'arrests': 0,
+            'total_value': 0.0,
+            'top_killmail': None,
+        })
+        hotspot['arrests'] += 1
+        hotspot['total_value'] += float(arrest['total_value'])
+
+        top_killmail = hotspot['top_killmail']
+        if top_killmail is None or (
+            float(arrest['total_value']), arrest['time'], arrest['killmail_id']
+        ) > (
+            float(top_killmail['total_value']), top_killmail['time'], top_killmail['killmail_id']
+        ):
+            victim = arrest['victim']
+            hotspot['top_killmail'] = {
+                'killmail_id': arrest['killmail_id'],
+                'time': arrest['time'],
+                'total_value': arrest['total_value'],
+                'victim_name': victim['name'],
+                'ship_type_id': victim['ship_type_id'],
+                'ship_name': victim['ship_name'],
+            }
+
+    rankings = sorted(
+        hotspots.values(),
+        key=lambda hotspot: (
+            -hotspot['arrests'],
+            -hotspot['total_value'],
+            hotspot['system_name'].lower(),
+        ),
+    )[:limit]
+    for placement, hotspot in enumerate(rankings, start=1):
+        hotspot['placement'] = placement
+        hotspot['total_value'] = round(hotspot['total_value'], 2)
     return rankings
 
 
@@ -263,7 +308,7 @@ def build_dataset(officers, killmails, names, now):
         del officer['_roster_order']
 
     return {
-        'schema_version': 2,
+        'schema_version': 4,
         'generated_at': utc_timestamp(now),
         'window': {
             'start': utc_timestamp(window_start),
@@ -278,10 +323,12 @@ def build_dataset(officers, killmails, names, now):
         'summary': {
             'arrests': len(arrests),
             'suspects': len({arrest['victim']['character_id'] for arrest in arrests}),
+            'systems_protected': len({arrest['system_id'] for arrest in arrests}),
             'total_value': round(sum(arrest['total_value'] for arrest in arrests), 2),
         },
         'rankings': rankings,
         'dirtbags': build_dirtbag_rankings(arrests),
+        'hotspots': build_hotspot_rankings(arrests),
         'arrests': arrests,
     }
 

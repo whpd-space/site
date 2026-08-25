@@ -13,6 +13,8 @@ import hashlib
 from datetime import datetime
 from pathlib import Path
 
+from scripts.update_arrests import build_hotspot_rankings
+
 # Define source and output directories
 TEMPLATE_DIR = Path('templates')
 OUTPUT_DIR = Path('docs')
@@ -68,8 +70,20 @@ def render_arrests_content(data_file=ARRESTS_DATA_FILE):
 
     escape = lambda value: html.escape(str(value), quote=True)
     summary = data.get('summary', {})
+    systems_protected = summary.get('systems_protected')
+    if systems_protected is None:
+        protected_system_ids = {
+            arrest.get('system_id')
+            for arrest in data.get('arrests', [])
+            if arrest.get('system_id')
+        }
+        systems_protected = len(protected_system_ids)
     rankings = [officer for officer in data.get('rankings', []) if int(officer.get('arrests', 0)) >= 5]
-    dirtbags = data.get('dirtbags', [])[:25]
+    dirtbags = data.get('dirtbags', [])[:10]
+    hotspots = data.get('hotspots')
+    if hotspots is None:
+        hotspots = build_hotspot_rankings(data.get('arrests', []))
+    hotspots = hotspots[:5]
     window = data.get('window', {})
 
     sections = ['<div class="arrests-meta">']
@@ -88,6 +102,7 @@ def render_arrests_content(data_file=ARRESTS_DATA_FILE):
         '<div class="arrest-stat-grid">',
         f'<div class="arrest-stat"><strong>{int(summary.get("arrests", 0)):,}</strong><span>Arrests</span></div>',
         f'<div class="arrest-stat"><strong>{int(summary.get("suspects", 0)):,}</strong><span>Suspects</span></div>',
+        f'<div class="arrest-stat"><strong>{int(systems_protected):,}</strong><span>Systems protected</span></div>',
         f'<div class="arrest-stat"><strong>{escape(format_isk(summary.get("total_value", 0)))}</strong><span>Property seized</span></div>',
         '</div>',
         '</section>',
@@ -130,7 +145,7 @@ def render_arrests_content(data_file=ARRESTS_DATA_FILE):
         '</section>',
         '<section class="top-dirtbags" aria-labelledby="top-dirtbags-title">',
         '<div class="arrest-section-heading">',
-        '<div><span class="arrest-kicker">Most wanted</span><h2 id="top-dirtbags-title">Top 25 Dirtbags</h2></div>',
+        '<div><span class="arrest-kicker">Most wanted</span><h2 id="top-dirtbags-title">Top 10 Dirtbags</h2></div>',
         '<p>Ranked by arrests, then total case value.</p>',
         '</div>',
         '<div class="arrest-table-wrap"><table class="dirtbag-table">',
@@ -163,6 +178,43 @@ def render_arrests_content(data_file=ARRESTS_DATA_FILE):
 
     if not dirtbags:
         sections.append('<tr><td class="arrest-ranking-empty" colspan="5">No dirtbags were arrested during this reporting period.</td></tr>')
+
+    sections.extend([
+        '</tbody></table></div>',
+        '</section>',
+        '<section class="dirtbag-hotspots" aria-labelledby="dirtbag-hotspots-title">',
+        '<div class="arrest-section-heading">',
+        '<div><span class="arrest-kicker">Enforcement map</span><h2 id="dirtbag-hotspots-title">Dirtbag Hotspots</h2></div>',
+        '<p>Top 5 systems by arrests, then total case value.</p>',
+        '</div>',
+        '<div class="arrest-table-wrap"><table class="dirtbag-table hotspot-table">',
+        '<thead><tr><th scope="col">Rank</th><th scope="col">System</th><th class="arrest-number" scope="col">Arrests</th><th class="arrest-number" scope="col">Case value</th><th class="arrest-number public-record" scope="col">Top killmail</th></tr></thead>',
+        '<tbody>',
+    ])
+
+    for hotspot in hotspots:
+        system_id = int(hotspot['system_id'])
+        top_killmail = hotspot['top_killmail']
+        killmail_id = int(top_killmail['killmail_id'])
+        sections.extend([
+            '<tr>',
+            f'<td class="arrest-placement" data-label="Rank">#{int(hotspot["placement"])}</td>',
+            '<th scope="row" data-label="System">',
+            f'<a class="arrest-system" href="https://zkillboard.com/system/{system_id}/" target="_blank" rel="noopener noreferrer">{escape(hotspot["system_name"])} ↗</a>',
+            '</th>',
+            f'<td class="arrest-number" data-label="Arrests"><strong>{int(hotspot["arrests"]):,}</strong></td>',
+            f'<td class="arrest-number" data-label="Case value">{escape(format_isk(hotspot["total_value"]))}</td>',
+            '<td class="arrest-number public-record" data-label="Top killmail">',
+            f'<a class="dirtbag-loss" href="https://zkillboard.com/kill/{killmail_id}/" target="_blank" rel="noopener noreferrer">',
+            f'<span>{escape(top_killmail["victim_name"])} · {escape(top_killmail["ship_name"])}</span>',
+            f'<strong>{escape(format_isk(top_killmail["total_value"]))} ↗</strong>',
+            '</a>',
+            '</td>',
+            '</tr>',
+        ])
+
+    if not hotspots:
+        sections.append('<tr><td class="arrest-ranking-empty" colspan="5">No protected systems were recorded during this reporting period.</td></tr>')
 
     sections.extend([
         '</tbody></table></div>',

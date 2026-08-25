@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "generated_at": "2026-08-25T02:14:43Z",
   "window": {
     "start": "2026-08-18T02:14:43Z",
@@ -14,6 +14,7 @@
   "summary": {
     "arrests": 85,
     "suspects": 48,
+    "systems_protected": 38,
     "total_value": 7189562427.63
   },
   "rankings": [

@@ -896,6 +896,8 @@ details[open] summary {
 
 .arrest-summary,
 .arrest-rankings,
+.top-dirtbags,
+.dirtbag-hotspots,
 .recent-arrests {
 	margin-top: var(--spacing-2xl);
 }
@@ -910,7 +912,7 @@ details[open] summary {
 
 .arrest-stat-grid {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	gap: var(--spacing-md);
 }
 
@@ -1056,6 +1058,16 @@ details[open] summary {
 	text-transform: uppercase;
 }
 
+.arrest-system {
+	color: var(--color-text);
+	font-family: var(--font-mono);
+	font-weight: 700;
+}
+
+.arrest-system:hover {
+	text-decoration: none;
+}
+
 .arrest-rankings tbody td,
 .dirtbag-table tbody td {
 	color: var(--color-text-secondary);
@@ -1072,7 +1084,7 @@ details[open] summary {
 	text-align: right;
 }
 
-.arrest-rankings .arrest-ranking-empty {
+.arrest-ranking-empty {
 	padding: var(--spacing-xl);
 	color: var(--color-text-muted);
 	text-align: center;
@@ -1114,6 +1126,12 @@ details[open] summary {
 	color: var(--color-text-muted);
 	font-size: 0.72rem;
 	text-align: center;
+}
+
+@media (max-width: 850px) {
+	.arrest-stat-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media (max-width: 700px) {
