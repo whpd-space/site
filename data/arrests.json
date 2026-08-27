@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-26T02:21:27Z",
+  "generated_at": "2026-08-27T10:49:01Z",
   "window": {
-    "start": "2026-08-19T02:21:27Z",
-    "end": "2026-08-26T02:21:27Z",
+    "start": "2026-08-20T10:49:01Z",
+    "end": "2026-08-27T10:49:01Z",
     "seconds": 604800
   },
   "source": {
@@ -12,19 +12,19 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 85,
-    "suspects": 50,
-    "systems_protected": 41,
-    "total_value": 5327935080.79
+    "arrests": 91,
+    "suspects": 53,
+    "systems_protected": 43,
+    "total_value": 5535192199.14
   },
   "rankings": [
     {
       "character_id": 2122959958,
       "name": "Hedvard Vetranax",
       "rank": "Deputy",
-      "arrests": 30,
-      "final_blows": 20,
-      "case_value": 1494332464.94,
+      "arrests": 34,
+      "final_blows": 24,
+      "case_value": 1928546467.9,
       "placement": 1
     },
     {
@@ -33,16 +33,16 @@
       "rank": "Officer",
       "arrests": 23,
       "final_blows": 23,
-      "case_value": 1838663474.13,
+      "case_value": 1777823773.58,
       "placement": 2
     },
     {
       "character_id": 1633218082,
       "name": "Squizz Caphinator",
       "rank": "Officer",
-      "arrests": 21,
-      "final_blows": 19,
-      "case_value": 563533326.34,
+      "arrests": 23,
+      "final_blows": 21,
+      "case_value": 564279883.42,
       "placement": 3
     },
     {
@@ -69,7 +69,7 @@
       "rank": "Chief of Police",
       "arrests": 6,
       "final_blows": 3,
-      "case_value": 1508916946.13,
+      "case_value": 1342053204.99,
       "placement": 6
     },
     {
@@ -156,6 +156,24 @@
       "placement": 4
     },
     {
+      "character_id": 94078879,
+      "name": "Smertushka666",
+      "corporation_id": 1000107,
+      "corporation_name": "The Scope",
+      "arrests": 2,
+      "total_value": 312947507.52,
+      "most_expensive_loss": {
+        "killmail_id": 138009056,
+        "time": "2026-08-26T21:52:28Z",
+        "total_value": 160271719.12,
+        "ship_type_id": 33468,
+        "ship_name": "Astero",
+        "system_id": 31000407,
+        "system_name": "J143639"
+      },
+      "placement": 5
+    },
+    {
       "character_id": 2121141929,
       "name": "Alissar Fen",
       "corporation_id": 98835765,
@@ -171,7 +189,7 @@
         "system_id": 31000410,
         "system_name": "J142547"
       },
-      "placement": 5
+      "placement": 6
     },
     {
       "character_id": 2123697663,
@@ -189,7 +207,25 @@
         "system_id": 31001074,
         "system_name": "J131025"
       },
-      "placement": 6
+      "placement": 7
+    },
+    {
+      "character_id": 676250880,
+      "name": "ExEgle",
+      "corporation_id": 98551468,
+      "corporation_name": "Amish Tobacco Plantation Co.",
+      "arrests": 2,
+      "total_value": 109113921.15,
+      "most_expensive_loss": {
+        "killmail_id": 138011997,
+        "time": "2026-08-27T01:54:56Z",
+        "total_value": 109103921.15,
+        "ship_type_id": 16231,
+        "ship_name": "Cyclone",
+        "system_id": 31000005,
+        "system_name": "Thera"
+      },
+      "placement": 8
     },
     {
       "character_id": 2116221459,
@@ -207,25 +243,7 @@
         "system_id": 31001741,
         "system_name": "J102055"
       },
-      "placement": 7
-    },
-    {
-      "character_id": 2123603292,
-      "name": "OakTree66",
-      "corporation_id": 98451927,
-      "corporation_name": "HALO - United Nations Space Command",
-      "arrests": 2,
-      "total_value": 66157695.12,
-      "most_expensive_loss": {
-        "killmail_id": 137850265,
-        "time": "2026-08-20T00:34:33Z",
-        "total_value": 66147695.12,
-        "ship_type_id": 33697,
-        "ship_name": "Prospect",
-        "system_id": 31000374,
-        "system_name": "J114835"
-      },
-      "placement": 8
+      "placement": 9
     },
     {
       "character_id": 2123958827,
@@ -242,24 +260,6 @@
         "ship_name": "Heron",
         "system_id": 31000857,
         "system_name": "J151431"
-      },
-      "placement": 9
-    },
-    {
-      "character_id": 2124293292,
-      "name": "AstraTenebris",
-      "corporation_id": 98835600,
-      "corporation_name": "Void Mining Family",
-      "arrests": 2,
-      "total_value": 51837563.0,
-      "most_expensive_loss": {
-        "killmail_id": 137895675,
-        "time": "2026-08-22T03:08:42Z",
-        "total_value": 51827563.0,
-        "ship_type_id": 77114,
-        "ship_name": "Metamorphosis",
-        "system_id": 31000867,
-        "system_name": "J150418"
       },
       "placement": 10
     }
@@ -296,6 +296,21 @@
       "placement": 2
     },
     {
+      "system_id": 31001281,
+      "system_name": "J133951",
+      "arrests": 5,
+      "total_value": 24406853.48,
+      "top_killmail": {
+        "killmail_id": 137989584,
+        "time": "2026-08-26T02:17:35Z",
+        "total_value": 13531006.41,
+        "victim_name": "Exafoo",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "placement": 3
+    },
+    {
       "system_id": 31000772,
       "system_name": "J144739",
       "arrests": 4,
@@ -308,7 +323,7 @@
         "ship_type_id": 670,
         "ship_name": "Capsule"
       },
-      "placement": 3
+      "placement": 4
     },
     {
       "system_id": 31000857,
@@ -323,25 +338,334 @@
         "ship_type_id": 605,
         "ship_name": "Heron"
       },
-      "placement": 4
-    },
-    {
-      "system_id": 31001100,
-      "system_name": "J131802",
-      "arrests": 4,
-      "total_value": 27688152.06,
-      "top_killmail": {
-        "killmail_id": 137884671,
-        "time": "2026-08-21T17:48:16Z",
-        "total_value": 16659774.21,
-        "victim_name": "Captain Saber",
-        "ship_type_id": 89240,
-        "ship_name": "Pioneer"
-      },
       "placement": 5
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 138015273,
+      "time": "2026-08-27T06:48:45Z",
+      "system_id": 31000685,
+      "system_name": "J112916",
+      "total_value": 945089.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124564781,
+        "name": "Veljko Andric",
+        "corporation_id": 917701062,
+        "corporation_name": "EVE University",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2122959958,
+          "name": "Hedvard Vetranax",
+          "rank": "Deputy",
+          "final_blow": true,
+          "damage_done": 940,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138012013,
+      "time": "2026-08-27T01:56:06Z",
+      "system_id": 31000005,
+      "system_name": "Thera",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 676250880,
+        "name": "ExEgle",
+        "corporation_id": 98551468,
+        "corporation_name": "Amish Tobacco Plantation Co.",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2122959958,
+          "name": "Hedvard Vetranax",
+          "rank": "Deputy",
+          "final_blow": true,
+          "damage_done": 247,
+          "ship_type_id": 12038,
+          "ship_name": "Purifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138011997,
+      "time": "2026-08-27T01:54:56Z",
+      "system_id": 31000005,
+      "system_name": "Thera",
+      "total_value": 109103921.15,
+      "points": 1,
+      "victim": {
+        "character_id": 676250880,
+        "name": "ExEgle",
+        "corporation_id": 98551468,
+        "corporation_name": "Amish Tobacco Plantation Co.",
+        "ship_type_id": 16231,
+        "ship_name": "Cyclone"
+      },
+      "officers": [
+        {
+          "character_id": 2122959958,
+          "name": "Hedvard Vetranax",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 1403,
+          "ship_type_id": 12038,
+          "ship_name": "Purifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138011498,
+      "time": "2026-08-27T01:17:43Z",
+      "system_id": 31001096,
+      "system_name": "J145851",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 683963951,
+        "name": "Schlomo Rosenblueth",
+        "corporation_id": 1000009,
+        "corporation_name": "Caldari Provisions",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 458,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138011486,
+      "time": "2026-08-27T01:16:39Z",
+      "system_id": 31001096,
+      "system_name": "J145851",
+      "total_value": 5307994.57,
+      "points": 1,
+      "victim": {
+        "character_id": 683963951,
+        "name": "Schlomo Rosenblueth",
+        "corporation_id": 1000009,
+        "corporation_name": "Caldari Provisions",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 989,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138009058,
+      "time": "2026-08-26T21:52:37Z",
+      "system_id": 31000407,
+      "system_name": "J143639",
+      "total_value": 152675788.4,
+      "points": 1,
+      "victim": {
+        "character_id": 94078879,
+        "name": "Smertushka666",
+        "corporation_id": 1000107,
+        "corporation_name": "The Scope",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2122959958,
+          "name": "Hedvard Vetranax",
+          "rank": "Deputy",
+          "final_blow": true,
+          "damage_done": 447,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138009056,
+      "time": "2026-08-26T21:52:28Z",
+      "system_id": 31000407,
+      "system_name": "J143639",
+      "total_value": 160271719.12,
+      "points": 11,
+      "victim": {
+        "character_id": 94078879,
+        "name": "Smertushka666",
+        "corporation_id": 1000107,
+        "corporation_name": "The Scope",
+        "ship_type_id": 33468,
+        "ship_name": "Astero"
+      },
+      "officers": [
+        {
+          "character_id": 2122959958,
+          "name": "Hedvard Vetranax",
+          "rank": "Deputy",
+          "final_blow": true,
+          "damage_done": 2821,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138006538,
+      "time": "2026-08-26T19:26:38Z",
+      "system_id": 31001351,
+      "system_name": "J112420",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124603837,
+        "name": "Rayko23",
+        "corporation_id": 98829471,
+        "corporation_name": "Brigada 49",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 421,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138006530,
+      "time": "2026-08-26T19:25:58Z",
+      "system_id": 31001351,
+      "system_name": "J112420",
+      "total_value": 736557.08,
+      "points": 1,
+      "victim": {
+        "character_id": 2124603837,
+        "name": "Rayko23",
+        "corporation_id": 98829471,
+        "corporation_name": "Brigada 49",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1329,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138001286,
+      "time": "2026-08-26T16:02:51Z",
+      "system_id": 31001651,
+      "system_name": "J151303",
+      "total_value": 65536470.71,
+      "points": 1,
+      "victim": {
+        "character_id": 94597942,
+        "name": "Primoz Charante",
+        "corporation_id": 98648714,
+        "corporation_name": "The Order of Omerta",
+        "ship_type_id": 11172,
+        "ship_name": "Helios"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 1663,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137989585,
+      "time": "2026-08-26T02:17:45Z",
+      "system_id": 31001281,
+      "system_name": "J133951",
+      "total_value": 95978.37,
+      "points": 1,
+      "victim": {
+        "character_id": 2124628080,
+        "name": "Exafoo",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2122959958,
+          "name": "Hedvard Vetranax",
+          "rank": "Deputy",
+          "final_blow": true,
+          "damage_done": 424,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 137989584,
+      "time": "2026-08-26T02:17:35Z",
+      "system_id": 31001281,
+      "system_name": "J133951",
+      "total_value": 13531006.41,
+      "points": 1,
+      "victim": {
+        "character_id": 2124628080,
+        "name": "Exafoo",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "officers": [
+        {
+          "character_id": 2122959958,
+          "name": "Hedvard Vetranax",
+          "rank": "Deputy",
+          "final_blow": true,
+          "damage_done": 1602,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 137986494,
       "time": "2026-08-25T22:22:15Z",
@@ -2614,168 +2938,6 @@
           "rank": "Officer",
           "final_blow": true,
           "damage_done": 1009,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137850277,
-      "time": "2026-08-20T00:35:58Z",
-      "system_id": 31000374,
-      "system_name": "J114835",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2123603292,
-        "name": "OakTree66",
-        "corporation_id": 98451927,
-        "corporation_name": "HALO - United Nations Space Command",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 461,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137850265,
-      "time": "2026-08-20T00:34:33Z",
-      "system_id": 31000374,
-      "system_name": "J114835",
-      "total_value": 66147695.12,
-      "points": 3,
-      "victim": {
-        "character_id": 2123603292,
-        "name": "OakTree66",
-        "corporation_id": 98451927,
-        "corporation_name": "HALO - United Nations Space Command",
-        "ship_type_id": 33697,
-        "ship_name": "Prospect"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 3783,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137849265,
-      "time": "2026-08-19T23:38:32Z",
-      "system_id": 31000005,
-      "system_name": "Thera",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2122543446,
-        "name": "Alina Starkovv",
-        "corporation_id": 98772712,
-        "corporation_name": "Dirty Rotten Bandits",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2122959958,
-          "name": "Hedvard Vetranax",
-          "rank": "Deputy",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 12038,
-          "ship_name": "Purifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137846676,
-      "time": "2026-08-19T20:42:17Z",
-      "system_id": 31000394,
-      "system_name": "J122821",
-      "total_value": 232400211.85,
-      "points": 1,
-      "victim": {
-        "character_id": 2123759700,
-        "name": "Julian Sens Arnolles",
-        "corporation_id": 1000115,
-        "corporation_name": "University of Caille",
-        "ship_type_id": 11172,
-        "ship_name": "Helios"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
-          "final_blow": true,
-          "damage_done": 1797,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137844777,
-      "time": "2026-08-19T19:19:29Z",
-      "system_id": 31000991,
-      "system_name": "J173230",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 162834416,
-        "name": "Gertruida",
-        "corporation_id": 1000045,
-        "corporation_name": "Science and Trade Institute",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2122959958,
-          "name": "Hedvard Vetranax",
-          "rank": "Deputy",
-          "final_blow": true,
-          "damage_done": 402,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137844752,
-      "time": "2026-08-19T19:18:15Z",
-      "system_id": 31000991,
-      "system_name": "J173230",
-      "total_value": 2399499.49,
-      "points": 1,
-      "victim": {
-        "character_id": 162834416,
-        "name": "Gertruida",
-        "corporation_id": 1000045,
-        "corporation_name": "Science and Trade Institute",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2122959958,
-          "name": "Hedvard Vetranax",
-          "rank": "Deputy",
-          "final_blow": true,
-          "damage_done": 874,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
