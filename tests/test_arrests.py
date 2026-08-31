@@ -140,6 +140,21 @@ class ArrestDatasetTests(unittest.TestCase):
         self.assertIn('<span>Last refreshed Aug 24, 2026 at 01:00 UTC</span>', rendered)
         self.assertIn('https://zkillboard.com/kill/9001/', rendered)
 
+    def test_weekly_property_seized_uses_one_decimal_place(self):
+        dataset = build_dataset(
+            self.officers,
+            [self.make_killmail(total_value=3_020_000_000)],
+            self.names,
+            self.now,
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            data_file = Path(temp_dir) / 'arrests.json'
+            data_file.write_text(json.dumps(dataset), encoding='utf-8')
+            rendered = render_arrests_content(data_file)
+
+        summary_markup = rendered.split('<section class="arrest-rankings"', 1)[0]
+        self.assertIn('<strong>3.0b</strong><span>Property seized</span>', summary_markup)
+
     def test_rankings_only_display_personnel_meeting_the_five_arrest_quota(self):
         dataset = build_dataset(
             self.officers,

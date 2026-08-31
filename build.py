@@ -48,13 +48,14 @@ PAGES = [
 ]
 
 
-def format_isk(value):
+def format_isk(value, decimal_places=2, include_unit=True):
     """Format an ISK amount for compact display."""
     value = float(value or 0)
+    unit = ' ISK' if include_unit else ''
     for divisor, suffix in ((1_000_000_000_000, 't'), (1_000_000_000, 'b'), (1_000_000, 'm'), (1_000, 'k')):
         if value >= divisor:
-            return f'{value / divisor:.2f}{suffix} ISK'
-    return f'{value:,.0f} ISK'
+            return f'{value / divisor:.{decimal_places}f}{suffix}{unit}'
+    return f'{value:,.0f}{unit}'
 
 
 def format_timestamp(value):
@@ -138,7 +139,7 @@ def render_arrests_content(data_file=ARRESTS_DATA_FILE):
         f'<div class="arrest-stat"><strong>{int(summary.get("arrests", 0)):,}</strong><span>Arrests</span></div>',
         f'<div class="arrest-stat"><strong>{int(summary.get("suspects", 0)):,}</strong><span>Suspects</span></div>',
         f'<div class="arrest-stat"><strong>{int(systems_protected):,}</strong><span>Systems protected</span></div>',
-        f'<div class="arrest-stat"><strong>{escape(format_isk(summary.get("total_value", 0)))}</strong><span>Property seized</span></div>',
+        f'<div class="arrest-stat"><strong>{escape(format_isk(summary.get("total_value", 0), decimal_places=1, include_unit=False))}</strong><span>Property seized</span></div>',
         '</div>',
         '</section>',
         '<section class="arrest-rankings" aria-labelledby="arrest-rankings-title">',
