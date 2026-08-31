@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-24T20:19:31Z",
+  "generated_at": "2026-08-31T01:02:53Z",
   "history_start": "2020-07-01",
   "schedule": {
     "timezone": "America/New_York",
@@ -14,6 +14,18 @@
     "alliance_id": 99010102
   },
   "fleets": [
+    {
+      "date": "2026-08-30",
+      "start_local": "2026-08-30T13:00:00-04:00",
+      "end_local": "2026-08-30T15:00:00-04:00",
+      "start_utc": "2026-08-30T17:00:00Z",
+      "end_utc": "2026-08-30T19:00:00Z",
+      "timezone": "EDT",
+      "participants_max": 25,
+      "systems_protected": 2,
+      "arrests": 6,
+      "total_value": 61863521.34
+    },
     {
       "date": "2026-08-23",
       "start_local": "2026-08-23T13:00:00-04:00",
