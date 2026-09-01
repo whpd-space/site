@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-31T06:30:51Z",
+  "generated_at": "2026-09-01T05:56:10Z",
   "window": {
-    "start": "2026-08-24T06:30:51Z",
-    "end": "2026-08-31T06:30:51Z",
+    "start": "2026-08-25T05:56:10Z",
+    "end": "2026-09-01T05:56:10Z",
     "seconds": 604800
   },
   "source": {
@@ -12,37 +12,37 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 82,
-    "suspects": 49,
-    "systems_protected": 34,
-    "total_value": 3024883050.82
+    "arrests": 76,
+    "suspects": 45,
+    "systems_protected": 32,
+    "total_value": 2246802341.62
   },
   "rankings": [
     {
       "character_id": 2122959958,
       "name": "Hedvard Vetranax",
       "rank": "Deputy",
-      "arrests": 35,
-      "final_blows": 32,
-      "case_value": 1000273574.98,
+      "arrests": 33,
+      "final_blows": 30,
+      "case_value": 871449463.95,
       "placement": 1
     },
     {
       "character_id": 2120817710,
       "name": "Muh 'Mabel' Mabebu",
       "rank": "Officer",
-      "arrests": 22,
-      "final_blows": 21,
-      "case_value": 169517924.97,
+      "arrests": 23,
+      "final_blows": 22,
+      "case_value": 182196679.51,
       "placement": 2
     },
     {
       "character_id": 91565688,
       "name": "Damoraath Sponge",
       "rank": "Officer",
-      "arrests": 20,
-      "final_blows": 19,
-      "case_value": 1002136035.55,
+      "arrests": 15,
+      "final_blows": 14,
+      "case_value": 340200682.84,
       "placement": 3
     },
     {
@@ -102,24 +102,6 @@
       "placement": 1
     },
     {
-      "character_id": 2112441840,
-      "name": "Vlad Shkar4",
-      "corporation_id": 98578366,
-      "corporation_name": "tacita mortem in vacuum",
-      "arrests": 2,
-      "total_value": 599540421.42,
-      "most_expensive_loss": {
-        "killmail_id": 137959990,
-        "time": "2026-08-24T17:07:18Z",
-        "total_value": 411751446.41,
-        "ship_type_id": 11188,
-        "ship_name": "Anathema",
-        "system_id": 31000478,
-        "system_name": "J110823"
-      },
-      "placement": 2
-    },
-    {
       "character_id": 94078879,
       "name": "Smertushka666",
       "corporation_id": 1000107,
@@ -135,7 +117,7 @@
         "system_id": 31000407,
         "system_name": "J143639"
       },
-      "placement": 3
+      "placement": 2
     },
     {
       "character_id": 2122473841,
@@ -153,7 +135,7 @@
         "system_id": 31000963,
         "system_name": "J130403"
       },
-      "placement": 4
+      "placement": 3
     },
     {
       "character_id": 676250880,
@@ -171,7 +153,7 @@
         "system_id": 31000005,
         "system_name": "Thera"
       },
-      "placement": 5
+      "placement": 4
     },
     {
       "character_id": 2117782626,
@@ -189,7 +171,7 @@
         "system_id": 31001098,
         "system_name": "J130247"
       },
-      "placement": 6
+      "placement": 5
     },
     {
       "character_id": 2123958827,
@@ -207,7 +189,7 @@
         "system_id": 31000857,
         "system_name": "J151431"
       },
-      "placement": 7
+      "placement": 6
     },
     {
       "character_id": 2123821740,
@@ -225,7 +207,7 @@
         "system_id": 31000783,
         "system_name": "J163318"
       },
-      "placement": 8
+      "placement": 7
     },
     {
       "character_id": 2124267442,
@@ -243,7 +225,7 @@
         "system_id": 31000776,
         "system_name": "J101719"
       },
-      "placement": 9
+      "placement": 8
     },
     {
       "character_id": 2123649390,
@@ -260,6 +242,24 @@
         "ship_name": "Purifier",
         "system_id": 31001350,
         "system_name": "J124358"
+      },
+      "placement": 9
+    },
+    {
+      "character_id": 2123836860,
+      "name": "Normon Yotosala",
+      "corporation_id": 98743337,
+      "corporation_name": "Mining Under the Influence",
+      "arrests": 2,
+      "total_value": 25999350.54,
+      "most_expensive_loss": {
+        "killmail_id": 138035002,
+        "time": "2026-08-28T05:31:19Z",
+        "total_value": 25989350.54,
+        "ship_type_id": 32880,
+        "ship_name": "Venture",
+        "system_id": 31000133,
+        "system_name": "J123111"
       },
       "placement": 10
     }
@@ -281,21 +281,6 @@
       "placement": 1
     },
     {
-      "system_id": 31000478,
-      "system_name": "J110823",
-      "arrests": 5,
-      "total_value": 661935352.71,
-      "top_killmail": {
-        "killmail_id": 137959990,
-        "time": "2026-08-24T17:07:18Z",
-        "total_value": 411751446.41,
-        "victim_name": "Vlad Shkar4",
-        "ship_type_id": 11188,
-        "ship_name": "Anathema"
-      },
-      "placement": 2
-    },
-    {
       "system_id": 31001350,
       "system_name": "J124358",
       "arrests": 5,
@@ -308,7 +293,7 @@
         "ship_type_id": 12038,
         "ship_name": "Purifier"
       },
-      "placement": 3
+      "placement": 2
     },
     {
       "system_id": 31001281,
@@ -323,7 +308,7 @@
         "ship_type_id": 32880,
         "ship_name": "Venture"
       },
-      "placement": 4
+      "placement": 3
     },
     {
       "system_id": 31000857,
@@ -338,10 +323,52 @@
         "ship_type_id": 605,
         "ship_name": "Heron"
       },
+      "placement": 4
+    },
+    {
+      "system_id": 31000834,
+      "system_name": "J165412",
+      "arrests": 3,
+      "total_value": 102855934.29,
+      "top_killmail": {
+        "killmail_id": 138018508,
+        "time": "2026-08-27T12:34:31Z",
+        "total_value": 82148171.47,
+        "victim_name": "LethalJukez",
+        "ship_type_id": 11192,
+        "ship_name": "Buzzard"
+      },
       "placement": 5
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 138133570,
+      "time": "2026-09-01T04:30:13Z",
+      "system_id": 31000214,
+      "system_name": "J114313",
+      "total_value": 12678754.54,
+      "points": 3,
+      "victim": {
+        "character_id": 2113204435,
+        "name": "Taylor Sinicten",
+        "corporation_id": 98810187,
+        "corporation_name": "Hold Jump Jump Jump",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 2119,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 138108171,
       "time": "2026-08-31T00:02:18Z",
@@ -2389,195 +2416,6 @@
           "rank": "Deputy",
           "final_blow": true,
           "damage_done": 941,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137969706,
-      "time": "2026-08-25T03:38:11Z",
-      "system_id": 31000940,
-      "system_name": "J103955",
-      "total_value": 893626.19,
-      "points": 1,
-      "victim": {
-        "character_id": 95435948,
-        "name": "J Kango",
-        "corporation_id": 1000006,
-        "corporation_name": "Deep Core Mining Inc.",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2122959958,
-          "name": "Hedvard Vetranax",
-          "rank": "Deputy",
-          "final_blow": true,
-          "damage_done": 1423,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137965473,
-      "time": "2026-08-24T22:20:06Z",
-      "system_id": 31000186,
-      "system_name": "J125925",
-      "total_value": 127930484.84,
-      "points": 9,
-      "victim": {
-        "character_id": 2124649282,
-        "name": "Junk'o Zane",
-        "corporation_id": 1000165,
-        "corporation_name": "Hedion University",
-        "ship_type_id": 33468,
-        "ship_name": "Astero"
-      },
-      "officers": [
-        {
-          "character_id": 2122959958,
-          "name": "Hedvard Vetranax",
-          "rank": "Deputy",
-          "final_blow": true,
-          "damage_done": 2342,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137960183,
-      "time": "2026-08-24T17:17:18Z",
-      "system_id": 31000478,
-      "system_name": "J110823",
-      "total_value": 56484781.65,
-      "points": 11,
-      "victim": {
-        "character_id": 92012735,
-        "name": "Bubalubs",
-        "corporation_id": 98112203,
-        "corporation_name": "Neon Incorporated",
-        "ship_type_id": 89648,
-        "ship_name": "Venture Consortium Issue"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 5622,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137959994,
-      "time": "2026-08-24T17:07:32Z",
-      "system_id": 31000478,
-      "system_name": "J110823",
-      "total_value": 187788975.01,
-      "points": 1,
-      "victim": {
-        "character_id": 2112441840,
-        "name": "Vlad Shkar4",
-        "corporation_id": 98578366,
-        "corporation_name": "tacita mortem in vacuum",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 454,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137959990,
-      "time": "2026-08-24T17:07:18Z",
-      "system_id": 31000478,
-      "system_name": "J110823",
-      "total_value": 411751446.41,
-      "points": 6,
-      "victim": {
-        "character_id": 2112441840,
-        "name": "Vlad Shkar4",
-        "corporation_id": 98578366,
-        "corporation_name": "tacita mortem in vacuum",
-        "ship_type_id": 11188,
-        "ship_name": "Anathema"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 1531,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137957319,
-      "time": "2026-08-24T14:37:14Z",
-      "system_id": 31000478,
-      "system_name": "J110823",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 94535062,
-        "name": "Burnhouser Catalyzt",
-        "corporation_id": 98307099,
-        "corporation_name": "Missiles 2 Uranus",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 449,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 137957293,
-      "time": "2026-08-24T14:35:59Z",
-      "system_id": 31000478,
-      "system_name": "J110823",
-      "total_value": 5900149.64,
-      "points": 1,
-      "victim": {
-        "character_id": 94535062,
-        "name": "Burnhouser Catalyzt",
-        "corporation_id": 98307099,
-        "corporation_name": "Missiles 2 Uranus",
-        "ship_type_id": 607,
-        "ship_name": "Imicus"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 893,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
