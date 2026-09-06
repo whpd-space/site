@@ -47,6 +47,10 @@ PAGES = [
     ('FreeSkillPointsRedirect.html', 'The Wormhole Police - Free Skill Points Redirect'),
 ]
 
+STANDALONE_PAGES = [
+    ('Hovercraft.html', 'mой ховеркрафт полон угрей!'),
+]
+
 
 def format_isk(value, decimal_places=2, include_unit=True):
     """Format an ISK amount for compact display."""
@@ -389,6 +393,10 @@ def main():
         build_page(base_template, output_file, title, content)
         built_count += 1
     
+    for filename, title in STANDALONE_PAGES:
+        build_page(TEMPLATE_DIR / filename, OUTPUT_DIR / filename, title, '')
+        built_count += 1
+
     print(f"\n✓ Build complete! Generated {built_count} pages in docs/")
     print("Ready for GitHub Pages deployment from docs/ directory.")
 
