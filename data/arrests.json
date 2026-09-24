@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-23T05:25:05Z",
+  "generated_at": "2026-09-24T05:43:29Z",
   "window": {
-    "start": "2026-09-16T05:25:05Z",
-    "end": "2026-09-23T05:25:05Z",
+    "start": "2026-09-17T05:43:29Z",
+    "end": "2026-09-24T05:43:29Z",
     "seconds": 604800
   },
   "source": {
@@ -12,10 +12,10 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 70,
+    "arrests": 69,
     "suspects": 40,
-    "systems_protected": 30,
-    "total_value": 1530006537.5
+    "systems_protected": 31,
+    "total_value": 1613665445.77
   },
   "rankings": [
     {
@@ -31,27 +31,27 @@
       "character_id": 2120817710,
       "name": "Muh 'Mabel' Mabebu",
       "rank": "Officer",
-      "arrests": 14,
-      "final_blows": 14,
-      "case_value": 390180862.27,
+      "arrests": 15,
+      "final_blows": 15,
+      "case_value": 391120866.47,
       "placement": 2
-    },
-    {
-      "character_id": 91565688,
-      "name": "Damoraath Sponge",
-      "rank": "Officer",
-      "arrests": 13,
-      "final_blows": 13,
-      "case_value": 357777050.38,
-      "placement": 3
     },
     {
       "character_id": 96847792,
       "name": "Vinnegar Douchay",
       "rank": "Chief of Police",
-      "arrests": 12,
-      "final_blows": 11,
-      "case_value": 512204782.96,
+      "arrests": 14,
+      "final_blows": 13,
+      "case_value": 612720624.43,
+      "placement": 3
+    },
+    {
+      "character_id": 91565688,
+      "name": "Damoraath Sponge",
+      "rank": "Officer",
+      "arrests": 9,
+      "final_blows": 9,
+      "case_value": 339980112.98,
       "placement": 4
     },
     {
@@ -102,6 +102,24 @@
       "placement": 1
     },
     {
+      "character_id": 2122817111,
+      "name": "starscream7777",
+      "corporation_id": 98837244,
+      "corporation_name": "Fafnir's Eclipse",
+      "arrests": 2,
+      "total_value": 100515841.47,
+      "most_expensive_loss": {
+        "killmail_id": 138641486,
+        "time": "2026-09-23T14:39:47Z",
+        "total_value": 100505841.47,
+        "ship_type_id": 17476,
+        "ship_name": "Covetor",
+        "system_id": 31001699,
+        "system_name": "J151021"
+      },
+      "placement": 2
+    },
+    {
       "character_id": 2124591927,
       "name": "luolan999",
       "corporation_id": 98843205,
@@ -117,7 +135,7 @@
         "system_id": 31000410,
         "system_name": "J142547"
       },
-      "placement": 2
+      "placement": 3
     },
     {
       "character_id": 2113343565,
@@ -135,7 +153,7 @@
         "system_id": 31000559,
         "system_name": "J153229"
       },
-      "placement": 3
+      "placement": 4
     },
     {
       "character_id": 97039044,
@@ -153,7 +171,7 @@
         "system_id": 31000733,
         "system_name": "J121728"
       },
-      "placement": 4
+      "placement": 5
     },
     {
       "character_id": 94767210,
@@ -171,7 +189,7 @@
         "system_id": 31000559,
         "system_name": "J153229"
       },
-      "placement": 5
+      "placement": 6
     },
     {
       "character_id": 96012237,
@@ -189,7 +207,7 @@
         "system_id": 31000259,
         "system_name": "J102414"
       },
-      "placement": 6
+      "placement": 7
     },
     {
       "character_id": 2114407846,
@@ -207,7 +225,7 @@
         "system_id": 31000456,
         "system_name": "J155616"
       },
-      "placement": 7
+      "placement": 8
     },
     {
       "character_id": 2124413686,
@@ -225,7 +243,7 @@
         "system_id": 31000878,
         "system_name": "J135230"
       },
-      "placement": 8
+      "placement": 9
     },
     {
       "character_id": 2123917272,
@@ -242,24 +260,6 @@
         "ship_name": "Heron",
         "system_id": 31000429,
         "system_name": "J110043"
-      },
-      "placement": 9
-    },
-    {
-      "character_id": 2124718031,
-      "name": "Shooz",
-      "corporation_id": 1000044,
-      "corporation_name": "School of Applied Knowledge",
-      "arrests": 2,
-      "total_value": 13716058.47,
-      "most_expensive_loss": {
-        "killmail_id": 138612912,
-        "time": "2026-09-22T02:07:56Z",
-        "total_value": 13674534.46,
-        "ship_type_id": 605,
-        "ship_name": "Heron",
-        "system_id": 31000780,
-        "system_name": "J122635"
       },
       "placement": 10
     }
@@ -326,15 +326,15 @@
       "placement": 4
     },
     {
-      "system_id": 31000276,
-      "system_name": "J155504",
+      "system_id": 31000187,
+      "system_name": "J142617",
       "arrests": 4,
-      "total_value": 17796937.4,
+      "total_value": 12542818.81,
       "top_killmail": {
-        "killmail_id": 138479988,
-        "time": "2026-09-16T13:46:31Z",
-        "total_value": 9393286.01,
-        "victim_name": "BensonII",
+        "killmail_id": 138519080,
+        "time": "2026-09-18T12:33:32Z",
+        "total_value": 7317904.72,
+        "victim_name": "Aleksshahter",
         "ship_type_id": 605,
         "ship_name": "Heron"
       },
@@ -342,6 +342,87 @@
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 138652685,
+      "time": "2026-09-24T02:18:21Z",
+      "system_id": 31001269,
+      "system_name": "J164751",
+      "total_value": 940004.2,
+      "points": 1,
+      "victim": {
+        "character_id": 2124705559,
+        "name": "Dont Believe Me",
+        "corporation_id": 98844006,
+        "corporation_name": "All Gallente Everything",
+        "ship_type_id": 607,
+        "ship_name": "Imicus"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 988,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138641504,
+      "time": "2026-09-23T14:41:03Z",
+      "system_id": 31001699,
+      "system_name": "J151021",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2122817111,
+        "name": "starscream7777",
+        "corporation_id": 98837244,
+        "corporation_name": "Fafnir's Eclipse",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 443,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138641486,
+      "time": "2026-09-23T14:39:47Z",
+      "system_id": 31001699,
+      "system_name": "J151021",
+      "total_value": 100505841.47,
+      "points": 7,
+      "victim": {
+        "character_id": 2122817111,
+        "name": "starscream7777",
+        "corporation_id": 98837244,
+        "corporation_name": "Fafnir's Eclipse",
+        "ship_type_id": 17476,
+        "ship_name": "Covetor"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 13988,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 138633245,
       "time": "2026-09-23T03:55:33Z",
@@ -2164,114 +2245,6 @@
           "rank": "Chief of Police",
           "final_blow": true,
           "damage_done": 2798,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138480014,
-      "time": "2026-09-16T13:47:19Z",
-      "system_id": 31000276,
-      "system_name": "J155504",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124672478,
-        "name": "BensonII",
-        "corporation_id": 1000044,
-        "corporation_name": "School of Applied Knowledge",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 413,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138479988,
-      "time": "2026-09-16T13:46:31Z",
-      "system_id": 31000276,
-      "system_name": "J155504",
-      "total_value": 9393286.01,
-      "points": 1,
-      "victim": {
-        "character_id": 2124672478,
-        "name": "BensonII",
-        "corporation_id": 1000044,
-        "corporation_name": "School of Applied Knowledge",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 904,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138479013,
-      "time": "2026-09-16T12:51:20Z",
-      "system_id": 31000276,
-      "system_name": "J155504",
-      "total_value": 38300.26,
-      "points": 1,
-      "victim": {
-        "character_id": 2124646134,
-        "name": "Korrin Vex",
-        "corporation_id": 1000172,
-        "corporation_name": "Pator Tech School",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 418,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138479006,
-      "time": "2026-09-16T12:51:10Z",
-      "system_id": 31000276,
-      "system_name": "J155504",
-      "total_value": 8355351.13,
-      "points": 6,
-      "victim": {
-        "character_id": 2124646134,
-        "name": "Korrin Vex",
-        "corporation_id": 1000172,
-        "corporation_name": "Pator Tech School",
-        "ship_type_id": 32880,
-        "ship_name": "Venture"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 633,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
