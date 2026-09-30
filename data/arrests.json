@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-29T06:29:03Z",
+  "generated_at": "2026-09-30T06:13:12Z",
   "window": {
-    "start": "2026-09-22T06:29:03Z",
-    "end": "2026-09-29T06:29:03Z",
+    "start": "2026-09-23T06:13:12Z",
+    "end": "2026-09-30T06:13:12Z",
     "seconds": 604800
   },
   "source": {
@@ -12,10 +12,10 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 97,
-    "suspects": 56,
+    "arrests": 100,
+    "suspects": 57,
     "systems_protected": 35,
-    "total_value": 3761379768.68
+    "total_value": 4871367302.57
   },
   "rankings": [
     {
@@ -31,9 +31,9 @@
       "character_id": 2120817710,
       "name": "Muh 'Mabel' Mabebu",
       "rank": "Officer",
-      "arrests": 33,
-      "final_blows": 27,
-      "case_value": 624160151.09,
+      "arrests": 36,
+      "final_blows": 30,
+      "case_value": 2059545551.36,
       "placement": 2
     },
     {
@@ -49,9 +49,9 @@
       "character_id": 96847792,
       "name": "Vinnegar Douchay",
       "rank": "Chief of Police",
-      "arrests": 12,
-      "final_blows": 10,
-      "case_value": 1076339902.99,
+      "arrests": 13,
+      "final_blows": 11,
+      "case_value": 806613823.67,
       "placement": 4
     },
     {
@@ -76,9 +76,9 @@
       "character_id": 91565688,
       "name": "Damoraath Sponge",
       "rank": "Officer",
-      "arrests": 2,
-      "final_blows": 2,
-      "case_value": 103285733.2,
+      "arrests": 1,
+      "final_blows": 1,
+      "case_value": 47613946.14,
       "placement": 7
     }
   ],
@@ -138,6 +138,24 @@
       "placement": 3
     },
     {
+      "character_id": 144619262,
+      "name": "Kas SilentStrike",
+      "corporation_id": 197258455,
+      "corporation_name": "Gallente Liberation Association",
+      "arrests": 2,
+      "total_value": 774558610.85,
+      "most_expensive_loss": {
+        "killmail_id": 138797658,
+        "time": "2026-09-29T23:05:20Z",
+        "total_value": 773496517.48,
+        "ship_type_id": 670,
+        "ship_name": "Capsule",
+        "system_id": 31001129,
+        "system_name": "J235630"
+      },
+      "placement": 4
+    },
+    {
       "character_id": 2118656956,
       "name": "zakar4",
       "corporation_id": 98600992,
@@ -153,7 +171,7 @@
         "system_id": 31000878,
         "system_name": "J135230"
       },
-      "placement": 4
+      "placement": 5
     },
     {
       "character_id": 2119579041,
@@ -171,7 +189,7 @@
         "system_id": 31000367,
         "system_name": "J125956"
       },
-      "placement": 5
+      "placement": 6
     },
     {
       "character_id": 94253615,
@@ -189,7 +207,7 @@
         "system_id": 31000753,
         "system_name": "J102739"
       },
-      "placement": 6
+      "placement": 7
     },
     {
       "character_id": 2124732872,
@@ -207,7 +225,7 @@
         "system_id": 31000173,
         "system_name": "J101020"
       },
-      "placement": 7
+      "placement": 8
     },
     {
       "character_id": 2122817111,
@@ -225,7 +243,7 @@
         "system_id": 31001699,
         "system_name": "J151021"
       },
-      "placement": 8
+      "placement": 9
     },
     {
       "character_id": 2124555223,
@@ -242,24 +260,6 @@
         "ship_name": "Cheetah",
         "system_id": 31001046,
         "system_name": "J104905"
-      },
-      "placement": 9
-    },
-    {
-      "character_id": 2124724559,
-      "name": "GASSOSICH",
-      "corporation_id": 98764580,
-      "corporation_name": "Strong Medicine",
-      "arrests": 2,
-      "total_value": 76322854.15,
-      "most_expensive_loss": {
-        "killmail_id": 138781792,
-        "time": "2026-09-29T04:16:46Z",
-        "total_value": 76312854.15,
-        "ship_type_id": 17476,
-        "ship_name": "Covetor",
-        "system_id": 31001270,
-        "system_name": "J131324"
       },
       "placement": 10
     }
@@ -342,6 +342,222 @@
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 138797658,
+      "time": "2026-09-29T23:05:20Z",
+      "system_id": 31001129,
+      "system_name": "J235630",
+      "total_value": 773496517.48,
+      "points": 1,
+      "victim": {
+        "character_id": 144619262,
+        "name": "Kas SilentStrike",
+        "corporation_id": 197258455,
+        "corporation_name": "Gallente Liberation Association",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 461,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138797655,
+      "time": "2026-09-29T23:05:05Z",
+      "system_id": 31001129,
+      "system_name": "J235630",
+      "total_value": 1062093.37,
+      "points": 1,
+      "victim": {
+        "character_id": 144619262,
+        "name": "Kas SilentStrike",
+        "corporation_id": 197258455,
+        "corporation_name": "Gallente Liberation Association",
+        "ship_type_id": 607,
+        "ship_name": "Imicus"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1524,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138797616,
+      "time": "2026-09-29T23:01:07Z",
+      "system_id": 31000302,
+      "system_name": "J133052",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124723630,
+        "name": "CrazzySnail",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 416,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138797609,
+      "time": "2026-09-29T22:59:39Z",
+      "system_id": 31000302,
+      "system_name": "J133052",
+      "total_value": 1075499.54,
+      "points": 1,
+      "victim": {
+        "character_id": 2124723630,
+        "name": "CrazzySnail",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 915,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138796027,
+      "time": "2026-09-29T21:11:56Z",
+      "system_id": 31001129,
+      "system_name": "J235630",
+      "total_value": 656028363.84,
+      "points": 13,
+      "victim": {
+        "character_id": 2115174031,
+        "name": "Victoria Casanova",
+        "corporation_id": 1000169,
+        "corporation_name": "Center for Advanced Studies",
+        "ship_type_id": 33468,
+        "ship_name": "Astero"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1849,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138790853,
+      "time": "2026-09-29T16:56:56Z",
+      "system_id": 31001288,
+      "system_name": "J210445",
+      "total_value": 29969176.8,
+      "points": 1,
+      "victim": {
+        "character_id": 2115063824,
+        "name": "Cherry Heluene",
+        "corporation_id": 98698983,
+        "corporation_name": "Scan Stakan",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 2008,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138790033,
+      "time": "2026-09-29T15:57:06Z",
+      "system_id": 31000226,
+      "system_name": "J120621",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 499684077,
+        "name": "Valmia Sorunti",
+        "corporation_id": 98844373,
+        "corporation_name": "Office of Marginal Persistent States",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 433,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 138790017,
+      "time": "2026-09-29T15:56:10Z",
+      "system_id": 31000226,
+      "system_name": "J120621",
+      "total_value": 1863825.48,
+      "points": 1,
+      "victim": {
+        "character_id": 499684077,
+        "name": "Valmia Sorunti",
+        "corporation_id": 98844373,
+        "corporation_name": "Office of Marginal Persistent States",
+        "ship_type_id": 29248,
+        "ship_name": "Magnate"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 902,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 138781803,
       "time": "2026-09-29T04:18:23Z",
@@ -2992,141 +3208,6 @@
           "rank": "Chief of Police",
           "final_blow": true,
           "damage_done": 13988,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138633245,
-      "time": "2026-09-23T03:55:33Z",
-      "system_id": 31001616,
-      "system_name": "J151359",
-      "total_value": 271599904.8,
-      "points": 6,
-      "victim": {
-        "character_id": 2122850799,
-        "name": "Damobus",
-        "corporation_id": 98792712,
-        "corporation_name": "Corporation Damob",
-        "ship_type_id": 33697,
-        "ship_name": "Prospect"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
-          "final_blow": true,
-          "damage_done": 3881,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138630634,
-      "time": "2026-09-23T00:55:51Z",
-      "system_id": 31000445,
-      "system_name": "J164938",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2114500023,
-        "name": "Van Mernher",
-        "corporation_id": 98840252,
-        "corporation_name": "Some Time Later",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 439,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138630621,
-      "time": "2026-09-23T00:54:21Z",
-      "system_id": 31000445,
-      "system_name": "J164938",
-      "total_value": 1262436.28,
-      "points": 3,
-      "victim": {
-        "character_id": 2114500023,
-        "name": "Van Mernher",
-        "corporation_id": 98840252,
-        "corporation_name": "Some Time Later",
-        "ship_type_id": 586,
-        "ship_name": "Probe"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 976,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138630532,
-      "time": "2026-09-23T00:45:40Z",
-      "system_id": 31001305,
-      "system_name": "J213109",
-      "total_value": 24983814.48,
-      "points": 1,
-      "victim": {
-        "character_id": 2124614582,
-        "name": "Endoki Mayaki",
-        "corporation_id": 98840252,
-        "corporation_name": "Some Time Later",
-        "ship_type_id": 89240,
-        "ship_name": "Pioneer"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 4236,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138622639,
-      "time": "2026-09-22T15:57:45Z",
-      "system_id": 31000601,
-      "system_name": "J214843",
-      "total_value": 55671787.06,
-      "points": 6,
-      "victim": {
-        "character_id": 2117698908,
-        "name": "TrashMaster3000",
-        "corporation_id": 98182376,
-        "corporation_name": "Quafe Commandos",
-        "ship_type_id": 11188,
-        "ship_name": "Anathema"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 1737,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
