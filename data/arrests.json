@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-08T06:55:08Z",
+  "generated_at": "2026-10-09T07:03:27Z",
   "window": {
-    "start": "2026-10-01T06:55:08Z",
-    "end": "2026-10-08T06:55:08Z",
+    "start": "2026-10-02T07:03:27Z",
+    "end": "2026-10-09T07:03:27Z",
     "seconds": 604800
   },
   "source": {
@@ -12,10 +12,10 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 63,
-    "suspects": 39,
-    "systems_protected": 26,
-    "total_value": 5116196379.87
+    "arrests": 59,
+    "suspects": 37,
+    "systems_protected": 25,
+    "total_value": 4984843598.66
   },
   "rankings": [
     {
@@ -24,7 +24,7 @@
       "rank": "Officer",
       "arrests": 32,
       "final_blows": 18,
-      "case_value": 2193793730.33,
+      "case_value": 2089466784.36,
       "placement": 1
     },
     {
@@ -55,21 +55,21 @@
       "placement": 4
     },
     {
-      "character_id": 91565688,
-      "name": "Damoraath Sponge",
-      "rank": "Officer",
-      "arrests": 8,
-      "final_blows": 8,
-      "case_value": 240876927.19,
-      "placement": 5
-    },
-    {
       "character_id": 1633218082,
       "name": "Squizz Caphinator",
       "rank": "Officer",
       "arrests": 7,
       "final_blows": 3,
       "case_value": 1700581823.71,
+      "placement": 5
+    },
+    {
+      "character_id": 91565688,
+      "name": "Damoraath Sponge",
+      "rank": "Officer",
+      "arrests": 4,
+      "final_blows": 4,
+      "case_value": 213851091.95,
       "placement": 6
     },
     {
@@ -269,14 +269,14 @@
       "system_id": 31001129,
       "system_name": "J235630",
       "arrests": 7,
-      "total_value": 461374457.35,
+      "total_value": 357047511.38,
       "top_killmail": {
-        "killmail_id": 138840016,
-        "time": "2026-10-02T02:03:16Z",
-        "total_value": 206462425.91,
-        "victim_name": "Victoria Casanova",
-        "ship_type_id": 33474,
-        "ship_name": "Mobile Depot"
+        "killmail_id": 138966848,
+        "time": "2026-10-07T03:56:27Z",
+        "total_value": 155918840.37,
+        "victim_name": "Asterios tm",
+        "ship_type_id": 12745,
+        "ship_name": "Occator"
       },
       "placement": 1
     },
@@ -326,22 +326,49 @@
       "placement": 4
     },
     {
-      "system_id": 31000600,
-      "system_name": "J163902",
-      "arrests": 4,
-      "total_value": 27025835.24,
+      "system_id": 31000513,
+      "system_name": "J135703",
+      "arrests": 3,
+      "total_value": 797956042.18,
       "top_killmail": {
-        "killmail_id": 138831228,
-        "time": "2026-10-01T18:10:21Z",
-        "total_value": 15003362.52,
-        "victim_name": "Vanniainen Shiyurida",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
+        "killmail_id": 138910163,
+        "time": "2026-10-04T17:57:28Z",
+        "total_value": 663116047.13,
+        "victim_name": "Eger Pirate",
+        "ship_type_id": 11192,
+        "ship_name": "Buzzard"
       },
       "placement": 5
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 138996999,
+      "time": "2026-10-08T11:59:00Z",
+      "system_id": 31001129,
+      "system_name": "J235630",
+      "total_value": 102135479.94,
+      "points": 7,
+      "victim": {
+        "character_id": 2124659459,
+        "name": "Serpiente Plisky",
+        "corporation_id": 98829471,
+        "corporation_name": "Brigada 49",
+        "ship_type_id": 17476,
+        "ship_name": "Covetor"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 9458,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 138991459,
       "time": "2026-10-08T03:26:03Z",
@@ -2227,141 +2254,6 @@
           "rank": "Deputy",
           "final_blow": true,
           "damage_done": 1269,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138840016,
-      "time": "2026-10-02T02:03:16Z",
-      "system_id": 31001129,
-      "system_name": "J235630",
-      "total_value": 206462425.91,
-      "points": 1,
-      "victim": {
-        "character_id": 2115174031,
-        "name": "Victoria Casanova",
-        "corporation_id": 1000169,
-        "corporation_name": "Center for Advanced Studies",
-        "ship_type_id": 33474,
-        "ship_name": "Mobile Depot"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 10926,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138831264,
-      "time": "2026-10-01T18:11:40Z",
-      "system_id": 31000600,
-      "system_name": "J163902",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124712499,
-        "name": "Vanniainen Shiyurida",
-        "corporation_id": 1000044,
-        "corporation_name": "School of Applied Knowledge",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 421,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138831228,
-      "time": "2026-10-01T18:10:21Z",
-      "system_id": 31000600,
-      "system_name": "J163902",
-      "total_value": 15003362.52,
-      "points": 1,
-      "victim": {
-        "character_id": 2124712499,
-        "name": "Vanniainen Shiyurida",
-        "corporation_id": 1000044,
-        "corporation_name": "School of Applied Knowledge",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 908,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138829548,
-      "time": "2026-10-01T16:37:52Z",
-      "system_id": 31000600,
-      "system_name": "J163902",
-      "total_value": 266219.72,
-      "points": 1,
-      "victim": {
-        "character_id": 2123911578,
-        "name": "Audingue Nalliery",
-        "corporation_id": 98022595,
-        "corporation_name": "Syndicate Society",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 450,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138829546,
-      "time": "2026-10-01T16:37:42Z",
-      "system_id": 31000600,
-      "system_name": "J163902",
-      "total_value": 11746253.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2123911578,
-        "name": "Audingue Nalliery",
-        "corporation_id": 98022595,
-        "corporation_name": "Syndicate Society",
-        "ship_type_id": 586,
-        "ship_name": "Probe"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 977,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
