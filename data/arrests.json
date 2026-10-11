@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-09T07:03:27Z",
+  "generated_at": "2026-10-11T06:42:33Z",
   "window": {
-    "start": "2026-10-02T07:03:27Z",
-    "end": "2026-10-09T07:03:27Z",
+    "start": "2026-10-04T06:42:33Z",
+    "end": "2026-10-11T06:42:33Z",
     "seconds": 604800
   },
   "source": {
@@ -12,46 +12,46 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 59,
-    "suspects": 37,
-    "systems_protected": 25,
-    "total_value": 4984843598.66
+    "arrests": 49,
+    "suspects": 31,
+    "systems_protected": 20,
+    "total_value": 4383160471.09
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh 'Mabel' Mabebu",
       "rank": "Officer",
-      "arrests": 32,
-      "final_blows": 18,
-      "case_value": 2089466784.36,
+      "arrests": 26,
+      "final_blows": 14,
+      "case_value": 1525098254.96,
       "placement": 1
-    },
-    {
-      "character_id": 2120163218,
-      "name": "BLiTzD86",
-      "rank": "Officer",
-      "arrests": 19,
-      "final_blows": 8,
-      "case_value": 2519330864.47,
-      "placement": 2
     },
     {
       "character_id": 1922855106,
       "name": "10of15",
       "rank": "Deputy",
-      "arrests": 19,
+      "arrests": 22,
       "final_blows": 2,
-      "case_value": 3354823915.13,
-      "placement": 3
+      "case_value": 3548315888.61,
+      "placement": 2
     },
     {
       "character_id": 96847792,
       "name": "Vinnegar Douchay",
       "rank": "Chief of Police",
-      "arrests": 13,
+      "arrests": 20,
+      "final_blows": 10,
+      "case_value": 1310135759.97,
+      "placement": 3
+    },
+    {
+      "character_id": 2120163218,
+      "name": "BLiTzD86",
+      "rank": "Officer",
+      "arrests": 16,
       "final_blows": 6,
-      "case_value": 1113412666.84,
+      "case_value": 2444199479.99,
       "placement": 4
     },
     {
@@ -67,18 +67,18 @@
       "character_id": 91565688,
       "name": "Damoraath Sponge",
       "rank": "Officer",
-      "arrests": 4,
-      "final_blows": 4,
-      "case_value": 213851091.95,
+      "arrests": 0,
+      "final_blows": 0,
+      "case_value": 0.0,
       "placement": 6
     },
     {
       "character_id": 2122959958,
       "name": "Hedvard Vetranax",
       "rank": "Deputy",
-      "arrests": 1,
-      "final_blows": 1,
-      "case_value": 5222665.92,
+      "arrests": 0,
+      "final_blows": 0,
+      "case_value": 0.0,
       "placement": 7
     }
   ],
@@ -102,6 +102,24 @@
       "placement": 1
     },
     {
+      "character_id": 2124716740,
+      "name": "Olan Forsvar",
+      "corporation_id": 98817250,
+      "corporation_name": "Aeldari Empire",
+      "arrests": 3,
+      "total_value": 9518816.55,
+      "most_expensive_loss": {
+        "killmail_id": 139073197,
+        "time": "2026-10-11T02:17:51Z",
+        "total_value": 7041964.29,
+        "ship_type_id": 89240,
+        "ship_name": "Pioneer",
+        "system_id": 31001095,
+        "system_name": "J205412"
+      },
+      "placement": 2
+    },
+    {
       "character_id": 2122117279,
       "name": "Kirddavious",
       "corporation_id": 1000044,
@@ -117,7 +135,7 @@
         "system_id": 31000431,
         "system_name": "J230959"
       },
-      "placement": 2
+      "placement": 3
     },
     {
       "character_id": 2116921641,
@@ -135,7 +153,7 @@
         "system_id": 31000513,
         "system_name": "J135703"
       },
-      "placement": 3
+      "placement": 4
     },
     {
       "character_id": 2119606879,
@@ -152,24 +170,6 @@
         "ship_name": "Tengu",
         "system_id": 31000274,
         "system_name": "J142941"
-      },
-      "placement": 4
-    },
-    {
-      "character_id": 2122138894,
-      "name": "AsterionAST",
-      "corporation_id": 98829471,
-      "corporation_name": "Brigada 49",
-      "arrests": 2,
-      "total_value": 236408544.29,
-      "most_expensive_loss": {
-        "killmail_id": 138865697,
-        "time": "2026-10-03T04:06:52Z",
-        "total_value": 236398544.29,
-        "ship_type_id": 2078,
-        "ship_name": "Zephyr",
-        "system_id": 31001156,
-        "system_name": "J150737"
       },
       "placement": 5
     },
@@ -210,76 +210,61 @@
       "placement": 7
     },
     {
-      "character_id": 2119506218,
-      "name": "Platinum Platypus",
-      "corporation_id": 98666181,
-      "corporation_name": "Nevermore.",
+      "character_id": 2123375211,
+      "name": "Thears",
+      "corporation_id": 98697448,
+      "corporation_name": "The Dead Woods",
       "arrests": 2,
-      "total_value": 117757783.27,
+      "total_value": 44365948.91,
       "most_expensive_loss": {
-        "killmail_id": 138852211,
-        "time": "2026-10-02T17:29:57Z",
-        "total_value": 117747783.27,
-        "ship_type_id": 11188,
-        "ship_name": "Anathema",
-        "system_id": 31001016,
-        "system_name": "J172751"
+        "killmail_id": 138939960,
+        "time": "2026-10-06T03:06:49Z",
+        "total_value": 44355948.91,
+        "ship_type_id": 33697,
+        "ship_name": "Prospect",
+        "system_id": 31001019,
+        "system_name": "J144408"
       },
       "placement": 8
     },
     {
-      "character_id": 2124691894,
-      "name": "David Hasselhoff sixseven",
-      "corporation_id": 98842498,
-      "corporation_name": "Galactic Frontier Ventures",
+      "character_id": 2115306701,
+      "name": "Cody McCo",
+      "corporation_id": 98823137,
+      "corporation_name": "CONSUME PROTOCOL",
       "arrests": 2,
-      "total_value": 97438110.62,
+      "total_value": 43436754.58,
       "most_expensive_loss": {
-        "killmail_id": 138882553,
-        "time": "2026-10-03T19:19:41Z",
-        "total_value": 97428110.62,
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard",
-        "system_id": 31001129,
-        "system_name": "J235630"
+        "killmail_id": 138908367,
+        "time": "2026-10-04T17:05:44Z",
+        "total_value": 43426754.58,
+        "ship_type_id": 11172,
+        "ship_name": "Helios",
+        "system_id": 31000467,
+        "system_name": "J130222"
       },
       "placement": 9
     },
     {
-      "character_id": 2124677403,
-      "name": "Mister Moneyman",
-      "corporation_id": 98818601,
-      "corporation_name": "Cult of Magik",
+      "character_id": 2124564007,
+      "name": "Sir-Mandariano",
+      "corporation_id": 98829471,
+      "corporation_name": "Brigada 49",
       "arrests": 2,
-      "total_value": 96093308.68,
+      "total_value": 39568840.03,
       "most_expensive_loss": {
-        "killmail_id": 138854240,
-        "time": "2026-10-02T18:58:12Z",
-        "total_value": 74179140.07,
-        "ship_type_id": 605,
-        "ship_name": "Heron",
-        "system_id": 31001016,
-        "system_name": "J172751"
+        "killmail_id": 138991459,
+        "time": "2026-10-08T03:26:03Z",
+        "total_value": 36653466.64,
+        "ship_type_id": 670,
+        "ship_name": "Capsule",
+        "system_id": 31001751,
+        "system_name": "J113158"
       },
       "placement": 10
     }
   ],
   "hotspots": [
-    {
-      "system_id": 31001129,
-      "system_name": "J235630",
-      "arrests": 7,
-      "total_value": 357047511.38,
-      "top_killmail": {
-        "killmail_id": 138966848,
-        "time": "2026-10-07T03:56:27Z",
-        "total_value": 155918840.37,
-        "victim_name": "Asterios tm",
-        "ship_type_id": 12745,
-        "ship_name": "Occator"
-      },
-      "placement": 1
-    },
     {
       "system_id": 31001751,
       "system_name": "J113158",
@@ -293,37 +278,37 @@
         "ship_type_id": 33468,
         "ship_name": "Astero"
       },
+      "placement": 1
+    },
+    {
+      "system_id": 31001129,
+      "system_name": "J235630",
+      "arrests": 6,
+      "total_value": 304179291.54,
+      "top_killmail": {
+        "killmail_id": 138966848,
+        "time": "2026-10-07T03:56:27Z",
+        "total_value": 155918840.37,
+        "victim_name": "Asterios tm",
+        "ship_type_id": 12745,
+        "ship_name": "Occator"
+      },
       "placement": 2
     },
     {
-      "system_id": 31001016,
-      "system_name": "J172751",
-      "arrests": 4,
-      "total_value": 213851091.95,
+      "system_id": 31001095,
+      "system_name": "J205412",
+      "arrests": 6,
+      "total_value": 228552310.32,
       "top_killmail": {
-        "killmail_id": 138852211,
-        "time": "2026-10-02T17:29:57Z",
-        "total_value": 117747783.27,
-        "victim_name": "Platinum Platypus",
+        "killmail_id": 139071226,
+        "time": "2026-10-11T00:18:49Z",
+        "total_value": 218002927.74,
+        "victim_name": "rockyfist",
         "ship_type_id": 11188,
         "ship_name": "Anathema"
       },
       "placement": 3
-    },
-    {
-      "system_id": 31000780,
-      "system_name": "J122635",
-      "arrests": 4,
-      "total_value": 44319515.84,
-      "top_killmail": {
-        "killmail_id": 138893024,
-        "time": "2026-10-04T02:26:44Z",
-        "total_value": 43541940.42,
-        "victim_name": "Cosmic Void447",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "placement": 4
     },
     {
       "system_id": 31000513,
@@ -338,10 +323,340 @@
         "ship_type_id": 11192,
         "ship_name": "Buzzard"
       },
+      "placement": 4
+    },
+    {
+      "system_id": 31001019,
+      "system_name": "J144408",
+      "arrests": 3,
+      "total_value": 94913238.98,
+      "top_killmail": {
+        "killmail_id": 138940345,
+        "time": "2026-10-06T03:36:04Z",
+        "total_value": 50547290.07,
+        "victim_name": "Vishya",
+        "ship_type_id": 11192,
+        "ship_name": "Buzzard"
+      },
       "placement": 5
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139073461,
+      "time": "2026-10-11T02:29:32Z",
+      "system_id": 31001095,
+      "system_name": "J205412",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124716740,
+        "name": "Olan Forsvar",
+        "corporation_id": 98817250,
+        "corporation_name": "Aeldari Empire",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 421,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139073440,
+      "time": "2026-10-11T02:28:35Z",
+      "system_id": 31001095,
+      "system_name": "J205412",
+      "total_value": 2466852.26,
+      "points": 1,
+      "victim": {
+        "character_id": 2124716740,
+        "name": "Olan Forsvar",
+        "corporation_id": 98817250,
+        "corporation_name": "Aeldari Empire",
+        "ship_type_id": 16236,
+        "ship_name": "Coercer"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 907,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": false,
+          "damage_done": 1774,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139073197,
+      "time": "2026-10-11T02:17:51Z",
+      "system_id": 31001095,
+      "system_name": "J205412",
+      "total_value": 7041964.29,
+      "points": 1,
+      "victim": {
+        "character_id": 2124716740,
+        "name": "Olan Forsvar",
+        "corporation_id": 98817250,
+        "corporation_name": "Aeldari Empire",
+        "ship_type_id": 89240,
+        "ship_name": "Pioneer"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 3432,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139071929,
+      "time": "2026-10-11T00:58:31Z",
+      "system_id": 31001095,
+      "system_name": "J205412",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124724085,
+        "name": "Karos McKratom",
+        "corporation_id": 917701062,
+        "corporation_name": "EVE University",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 29986,
+          "ship_name": "Legion"
+        },
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139071902,
+      "time": "2026-10-11T00:57:21Z",
+      "system_id": 31001095,
+      "system_name": "J205412",
+      "total_value": 1020566.03,
+      "points": 1,
+      "victim": {
+        "character_id": 2124724085,
+        "name": "Karos McKratom",
+        "corporation_id": 917701062,
+        "corporation_name": "EVE University",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 227,
+          "ship_type_id": 29986,
+          "ship_name": "Legion"
+        },
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 29990,
+          "ship_name": "Loki"
+        },
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": false,
+          "damage_done": 2188,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139071226,
+      "time": "2026-10-11T00:18:49Z",
+      "system_id": 31001095,
+      "system_name": "J205412",
+      "total_value": 218002927.74,
+      "points": 1,
+      "victim": {
+        "character_id": 2121802693,
+        "name": "rockyfist",
+        "corporation_id": 98795718,
+        "corporation_name": "progressive Steuerumgehungseinheit",
+        "ship_type_id": 11188,
+        "ship_name": "Anathema"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 1204,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139067914,
+      "time": "2026-10-10T22:21:11Z",
+      "system_id": 31001129,
+      "system_name": "J235630",
+      "total_value": 44569890.78,
+      "points": 14,
+      "victim": {
+        "character_id": 97224793,
+        "name": "Monnie Swimbye",
+        "corporation_id": 98202370,
+        "corporation_name": "Knights of Tempus",
+        "ship_type_id": 11172,
+        "ship_name": "Helios"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 3733,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139040978,
+      "time": "2026-10-10T03:22:51Z",
+      "system_id": 31001746,
+      "system_name": "J113508",
+      "total_value": 192461407.45,
+      "points": 2,
+      "victim": {
+        "character_id": 96603791,
+        "name": "Shturman Kai",
+        "corporation_id": 98149337,
+        "corporation_name": "XPEH B OKHO",
+        "ship_type_id": 3756,
+        "ship_name": "Gnosis"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 908,
+          "ship_type_id": 12032,
+          "ship_name": "Manticore"
+        },
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 3667,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 7155,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        },
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 29986,
+          "ship_name": "Legion"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139024559,
+      "time": "2026-10-09T14:37:52Z",
+      "system_id": 31000696,
+      "system_name": "J223538",
+      "total_value": 3217.48,
+      "points": 1,
+      "victim": {
+        "character_id": 2124730125,
+        "name": "Currunus Daeriolas",
+        "corporation_id": 98411227,
+        "corporation_name": "Hideaway Hunters",
+        "ship_type_id": 601,
+        "ship_name": "Ibis"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 500,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 138996999,
       "time": "2026-10-08T11:59:00Z",
@@ -1725,537 +2040,6 @@
           "damage_done": 0,
           "ship_type_id": 33697,
           "ship_name": "Prospect"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138895862,
-      "time": "2026-10-04T05:14:30Z",
-      "system_id": 31000248,
-      "system_name": "J140019",
-      "total_value": 8964477.85,
-      "points": 1,
-      "victim": {
-        "character_id": 2113010482,
-        "name": "azerty guns",
-        "corporation_id": 98057377,
-        "corporation_name": "Core Industry.",
-        "ship_type_id": 33475,
-        "ship_name": "Mobile Tractor Unit"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 50073,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138894230,
-      "time": "2026-10-04T03:27:55Z",
-      "system_id": 31000190,
-      "system_name": "J112250",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124187576,
-        "name": "Maseni Sarain",
-        "corporation_id": 1000166,
-        "corporation_name": "Imperial Academy",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 442,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138894200,
-      "time": "2026-10-04T03:26:33Z",
-      "system_id": 31000190,
-      "system_name": "J112250",
-      "total_value": 7770635.32,
-      "points": 3,
-      "victim": {
-        "character_id": 2124187576,
-        "name": "Maseni Sarain",
-        "corporation_id": 1000166,
-        "corporation_name": "Imperial Academy",
-        "ship_type_id": 32880,
-        "ship_name": "Venture"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 1718,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138893230,
-      "time": "2026-10-04T02:34:15Z",
-      "system_id": 31000780,
-      "system_name": "J122635",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124736802,
-        "name": "Ghishul pavonn",
-        "corporation_id": 1000077,
-        "corporation_name": "Royal Amarr Institute",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 418,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138893199,
-      "time": "2026-10-04T02:33:12Z",
-      "system_id": 31000780,
-      "system_name": "J122635",
-      "total_value": 757575.42,
-      "points": 1,
-      "victim": {
-        "character_id": 2124736802,
-        "name": "Ghishul pavonn",
-        "corporation_id": 1000077,
-        "corporation_name": "Royal Amarr Institute",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 849,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138893048,
-      "time": "2026-10-04T02:28:15Z",
-      "system_id": 31000780,
-      "system_name": "J122635",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2120874922,
-        "name": "Cosmic Void447",
-        "corporation_id": 98757825,
-        "corporation_name": "Holier Than Thou.",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138893024,
-      "time": "2026-10-04T02:26:44Z",
-      "system_id": 31000780,
-      "system_name": "J122635",
-      "total_value": 43541940.42,
-      "points": 1,
-      "victim": {
-        "character_id": 2120874922,
-        "name": "Cosmic Void447",
-        "corporation_id": 98757825,
-        "corporation_name": "Holier Than Thou.",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 391,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138882568,
-      "time": "2026-10-03T19:20:34Z",
-      "system_id": 31001129,
-      "system_name": "J235630",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124691894,
-        "name": "David Hasselhoff sixseven",
-        "corporation_id": 98842498,
-        "corporation_name": "Galactic Frontier Ventures",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 429,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138882553,
-      "time": "2026-10-03T19:19:41Z",
-      "system_id": 31001129,
-      "system_name": "J235630",
-      "total_value": 97428110.62,
-      "points": 1,
-      "victim": {
-        "character_id": 2124691894,
-        "name": "David Hasselhoff sixseven",
-        "corporation_id": 98842498,
-        "corporation_name": "Galactic Frontier Ventures",
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 1347,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138865729,
-      "time": "2026-10-03T04:08:27Z",
-      "system_id": 31001156,
-      "system_name": "J150737",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2122138894,
-        "name": "AsterionAST",
-        "corporation_id": 98829471,
-        "corporation_name": "Brigada 49",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138865697,
-      "time": "2026-10-03T04:06:52Z",
-      "system_id": 31001156,
-      "system_name": "J150737",
-      "total_value": 236398544.29,
-      "points": 1,
-      "victim": {
-        "character_id": 2122138894,
-        "name": "AsterionAST",
-        "corporation_id": 98829471,
-        "corporation_name": "Brigada 49",
-        "ship_type_id": 2078,
-        "ship_name": "Zephyr"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138864787,
-      "time": "2026-10-03T03:18:41Z",
-      "system_id": 31000818,
-      "system_name": "J150754",
-      "total_value": 228981069.69,
-      "points": 92,
-      "victim": {
-        "character_id": 1223540599,
-        "name": "nastyn8t",
-        "corporation_id": 98068707,
-        "corporation_name": "Spectres Syndicate",
-        "ship_type_id": 641,
-        "ship_name": "Megathron"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 157,
-          "ship_type_id": 0,
-          "ship_name": "Unknown ship"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138864755,
-      "time": "2026-10-03T03:16:51Z",
-      "system_id": 31000818,
-      "system_name": "J150754",
-      "total_value": 224293842.12,
-      "points": 14,
-      "victim": {
-        "character_id": 90755191,
-        "name": "Jack Auduin",
-        "corporation_id": 98068707,
-        "corporation_name": "Spectres Syndicate",
-        "ship_type_id": 641,
-        "ship_name": "Megathron"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
-          "final_blow": true,
-          "damage_done": 5297,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        },
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 2243,
-          "ship_type_id": 670,
-          "ship_name": "Capsule"
-        },
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138859359,
-      "time": "2026-10-02T22:21:52Z",
-      "system_id": 31001287,
-      "system_name": "J125449",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 188232332,
-        "name": "NAGVAL",
-        "corporation_id": 98715093,
-        "corporation_name": "Thunder Shield",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 474,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138854242,
-      "time": "2026-10-02T18:58:20Z",
-      "system_id": 31001016,
-      "system_name": "J172751",
-      "total_value": 21914168.61,
-      "points": 1,
-      "victim": {
-        "character_id": 2124677403,
-        "name": "Mister Moneyman",
-        "corporation_id": 98818601,
-        "corporation_name": "Cult of Magik",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 418,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138854240,
-      "time": "2026-10-02T18:58:12Z",
-      "system_id": 31001016,
-      "system_name": "J172751",
-      "total_value": 74179140.07,
-      "points": 1,
-      "victim": {
-        "character_id": 2124677403,
-        "name": "Mister Moneyman",
-        "corporation_id": 98818601,
-        "corporation_name": "Cult of Magik",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 884,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138852223,
-      "time": "2026-10-02T17:30:48Z",
-      "system_id": 31001016,
-      "system_name": "J172751",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2119506218,
-        "name": "Platinum Platypus",
-        "corporation_id": 98666181,
-        "corporation_name": "Nevermore.",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 432,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138852211,
-      "time": "2026-10-02T17:29:57Z",
-      "system_id": 31001016,
-      "system_name": "J172751",
-      "total_value": 117747783.27,
-      "points": 1,
-      "victim": {
-        "character_id": 2119506218,
-        "name": "Platinum Platypus",
-        "corporation_id": 98666181,
-        "corporation_name": "Nevermore.",
-        "ship_type_id": 11188,
-        "ship_name": "Anathema"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 1559,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138844367,
-      "time": "2026-10-02T08:30:28Z",
-      "system_id": 31002544,
-      "system_name": "J010556",
-      "total_value": 5222665.92,
-      "points": 1,
-      "victim": {
-        "character_id": 2114907131,
-        "name": "Glossy Compound",
-        "corporation_id": 98481597,
-        "corporation_name": "Quinten RnD",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2122959958,
-          "name": "Hedvard Vetranax",
-          "rank": "Deputy",
-          "final_blow": true,
-          "damage_done": 1269,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
         }
       ]
     }
