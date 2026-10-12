@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-05T01:31:22Z",
+  "generated_at": "2026-10-12T02:00:35Z",
   "history_start": "2020-07-01",
   "schedule": {
     "timezone": "America/New_York",
@@ -15,6 +15,18 @@
   },
   "fleets": [
     {
+      "date": "2026-10-11",
+      "start_local": "2026-10-11T13:00:00-04:00",
+      "end_local": "2026-10-11T15:00:00-04:00",
+      "start_utc": "2026-10-11T17:00:00Z",
+      "end_utc": "2026-10-11T19:00:00Z",
+      "timezone": "EDT",
+      "participants_max": 23,
+      "systems_protected": 5,
+      "arrests": 15,
+      "total_value": 1589370259.32
+    },
+    {
       "date": "2026-10-04",
       "start_local": "2026-10-04T13:00:00-04:00",
       "end_local": "2026-10-04T15:00:00-04:00",
@@ -23,8 +35,8 @@
       "timezone": "EDT",
       "participants_max": 29,
       "systems_protected": 5,
-      "arrests": 10,
-      "total_value": 3127432496.09
+      "arrests": 11,
+      "total_value": 3127467961.06
     },
     {
       "date": "2026-09-27",
