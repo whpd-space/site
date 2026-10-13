@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-12T06:50:11Z",
+  "generated_at": "2026-10-13T07:15:55Z",
   "window": {
-    "start": "2026-10-05T06:50:11Z",
-    "end": "2026-10-12T06:50:11Z",
+    "start": "2026-10-06T07:15:55Z",
+    "end": "2026-10-13T07:15:55Z",
     "seconds": 604800
   },
   "source": {
@@ -12,10 +12,10 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 42,
+    "arrests": 43,
     "suspects": 29,
     "systems_protected": 16,
-    "total_value": 2808340548.06
+    "total_value": 3080117904.62
   },
   "rankings": [
     {
@@ -23,35 +23,35 @@
       "name": "Muh 'Mabel' Mabebu",
       "rank": "Officer",
       "arrests": 22,
-      "final_blows": 12,
-      "case_value": 1244815089.81,
+      "final_blows": 13,
+      "case_value": 1453148820.92,
       "placement": 1
     },
     {
       "character_id": 96847792,
       "name": "Vinnegar Douchay",
       "rank": "Chief of Police",
-      "arrests": 15,
-      "final_blows": 7,
-      "case_value": 1778073588.89,
+      "arrests": 14,
+      "final_blows": 6,
+      "case_value": 1732585538.04,
       "placement": 2
     },
     {
       "character_id": 1922855106,
       "name": "10of15",
       "rank": "Deputy",
-      "arrests": 15,
+      "arrests": 14,
       "final_blows": 2,
-      "case_value": 1567816960.2,
+      "case_value": 1777425286.09,
       "placement": 3
     },
     {
       "character_id": 2120163218,
       "name": "BLiTzD86",
       "rank": "Officer",
-      "arrests": 14,
-      "final_blows": 6,
-      "case_value": 1081726055.83,
+      "arrests": 12,
+      "final_blows": 4,
+      "case_value": 1246978432.81,
       "placement": 4
     },
     {
@@ -67,9 +67,9 @@
       "character_id": 91565688,
       "name": "Damoraath Sponge",
       "rank": "Officer",
-      "arrests": 0,
-      "final_blows": 0,
-      "case_value": 0.0,
+      "arrests": 2,
+      "final_blows": 2,
+      "case_value": 108931676.3,
       "placement": 6
     },
     {
@@ -138,6 +138,24 @@
       "placement": 3
     },
     {
+      "character_id": 96229815,
+      "name": "Jellifer Ellecon",
+      "corporation_id": 98456624,
+      "corporation_name": "Free Amarrian Station Traders Corperation",
+      "arrests": 2,
+      "total_value": 108931676.3,
+      "most_expensive_loss": {
+        "killmail_id": 139109507,
+        "time": "2026-10-12T12:58:21Z",
+        "total_value": 108921676.3,
+        "ship_type_id": 33468,
+        "ship_name": "Astero",
+        "system_id": 31001097,
+        "system_name": "J132737"
+      },
+      "placement": 4
+    },
+    {
       "character_id": 2124392280,
       "name": "Kalok Ejed",
       "corporation_id": 98845274,
@@ -152,24 +170,6 @@
         "ship_name": "Prospect",
         "system_id": 31001129,
         "system_name": "J235630"
-      },
-      "placement": 4
-    },
-    {
-      "character_id": 2123375211,
-      "name": "Thears",
-      "corporation_id": 98697448,
-      "corporation_name": "The Dead Woods",
-      "arrests": 2,
-      "total_value": 44365948.91,
-      "most_expensive_loss": {
-        "killmail_id": 138939960,
-        "time": "2026-10-06T03:06:49Z",
-        "total_value": 44355948.91,
-        "ship_type_id": 33697,
-        "ship_name": "Prospect",
-        "system_id": 31001019,
-        "system_name": "J144408"
       },
       "placement": 5
     },
@@ -210,6 +210,42 @@
       "placement": 7
     },
     {
+      "character_id": 2124532302,
+      "name": "Sapios",
+      "corporation_id": 98844657,
+      "corporation_name": "Femboy Strategic Holdings",
+      "arrests": 2,
+      "total_value": 28135839.0,
+      "most_expensive_loss": {
+        "killmail_id": 139122873,
+        "time": "2026-10-12T23:38:29Z",
+        "total_value": 28125839.0,
+        "ship_type_id": 605,
+        "ship_name": "Heron",
+        "system_id": 31001128,
+        "system_name": "J162437"
+      },
+      "placement": 8
+    },
+    {
+      "character_id": 2124387873,
+      "name": "Sawyer 'PaintHuffer' Williams",
+      "corporation_id": 98838545,
+      "corporation_name": "Golden Gears LLC",
+      "arrests": 2,
+      "total_value": 19948711.59,
+      "most_expensive_loss": {
+        "killmail_id": 139119603,
+        "time": "2026-10-12T20:28:42Z",
+        "total_value": 19938711.59,
+        "ship_type_id": 37135,
+        "ship_name": "Endurance",
+        "system_id": 31001129,
+        "system_name": "J235630"
+      },
+      "placement": 9
+    },
+    {
       "character_id": 2112693887,
       "name": "Eigon Mayaki",
       "corporation_id": 1000167,
@@ -225,42 +261,6 @@
         "system_id": 31000351,
         "system_name": "J131702"
       },
-      "placement": 8
-    },
-    {
-      "character_id": 2124514984,
-      "name": "Glorpo Schlorpo",
-      "corporation_id": 1000169,
-      "corporation_name": "Center for Advanced Studies",
-      "arrests": 2,
-      "total_value": 7796708.32,
-      "most_expensive_loss": {
-        "killmail_id": 139091641,
-        "time": "2026-10-11T17:13:24Z",
-        "total_value": 7786708.32,
-        "ship_type_id": 32880,
-        "ship_name": "Venture",
-        "system_id": 31001103,
-        "system_name": "J101736"
-      },
-      "placement": 9
-    },
-    {
-      "character_id": 764936657,
-      "name": "Lagodrom",
-      "corporation_id": 98651458,
-      "corporation_name": "Lago Corp",
-      "arrests": 2,
-      "total_value": 5003196.46,
-      "most_expensive_loss": {
-        "killmail_id": 138940520,
-        "time": "2026-10-06T03:53:55Z",
-        "total_value": 4993196.46,
-        "ship_type_id": 32880,
-        "ship_name": "Venture",
-        "system_id": 31002289,
-        "system_name": "J234722"
-      },
       "placement": 10
     }
   ],
@@ -268,8 +268,8 @@
     {
       "system_id": 31001129,
       "system_name": "J235630",
-      "arrests": 8,
-      "total_value": 584329880.36,
+      "arrests": 10,
+      "total_value": 604278591.95,
       "top_killmail": {
         "killmail_id": 138966848,
         "time": "2026-10-07T03:56:27Z",
@@ -342,6 +342,213 @@
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139127426,
+      "time": "2026-10-13T04:41:08Z",
+      "system_id": 31000482,
+      "system_name": "J114405",
+      "total_value": 260165615.96,
+      "points": 3,
+      "victim": {
+        "character_id": 90895799,
+        "name": "Elisus Guerrero",
+        "corporation_id": 98272372,
+        "corporation_name": "We Use Fighter Drones Only",
+        "ship_type_id": 49711,
+        "ship_name": "Drekavac"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "rank": "Deputy",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 33468,
+          "ship_name": "Astero"
+        },
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 8352,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        },
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 29986,
+          "ship_name": "Legion"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139122878,
+      "time": "2026-10-12T23:39:09Z",
+      "system_id": 31001128,
+      "system_name": "J162437",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124532302,
+        "name": "Sapios",
+        "corporation_id": 98844657,
+        "corporation_name": "Femboy Strategic Holdings",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 429,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139122873,
+      "time": "2026-10-12T23:38:29Z",
+      "system_id": 31001128,
+      "system_name": "J162437",
+      "total_value": 28125839.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124532302,
+        "name": "Sapios",
+        "corporation_id": 98844657,
+        "corporation_name": "Femboy Strategic Holdings",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1957,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139119640,
+      "time": "2026-10-12T20:30:21Z",
+      "system_id": 31001129,
+      "system_name": "J235630",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124387873,
+        "name": "Sawyer 'PaintHuffer' Williams",
+        "corporation_id": 98838545,
+        "corporation_name": "Golden Gears LLC",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 432,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139119603,
+      "time": "2026-10-12T20:28:42Z",
+      "system_id": 31001129,
+      "system_name": "J235630",
+      "total_value": 19938711.59,
+      "points": 1,
+      "victim": {
+        "character_id": 2124387873,
+        "name": "Sawyer 'PaintHuffer' Williams",
+        "corporation_id": 98838545,
+        "corporation_name": "Golden Gears LLC",
+        "ship_type_id": 37135,
+        "ship_name": "Endurance"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 4203,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139109525,
+      "time": "2026-10-12T12:59:32Z",
+      "system_id": 31001097,
+      "system_name": "J132737",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 96229815,
+        "name": "Jellifer Ellecon",
+        "corporation_id": 98456624,
+        "corporation_name": "Free Amarrian Station Traders Corperation",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 439,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139109507,
+      "time": "2026-10-12T12:58:21Z",
+      "system_id": 31001097,
+      "system_name": "J132737",
+      "total_value": 108921676.3,
+      "points": 1,
+      "victim": {
+        "character_id": 96229815,
+        "name": "Jellifer Ellecon",
+        "corporation_id": 98456624,
+        "corporation_name": "Free Amarrian Station Traders Corperation",
+        "ship_type_id": 33468,
+        "ship_name": "Astero"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1933,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 139103415,
       "time": "2026-10-12T03:15:34Z",
@@ -1516,213 +1723,6 @@
           "rank": "Officer",
           "final_blow": false,
           "damage_done": 2393,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138940524,
-      "time": "2026-10-06T03:54:33Z",
-      "system_id": 31002289,
-      "system_name": "J234722",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 764936657,
-        "name": "Lagodrom",
-        "corporation_id": 98651458,
-        "corporation_name": "Lago Corp",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 523,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138940520,
-      "time": "2026-10-06T03:53:55Z",
-      "system_id": 31002289,
-      "system_name": "J234722",
-      "total_value": 4993196.46,
-      "points": 1,
-      "victim": {
-        "character_id": 764936657,
-        "name": "Lagodrom",
-        "corporation_id": 98651458,
-        "corporation_name": "Lago Corp",
-        "ship_type_id": 32880,
-        "ship_name": "Venture"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 3107,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138940345,
-      "time": "2026-10-06T03:36:04Z",
-      "system_id": 31001019,
-      "system_name": "J144408",
-      "total_value": 50547290.07,
-      "points": 1,
-      "victim": {
-        "character_id": 2117820257,
-        "name": "Vishya",
-        "corporation_id": 98697448,
-        "corporation_name": "The Dead Woods",
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 843,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        },
-        {
-          "character_id": 1922855106,
-          "name": "10of15",
-          "rank": "Deputy",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 11957,
-          "ship_name": "Falcon"
-        },
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 512,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138939980,
-      "time": "2026-10-06T03:08:29Z",
-      "system_id": 31001019,
-      "system_name": "J144408",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2123375211,
-        "name": "Thears",
-        "corporation_id": 98697448,
-        "corporation_name": "The Dead Woods",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 444,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        },
-        {
-          "character_id": 1922855106,
-          "name": "10of15",
-          "rank": "Deputy",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 11957,
-          "ship_name": "Falcon"
-        },
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 0,
-          "ship_name": "Unknown ship"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138939960,
-      "time": "2026-10-06T03:06:49Z",
-      "system_id": 31001019,
-      "system_name": "J144408",
-      "total_value": 44355948.91,
-      "points": 1,
-      "victim": {
-        "character_id": 2123375211,
-        "name": "Thears",
-        "corporation_id": 98697448,
-        "corporation_name": "The Dead Woods",
-        "ship_type_id": 33697,
-        "ship_name": "Prospect"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 443,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        },
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 288,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138938240,
-      "time": "2026-10-06T00:41:34Z",
-      "system_id": 31000552,
-      "system_name": "J150700",
-      "total_value": 45488050.85,
-      "points": 6,
-      "victim": {
-        "character_id": 94108619,
-        "name": "Aleks Artemov",
-        "corporation_id": 98780591,
-        "corporation_name": "The good people of the eve world",
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
-          "final_blow": true,
-          "damage_done": 1274,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
