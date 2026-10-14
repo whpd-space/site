@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-13T07:15:55Z",
+  "generated_at": "2026-10-14T05:41:42Z",
   "window": {
-    "start": "2026-10-06T07:15:55Z",
-    "end": "2026-10-13T07:15:55Z",
+    "start": "2026-10-07T05:41:42Z",
+    "end": "2026-10-14T05:41:42Z",
     "seconds": 604800
   },
   "source": {
@@ -12,19 +12,19 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 43,
-    "suspects": 29,
+    "arrests": 41,
+    "suspects": 28,
     "systems_protected": 16,
-    "total_value": 3080117904.62
+    "total_value": 2924189064.25
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh 'Mabel' Mabebu",
       "rank": "Officer",
-      "arrests": 22,
-      "final_blows": 13,
-      "case_value": 1453148820.92,
+      "arrests": 20,
+      "final_blows": 12,
+      "case_value": 1297219980.55,
       "placement": 1
     },
     {
@@ -49,9 +49,9 @@
       "character_id": 2120163218,
       "name": "BLiTzD86",
       "rank": "Officer",
-      "arrests": 12,
+      "arrests": 10,
       "final_blows": 4,
-      "case_value": 1246978432.81,
+      "case_value": 1091049592.44,
       "placement": 4
     },
     {
@@ -120,24 +120,6 @@
       "placement": 2
     },
     {
-      "character_id": 2117665092,
-      "name": "Asterios tm",
-      "corporation_id": 98738496,
-      "corporation_name": "One Bitcoin",
-      "arrests": 2,
-      "total_value": 155928840.37,
-      "most_expensive_loss": {
-        "killmail_id": 138966848,
-        "time": "2026-10-07T03:56:27Z",
-        "total_value": 155918840.37,
-        "ship_type_id": 12745,
-        "ship_name": "Occator",
-        "system_id": 31001129,
-        "system_name": "J235630"
-      },
-      "placement": 3
-    },
-    {
       "character_id": 96229815,
       "name": "Jellifer Ellecon",
       "corporation_id": 98456624,
@@ -153,7 +135,7 @@
         "system_id": 31001097,
         "system_name": "J132737"
       },
-      "placement": 4
+      "placement": 3
     },
     {
       "character_id": 2124392280,
@@ -171,7 +153,7 @@
         "system_id": 31001129,
         "system_name": "J235630"
       },
-      "placement": 5
+      "placement": 4
     },
     {
       "character_id": 2124481793,
@@ -189,7 +171,7 @@
         "system_id": 31000961,
         "system_name": "J103604"
       },
-      "placement": 6
+      "placement": 5
     },
     {
       "character_id": 2124564007,
@@ -207,7 +189,7 @@
         "system_id": 31001751,
         "system_name": "J113158"
       },
-      "placement": 7
+      "placement": 6
     },
     {
       "character_id": 2124532302,
@@ -225,7 +207,7 @@
         "system_id": 31001128,
         "system_name": "J162437"
       },
-      "placement": 8
+      "placement": 7
     },
     {
       "character_id": 2124387873,
@@ -243,7 +225,7 @@
         "system_id": 31001129,
         "system_name": "J235630"
       },
-      "placement": 9
+      "placement": 8
     },
     {
       "character_id": 2112693887,
@@ -261,6 +243,24 @@
         "system_id": 31000351,
         "system_name": "J131702"
       },
+      "placement": 9
+    },
+    {
+      "character_id": 2124514984,
+      "name": "Glorpo Schlorpo",
+      "corporation_id": 1000169,
+      "corporation_name": "Center for Advanced Studies",
+      "arrests": 2,
+      "total_value": 7796708.32,
+      "most_expensive_loss": {
+        "killmail_id": 139091641,
+        "time": "2026-10-11T17:13:24Z",
+        "total_value": 7786708.32,
+        "ship_type_id": 32880,
+        "ship_name": "Venture",
+        "system_id": 31001103,
+        "system_name": "J101736"
+      },
       "placement": 10
     }
   ],
@@ -268,15 +268,15 @@
     {
       "system_id": 31001129,
       "system_name": "J235630",
-      "arrests": 10,
-      "total_value": 604278591.95,
+      "arrests": 8,
+      "total_value": 448349751.58,
       "top_killmail": {
-        "killmail_id": 138966848,
-        "time": "2026-10-07T03:56:27Z",
-        "total_value": 155918840.37,
-        "victim_name": "Asterios tm",
-        "ship_type_id": 12745,
-        "ship_name": "Occator"
+        "killmail_id": 138996999,
+        "time": "2026-10-08T11:59:00Z",
+        "total_value": 102135479.94,
+        "victim_name": "Serpiente Plisky",
+        "ship_type_id": 17476,
+        "ship_name": "Covetor"
       },
       "placement": 1
     },
@@ -1651,78 +1651,6 @@
           "rank": "Chief of Police",
           "final_blow": true,
           "damage_done": 16174,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138966854,
-      "time": "2026-10-07T03:57:17Z",
-      "system_id": 31001129,
-      "system_name": "J235630",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2117665092,
-        "name": "Asterios tm",
-        "corporation_id": 98738496,
-        "corporation_name": "One Bitcoin",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 458,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        },
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138966848,
-      "time": "2026-10-07T03:56:27Z",
-      "system_id": 31001129,
-      "system_name": "J235630",
-      "total_value": 155918840.37,
-      "points": 1,
-      "victim": {
-        "character_id": 2117665092,
-        "name": "Asterios tm",
-        "corporation_id": 98738496,
-        "corporation_name": "One Bitcoin",
-        "ship_type_id": 12745,
-        "ship_name": "Occator"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 6773,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        },
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": false,
-          "damage_done": 2393,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
