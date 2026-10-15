@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-14T05:41:42Z",
+  "generated_at": "2026-10-15T05:26:40Z",
   "window": {
-    "start": "2026-10-07T05:41:42Z",
-    "end": "2026-10-14T05:41:42Z",
+    "start": "2026-10-08T05:26:40Z",
+    "end": "2026-10-15T05:26:40Z",
     "seconds": 604800
   },
   "source": {
@@ -12,29 +12,20 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 41,
-    "suspects": 28,
+    "arrests": 44,
+    "suspects": 29,
     "systems_protected": 16,
-    "total_value": 2924189064.25
+    "total_value": 3039398141.02
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh 'Mabel' Mabebu",
       "rank": "Officer",
-      "arrests": 20,
-      "final_blows": 12,
-      "case_value": 1297219980.55,
+      "arrests": 26,
+      "final_blows": 18,
+      "case_value": 1515126295.49,
       "placement": 1
-    },
-    {
-      "character_id": 96847792,
-      "name": "Vinnegar Douchay",
-      "rank": "Chief of Police",
-      "arrests": 14,
-      "final_blows": 6,
-      "case_value": 1732585538.04,
-      "placement": 2
     },
     {
       "character_id": 1922855106,
@@ -43,15 +34,24 @@
       "arrests": 14,
       "final_blows": 2,
       "case_value": 1777425286.09,
+      "placement": 2
+    },
+    {
+      "character_id": 96847792,
+      "name": "Vinnegar Douchay",
+      "rank": "Chief of Police",
+      "arrests": 13,
+      "final_blows": 5,
+      "case_value": 1669457139.9,
       "placement": 3
     },
     {
       "character_id": 2120163218,
       "name": "BLiTzD86",
       "rank": "Officer",
-      "arrests": 10,
-      "final_blows": 4,
-      "case_value": 1091049592.44,
+      "arrests": 8,
+      "final_blows": 2,
+      "case_value": 1051480752.41,
       "placement": 4
     },
     {
@@ -120,6 +120,24 @@
       "placement": 2
     },
     {
+      "character_id": 2124713306,
+      "name": "Mikael Salander",
+      "corporation_id": 98780909,
+      "corporation_name": "Eagle and Lion Corporate Agents",
+      "arrests": 2,
+      "total_value": 144510352.08,
+      "most_expensive_loss": {
+        "killmail_id": 139169374,
+        "time": "2026-10-15T02:56:55Z",
+        "total_value": 72859352.07,
+        "ship_type_id": 11192,
+        "ship_name": "Buzzard",
+        "system_id": 31001129,
+        "system_name": "J235630"
+      },
+      "placement": 3
+    },
+    {
       "character_id": 96229815,
       "name": "Jellifer Ellecon",
       "corporation_id": 98456624,
@@ -135,7 +153,7 @@
         "system_id": 31001097,
         "system_name": "J132737"
       },
-      "placement": 3
+      "placement": 4
     },
     {
       "character_id": 2124392280,
@@ -153,7 +171,25 @@
         "system_id": 31001129,
         "system_name": "J235630"
       },
-      "placement": 4
+      "placement": 5
+    },
+    {
+      "character_id": 1106555889,
+      "name": "Khayman Hung",
+      "corporation_id": 98831219,
+      "corporation_name": "JP High-sec Mining",
+      "arrests": 2,
+      "total_value": 65403657.92,
+      "most_expensive_loss": {
+        "killmail_id": 139169702,
+        "time": "2026-10-15T03:20:22Z",
+        "total_value": 57368124.59,
+        "ship_type_id": 17478,
+        "ship_name": "Retriever",
+        "system_id": 31001153,
+        "system_name": "J220438"
+      },
+      "placement": 6
     },
     {
       "character_id": 2124481793,
@@ -171,25 +207,7 @@
         "system_id": 31000961,
         "system_name": "J103604"
       },
-      "placement": 5
-    },
-    {
-      "character_id": 2124564007,
-      "name": "Sir-Mandariano",
-      "corporation_id": 98829471,
-      "corporation_name": "Brigada 49",
-      "arrests": 2,
-      "total_value": 39568840.03,
-      "most_expensive_loss": {
-        "killmail_id": 138991459,
-        "time": "2026-10-08T03:26:03Z",
-        "total_value": 36653466.64,
-        "ship_type_id": 670,
-        "ship_name": "Capsule",
-        "system_id": 31001751,
-        "system_name": "J113158"
-      },
-      "placement": 6
+      "placement": 7
     },
     {
       "character_id": 2124532302,
@@ -207,7 +225,7 @@
         "system_id": 31001128,
         "system_name": "J162437"
       },
-      "placement": 7
+      "placement": 8
     },
     {
       "character_id": 2124387873,
@@ -225,7 +243,7 @@
         "system_id": 31001129,
         "system_name": "J235630"
       },
-      "placement": 8
+      "placement": 9
     },
     {
       "character_id": 2112693887,
@@ -243,24 +261,6 @@
         "system_id": 31000351,
         "system_name": "J131702"
       },
-      "placement": 9
-    },
-    {
-      "character_id": 2124514984,
-      "name": "Glorpo Schlorpo",
-      "corporation_id": 1000169,
-      "corporation_name": "Center for Advanced Studies",
-      "arrests": 2,
-      "total_value": 7796708.32,
-      "most_expensive_loss": {
-        "killmail_id": 139091641,
-        "time": "2026-10-11T17:13:24Z",
-        "total_value": 7786708.32,
-        "ship_type_id": 32880,
-        "ship_name": "Venture",
-        "system_id": 31001103,
-        "system_name": "J101736"
-      },
       "placement": 10
     }
   ],
@@ -268,8 +268,8 @@
     {
       "system_id": 31001129,
       "system_name": "J235630",
-      "arrests": 8,
-      "total_value": 448349751.58,
+      "arrests": 10,
+      "total_value": 592860103.66,
       "top_killmail": {
         "killmail_id": 138996999,
         "time": "2026-10-08T11:59:00Z",
@@ -342,6 +342,168 @@
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139169704,
+      "time": "2026-10-15T03:20:33Z",
+      "system_id": 31001153,
+      "system_name": "J220438",
+      "total_value": 8035533.33,
+      "points": 1,
+      "victim": {
+        "character_id": 1106555889,
+        "name": "Khayman Hung",
+        "corporation_id": 98831219,
+        "corporation_name": "JP High-sec Mining",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 450,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139169702,
+      "time": "2026-10-15T03:20:22Z",
+      "system_id": 31001153,
+      "system_name": "J220438",
+      "total_value": 57368124.59,
+      "points": 7,
+      "victim": {
+        "character_id": 1106555889,
+        "name": "Khayman Hung",
+        "corporation_id": 98831219,
+        "corporation_name": "JP High-sec Mining",
+        "ship_type_id": 17478,
+        "ship_name": "Retriever"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 16085,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139169380,
+      "time": "2026-10-15T02:57:06Z",
+      "system_id": 31001129,
+      "system_name": "J235630",
+      "total_value": 71651000.01,
+      "points": 1,
+      "victim": {
+        "character_id": 2124713306,
+        "name": "Mikael Salander",
+        "corporation_id": 98780909,
+        "corporation_name": "Eagle and Lion Corporate Agents",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 418,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139169374,
+      "time": "2026-10-15T02:56:55Z",
+      "system_id": 31001129,
+      "system_name": "J235630",
+      "total_value": 72859352.07,
+      "points": 1,
+      "victim": {
+        "character_id": 2124713306,
+        "name": "Mikael Salander",
+        "corporation_id": 98780909,
+        "corporation_name": "Eagle and Lion Corporate Agents",
+        "ship_type_id": 11192,
+        "ship_name": "Buzzard"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1170,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139169171,
+      "time": "2026-10-15T02:40:18Z",
+      "system_id": 31000064,
+      "system_name": "J115549",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124736109,
+        "name": "Palpapalpa",
+        "corporation_id": 98762566,
+        "corporation_name": "Darkwraiths",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 424,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139169155,
+      "time": "2026-10-15T02:38:41Z",
+      "system_id": 31000064,
+      "system_name": "J115549",
+      "total_value": 7982304.94,
+      "points": 1,
+      "victim": {
+        "character_id": 2124736109,
+        "name": "Palpapalpa",
+        "corporation_id": 98762566,
+        "corporation_name": "Darkwraiths",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 925,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 139127426,
       "time": "2026-10-13T04:41:08Z",
@@ -1570,87 +1732,6 @@
           "rank": "Officer",
           "final_blow": true,
           "damage_done": 9458,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138991459,
-      "time": "2026-10-08T03:26:03Z",
-      "system_id": 31001751,
-      "system_name": "J113158",
-      "total_value": 36653466.64,
-      "points": 1,
-      "victim": {
-        "character_id": 2124564007,
-        "name": "Sir-Mandariano",
-        "corporation_id": 98829471,
-        "corporation_name": "Brigada 49",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 454,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138991456,
-      "time": "2026-10-08T03:25:53Z",
-      "system_id": 31001751,
-      "system_name": "J113158",
-      "total_value": 2915373.39,
-      "points": 1,
-      "victim": {
-        "character_id": 2124564007,
-        "name": "Sir-Mandariano",
-        "corporation_id": 98829471,
-        "corporation_name": "Brigada 49",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 925,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 138979155,
-      "time": "2026-10-07T16:54:23Z",
-      "system_id": 31002400,
-      "system_name": "J101553",
-      "total_value": 63128398.14,
-      "points": 44,
-      "victim": {
-        "character_id": 2121489552,
-        "name": "Hot Top",
-        "corporation_id": 98840242,
-        "corporation_name": "2Hot2Cold",
-        "ship_type_id": 17476,
-        "ship_name": "Covetor"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
-          "final_blow": true,
-          "damage_done": 16174,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
