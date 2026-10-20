@@ -110,7 +110,14 @@ document.addEventListener('DOMContentLoaded', function() {
 			timeZoneName: 'short',
 		}).format(fleetDate);
 
-		localTimeElement.textContent = `Your time: ${localDisplay}`;
+		const setupDate = new Date(fleetDate.getTime() - 30 * 60 * 1000);
+		const setupDisplay = new Intl.DateTimeFormat(undefined, {
+			hour: 'numeric',
+			minute: '2-digit',
+			timeZoneName: 'short',
+		}).format(setupDate);
+
+		localTimeElement.textContent = `Your time: ${localDisplay} (New Pilot setup starts at ${setupDisplay})`;
 	}
 	
 	if (menuToggle && navbar) {
