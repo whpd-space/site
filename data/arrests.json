@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-20T05:36:19Z",
+  "generated_at": "2026-10-21T05:37:06Z",
   "window": {
-    "start": "2026-10-13T05:36:19Z",
-    "end": "2026-10-20T05:36:19Z",
+    "start": "2026-10-14T05:37:06Z",
+    "end": "2026-10-21T05:37:06Z",
     "seconds": 604800
   },
   "source": {
@@ -12,37 +12,37 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 56,
-    "suspects": 35,
-    "systems_protected": 23,
-    "total_value": 4555774586.02
+    "arrests": 61,
+    "suspects": 38,
+    "systems_protected": 26,
+    "total_value": 4826653047.02
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh 'Mabel' Mabebu",
       "rank": "Officer",
-      "arrests": 27,
-      "final_blows": 22,
-      "case_value": 1456452249.38,
+      "arrests": 29,
+      "final_blows": 23,
+      "case_value": 1584478978.93,
       "placement": 1
     },
     {
       "character_id": 2120163218,
       "name": "BLiTzD86",
       "rank": "Officer",
-      "arrests": 13,
+      "arrests": 15,
       "final_blows": 5,
-      "case_value": 1396561639.4,
+      "case_value": 1524588368.95,
       "placement": 2
     },
     {
       "character_id": 96847792,
       "name": "Vinnegar Douchay",
       "rank": "Chief of Police",
-      "arrests": 12,
-      "final_blows": 6,
-      "case_value": 1643686145.97,
+      "arrests": 13,
+      "final_blows": 7,
+      "case_value": 1724088240.88,
       "placement": 3
     },
     {
@@ -55,21 +55,21 @@
       "placement": 4
     },
     {
+      "character_id": 91565688,
+      "name": "Damoraath Sponge",
+      "rank": "Officer",
+      "arrests": 10,
+      "final_blows": 10,
+      "case_value": 165919765.39,
+      "placement": 5
+    },
+    {
       "character_id": 1922855106,
       "name": "10of15",
       "rank": "Deputy",
       "arrests": 9,
       "final_blows": 0,
       "case_value": 1384719034.76,
-      "placement": 5
-    },
-    {
-      "character_id": 91565688,
-      "name": "Damoraath Sponge",
-      "rank": "Officer",
-      "arrests": 8,
-      "final_blows": 8,
-      "case_value": 103470128.85,
       "placement": 6
     },
     {
@@ -138,6 +138,24 @@
       "placement": 3
     },
     {
+      "character_id": 2113654785,
+      "name": "OledMan Cranky",
+      "corporation_id": 98302137,
+      "corporation_name": "Leviathan Rising",
+      "arrests": 2,
+      "total_value": 128026729.55,
+      "most_expensive_loss": {
+        "killmail_id": 139312874,
+        "time": "2026-10-21T02:01:51Z",
+        "total_value": 128016729.55,
+        "ship_type_id": 42244,
+        "ship_name": "Porpoise",
+        "system_id": 31000754,
+        "system_name": "J171309"
+      },
+      "placement": 4
+    },
+    {
       "character_id": 2124724435,
       "name": "Sybilla Synoji",
       "corporation_id": 1000115,
@@ -153,7 +171,7 @@
         "system_id": 31000490,
         "system_name": "J212319"
       },
-      "placement": 4
+      "placement": 5
     },
     {
       "character_id": 2124347171,
@@ -171,7 +189,7 @@
         "system_id": 31000595,
         "system_name": "J152322"
       },
-      "placement": 5
+      "placement": 6
     },
     {
       "character_id": 2123378191,
@@ -189,7 +207,7 @@
         "system_id": 31000752,
         "system_name": "J112505"
       },
-      "placement": 6
+      "placement": 7
     },
     {
       "character_id": 2123811508,
@@ -207,7 +225,7 @@
         "system_id": 31001595,
         "system_name": "J102521"
       },
-      "placement": 7
+      "placement": 8
     },
     {
       "character_id": 1106555889,
@@ -225,41 +243,23 @@
         "system_id": 31001153,
         "system_name": "J220438"
       },
-      "placement": 8
-    },
-    {
-      "character_id": 2122762749,
-      "name": "Thessalonike",
-      "corporation_id": 98720135,
-      "corporation_name": "Galactic Space Miners",
-      "arrests": 2,
-      "total_value": 54529632.1,
-      "most_expensive_loss": {
-        "killmail_id": 139242357,
-        "time": "2026-10-18T00:46:08Z",
-        "total_value": 54519632.1,
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard",
-        "system_id": 31000374,
-        "system_name": "J114835"
-      },
       "placement": 9
     },
     {
-      "character_id": 93811624,
-      "name": "Margulana",
-      "corporation_id": 98343822,
-      "corporation_name": "Fools Resurrection",
+      "character_id": 94409140,
+      "name": "rickyw59",
+      "corporation_id": 98544352,
+      "corporation_name": "Colastraw Corporation",
       "arrests": 2,
-      "total_value": 50457770.37,
+      "total_value": 62449636.54,
       "most_expensive_loss": {
-        "killmail_id": 139285650,
-        "time": "2026-10-19T18:08:38Z",
-        "total_value": 50447770.37,
-        "ship_type_id": 89240,
-        "ship_name": "Pioneer",
-        "system_id": 31001479,
-        "system_name": "J111329"
+        "killmail_id": 139303350,
+        "time": "2026-10-20T16:28:30Z",
+        "total_value": 62439636.54,
+        "ship_type_id": 11172,
+        "ship_name": "Helios",
+        "system_id": 31001382,
+        "system_name": "J103731"
       },
       "placement": 10
     }
@@ -342,6 +342,159 @@
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139312979,
+      "time": "2026-10-21T02:07:30Z",
+      "system_id": 31000506,
+      "system_name": "J110316",
+      "total_value": 80402094.91,
+      "points": 1,
+      "victim": {
+        "character_id": 2124715081,
+        "name": "Morgianna Pacht-Feng",
+        "corporation_id": 98697448,
+        "corporation_name": "The Dead Woods",
+        "ship_type_id": 89647,
+        "ship_name": "Pioneer Consortium Issue"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douchay",
+          "rank": "Chief of Police",
+          "final_blow": true,
+          "damage_done": 5841,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139312901,
+      "time": "2026-10-21T02:03:15Z",
+      "system_id": 31000754,
+      "system_name": "J171309",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2113654785,
+        "name": "OledMan Cranky",
+        "corporation_id": 98302137,
+        "corporation_name": "Leviathan Rising",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 172,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 29990,
+          "ship_name": "Loki"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139312874,
+      "time": "2026-10-21T02:01:51Z",
+      "system_id": 31000754,
+      "system_name": "J171309",
+      "total_value": 128016729.55,
+      "points": 4,
+      "victim": {
+        "character_id": 2113654785,
+        "name": "OledMan Cranky",
+        "corporation_id": 98302137,
+        "corporation_name": "Leviathan Rising",
+        "ship_type_id": 42244,
+        "ship_name": "Porpoise"
+      },
+      "officers": [
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 9217,
+          "ship_type_id": 29990,
+          "ship_name": "Loki"
+        },
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 4109,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139303366,
+      "time": "2026-10-20T16:29:36Z",
+      "system_id": 31001382,
+      "system_name": "J103731",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 94409140,
+        "name": "rickyw59",
+        "corporation_id": 98544352,
+        "corporation_name": "Colastraw Corporation",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 461,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139303350,
+      "time": "2026-10-20T16:28:30Z",
+      "system_id": 31001382,
+      "system_name": "J103731",
+      "total_value": 62439636.54,
+      "points": 1,
+      "victim": {
+        "character_id": 94409140,
+        "name": "rickyw59",
+        "corporation_id": 98544352,
+        "corporation_name": "Colastraw Corporation",
+        "ship_type_id": 11172,
+        "ship_name": "Helios"
+      },
+      "officers": [
+        {
+          "character_id": 91565688,
+          "name": "Damoraath Sponge",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 1666,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 139293511,
       "time": "2026-10-20T03:06:30Z",
