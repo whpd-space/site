@@ -86,14 +86,13 @@ def render_donuts_recipient(data_file=ARRESTS_DATA_FILE):
     recipient = min(rankings, key=lambda officer: int(officer.get('placement') or 999_999))
     character_id = int(recipient['character_id'])
     name = html.escape(str(recipient['name']), quote=True)
-    rank = html.escape(str(recipient['rank']), quote=True)
     return '\n'.join([
         '<aside class="donuts-recipient" aria-labelledby="donuts-recipient-title">',
         '<span class="arrest-kicker">Top personnel</span>',
         '<h2 id="donuts-recipient-title">Today\'s Donuts Recipient</h2>',
         f'<a class="donuts-recipient-person" href="https://zkillboard.com/character/{character_id}/" target="_blank" rel="noopener noreferrer">',
         f'<img src="https://images.evetech.net/characters/{character_id}/portrait?size=128" width="72" height="72" alt="">',
-        f'<span><strong>{name}</strong><small>{rank}</small></span>',
+        f'<span><strong>{name}</strong></span>',
         '</a>',
         '<div class="donuts-recipient-stats">',
         f'<span><strong>{int(recipient.get("arrests", 0)):,}</strong><small>Arrests</small></span>',
@@ -159,7 +158,6 @@ def render_arrests_content(data_file=ARRESTS_DATA_FILE):
     for officer in rankings:
         character_id = int(officer['character_id'])
         name = escape(officer['name'])
-        rank = escape(officer['rank'])
         placement = int(officer['placement'])
         sections.extend([
             '<tr>',
@@ -167,7 +165,7 @@ def render_arrests_content(data_file=ARRESTS_DATA_FILE):
             '<th scope="row" data-label="Personnel">',
             f'<a class="arrest-personnel" href="https://zkillboard.com/character/{character_id}/" target="_blank" rel="noopener noreferrer">',
             f'<img src="https://images.evetech.net/characters/{character_id}/portrait?size=64" width="48" height="48" loading="lazy" alt="">',
-            f'<span><strong>{name}</strong><small>{rank}</small></span>',
+            f'<span><strong>{name}</strong></span>',
             '</a>',
             '</th>',
             f'<td class="arrest-number" data-label="Arrests">{int(officer["arrests"]):,}</td>',

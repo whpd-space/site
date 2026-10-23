@@ -12,11 +12,13 @@ from pathlib import Path
 
 
 WINDOW_SECONDS = 7 * 24 * 60 * 60
-ZKILL_URL = 'https://zkillboard.com/api/kills/w-space/characterID/{character_id}/pastSeconds/604800/page/{page}/'
+WHPD_ALLIANCE_ID = 99010102  # The Wormhole Police
+ZKILL_URL = 'https://zkillboard.com/api/kills/w-space/allianceID/{alliance_id}/pastSeconds/604800/page/{page}/'
+ZKILL_CHARACTER_STATS_URL = 'https://zkillboard.com/api/stats/characterID/{character_id}/kills/'
 ESI_NAMES_URL = 'https://esi.evetech.net/latest/universe/names/?datasource=tranquility'
 USER_AGENT = 'whpd.space zKill updater (https://whpd.space; https://github.com/whpd-space/site)'
-MAX_ZKILL_PAGES = 5
-ZKILL_PAGE_LIMIT = 1000
+MAX_ZKILL_PAGES = 100
+ZKILL_PAGE_LIMIT = 200
 
 
 def utc_timestamp(value):
@@ -55,34 +57,30 @@ def request_json(url, *, payload=None, retries=3):
             time.sleep(2 ** (attempt - 1))
 
 
-def fetch_officer_kills(character_id):
-    """Fetch up to five pages of an officer's W-space kills from the last week."""
-    kills = []
-    seen_killmail_ids = set()
+def fetch_alliance_kills():
+    """Fetch the alliance's W-space kills from the last week."""
+    kills = {}
 
     for page in range(1, MAX_ZKILL_PAGES + 1):
-        url = ZKILL_URL.format(character_id=character_id, page=page)
+        url = ZKILL_URL.format(alliance_id=WHPD_ALLIANCE_ID, page=page)
         result = request_json(url)
         if not isinstance(result, list):
-            raise RuntimeError(f'zKillboard returned an unexpected response for character {character_id}')
+            raise RuntimeError(f'zKillboard returned an unexpected response for alliance {WHPD_ALLIANCE_ID}')
 
         for killmail in result:
-            killmail_id = int(killmail['killmail_id'])
-            if killmail_id not in seen_killmail_ids:
-                seen_killmail_ids.add(killmail_id)
-                kills.append(killmail)
+            kills[int(killmail['killmail_id'])] = killmail
 
-        # The documented API maximum is 1,000 records per request. A shorter
+        # The documented API maximum is 200 records per request. A shorter
         # result means there is no next page to retrieve.
         if len(result) < ZKILL_PAGE_LIMIT:
             break
         if page == MAX_ZKILL_PAGES:
             raise RuntimeError(
-                f'zKillboard results for character {character_id} exceed the safe pagination limit'
+                f'zKillboard results for alliance {WHPD_ALLIANCE_ID} exceed the safe pagination limit'
             )
         time.sleep(1)
 
-    return kills
+    return list(kills.values())
 
 
 def resolve_names(ids):
@@ -100,9 +98,31 @@ def resolve_names(ids):
     return names
 
 
-def collect_name_ids(killmails, officer_ids):
+def is_whpd_attacker(attacker):
+    """Use affiliation on this killmail, never a local personnel list."""
+    return bool(attacker.get('character_id')) and attacker.get('alliance_id') == WHPD_ALLIANCE_ID
+
+
+def fetch_current_member_ids(character_ids):
+    """Check current affiliation in zKillboard's character stats, not kill history."""
+    current_member_ids = set()
+    character_ids = sorted(set(character_ids))
+    for index, character_id in enumerate(character_ids):
+        result = request_json(ZKILL_CHARACTER_STATS_URL.format(character_id=character_id))
+        info = result.get('info') if isinstance(result, dict) else None
+        if not isinstance(info, dict) or info.get('id') != character_id or not info.get('name'):
+            raise RuntimeError(f'zKillboard returned unexpected character stats for {character_id}')
+        alliance_id = info.get('alliance_id', info.get('allianceID'))
+        if alliance_id == WHPD_ALLIANCE_ID:
+            current_member_ids.add(character_id)
+        if index < len(character_ids) - 1:
+            time.sleep(1)
+    return current_member_ids
+
+
+def collect_name_ids(killmails):
     """Collect every public entity ID needed to render the weekly blotter."""
-    ids = set(officer_ids)
+    ids = set()
     for killmail in killmails:
         ids.add(killmail.get('solar_system_id'))
         victim = killmail.get('victim', {})
@@ -113,8 +133,8 @@ def collect_name_ids(killmails, officer_ids):
             victim.get('ship_type_id'),
         ))
         for attacker in killmail.get('attackers', []):
-            if attacker.get('character_id') in officer_ids:
-                ids.add(attacker.get('ship_type_id'))
+            if is_whpd_attacker(attacker):
+                ids.update((attacker['character_id'], attacker.get('ship_type_id')))
     return {entity_id for entity_id in ids if entity_id}
 
 
@@ -207,9 +227,8 @@ def build_hotspot_rankings(arrests, limit=5):
     return rankings
 
 
-def build_dataset(officers, killmails, names, now):
-    """Deduplicate killmails and calculate the arrest and personnel standings."""
-    officer_by_id = {int(officer['character_id']): officer for officer in officers}
+def build_dataset(killmails, names, now, *, current_member_ids):
+    """Credit current WHPD members for kills made while affiliated with WHPD."""
     window_start = now - timedelta(seconds=WINDOW_SECONDS)
     unique_killmails = {}
 
@@ -222,26 +241,15 @@ def build_dataset(officers, killmails, names, now):
 
         whpd_attackers = [
             attacker for attacker in killmail.get('attackers', [])
-            if int(attacker.get('character_id') or 0) in officer_by_id
+            if is_whpd_attacker(attacker) and attacker['character_id'] in current_member_ids
         ]
         victim = killmail.get('victim', {})
         if not whpd_attackers or not victim.get('character_id'):
             continue
 
-        unique_killmails[int(killmail['killmail_id'])] = killmail
+        unique_killmails[int(killmail['killmail_id'])] = {**killmail, 'attackers': whpd_attackers}
 
-    stats = {
-        character_id: {
-            'character_id': character_id,
-            'name': officer['name'],
-            'rank': officer['rank'],
-            'arrests': 0,
-            'final_blows': 0,
-            'case_value': 0.0,
-            '_roster_order': roster_order,
-        }
-        for roster_order, (character_id, officer) in enumerate(officer_by_id.items())
-    }
+    stats = {}
 
     arrests = []
     for killmail in sorted(unique_killmails.values(), key=lambda item: item['killmail_time'], reverse=True):
@@ -250,20 +258,22 @@ def build_dataset(officers, killmails, names, now):
         arresting_officers = []
 
         for attacker in killmail.get('attackers', []):
-            character_id = int(attacker.get('character_id') or 0)
-            if character_id not in officer_by_id:
-                continue
-
-            officer = officer_by_id[character_id]
+            character_id = int(attacker['character_id'])
+            officer = stats.setdefault(character_id, {
+                'character_id': character_id,
+                'name': names.get(character_id, f'Character {character_id}'),
+                'arrests': 0,
+                'final_blows': 0,
+                'case_value': 0.0,
+            })
             final_blow = bool(attacker.get('final_blow'))
-            stats[character_id]['arrests'] += 1
-            stats[character_id]['final_blows'] += int(final_blow)
-            stats[character_id]['case_value'] += total_value
+            officer['arrests'] += 1
+            officer['final_blows'] += int(final_blow)
+            officer['case_value'] += total_value
             ship_type_id = int(attacker.get('ship_type_id') or 0)
             arresting_officers.append({
                 'character_id': character_id,
                 'name': officer['name'],
-                'rank': officer['rank'],
                 'final_blow': final_blow,
                 'damage_done': int(attacker.get('damage_done') or 0),
                 'ship_type_id': ship_type_id,
@@ -299,13 +309,13 @@ def build_dataset(officers, killmails, names, now):
             -officer['arrests'],
             -officer['final_blows'],
             -officer['case_value'],
-            officer['_roster_order'],
+            officer['name'].lower(),
+            officer['character_id'],
         ),
     )
     for placement, officer in enumerate(rankings, start=1):
         officer['placement'] = placement
         officer['case_value'] = round(officer['case_value'], 2)
-        del officer['_roster_order']
 
     return {
         'schema_version': 4,
@@ -318,7 +328,9 @@ def build_dataset(officers, killmails, names, now):
         'source': {
             'name': 'zKillboard',
             'url': 'https://zkillboard.com/',
-            'filter': 'kills/w-space/characterID/pastSeconds/604800',
+            'filter': 'kills/w-space/allianceID/pastSeconds/604800',
+            'alliance_id': WHPD_ALLIANCE_ID,
+            'membership': 'zKillboard character stats info',
         },
         'summary': {
             'arrests': len(arrests),
@@ -333,41 +345,24 @@ def build_dataset(officers, killmails, names, now):
     }
 
 
-def load_officers(config_path):
-    """Load and validate the configured WHPD personnel roster."""
-    with open(config_path, 'r', encoding='utf-8') as config_file:
-        officers = json.load(config_file)
-    required_fields = {'character_id', 'name', 'rank'}
-    if not officers or any(not required_fields.issubset(officer) for officer in officers):
-        raise ValueError(f'{config_path} must contain a non-empty WHPD personnel roster')
-    character_ids = [int(officer['character_id']) for officer in officers]
-    if len(character_ids) != len(set(character_ids)):
-        raise ValueError(f'{config_path} contains duplicate character IDs')
-    return officers
-
-
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--config', type=Path, default=Path('data/officers.json'))
     parser.add_argument('--output', type=Path, default=Path('data/arrests.json'))
     args = parser.parse_args()
 
-    officers = load_officers(args.config)
     now = datetime.now(timezone.utc)
-    raw_killmails = []
-
-    for index, officer in enumerate(officers):
-        character_id = int(officer['character_id'])
-        officer_kills = fetch_officer_kills(character_id)
-        raw_killmails.extend(officer_kills)
-        print(f'Fetched {len(officer_kills):,} W-space kills for {officer["rank"]} {officer["name"]}')
-        if index < len(officers) - 1:
-            time.sleep(1)
-
-    officer_ids = {int(officer['character_id']) for officer in officers}
-    unique_killmails = {int(killmail['killmail_id']): killmail for killmail in raw_killmails}
-    names = resolve_names(collect_name_ids(unique_killmails.values(), officer_ids))
-    dataset = build_dataset(officers, unique_killmails.values(), names, now)
+    killmails = fetch_alliance_kills()
+    print(f'Fetched {len(killmails):,} W-space kills for WHPD alliance {WHPD_ALLIANCE_ID}')
+    character_ids = {
+        int(attacker['character_id'])
+        for killmail in killmails
+        for attacker in killmail.get('attackers', [])
+        if is_whpd_attacker(attacker)
+    }
+    current_member_ids = fetch_current_member_ids(character_ids)
+    print(f'Confirmed {len(current_member_ids):,} current WHPD members through zKillboard stats')
+    names = resolve_names(collect_name_ids(killmails))
+    dataset = build_dataset(killmails, names, now, current_member_ids=current_member_ids)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     temporary_output = args.output.with_suffix(args.output.suffix + '.tmp')

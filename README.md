@@ -37,7 +37,9 @@ whpd.space/
 
 ## Arrests Data
 
-`scripts/update_arrests.py` queries zKillboard for the rolling seven-day W-space kill history of every character in `data/officers.json`. Shared killmails are deduplicated, public names are resolved through EVE ESI, and the result is written to `data/arrests.json` for `build.py` to render.
+`scripts/update_arrests.py` uses [zKillboard's APIs](https://zkillboard.com/api/docs/): alliance kills supply the seven-day W-space activity for WHPD (`99010102`), and character stats supply current membership. Only current members' WHPD kills count. ESI resolves names; `data/arrests.json` stores the report for `build.py`.
+
+There is no local tracking roster. Membership follows zKillboard's cached character stats; failed requests preserve the previous report.
 
 The **Update Arrests** workflow runs every day at 01:00 UTC, commits the refreshed arrest data to `main`, and republishes the Arrests page. To refresh it locally:
 
