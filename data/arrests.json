@@ -1,27 +1,28 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-23T05:37:48Z",
+  "generated_at": "2026-10-23T13:11:04Z",
   "window": {
-    "start": "2026-10-16T05:37:48Z",
-    "end": "2026-10-23T05:37:48Z",
+    "start": "2026-10-16T13:11:04Z",
+    "end": "2026-10-23T13:11:04Z",
     "seconds": 604800
   },
   "source": {
     "name": "zKillboard",
     "url": "https://zkillboard.com/",
-    "filter": "kills/w-space/characterID/pastSeconds/604800"
+    "filter": "kills/w-space/allianceID/pastSeconds/604800",
+    "alliance_id": 99010102,
+    "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 55,
-    "suspects": 36,
-    "systems_protected": 26,
-    "total_value": 4979000786.0
+    "arrests": 50,
+    "suspects": 33,
+    "systems_protected": 23,
+    "total_value": 4906387568.49
   },
   "rankings": [
     {
       "character_id": 2120817710,
-      "name": "Muh 'Mabel' Mabebu",
-      "rank": "Officer",
+      "name": "Muh Mabebu",
       "arrests": 27,
       "final_blows": 21,
       "case_value": 1757763435.75,
@@ -30,7 +31,6 @@
     {
       "character_id": 2120163218,
       "name": "BLiTzD86",
-      "rank": "Officer",
       "arrests": 15,
       "final_blows": 5,
       "case_value": 1524588368.95,
@@ -39,7 +39,6 @@
     {
       "character_id": 1633218082,
       "name": "Squizz Caphinator",
-      "rank": "Officer",
       "arrests": 11,
       "final_blows": 9,
       "case_value": 1728890906.26,
@@ -47,39 +46,83 @@
     },
     {
       "character_id": 96847792,
-      "name": "Vinnegar Douchay",
-      "rank": "Chief of Police",
+      "name": "Vinnegar Douche",
       "arrests": 11,
       "final_blows": 5,
       "case_value": 1708457766.85,
       "placement": 4
     },
     {
-      "character_id": 1922855106,
-      "name": "10of15",
-      "rank": "Deputy",
+      "character_id": 987753095,
+      "name": "drako markam",
       "arrests": 9,
-      "final_blows": 0,
+      "final_blows": 2,
       "case_value": 1384719034.76,
       "placement": 5
     },
     {
-      "character_id": 91565688,
-      "name": "Damoraath Sponge",
-      "rank": "Officer",
-      "arrests": 8,
-      "final_blows": 8,
-      "case_value": 160613521.58,
+      "character_id": 1922855106,
+      "name": "10of15",
+      "arrests": 9,
+      "final_blows": 0,
+      "case_value": 1384719034.76,
       "placement": 6
     },
     {
-      "character_id": 2122959958,
-      "name": "Hedvard Vetranax",
-      "rank": "Deputy",
-      "arrests": 0,
-      "final_blows": 0,
-      "case_value": 0.0,
+      "character_id": 2121450307,
+      "name": "Jesus Jim",
+      "arrests": 6,
+      "final_blows": 2,
+      "case_value": 1191168018.54,
       "placement": 7
+    },
+    {
+      "character_id": 2112653898,
+      "name": "BranderBuddy Lemmont",
+      "arrests": 5,
+      "final_blows": 1,
+      "case_value": 133329117.85,
+      "placement": 8
+    },
+    {
+      "character_id": 2118986142,
+      "name": "Otuu Simbala",
+      "arrests": 4,
+      "final_blows": 0,
+      "case_value": 1185781596.48,
+      "placement": 9
+    },
+    {
+      "character_id": 2121531380,
+      "name": "Richard Darkstar",
+      "arrests": 3,
+      "final_blows": 0,
+      "case_value": 1059382446.76,
+      "placement": 10
+    },
+    {
+      "character_id": 204180361,
+      "name": "Raythor Venthian",
+      "arrests": 2,
+      "final_blows": 1,
+      "case_value": 128026729.55,
+      "placement": 11
+    },
+    {
+      "character_id": 2116627622,
+      "name": "Phyve Solette",
+      "arrests": 2,
+      "final_blows": 0,
+      "case_value": 128026729.55,
+      "placement": 12
+    },
+    {
+      "character_id": 2119212767,
+      "name": "Knightzshade",
+      "arrests": 2,
+      "final_blows": 0,
+      "case_value": 39587431.92,
+      "placement": 13
     }
   ],
   "dirtbags": [
@@ -192,6 +235,24 @@
       "placement": 6
     },
     {
+      "character_id": 2113629027,
+      "name": "Niky VN",
+      "corporation_id": 98846906,
+      "corporation_name": "Vanguardia Hispana - Avance y Progreso",
+      "arrests": 2,
+      "total_value": 79850423.91,
+      "most_expensive_loss": {
+        "killmail_id": 139341612,
+        "time": "2026-10-22T13:38:48Z",
+        "total_value": 79820979.39,
+        "ship_type_id": 89647,
+        "ship_name": "Pioneer Consortium Issue",
+        "system_id": 31001295,
+        "system_name": "J121507"
+      },
+      "placement": 7
+    },
+    {
       "character_id": 2123378191,
       "name": "Asken Taras Panala",
       "corporation_id": 1000044,
@@ -207,7 +268,7 @@
         "system_id": 31000752,
         "system_name": "J112505"
       },
-      "placement": 7
+      "placement": 8
     },
     {
       "character_id": 2123811508,
@@ -224,24 +285,6 @@
         "ship_name": "Capsule",
         "system_id": 31001595,
         "system_name": "J102521"
-      },
-      "placement": 8
-    },
-    {
-      "character_id": 94409140,
-      "name": "rickyw59",
-      "corporation_id": 98544352,
-      "corporation_name": "Colastraw Corporation",
-      "arrests": 2,
-      "total_value": 62449636.54,
-      "most_expensive_loss": {
-        "killmail_id": 139303350,
-        "time": "2026-10-20T16:28:30Z",
-        "total_value": 62439636.54,
-        "ship_type_id": 11172,
-        "ship_name": "Helios",
-        "system_id": 31001382,
-        "system_name": "J103731"
       },
       "placement": 9
     },
@@ -326,17 +369,17 @@
       "placement": 4
     },
     {
-      "system_id": 31001479,
-      "system_name": "J111329",
-      "arrests": 3,
-      "total_value": 74942679.45,
+      "system_id": 31002593,
+      "system_name": "J000304",
+      "arrests": 2,
+      "total_value": 479263304.49,
       "top_killmail": {
-        "killmail_id": 139285650,
-        "time": "2026-10-19T18:08:38Z",
-        "total_value": 50447770.37,
-        "victim_name": "Margulana",
-        "ship_type_id": 89240,
-        "ship_name": "Pioneer"
+        "killmail_id": 139288016,
+        "time": "2026-10-19T20:12:29Z",
+        "total_value": 250904167.53,
+        "victim_name": "Desmond Haynes",
+        "ship_type_id": 49710,
+        "ship_name": "Kikimora"
       },
       "placement": 5
     }
@@ -360,8 +403,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 525,
           "ship_type_id": 44993,
@@ -387,8 +429,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 418,
           "ship_type_id": 44993,
@@ -414,12 +455,63 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 6728,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139341615,
+      "time": "2026-10-22T13:38:58Z",
+      "system_id": 31001295,
+      "system_name": "J121507",
+      "total_value": 29444.52,
+      "points": 1,
+      "victim": {
+        "character_id": 2113629027,
+        "name": "Niky VN",
+        "corporation_id": 98846906,
+        "corporation_name": "Vanguardia Hispana - Avance y Progreso",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2121450307,
+          "name": "Jesus Jim",
+          "final_blow": true,
+          "damage_done": 424,
+          "ship_type_id": 12013,
+          "ship_name": "Broadsword"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139341612,
+      "time": "2026-10-22T13:38:48Z",
+      "system_id": 31001295,
+      "system_name": "J121507",
+      "total_value": 79820979.39,
+      "points": 5,
+      "victim": {
+        "character_id": 2113629027,
+        "name": "Niky VN",
+        "corporation_id": 98846906,
+        "corporation_name": "Vanguardia Hispana - Avance y Progreso",
+        "ship_type_id": 89647,
+        "ship_name": "Pioneer Consortium Issue"
+      },
+      "officers": [
+        {
+          "character_id": 2121450307,
+          "name": "Jesus Jim",
+          "final_blow": true,
+          "damage_done": 5232,
+          "ship_type_id": 12013,
+          "ship_name": "Broadsword"
         }
       ]
     },
@@ -441,8 +533,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 442,
           "ship_type_id": 44993,
@@ -468,8 +559,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 923,
           "ship_type_id": 44993,
@@ -495,64 +585,9 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 1467,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139322932,
-      "time": "2026-10-21T15:35:09Z",
-      "system_id": 31000282,
-      "system_name": "J140135",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124363451,
-        "name": "Vlad Drakul Pis",
-        "corporation_id": 98422469,
-        "corporation_name": "Derp Shipping Co.",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 473,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139322916,
-      "time": "2026-10-21T15:33:35Z",
-      "system_id": 31000282,
-      "system_name": "J140135",
-      "total_value": 8948988.92,
-      "points": 3,
-      "victim": {
-        "character_id": 2124363451,
-        "name": "Vlad Drakul Pis",
-        "corporation_id": 98422469,
-        "corporation_name": "Derp Shipping Co.",
-        "ship_type_id": 586,
-        "ship_name": "Probe"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 1078,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
@@ -576,8 +611,7 @@
       "officers": [
         {
           "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
+          "name": "Vinnegar Douche",
           "final_blow": true,
           "damage_done": 5841,
           "ship_type_id": 44993,
@@ -603,8 +637,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 172,
           "ship_type_id": 44993,
@@ -613,7 +646,22 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 29990,
+          "ship_name": "Loki"
+        },
+        {
+          "character_id": 2116627622,
+          "name": "Phyve Solette",
+          "final_blow": false,
+          "damage_done": 250,
+          "ship_type_id": 29988,
+          "ship_name": "Proteus"
+        },
+        {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 29990,
@@ -638,9 +686,16 @@
       },
       "officers": [
         {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
+          "final_blow": true,
+          "damage_done": 12591,
+          "ship_type_id": 29990,
+          "ship_name": "Loki"
+        },
+        {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": false,
           "damage_done": 9217,
           "ship_type_id": 29990,
@@ -648,66 +703,19 @@
         },
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": false,
           "damage_done": 4109,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139303366,
-      "time": "2026-10-20T16:29:36Z",
-      "system_id": 31001382,
-      "system_name": "J103731",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 94409140,
-        "name": "rickyw59",
-        "corporation_id": 98544352,
-        "corporation_name": "Colastraw Corporation",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
+        },
         {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 461,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139303350,
-      "time": "2026-10-20T16:28:30Z",
-      "system_id": 31001382,
-      "system_name": "J103731",
-      "total_value": 62439636.54,
-      "points": 1,
-      "victim": {
-        "character_id": 94409140,
-        "name": "rickyw59",
-        "corporation_id": 98544352,
-        "corporation_name": "Colastraw Corporation",
-        "ship_type_id": 11172,
-        "ship_name": "Helios"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 1666,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
+          "character_id": 2116627622,
+          "name": "Phyve Solette",
+          "final_blow": false,
+          "damage_done": 6262,
+          "ship_type_id": 29988,
+          "ship_name": "Proteus"
         }
       ]
     },
@@ -729,8 +737,7 @@
       "officers": [
         {
           "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
+          "name": "Vinnegar Douche",
           "final_blow": true,
           "damage_done": 1388,
           "ship_type_id": 44993,
@@ -756,8 +763,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 1515,
           "ship_type_id": 44993,
@@ -766,11 +772,44 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": false,
           "damage_done": 534,
           "ship_type_id": 85087,
           "ship_name": "Tholos"
+        },
+        {
+          "character_id": 2112653898,
+          "name": "BranderBuddy Lemmont",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 29990,
+          "ship_name": "Loki"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139293185,
+      "time": "2026-10-20T02:41:24Z",
+      "system_id": 31000251,
+      "system_name": "J205004",
+      "total_value": 8149880.16,
+      "points": 15,
+      "victim": {
+        "character_id": 91535705,
+        "name": "Fzyx StarPuncher",
+        "corporation_id": 98718891,
+        "corporation_name": "Only Fleets",
+        "ship_type_id": 16242,
+        "ship_name": "Thrasher"
+      },
+      "officers": [
+        {
+          "character_id": 2112653898,
+          "name": "BranderBuddy Lemmont",
+          "final_blow": true,
+          "damage_done": 2767,
+          "ship_type_id": 29990,
+          "ship_name": "Loki"
         }
       ]
     },
@@ -792,8 +831,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 421,
           "ship_type_id": 44993,
@@ -819,8 +857,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 969,
           "ship_type_id": 44993,
@@ -847,7 +884,6 @@
         {
           "character_id": 1633218082,
           "name": "Squizz Caphinator",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 46387,
           "ship_type_id": 85087,
@@ -874,7 +910,6 @@
         {
           "character_id": 1633218082,
           "name": "Squizz Caphinator",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 4675,
           "ship_type_id": 85087,
@@ -901,7 +936,6 @@
         {
           "character_id": 1633218082,
           "name": "Squizz Caphinator",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 413,
           "ship_type_id": 85087,
@@ -928,65 +962,10 @@
         {
           "character_id": 1633218082,
           "name": "Squizz Caphinator",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 852,
           "ship_type_id": 85087,
           "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139285690,
-      "time": "2026-10-19T18:10:15Z",
-      "system_id": 31001479,
-      "system_name": "J111329",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 93811624,
-        "name": "Margulana",
-        "corporation_id": 98343822,
-        "corporation_name": "Fools Resurrection",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 461,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139285650,
-      "time": "2026-10-19T18:08:38Z",
-      "system_id": 31001479,
-      "system_name": "J111329",
-      "total_value": 50447770.37,
-      "points": 1,
-      "victim": {
-        "character_id": 93811624,
-        "name": "Margulana",
-        "corporation_id": 98343822,
-        "corporation_name": "Fools Resurrection",
-        "ship_type_id": 89240,
-        "ship_name": "Pioneer"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 6241,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
         }
       ]
     },
@@ -1009,7 +988,6 @@
         {
           "character_id": 1633218082,
           "name": "Squizz Caphinator",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 461,
           "ship_type_id": 85087,
@@ -1036,38 +1014,10 @@
         {
           "character_id": 1633218082,
           "name": "Squizz Caphinator",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 4772,
           "ship_type_id": 85087,
           "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139284396,
-      "time": "2026-10-19T16:53:42Z",
-      "system_id": 31001479,
-      "system_name": "J111329",
-      "total_value": 24484909.08,
-      "points": 1,
-      "victim": {
-        "character_id": 1318438384,
-        "name": "SokoleOko Jr",
-        "corporation_id": 176484436,
-        "corporation_name": "Wealth Redistribution Inc.",
-        "ship_type_id": 11182,
-        "ship_name": "Cheetah"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 1207,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
         }
       ]
     },
@@ -1089,8 +1039,7 @@
       "officers": [
         {
           "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
+          "name": "Vinnegar Douche",
           "final_blow": true,
           "damage_done": 458,
           "ship_type_id": 44993,
@@ -1116,8 +1065,7 @@
       "officers": [
         {
           "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
+          "name": "Vinnegar Douche",
           "final_blow": true,
           "damage_done": 2508,
           "ship_type_id": 44993,
@@ -1144,7 +1092,6 @@
         {
           "character_id": 1633218082,
           "name": "Squizz Caphinator",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 859,
           "ship_type_id": 85087,
@@ -1171,7 +1118,6 @@
         {
           "character_id": 1633218082,
           "name": "Squizz Caphinator",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 731,
           "ship_type_id": 85087,
@@ -1198,38 +1144,10 @@
         {
           "character_id": 1633218082,
           "name": "Squizz Caphinator",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 3828,
           "ship_type_id": 85087,
           "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139279064,
-      "time": "2026-10-19T12:00:08Z",
-      "system_id": 31001383,
-      "system_name": "J100046",
-      "total_value": 14262216.67,
-      "points": 1,
-      "victim": {
-        "character_id": 2123605372,
-        "name": "Caldari Citizen 2123605372",
-        "corporation_id": 98764580,
-        "corporation_name": "Strong Medicine",
-        "ship_type_id": 33475,
-        "ship_name": "Mobile Tractor Unit"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 48026,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
         }
       ]
     },
@@ -1250,9 +1168,16 @@
       },
       "officers": [
         {
+          "character_id": 987753095,
+          "name": "drako markam",
+          "final_blow": true,
+          "damage_done": 3784,
+          "ship_type_id": 12032,
+          "ship_name": "Manticore"
+        },
+        {
           "character_id": 1922855106,
           "name": "10of15",
-          "rank": "Deputy",
           "final_blow": false,
           "damage_done": 7104,
           "ship_type_id": 29984,
@@ -1261,7 +1186,6 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": false,
           "damage_done": 4761,
           "ship_type_id": 85087,
@@ -1269,8 +1193,7 @@
         },
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": false,
           "damage_done": 1861,
           "ship_type_id": 44993,
@@ -1296,8 +1219,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 373,
           "ship_type_id": 44993,
@@ -1306,7 +1228,6 @@
         {
           "character_id": 1922855106,
           "name": "10of15",
-          "rank": "Deputy",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 29984,
@@ -1315,11 +1236,18 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": false,
           "damage_done": 66,
           "ship_type_id": 85087,
           "ship_name": "Tholos"
+        },
+        {
+          "character_id": 987753095,
+          "name": "drako markam",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 12032,
+          "ship_name": "Manticore"
         }
       ]
     },
@@ -1340,9 +1268,16 @@
       },
       "officers": [
         {
+          "character_id": 987753095,
+          "name": "drako markam",
+          "final_blow": true,
+          "damage_done": 183,
+          "ship_type_id": 12032,
+          "ship_name": "Manticore"
+        },
+        {
           "character_id": 1922855106,
           "name": "10of15",
-          "rank": "Deputy",
           "final_blow": false,
           "damage_done": 427,
           "ship_type_id": 29984,
@@ -1351,7 +1286,6 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": false,
           "damage_done": 657,
           "ship_type_id": 85087,
@@ -1359,8 +1293,7 @@
         },
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": false,
           "damage_done": 277,
           "ship_type_id": 44993,
@@ -1387,7 +1320,6 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 42,
           "ship_type_id": 85087,
@@ -1396,16 +1328,22 @@
         {
           "character_id": 1922855106,
           "name": "10of15",
-          "rank": "Deputy",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 29984,
           "ship_name": "Tengu"
         },
         {
+          "character_id": 987753095,
+          "name": "drako markam",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 12032,
+          "ship_name": "Manticore"
+        },
+        {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": false,
           "damage_done": 389,
           "ship_type_id": 44993,
@@ -1432,7 +1370,6 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 263,
           "ship_type_id": 85087,
@@ -1441,16 +1378,22 @@
         {
           "character_id": 1922855106,
           "name": "10of15",
-          "rank": "Deputy",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 29984,
           "ship_name": "Tengu"
         },
         {
+          "character_id": 987753095,
+          "name": "drako markam",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 12032,
+          "ship_name": "Manticore"
+        },
+        {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": false,
           "damage_done": 671,
           "ship_type_id": 44993,
@@ -1477,7 +1420,6 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 6021,
           "ship_type_id": 44993,
@@ -1486,16 +1428,30 @@
         {
           "character_id": 1922855106,
           "name": "10of15",
-          "rank": "Deputy",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 11174,
           "ship_name": "Keres"
         },
         {
+          "character_id": 987753095,
+          "name": "drako markam",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 22456,
+          "ship_name": "Sabre"
+        },
+        {
+          "character_id": 2121450307,
+          "name": "Jesus Jim",
+          "final_blow": false,
+          "damage_done": 1383,
+          "ship_type_id": 17930,
+          "ship_name": "Worm"
+        },
+        {
           "character_id": 1633218082,
           "name": "Squizz Caphinator",
-          "rank": "Officer",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 85087,
@@ -1503,8 +1459,7 @@
         },
         {
           "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
+          "name": "Vinnegar Douche",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 17841,
@@ -1531,7 +1486,6 @@
         {
           "character_id": 1922855106,
           "name": "10of15",
-          "rank": "Deputy",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 11174,
@@ -1540,16 +1494,46 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": false,
           "damage_done": 1904,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         },
         {
+          "character_id": 987753095,
+          "name": "drako markam",
+          "final_blow": false,
+          "damage_done": 701,
+          "ship_type_id": 22456,
+          "ship_name": "Sabre"
+        },
+        {
+          "character_id": 2121450307,
+          "name": "Jesus Jim",
+          "final_blow": false,
+          "damage_done": 511,
+          "ship_type_id": 17930,
+          "ship_name": "Worm"
+        },
+        {
+          "character_id": 2118986142,
+          "name": "Otuu Simbala",
+          "final_blow": false,
+          "damage_done": 1618,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 2121531380,
+          "name": "Richard Darkstar",
+          "final_blow": false,
+          "damage_done": 177,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
           "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
+          "name": "Vinnegar Douche",
           "final_blow": false,
           "damage_done": 547,
           "ship_type_id": 17841,
@@ -1575,8 +1559,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 506,
           "ship_type_id": 33697,
@@ -1603,7 +1586,6 @@
         {
           "character_id": 1922855106,
           "name": "10of15",
-          "rank": "Deputy",
           "final_blow": false,
           "damage_done": 96,
           "ship_type_id": 11174,
@@ -1612,16 +1594,46 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": false,
           "damage_done": 1510,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         },
         {
+          "character_id": 987753095,
+          "name": "drako markam",
+          "final_blow": false,
+          "damage_done": 1153,
+          "ship_type_id": 22456,
+          "ship_name": "Sabre"
+        },
+        {
+          "character_id": 2121450307,
+          "name": "Jesus Jim",
+          "final_blow": false,
+          "damage_done": 609,
+          "ship_type_id": 17930,
+          "ship_name": "Worm"
+        },
+        {
+          "character_id": 2118986142,
+          "name": "Otuu Simbala",
+          "final_blow": false,
+          "damage_done": 1252,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 2121531380,
+          "name": "Richard Darkstar",
+          "final_blow": false,
+          "damage_done": 1473,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
           "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
+          "name": "Vinnegar Douche",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 17841,
@@ -1647,8 +1659,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 2901,
           "ship_type_id": 33697,
@@ -1675,16 +1686,38 @@
         {
           "character_id": 1922855106,
           "name": "10of15",
-          "rank": "Deputy",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 11174,
           "ship_name": "Keres"
         },
         {
+          "character_id": 987753095,
+          "name": "drako markam",
+          "final_blow": false,
+          "damage_done": 25,
+          "ship_type_id": 22456,
+          "ship_name": "Sabre"
+        },
+        {
+          "character_id": 2121450307,
+          "name": "Jesus Jim",
+          "final_blow": false,
+          "damage_done": 70,
+          "ship_type_id": 17930,
+          "ship_name": "Worm"
+        },
+        {
+          "character_id": 2118986142,
+          "name": "Otuu Simbala",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
           "character_id": 1633218082,
           "name": "Squizz Caphinator",
-          "rank": "Officer",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 85087,
@@ -1692,8 +1725,7 @@
         },
         {
           "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
+          "name": "Vinnegar Douche",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 17841,
@@ -1718,9 +1750,24 @@
       },
       "officers": [
         {
+          "character_id": 2118986142,
+          "name": "Otuu Simbala",
+          "final_blow": false,
+          "damage_done": 2158,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 2121531380,
+          "name": "Richard Darkstar",
+          "final_blow": false,
+          "damage_done": 1123,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
           "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
+          "name": "Vinnegar Douche",
           "final_blow": false,
           "damage_done": 2886,
           "ship_type_id": 17841,
@@ -1746,8 +1793,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 21577,
           "ship_type_id": 44993,
@@ -1756,11 +1802,18 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": false,
           "damage_done": 21988,
           "ship_type_id": 85087,
           "ship_name": "Tholos"
+        },
+        {
+          "character_id": 2119212767,
+          "name": "Knightzshade",
+          "final_blow": false,
+          "damage_done": 1743,
+          "ship_type_id": 29990,
+          "ship_name": "Loki"
         }
       ]
     },
@@ -1782,8 +1835,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 451,
           "ship_type_id": 44993,
@@ -1809,8 +1861,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 2390,
           "ship_type_id": 44993,
@@ -1836,8 +1887,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 453,
           "ship_type_id": 44993,
@@ -1863,8 +1913,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 1259,
           "ship_type_id": 44993,
@@ -1890,8 +1939,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 2992,
           "ship_type_id": 44993,
@@ -1917,8 +1965,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 435,
           "ship_type_id": 44993,
@@ -1944,8 +1991,7 @@
       "officers": [
         {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": true,
           "damage_done": 1450,
           "ship_type_id": 44993,
@@ -1972,16 +2018,30 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 1848,
           "ship_type_id": 85087,
           "ship_name": "Tholos"
         },
         {
+          "character_id": 2112653898,
+          "name": "BranderBuddy Lemmont",
+          "final_blow": false,
+          "damage_done": 423,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
+          "character_id": 2119212767,
+          "name": "Knightzshade",
+          "final_blow": false,
+          "damage_done": 455,
+          "ship_type_id": 29990,
+          "ship_name": "Loki"
+        },
+        {
           "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
+          "name": "Muh Mabebu",
           "final_blow": false,
           "damage_done": 0,
           "ship_type_id": 44993,
@@ -2008,16 +2068,22 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": true,
           "damage_done": 204,
           "ship_type_id": 85087,
           "ship_name": "Tholos"
         },
         {
+          "character_id": 2112653898,
+          "name": "BranderBuddy Lemmont",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
           "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
+          "name": "Vinnegar Douche",
           "final_blow": false,
           "damage_done": 246,
           "ship_type_id": 44993,
@@ -2043,8 +2109,7 @@
       "officers": [
         {
           "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
+          "name": "Vinnegar Douche",
           "final_blow": true,
           "damage_done": 7161,
           "ship_type_id": 44993,
@@ -2053,11 +2118,18 @@
         {
           "character_id": 2120163218,
           "name": "BLiTzD86",
-          "rank": "Officer",
           "final_blow": false,
           "damage_done": 15729,
           "ship_type_id": 85087,
           "ship_name": "Tholos"
+        },
+        {
+          "character_id": 2112653898,
+          "name": "BranderBuddy Lemmont",
+          "final_blow": false,
+          "damage_done": 8127,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
         }
       ]
     }
