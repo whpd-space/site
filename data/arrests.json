@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-22T05:38:42Z",
+  "generated_at": "2026-10-23T05:37:48Z",
   "window": {
-    "start": "2026-10-15T05:38:42Z",
-    "end": "2026-10-22T05:38:42Z",
+    "start": "2026-10-16T05:37:48Z",
+    "end": "2026-10-23T05:37:48Z",
     "seconds": 604800
   },
   "source": {
@@ -12,19 +12,19 @@
     "filter": "kills/w-space/characterID/pastSeconds/604800"
   },
   "summary": {
-    "arrests": 60,
-    "suspects": 38,
-    "systems_protected": 27,
-    "total_value": 4743714794.77
+    "arrests": 55,
+    "suspects": 36,
+    "systems_protected": 26,
+    "total_value": 4979000786.0
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh 'Mabel' Mabebu",
       "rank": "Officer",
-      "arrests": 26,
-      "final_blows": 20,
-      "case_value": 1492581737.76,
+      "arrests": 27,
+      "final_blows": 21,
+      "case_value": 1757763435.75,
       "placement": 1
     },
     {
@@ -37,31 +37,22 @@
       "placement": 2
     },
     {
-      "character_id": 96847792,
-      "name": "Vinnegar Douchay",
-      "rank": "Chief of Police",
-      "arrests": 13,
-      "final_blows": 7,
-      "case_value": 1724088240.88,
-      "placement": 3
-    },
-    {
-      "character_id": 91565688,
-      "name": "Damoraath Sponge",
-      "rank": "Officer",
-      "arrests": 12,
-      "final_blows": 12,
-      "case_value": 174878754.31,
-      "placement": 4
-    },
-    {
       "character_id": 1633218082,
       "name": "Squizz Caphinator",
       "rank": "Officer",
       "arrests": 11,
       "final_blows": 9,
       "case_value": 1728890906.26,
-      "placement": 5
+      "placement": 3
+    },
+    {
+      "character_id": 96847792,
+      "name": "Vinnegar Douchay",
+      "rank": "Chief of Police",
+      "arrests": 11,
+      "final_blows": 5,
+      "case_value": 1708457766.85,
+      "placement": 4
     },
     {
       "character_id": 1922855106,
@@ -70,6 +61,15 @@
       "arrests": 9,
       "final_blows": 0,
       "case_value": 1384719034.76,
+      "placement": 5
+    },
+    {
+      "character_id": 91565688,
+      "name": "Damoraath Sponge",
+      "rank": "Officer",
+      "arrests": 8,
+      "final_blows": 8,
+      "case_value": 160613521.58,
       "placement": 6
     },
     {
@@ -120,6 +120,24 @@
       "placement": 2
     },
     {
+      "character_id": 2124746913,
+      "name": "MonkeyWithBanana",
+      "corporation_id": 98763312,
+      "corporation_name": "New Eden Corporation 98763312",
+      "arrests": 2,
+      "total_value": 292668948.03,
+      "most_expensive_loss": {
+        "killmail_id": 139355369,
+        "time": "2026-10-23T01:53:36Z",
+        "total_value": 237395883.21,
+        "ship_type_id": 17476,
+        "ship_name": "Covetor",
+        "system_id": 31000764,
+        "system_name": "J233839"
+      },
+      "placement": 3
+    },
+    {
       "character_id": 2113654785,
       "name": "OledMan Cranky",
       "corporation_id": 98302137,
@@ -135,7 +153,7 @@
         "system_id": 31000754,
         "system_name": "J171309"
       },
-      "placement": 3
+      "placement": 4
     },
     {
       "character_id": 2124724435,
@@ -153,7 +171,7 @@
         "system_id": 31000490,
         "system_name": "J212319"
       },
-      "placement": 4
+      "placement": 5
     },
     {
       "character_id": 2124347171,
@@ -171,7 +189,7 @@
         "system_id": 31000595,
         "system_name": "J152322"
       },
-      "placement": 5
+      "placement": 6
     },
     {
       "character_id": 2123378191,
@@ -189,7 +207,7 @@
         "system_id": 31000752,
         "system_name": "J112505"
       },
-      "placement": 6
+      "placement": 7
     },
     {
       "character_id": 2123811508,
@@ -207,7 +225,7 @@
         "system_id": 31001595,
         "system_name": "J102521"
       },
-      "placement": 7
+      "placement": 8
     },
     {
       "character_id": 94409140,
@@ -225,7 +243,7 @@
         "system_id": 31001382,
         "system_name": "J103731"
       },
-      "placement": 8
+      "placement": 9
     },
     {
       "character_id": 2122762749,
@@ -243,24 +261,6 @@
         "system_id": 31000374,
         "system_name": "J114835"
       },
-      "placement": 9
-    },
-    {
-      "character_id": 93811624,
-      "name": "Margulana",
-      "corporation_id": 98343822,
-      "corporation_name": "Fools Resurrection",
-      "arrests": 2,
-      "total_value": 50457770.37,
-      "most_expensive_loss": {
-        "killmail_id": 139285650,
-        "time": "2026-10-19T18:08:38Z",
-        "total_value": 50447770.37,
-        "ship_type_id": 89240,
-        "ship_name": "Pioneer",
-        "system_id": 31001479,
-        "system_name": "J111329"
-      },
       "placement": 10
     }
   ],
@@ -268,8 +268,8 @@
     {
       "system_id": 31001129,
       "system_name": "J235630",
-      "arrests": 9,
-      "total_value": 328907016.06,
+      "arrests": 7,
+      "total_value": 301407903.94,
       "top_killmail": {
         "killmail_id": 139269942,
         "time": "2026-10-18T22:13:14Z",
@@ -342,6 +342,87 @@
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139355923,
+      "time": "2026-10-23T02:34:07Z",
+      "system_id": 31000821,
+      "system_name": "J145145",
+      "total_value": 11862.08,
+      "points": 1,
+      "victim": {
+        "character_id": 2124628265,
+        "name": "Thiazole",
+        "corporation_id": 1000077,
+        "corporation_name": "Royal Amarr Institute",
+        "ship_type_id": 596,
+        "ship_name": "Impairor"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 525,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139355371,
+      "time": "2026-10-23T01:53:46Z",
+      "system_id": 31000764,
+      "system_name": "J233839",
+      "total_value": 55273064.82,
+      "points": 1,
+      "victim": {
+        "character_id": 2124746913,
+        "name": "MonkeyWithBanana",
+        "corporation_id": 98763312,
+        "corporation_name": "New Eden Corporation 98763312",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 418,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139355369,
+      "time": "2026-10-23T01:53:36Z",
+      "system_id": 31000764,
+      "system_name": "J233839",
+      "total_value": 237395883.21,
+      "points": 1,
+      "victim": {
+        "character_id": 2124746913,
+        "name": "MonkeyWithBanana",
+        "corporation_id": 98763312,
+        "corporation_name": "New Eden Corporation 98763312",
+        "ship_type_id": 17476,
+        "ship_name": "Covetor"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh 'Mabel' Mabebu",
+          "rank": "Officer",
+          "final_blow": true,
+          "damage_done": 6728,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 139334873,
       "time": "2026-10-22T03:43:58Z",
@@ -1134,7 +1215,7 @@
       "points": 1,
       "victim": {
         "character_id": 2123605372,
-        "name": "gachi warrio",
+        "name": "Caldari Citizen 2123605372",
         "corporation_id": 98764580,
         "corporation_name": "Strong Medicine",
         "ship_type_id": 33475,
@@ -1977,222 +2058,6 @@
           "damage_done": 15729,
           "ship_type_id": 85087,
           "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139190537,
-      "time": "2026-10-16T01:23:34Z",
-      "system_id": 31001129,
-      "system_name": "J235630",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124568946,
-        "name": "SilverGhost1",
-        "corporation_id": 98644620,
-        "corporation_name": "Deep Skye Industries",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 439,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139190518,
-      "time": "2026-10-16T01:22:22Z",
-      "system_id": 31001129,
-      "system_name": "J235630",
-      "total_value": 27489112.12,
-      "points": 1,
-      "victim": {
-        "character_id": 2124568946,
-        "name": "SilverGhost1",
-        "corporation_id": 98644620,
-        "corporation_name": "Deep Skye Industries",
-        "ship_type_id": 37135,
-        "ship_name": "Endurance"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh 'Mabel' Mabebu",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 3346,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139183381,
-      "time": "2026-10-15T18:26:57Z",
-      "system_id": 31000725,
-      "system_name": "J124028",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2122860517,
-        "name": "Alivyan",
-        "corporation_id": 98816857,
-        "corporation_name": "Ace of Sp4des Corporation",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 462,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139183357,
-      "time": "2026-10-15T18:25:43Z",
-      "system_id": 31000725,
-      "system_name": "J124028",
-      "total_value": 4967545.69,
-      "points": 1,
-      "victim": {
-        "character_id": 2122860517,
-        "name": "Alivyan",
-        "corporation_id": 98816857,
-        "corporation_name": "Ace of Sp4des Corporation",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 2212,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139181848,
-      "time": "2026-10-15T17:03:45Z",
-      "system_id": 31001611,
-      "system_name": "J131252",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124240645,
-        "name": "Pro100Banditka",
-        "corporation_id": 98675712,
-        "corporation_name": "Russian Space Rangers",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
-          "final_blow": true,
-          "damage_done": 418,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139181820,
-      "time": "2026-10-15T17:02:40Z",
-      "system_id": 31001611,
-      "system_name": "J131252",
-      "total_value": 15620474.03,
-      "points": 16,
-      "victim": {
-        "character_id": 2124240645,
-        "name": "Pro100Banditka",
-        "corporation_id": 98675712,
-        "corporation_name": "Russian Space Rangers",
-        "ship_type_id": 627,
-        "ship_name": "Thorax"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douchay",
-          "rank": "Chief of Police",
-          "final_blow": true,
-          "damage_done": 4078,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139181511,
-      "time": "2026-10-15T16:37:54Z",
-      "system_id": 31000819,
-      "system_name": "J102946",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124709801,
-        "name": "gazebats",
-        "corporation_id": 1000169,
-        "corporation_name": "Center for Advanced Studies",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 421,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139181499,
-      "time": "2026-10-15T16:36:39Z",
-      "system_id": 31000819,
-      "system_name": "J102946",
-      "total_value": 9277687.04,
-      "points": 3,
-      "victim": {
-        "character_id": 2124709801,
-        "name": "gazebats",
-        "corporation_id": 1000169,
-        "corporation_name": "Center for Advanced Studies",
-        "ship_type_id": 72904,
-        "ship_name": "Heron Navy Issue"
-      },
-      "officers": [
-        {
-          "character_id": 91565688,
-          "name": "Damoraath Sponge",
-          "rank": "Officer",
-          "final_blow": true,
-          "damage_done": 1589,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
         }
       ]
     }
