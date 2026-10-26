@@ -533,21 +533,102 @@ details[open] summary {
    MemeFleet
    ======================================== */
 
-.memefleet-intro {
+body:has(.memefleet-welcome[open]) {
+	overflow: hidden;
+}
+
+.memefleet-welcome {
+	width: min(680px, calc(100% - 2rem));
+	max-height: calc(100dvh - 2rem);
+	margin: auto;
+	padding: clamp(1rem, 4vw, 2rem);
+	overflow-y: auto;
+	color: var(--color-text);
+	background: var(--color-surface);
+	border: 1px solid var(--color-bg-tertiary);
+	border-radius: var(--border-radius-lg);
+	box-shadow: var(--shadow-xl);
+}
+
+.memefleet-welcome::backdrop {
+	background: rgb(0 0 0 / 0.8);
+}
+
+.memefleet-welcome h2 {
+	margin-top: 0;
+}
+
+/* The heading receives initial reading focus but is not an interactive control. */
+#memefleet-welcome-title:focus {
+	outline: none;
+}
+
+.memefleet-welcome-byline {
+	color: var(--color-accent);
+	font-weight: 600;
+}
+
+.memefleet-welcome blockquote p {
+	margin-bottom: var(--spacing-md);
+}
+
+.memefleet-welcome-actions {
 	display: flex;
-	align-items: flex-start;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	gap: var(--spacing-sm);
+	margin-top: var(--spacing-lg);
+}
+
+.memefleet-welcome-actions button {
+	padding: var(--spacing-sm) var(--spacing-md);
+	font: inherit;
+	font-weight: 600;
+	color: var(--color-text);
+	background: var(--color-primary-dark);
+	border: 1px solid var(--color-primary-light);
+	border-radius: var(--border-radius);
+	cursor: pointer;
+}
+
+.memefleet-welcome-actions button:hover {
+	background: var(--color-surface-hover);
+}
+
+.memefleet-welcome-actions button:focus-visible {
+	outline: 2px solid var(--color-accent);
+	outline-offset: 3px;
+}
+
+.memefleet-intro {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+	align-items: start;
 	gap: var(--spacing-lg);
 	margin-bottom: var(--spacing-lg);
 }
 
-.memefleet-logo {
-	width: 260px;
-	max-width: 42%;
+.memefleet-video {
+	display: block;
+	width: 100%;
 	height: auto;
-	flex-shrink: 0;
+	margin-bottom: var(--spacing-lg);
 }
 
-.memefleet-content h2 {
+.memefleet-brand {
+	text-align: center;
+}
+
+.memefleet-logo {
+	display: block;
+	width: 260px;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.memefleet-brand h2,
+.memefleet-content h3 {
 	margin-top: 0;
 }
 
@@ -737,13 +818,8 @@ details[open] summary {
 
 @media (max-width: 600px) {
 	.memefleet-intro {
-		flex-direction: column;
+		grid-template-columns: 1fr;
 		gap: var(--spacing-md);
-	}
-
-	.memefleet-logo {
-		width: min(220px, 100%);
-		max-width: 100%;
 	}
 
 	.memefleet-history-heading {

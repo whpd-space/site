@@ -27,7 +27,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css?v=9208284f2297">
+	<link rel="stylesheet" href="css/style.css?v=172fbd7a6d1a">
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 
@@ -73,10 +73,32 @@
 	<main>
 		<h1>MEMEFLEET</h1>
 
+<dialog id="memefleet-welcome" class="memefleet-welcome" aria-labelledby="memefleet-welcome-title">
+	<h2 id="memefleet-welcome-title" tabindex="-1" autofocus>Come fly with the Wormhole Police</h2>
+	<p class="memefleet-welcome-byline">Vinne on MemeFleet</p>
+	<blockquote>
+		<p>We’re the Wormhole Police. We host MemeFleet. It’s the largest and longest running public wormhole fleet in the history of EVE Online.</p>
+		<p>We’re noob friendly. It’s a nurturing environment. All you gotta do is show up. Everything is provided. Don’t matter what the skill level is, we’ll get you in a ship, fill you with some ammo, point you at the targets, and make you look dangerous!</p>
+		<p>More than anything, it’s two hours on comms with your space friends. We usually have 30, 40, 50 guys. We’ve had pilots on this fleet nearly 200 times! No one does something 200 times if they’re not having fun.</p>
+		<p>Come fly with the Wormhole Police. Get right with the law. Clear your guilty conscience. Every Sunday at 1 PM Eastern!</p>
+	</blockquote>
+	<div class="memefleet-welcome-actions">
+		<button id="memefleet-enter" type="button">Let’s go</button>
+	</div>
+</dialog>
+
+<video id="memefleet-video" class="memefleet-video" width="1280" height="720" preload="metadata" playsinline controls tabindex="0" aria-label="The Wormhole Police MemeFleet video">
+	<source src="vid/memefleet_ad_production_v30.mp4" type="video/mp4">
+	<a href="vid/memefleet_ad_production_v30.mp4">Watch the MemeFleet video</a>.
+</video>
+<p id="memefleet-playback-status" role="status" hidden></p>
+
 <div class="memefleet-intro">
-	<img src="images/whpd.png" alt="The Wormhole Police MemeFleet" class="memefleet-logo">
-	<div class="memefleet-content">
+	<div class="memefleet-brand">
 		<h2>GET RIGHT WITH THE LAW</h2>
+		<img src="images/whpd.png" alt="The Wormhole Police badge" class="memefleet-logo" width="260" height="260">
+	</div>
+	<div class="memefleet-content">
 		<h3>The Largest and Longest Running public Wormhole Fleet in the history of Eve Online</h3>
 		<ul>
 			<li>Clear your Guilty Conscience.</li>
@@ -2917,7 +2939,7 @@
 		<p>&copy; YC 127 WHPD | ALL RIGHTS RESERVED</p>
 	</footer>
 
-	<script src="js/site.js?v=50ee27c64aa0"></script>
+	<script src="js/site.js?v=28643e5bbffb"></script>
 </body>
 
 </html>
