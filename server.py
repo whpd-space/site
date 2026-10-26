@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 import os
 
 class CustomHandler(SimpleHTTPRequestHandler):
@@ -20,7 +20,7 @@ class CustomHandler(SimpleHTTPRequestHandler):
 
 if __name__ == '__main__':
     os.chdir('docs')  # Serve from docs directory
-    httpd = HTTPServer(('0.0.0.0', 8082), CustomHandler)
+    httpd = ThreadingHTTPServer(('0.0.0.0', 8082), CustomHandler)
     print("Serving from docs/ on http://localhost:8082")
     try:
         httpd.serve_forever()

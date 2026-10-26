@@ -3,6 +3,37 @@ document.addEventListener('DOMContentLoaded', function() {
 	const menuToggle = document.getElementById('menu-toggle');
 	const navbar = document.getElementById('navbar');
 	const easternTimeZone = 'America/New_York';
+	const fleetWelcome = document.getElementById('memefleet-welcome');
+	const fleetVideo = document.getElementById('memefleet-video');
+
+	if (fleetWelcome && fleetVideo && typeof fleetWelcome.showModal === 'function') {
+		const playbackStatus = document.getElementById('memefleet-playback-status');
+		function enterFleetPage() {
+			fleetVideo.muted = false;
+			fleetVideo.volume = 1;
+			// Start playback directly in the click handler to preserve user activation.
+			const playback = fleetVideo.play();
+			fleetWelcome.close();
+			if (playback) {
+				playback.catch(function() {
+					playbackStatus.textContent = 'Press play on the video to watch with sound.';
+					playbackStatus.hidden = false;
+				});
+			}
+		}
+		document.getElementById('memefleet-enter').addEventListener('click', enterFleetPage);
+		fleetWelcome.addEventListener('cancel', function(event) {
+			event.preventDefault();
+			enterFleetPage();
+		});
+		fleetWelcome.addEventListener('close', function() {
+			fleetVideo.focus({ preventScroll: true });
+		});
+		fleetVideo.addEventListener('playing', function() {
+			playbackStatus.hidden = true;
+		});
+		fleetWelcome.showModal();
+	}
 
 	function getDatePartsInTimeZone(date, timeZone) {
 		const formatter = new Intl.DateTimeFormat('en-US', {
