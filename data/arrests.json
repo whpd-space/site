@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-27T05:50:31Z",
+  "generated_at": "2026-10-28T06:29:51Z",
   "window": {
-    "start": "2026-10-20T05:50:31Z",
-    "end": "2026-10-27T05:50:31Z",
+    "start": "2026-10-21T06:29:51Z",
+    "end": "2026-10-28T06:29:51Z",
     "seconds": 604800
   },
   "source": {
@@ -14,34 +14,34 @@
     "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 52,
-    "suspects": 31,
-    "systems_protected": 26,
-    "total_value": 3434661018.94
+    "arrests": 55,
+    "suspects": 33,
+    "systems_protected": 28,
+    "total_value": 3348509313.5
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh Mabebu",
-      "arrests": 28,
-      "final_blows": 24,
-      "case_value": 1353588549.55,
+      "arrests": 30,
+      "final_blows": 27,
+      "case_value": 1337588543.33,
       "placement": 1
     },
     {
       "character_id": 2120163218,
       "name": "BLiTzD86",
-      "arrests": 17,
+      "arrests": 15,
       "final_blows": 7,
-      "case_value": 1202567886.02,
+      "case_value": 1074541156.47,
       "placement": 2
     },
     {
       "character_id": 204180361,
       "name": "Raythor Venthian",
-      "arrests": 15,
-      "final_blows": 4,
-      "case_value": 1124441616.26,
+      "arrests": 13,
+      "final_blows": 3,
+      "case_value": 996414886.71,
       "placement": 3
     },
     {
@@ -77,19 +77,19 @@
       "placement": 7
     },
     {
-      "character_id": 96847792,
-      "name": "Vinnegar Douche",
+      "character_id": 2121223486,
+      "name": "Wallace Cornhose",
       "arrests": 6,
       "final_blows": 2,
-      "case_value": 229251293.22,
+      "case_value": 393471187.81,
       "placement": 8
     },
     {
-      "character_id": 2116627622,
-      "name": "Phyve Solette",
+      "character_id": 96847792,
+      "name": "Vinnegar Douche",
       "arrests": 5,
-      "final_blows": 0,
-      "case_value": 150756705.53,
+      "final_blows": 1,
+      "case_value": 148849198.31,
       "placement": 9
     },
     {
@@ -125,11 +125,11 @@
       "placement": 13
     },
     {
-      "character_id": 2121223486,
-      "name": "Wallace Cornhose",
-      "arrests": 4,
+      "character_id": 2116627622,
+      "name": "Phyve Solette",
+      "arrests": 3,
       "final_blows": 0,
-      "case_value": 383220792.12,
+      "case_value": 22729975.98,
       "placement": 14
     },
     {
@@ -251,24 +251,6 @@
       "placement": 6
     },
     {
-      "character_id": 2113654785,
-      "name": "OledMan Cranky",
-      "corporation_id": 98302137,
-      "corporation_name": "Leviathan Rising",
-      "arrests": 2,
-      "total_value": 128026729.55,
-      "most_expensive_loss": {
-        "killmail_id": 139312874,
-        "time": "2026-10-21T02:01:51Z",
-        "total_value": 128016729.55,
-        "ship_type_id": 42244,
-        "ship_name": "Porpoise",
-        "system_id": 31000754,
-        "system_name": "J171309"
-      },
-      "placement": 7
-    },
-    {
       "character_id": 2113629027,
       "name": "Niky VN",
       "corporation_id": 98846906,
@@ -284,7 +266,7 @@
         "system_id": 31001295,
         "system_name": "J121507"
       },
-      "placement": 8
+      "placement": 7
     },
     {
       "character_id": 2124702871,
@@ -302,7 +284,7 @@
         "system_id": 31000073,
         "system_name": "J105936"
       },
-      "placement": 9
+      "placement": 8
     },
     {
       "character_id": 2122261762,
@@ -319,6 +301,24 @@
         "ship_name": "Venture",
         "system_id": 31001401,
         "system_name": "J160321"
+      },
+      "placement": 9
+    },
+    {
+      "character_id": 2121889641,
+      "name": "Sin Mine1 Hakoke",
+      "corporation_id": 98700750,
+      "corporation_name": "Sinimenji Corporation",
+      "arrests": 2,
+      "total_value": 31132553.79,
+      "most_expensive_loss": {
+        "killmail_id": 139368616,
+        "time": "2026-10-23T17:37:19Z",
+        "total_value": 31122553.79,
+        "ship_type_id": 33697,
+        "ship_name": "Prospect",
+        "system_id": 31000484,
+        "system_name": "J172551"
       },
       "placement": 10
     }
@@ -401,6 +401,162 @@
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139486905,
+      "time": "2026-10-28T02:26:29Z",
+      "system_id": 31000669,
+      "system_name": "J160305",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2118997613,
+        "name": "TiberianSun371AlexW",
+        "corporation_id": 98604876,
+        "corporation_name": "Holey Amarrian Inquisition",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 452,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139486896,
+      "time": "2026-10-28T02:25:39Z",
+      "system_id": 31000669,
+      "system_name": "J160305",
+      "total_value": 24440306.39,
+      "points": 1,
+      "victim": {
+        "character_id": 2118997613,
+        "name": "TiberianSun371AlexW",
+        "corporation_id": 98604876,
+        "corporation_name": "Holey Amarrian Inquisition",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 720,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139486503,
+      "time": "2026-10-28T02:01:53Z",
+      "system_id": 31001156,
+      "system_name": "J150737",
+      "total_value": 87566416.94,
+      "points": 1,
+      "victim": {
+        "character_id": 91326803,
+        "name": "Caretaker Umbra808",
+        "corporation_id": 98838310,
+        "corporation_name": "WULFEN FLEET",
+        "ship_type_id": 33475,
+        "ship_name": "Mobile Tractor Unit"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 49814,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139485374,
+      "time": "2026-10-28T00:57:58Z",
+      "system_id": 31002037,
+      "system_name": "J142624",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 90807330,
+        "name": "ID26",
+        "corporation_id": 98524218,
+        "corporation_name": "Ninth Planet",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 461,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139472587,
+      "time": "2026-10-27T14:31:07Z",
+      "system_id": 31000409,
+      "system_name": "J151231",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 96237838,
+        "name": "Negotium Hominis",
+        "corporation_id": 1000045,
+        "corporation_name": "Science and Trade Institute",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2121223486,
+          "name": "Wallace Cornhose",
+          "final_blow": true,
+          "damage_done": 461,
+          "ship_type_id": 72904,
+          "ship_name": "Heron Navy Issue"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139472571,
+      "time": "2026-10-27T14:30:02Z",
+      "system_id": 31000409,
+      "system_name": "J151231",
+      "total_value": 10240395.69,
+      "points": 1,
+      "victim": {
+        "character_id": 96237838,
+        "name": "Negotium Hominis",
+        "corporation_id": 1000045,
+        "corporation_name": "Science and Trade Institute",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "officers": [
+        {
+          "character_id": 2121223486,
+          "name": "Wallace Cornhose",
+          "final_blow": true,
+          "damage_done": 2288,
+          "ship_type_id": 72904,
+          "ship_name": "Heron Navy Issue"
+        }
+      ]
+    },
     {
       "killmail_id": 139440314,
       "time": "2026-10-26T02:44:11Z",
@@ -2240,132 +2396,6 @@
           "damage_done": 1467,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139312979,
-      "time": "2026-10-21T02:07:30Z",
-      "system_id": 31000506,
-      "system_name": "J110316",
-      "total_value": 80402094.91,
-      "points": 1,
-      "victim": {
-        "character_id": 2124715081,
-        "name": "Morgianna Pacht-Feng",
-        "corporation_id": 98697448,
-        "corporation_name": "The Dead Woods",
-        "ship_type_id": 89647,
-        "ship_name": "Pioneer Consortium Issue"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douche",
-          "final_blow": true,
-          "damage_done": 5841,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139312901,
-      "time": "2026-10-21T02:03:15Z",
-      "system_id": 31000754,
-      "system_name": "J171309",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2113654785,
-        "name": "OledMan Cranky",
-        "corporation_id": 98302137,
-        "corporation_name": "Leviathan Rising",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 172,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        },
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 29990,
-          "ship_name": "Loki"
-        },
-        {
-          "character_id": 2116627622,
-          "name": "Phyve Solette",
-          "final_blow": false,
-          "damage_done": 250,
-          "ship_type_id": 29988,
-          "ship_name": "Proteus"
-        },
-        {
-          "character_id": 204180361,
-          "name": "Raythor Venthian",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 29990,
-          "ship_name": "Loki"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139312874,
-      "time": "2026-10-21T02:01:51Z",
-      "system_id": 31000754,
-      "system_name": "J171309",
-      "total_value": 128016729.55,
-      "points": 4,
-      "victim": {
-        "character_id": 2113654785,
-        "name": "OledMan Cranky",
-        "corporation_id": 98302137,
-        "corporation_name": "Leviathan Rising",
-        "ship_type_id": 42244,
-        "ship_name": "Porpoise"
-      },
-      "officers": [
-        {
-          "character_id": 204180361,
-          "name": "Raythor Venthian",
-          "final_blow": true,
-          "damage_done": 12591,
-          "ship_type_id": 29990,
-          "ship_name": "Loki"
-        },
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "final_blow": false,
-          "damage_done": 9217,
-          "ship_type_id": 29990,
-          "ship_name": "Loki"
-        },
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": false,
-          "damage_done": 4109,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        },
-        {
-          "character_id": 2116627622,
-          "name": "Phyve Solette",
-          "final_blow": false,
-          "damage_done": 6262,
-          "ship_type_id": 29988,
-          "ship_name": "Proteus"
         }
       ]
     }
