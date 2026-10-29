@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-28T06:29:51Z",
+  "generated_at": "2026-10-29T06:40:21Z",
   "window": {
-    "start": "2026-10-21T06:29:51Z",
-    "end": "2026-10-28T06:29:51Z",
+    "start": "2026-10-22T06:40:21Z",
+    "end": "2026-10-29T06:40:21Z",
     "seconds": 604800
   },
   "source": {
@@ -14,18 +14,18 @@
     "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 55,
-    "suspects": 33,
-    "systems_protected": 28,
-    "total_value": 3348509313.5
+    "arrests": 54,
+    "suspects": 32,
+    "systems_protected": 27,
+    "total_value": 3224692835.75
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh Mabebu",
-      "arrests": 30,
-      "final_blows": 27,
-      "case_value": 1337588543.33,
+      "arrests": 29,
+      "final_blows": 26,
+      "case_value": 1213772065.58,
       "placement": 1
     },
     {
@@ -269,24 +269,6 @@
       "placement": 7
     },
     {
-      "character_id": 2124702871,
-      "name": "Bastaras",
-      "corporation_id": 917701062,
-      "corporation_name": "EVE University",
-      "arrests": 2,
-      "total_value": 49468232.11,
-      "most_expensive_loss": {
-        "killmail_id": 139334840,
-        "time": "2026-10-22T03:42:20Z",
-        "total_value": 49458232.11,
-        "ship_type_id": 605,
-        "ship_name": "Heron",
-        "system_id": 31000073,
-        "system_name": "J105936"
-      },
-      "placement": 8
-    },
-    {
       "character_id": 2122261762,
       "name": "Winter Raiy",
       "corporation_id": 98827283,
@@ -302,7 +284,7 @@
         "system_id": 31001401,
         "system_name": "J160321"
       },
-      "placement": 9
+      "placement": 8
     },
     {
       "character_id": 2121889641,
@@ -319,6 +301,24 @@
         "ship_name": "Prospect",
         "system_id": 31000484,
         "system_name": "J172551"
+      },
+      "placement": 9
+    },
+    {
+      "character_id": 2118997613,
+      "name": "TiberianSun371AlexW",
+      "corporation_id": 98604876,
+      "corporation_name": "Holey Amarrian Inquisition",
+      "arrests": 2,
+      "total_value": 24450306.39,
+      "most_expensive_loss": {
+        "killmail_id": 139486896,
+        "time": "2026-10-28T02:25:39Z",
+        "total_value": 24440306.39,
+        "ship_type_id": 32880,
+        "ship_name": "Venture",
+        "system_id": 31000669,
+        "system_name": "J160305"
       },
       "placement": 10
     }
@@ -401,6 +401,58 @@
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139506773,
+      "time": "2026-10-29T02:18:24Z",
+      "system_id": 31000420,
+      "system_name": "J103839",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 837568987,
+        "name": "Gucky Loyd",
+        "corporation_id": 1000167,
+        "corporation_name": "State War Academy",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 543,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139506745,
+      "time": "2026-10-29T02:17:21Z",
+      "system_id": 31000420,
+      "system_name": "J103839",
+      "total_value": 2182596.02,
+      "points": 1,
+      "victim": {
+        "character_id": 837568987,
+        "name": "Gucky Loyd",
+        "corporation_id": 1000167,
+        "corporation_name": "State War Academy",
+        "ship_type_id": 649,
+        "ship_name": "Tayra"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 2980,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 139486905,
       "time": "2026-10-28T02:26:29Z",
@@ -2318,84 +2370,6 @@
           "damage_done": 5232,
           "ship_type_id": 12013,
           "ship_name": "Broadsword"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139334873,
-      "time": "2026-10-22T03:43:58Z",
-      "system_id": 31000073,
-      "system_name": "J105936",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124702871,
-        "name": "Bastaras",
-        "corporation_id": 917701062,
-        "corporation_name": "EVE University",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 442,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139334840,
-      "time": "2026-10-22T03:42:20Z",
-      "system_id": 31000073,
-      "system_name": "J105936",
-      "total_value": 49458232.11,
-      "points": 1,
-      "victim": {
-        "character_id": 2124702871,
-        "name": "Bastaras",
-        "corporation_id": 917701062,
-        "corporation_name": "EVE University",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 923,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139333369,
-      "time": "2026-10-22T01:59:56Z",
-      "system_id": 31000782,
-      "system_name": "J224145",
-      "total_value": 76540841.66,
-      "points": 9,
-      "victim": {
-        "character_id": 94177201,
-        "name": "Kitty Doe",
-        "corporation_id": 98822890,
-        "corporation_name": "WORMHOLE MONKS",
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 1467,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
         }
       ]
     }
