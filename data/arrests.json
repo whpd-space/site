@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-29T06:40:21Z",
+  "generated_at": "2026-10-30T06:41:06Z",
   "window": {
-    "start": "2026-10-22T06:40:21Z",
-    "end": "2026-10-29T06:40:21Z",
+    "start": "2026-10-23T06:41:06Z",
+    "end": "2026-10-30T06:41:06Z",
     "seconds": 604800
   },
   "source": {
@@ -14,10 +14,10 @@
     "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 54,
-    "suspects": 32,
+    "arrests": 55,
+    "suspects": 33,
     "systems_protected": 27,
-    "total_value": 3224692835.75
+    "total_value": 3608644097.21
   },
   "rankings": [
     {
@@ -25,7 +25,7 @@
       "name": "Muh Mabebu",
       "arrests": 29,
       "final_blows": 26,
-      "case_value": 1213772065.58,
+      "case_value": 1494655431.52,
       "placement": 1
     },
     {
@@ -55,17 +55,17 @@
     {
       "character_id": 2112653898,
       "name": "BranderBuddy Lemmont",
-      "arrests": 11,
-      "final_blows": 1,
-      "case_value": 1141412324.33,
+      "arrests": 12,
+      "final_blows": 2,
+      "case_value": 1201082220.38,
       "placement": 5
     },
     {
-      "character_id": 2121450307,
-      "name": "Jesus Jim",
-      "arrests": 8,
-      "final_blows": 4,
-      "case_value": 494203769.82,
+      "character_id": 96847792,
+      "name": "Vinnegar Douche",
+      "arrests": 7,
+      "final_blows": 3,
+      "case_value": 272097621.69,
       "placement": 6
     },
     {
@@ -77,19 +77,19 @@
       "placement": 7
     },
     {
+      "character_id": 2121450307,
+      "name": "Jesus Jim",
+      "arrests": 6,
+      "final_blows": 2,
+      "case_value": 414353345.91,
+      "placement": 8
+    },
+    {
       "character_id": 2121223486,
       "name": "Wallace Cornhose",
       "arrests": 6,
       "final_blows": 2,
       "case_value": 393471187.81,
-      "placement": 8
-    },
-    {
-      "character_id": 96847792,
-      "name": "Vinnegar Douche",
-      "arrests": 5,
-      "final_blows": 1,
-      "case_value": 148849198.31,
       "placement": 9
     },
     {
@@ -197,6 +197,24 @@
       "placement": 3
     },
     {
+      "character_id": 2124737469,
+      "name": "Here2HulkOut220",
+      "corporation_id": 98846739,
+      "corporation_name": "Seal Team VI Industries",
+      "arrests": 2,
+      "total_value": 556602667.01,
+      "most_expensive_loss": {
+        "killmail_id": 139529714,
+        "time": "2026-10-30T02:01:18Z",
+        "total_value": 483630630.35,
+        "ship_type_id": 670,
+        "ship_name": "Capsule",
+        "system_id": 31001075,
+        "system_name": "J122854"
+      },
+      "placement": 4
+    },
+    {
       "character_id": 2122225681,
       "name": "Raikane Funky",
       "corporation_id": 98838310,
@@ -211,24 +229,6 @@
         "ship_name": "Praxis",
         "system_id": 31000880,
         "system_name": "J160650"
-      },
-      "placement": 4
-    },
-    {
-      "character_id": 2124746913,
-      "name": "MonkeyWithBanana",
-      "corporation_id": 98763312,
-      "corporation_name": "New Eden Corporation 98763312",
-      "arrests": 2,
-      "total_value": 292668948.03,
-      "most_expensive_loss": {
-        "killmail_id": 139355369,
-        "time": "2026-10-23T01:53:36Z",
-        "total_value": 237395883.21,
-        "ship_type_id": 17476,
-        "ship_name": "Covetor",
-        "system_id": 31000764,
-        "system_name": "J233839"
       },
       "placement": 5
     },
@@ -251,20 +251,20 @@
       "placement": 6
     },
     {
-      "character_id": 2113629027,
-      "name": "Niky VN",
-      "corporation_id": 98846906,
-      "corporation_name": "Vanguardia Hispana - Avance y Progreso",
+      "character_id": 2123735246,
+      "name": "Leviattan",
+      "corporation_id": 98821246,
+      "corporation_name": "ASMAR GALAXY",
       "arrests": 2,
-      "total_value": 79850423.91,
+      "total_value": 123248423.38,
       "most_expensive_loss": {
-        "killmail_id": 139341612,
-        "time": "2026-10-22T13:38:48Z",
-        "total_value": 79820979.39,
-        "ship_type_id": 89647,
-        "ship_name": "Pioneer Consortium Issue",
-        "system_id": 31001295,
-        "system_name": "J121507"
+        "killmail_id": 139519039,
+        "time": "2026-10-29T16:53:54Z",
+        "total_value": 123238423.38,
+        "ship_type_id": 12735,
+        "ship_name": "Prowler",
+        "system_id": 31002322,
+        "system_name": "J120922"
       },
       "placement": 7
     },
@@ -370,6 +370,21 @@
       "placement": 3
     },
     {
+      "system_id": 31001075,
+      "system_name": "J122854",
+      "arrests": 3,
+      "total_value": 573564176.05,
+      "top_killmail": {
+        "killmail_id": 139529714,
+        "time": "2026-10-30T02:01:18Z",
+        "total_value": 483630630.35,
+        "victim_name": "Here2HulkOut220",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "placement": 4
+    },
+    {
       "system_id": 31000880,
       "system_name": "J160650",
       "arrests": 2,
@@ -382,25 +397,166 @@
         "ship_type_id": 47466,
         "ship_name": "Praxis"
       },
-      "placement": 4
-    },
-    {
-      "system_id": 31000892,
-      "system_name": "J205027",
-      "arrests": 2,
-      "total_value": 331671288.08,
-      "top_killmail": {
-        "killmail_id": 139429425,
-        "time": "2026-10-25T18:12:33Z",
-        "total_value": 185875686.97,
-        "victim_name": "Ganiel Drillex",
-        "ship_type_id": 33468,
-        "ship_name": "Astero"
-      },
       "placement": 5
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139529721,
+      "time": "2026-10-30T02:01:49Z",
+      "system_id": 31000390,
+      "system_name": "J103339",
+      "total_value": 59669896.05,
+      "points": 7,
+      "victim": {
+        "character_id": 2123957766,
+        "name": "Alex Klinch",
+        "corporation_id": 98630992,
+        "corporation_name": "Dream RuCorp inc.",
+        "ship_type_id": 649,
+        "ship_name": "Tayra"
+      },
+      "officers": [
+        {
+          "character_id": 2112653898,
+          "name": "BranderBuddy Lemmont",
+          "final_blow": true,
+          "damage_done": 2431,
+          "ship_type_id": 33468,
+          "ship_name": "Astero"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139529714,
+      "time": "2026-10-30T02:01:18Z",
+      "system_id": 31001075,
+      "system_name": "J122854",
+      "total_value": 483630630.35,
+      "points": 1,
+      "victim": {
+        "character_id": 2124737469,
+        "name": "Here2HulkOut220",
+        "corporation_id": 98846739,
+        "corporation_name": "Seal Team VI Industries",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 455,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139529712,
+      "time": "2026-10-30T02:01:08Z",
+      "system_id": 31001075,
+      "system_name": "J122854",
+      "total_value": 72972036.66,
+      "points": 1,
+      "victim": {
+        "character_id": 2124737469,
+        "name": "Here2HulkOut220",
+        "corporation_id": 98846739,
+        "corporation_name": "Seal Team VI Industries",
+        "ship_type_id": 11192,
+        "ship_name": "Buzzard"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 1363,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139529378,
+      "time": "2026-10-30T01:38:42Z",
+      "system_id": 31001075,
+      "system_name": "J122854",
+      "total_value": 16961509.04,
+      "points": 1,
+      "victim": {
+        "character_id": 2116098846,
+        "name": "Eg Yong",
+        "corporation_id": 98641311,
+        "corporation_name": "CATALYST FOR YOU",
+        "ship_type_id": 33475,
+        "ship_name": "Mobile Tractor Unit"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 50090,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139519048,
+      "time": "2026-10-29T16:54:41Z",
+      "system_id": 31002322,
+      "system_name": "J120922",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2123735246,
+        "name": "Leviattan",
+        "corporation_id": 98821246,
+        "corporation_name": "ASMAR GALAXY",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douche",
+          "final_blow": true,
+          "damage_done": 440,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139519039,
+      "time": "2026-10-29T16:53:54Z",
+      "system_id": 31002322,
+      "system_name": "J120922",
+      "total_value": 123238423.38,
+      "points": 34,
+      "victim": {
+        "character_id": 2123735246,
+        "name": "Leviattan",
+        "corporation_id": 98821246,
+        "corporation_name": "ASMAR GALAXY",
+        "ship_type_id": 12735,
+        "ship_name": "Prowler"
+      },
+      "officers": [
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douche",
+          "final_blow": true,
+          "damage_done": 5278,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 139506773,
       "time": "2026-10-29T02:18:24Z",
@@ -2240,136 +2396,6 @@
           "damage_done": 2178,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139355923,
-      "time": "2026-10-23T02:34:07Z",
-      "system_id": 31000821,
-      "system_name": "J145145",
-      "total_value": 11862.08,
-      "points": 1,
-      "victim": {
-        "character_id": 2124628265,
-        "name": "Thiazole",
-        "corporation_id": 1000077,
-        "corporation_name": "Royal Amarr Institute",
-        "ship_type_id": 596,
-        "ship_name": "Impairor"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 525,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139355371,
-      "time": "2026-10-23T01:53:46Z",
-      "system_id": 31000764,
-      "system_name": "J233839",
-      "total_value": 55273064.82,
-      "points": 1,
-      "victim": {
-        "character_id": 2124746913,
-        "name": "MonkeyWithBanana",
-        "corporation_id": 98763312,
-        "corporation_name": "New Eden Corporation 98763312",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 418,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139355369,
-      "time": "2026-10-23T01:53:36Z",
-      "system_id": 31000764,
-      "system_name": "J233839",
-      "total_value": 237395883.21,
-      "points": 1,
-      "victim": {
-        "character_id": 2124746913,
-        "name": "MonkeyWithBanana",
-        "corporation_id": 98763312,
-        "corporation_name": "New Eden Corporation 98763312",
-        "ship_type_id": 17476,
-        "ship_name": "Covetor"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 6728,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139341615,
-      "time": "2026-10-22T13:38:58Z",
-      "system_id": 31001295,
-      "system_name": "J121507",
-      "total_value": 29444.52,
-      "points": 1,
-      "victim": {
-        "character_id": 2113629027,
-        "name": "Niky VN",
-        "corporation_id": 98846906,
-        "corporation_name": "Vanguardia Hispana - Avance y Progreso",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2121450307,
-          "name": "Jesus Jim",
-          "final_blow": true,
-          "damage_done": 424,
-          "ship_type_id": 12013,
-          "ship_name": "Broadsword"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139341612,
-      "time": "2026-10-22T13:38:48Z",
-      "system_id": 31001295,
-      "system_name": "J121507",
-      "total_value": 79820979.39,
-      "points": 5,
-      "victim": {
-        "character_id": 2113629027,
-        "name": "Niky VN",
-        "corporation_id": 98846906,
-        "corporation_name": "Vanguardia Hispana - Avance y Progreso",
-        "ship_type_id": 89647,
-        "ship_name": "Pioneer Consortium Issue"
-      },
-      "officers": [
-        {
-          "character_id": 2121450307,
-          "name": "Jesus Jim",
-          "final_blow": true,
-          "damage_done": 5232,
-          "ship_type_id": 12013,
-          "ship_name": "Broadsword"
         }
       ]
     }
