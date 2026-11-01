@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-31T06:31:43Z",
+  "generated_at": "2026-11-01T07:01:53Z",
   "window": {
-    "start": "2026-10-24T06:31:43Z",
-    "end": "2026-10-31T06:31:43Z",
+    "start": "2026-10-25T07:01:53Z",
+    "end": "2026-11-01T07:01:53Z",
     "seconds": 604800
   },
   "source": {
@@ -14,26 +14,26 @@
     "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 48,
+    "arrests": 45,
     "suspects": 30,
-    "systems_protected": 24,
-    "total_value": 2322517449.77
+    "systems_protected": 23,
+    "total_value": 2314862048.98
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh Mabebu",
-      "arrests": 31,
-      "final_blows": 30,
-      "case_value": 1531689618.99,
+      "arrests": 30,
+      "final_blows": 29,
+      "case_value": 1535404206.19,
       "placement": 1
     },
     {
       "character_id": 96847792,
       "name": "Vinnegar Douche",
-      "arrests": 9,
-      "final_blows": 7,
-      "case_value": 146035868.06,
+      "arrests": 6,
+      "final_blows": 6,
+      "case_value": 123305892.08,
       "placement": 2
     },
     {
@@ -53,36 +53,12 @@
       "placement": 4
     },
     {
-      "character_id": 2112653898,
-      "name": "BranderBuddy Lemmont",
-      "arrests": 6,
-      "final_blows": 1,
-      "case_value": 133741090.28,
-      "placement": 5
-    },
-    {
-      "character_id": 204180361,
-      "name": "Raythor Venthian",
-      "arrests": 6,
-      "final_blows": 0,
-      "case_value": 405940768.1,
-      "placement": 6
-    },
-    {
-      "character_id": 2120163218,
-      "name": "BLiTzD86",
-      "arrests": 4,
-      "final_blows": 2,
-      "case_value": 264300648.04,
-      "placement": 7
-    },
-    {
       "character_id": 95915934,
       "name": "Delta Firestorm",
       "arrests": 4,
       "final_blows": 0,
       "case_value": 383220792.12,
-      "placement": 8
+      "placement": 5
     },
     {
       "character_id": 90817965,
@@ -90,7 +66,7 @@
       "arrests": 4,
       "final_blows": 0,
       "case_value": 383220792.12,
-      "placement": 9
+      "placement": 6
     },
     {
       "character_id": 2121450307,
@@ -98,7 +74,7 @@
       "arrests": 4,
       "final_blows": 0,
       "case_value": 383220792.12,
-      "placement": 10
+      "placement": 7
     },
     {
       "character_id": 2118986142,
@@ -106,7 +82,15 @@
       "arrests": 4,
       "final_blows": 0,
       "case_value": 383220792.12,
-      "placement": 11
+      "placement": 8
+    },
+    {
+      "character_id": 204180361,
+      "name": "Raythor Venthian",
+      "arrests": 4,
+      "final_blows": 0,
+      "case_value": 383220792.12,
+      "placement": 9
     },
     {
       "character_id": 2121531380,
@@ -114,15 +98,23 @@
       "arrests": 4,
       "final_blows": 0,
       "case_value": 383220792.12,
-      "placement": 12
+      "placement": 10
     },
     {
-      "character_id": 2116627622,
-      "name": "Phyve Solette",
+      "character_id": 2112653898,
+      "name": "BranderBuddy Lemmont",
       "arrests": 3,
-      "final_blows": 0,
-      "case_value": 22729975.98,
-      "placement": 13
+      "final_blows": 1,
+      "case_value": 122361102.29,
+      "placement": 11
+    },
+    {
+      "character_id": 2120163218,
+      "name": "BLiTzD86",
+      "arrests": 2,
+      "final_blows": 1,
+      "case_value": 252930660.05,
+      "placement": 12
     },
     {
       "character_id": 1633218082,
@@ -130,46 +122,10 @@
       "arrests": 1,
       "final_blows": 0,
       "case_value": 1619710.84,
-      "placement": 14
+      "placement": 13
     }
   ],
   "dirtbags": [
-    {
-      "character_id": 2124706684,
-      "name": "Andrei3v",
-      "corporation_id": 1000115,
-      "corporation_name": "University of Caille",
-      "arrests": 4,
-      "total_value": 364002556.4,
-      "most_expensive_loss": {
-        "killmail_id": 139435759,
-        "time": "2026-10-25T21:48:56Z",
-        "total_value": 252920660.05,
-        "ship_type_id": 47466,
-        "ship_name": "Praxis",
-        "system_id": 31000783,
-        "system_name": "J163318"
-      },
-      "placement": 1
-    },
-    {
-      "character_id": 2121650593,
-      "name": "JoeMartin",
-      "corporation_id": 98819592,
-      "corporation_name": "Galaxies Finest Holdings",
-      "arrests": 4,
-      "total_value": 22739975.98,
-      "most_expensive_loss": {
-        "killmail_id": 139411783,
-        "time": "2026-10-25T03:55:45Z",
-        "total_value": 11359987.99,
-        "ship_type_id": 623,
-        "ship_name": "Moa",
-        "system_id": 31000260,
-        "system_name": "J170949"
-      },
-      "placement": 2
-    },
     {
       "character_id": 2124737469,
       "name": "Here2HulkOut220",
@@ -185,6 +141,42 @@
         "ship_name": "Capsule",
         "system_id": 31001075,
         "system_name": "J122854"
+      },
+      "placement": 1
+    },
+    {
+      "character_id": 2124706684,
+      "name": "Andrei3v",
+      "corporation_id": 1000115,
+      "corporation_name": "University of Caille",
+      "arrests": 2,
+      "total_value": 252930660.05,
+      "most_expensive_loss": {
+        "killmail_id": 139435759,
+        "time": "2026-10-25T21:48:56Z",
+        "total_value": 252920660.05,
+        "ship_type_id": 47466,
+        "ship_name": "Praxis",
+        "system_id": 31000783,
+        "system_name": "J163318"
+      },
+      "placement": 2
+    },
+    {
+      "character_id": 2121905336,
+      "name": "Rimo Black",
+      "corporation_id": 98715924,
+      "corporation_name": "ARTEK CAMP",
+      "arrests": 2,
+      "total_value": 127092672.81,
+      "most_expensive_loss": {
+        "killmail_id": 139589291,
+        "time": "2026-11-01T05:46:14Z",
+        "total_value": 127082672.81,
+        "ship_type_id": 77114,
+        "ship_name": "Metamorphosis",
+        "system_id": 31001272,
+        "system_name": "J134118"
       },
       "placement": 3
     },
@@ -332,21 +324,6 @@
       "placement": 1
     },
     {
-      "system_id": 31000260,
-      "system_name": "J170949",
-      "arrests": 4,
-      "total_value": 22739975.98,
-      "top_killmail": {
-        "killmail_id": 139411783,
-        "time": "2026-10-25T03:55:45Z",
-        "total_value": 11359987.99,
-        "victim_name": "JoeMartin",
-        "ship_type_id": 623,
-        "ship_name": "Moa"
-      },
-      "placement": 2
-    },
-    {
       "system_id": 31001243,
       "system_name": "J161854",
       "arrests": 4,
@@ -359,7 +336,7 @@
         "ship_type_id": 596,
         "ship_name": "Impairor"
       },
-      "placement": 3
+      "placement": 2
     },
     {
       "system_id": 31001075,
@@ -374,7 +351,7 @@
         "ship_type_id": 670,
         "ship_name": "Capsule"
       },
-      "placement": 4
+      "placement": 3
     },
     {
       "system_id": 31000892,
@@ -389,10 +366,129 @@
         "ship_type_id": 33468,
         "ship_name": "Astero"
       },
+      "placement": 4
+    },
+    {
+      "system_id": 31000783,
+      "system_name": "J163318",
+      "arrests": 2,
+      "total_value": 252930660.05,
+      "top_killmail": {
+        "killmail_id": 139435759,
+        "time": "2026-10-25T21:48:56Z",
+        "total_value": 252920660.05,
+        "victim_name": "Andrei3v",
+        "ship_type_id": 47466,
+        "ship_name": "Praxis"
+      },
       "placement": 5
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139589567,
+      "time": "2026-11-01T06:02:47Z",
+      "system_id": 31000425,
+      "system_name": "J120308",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124771888,
+        "name": "Mister Pants",
+        "corporation_id": 1000169,
+        "corporation_name": "Center for Advanced Studies",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 436,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139589543,
+      "time": "2026-11-01T06:01:13Z",
+      "system_id": 31000425,
+      "system_name": "J120308",
+      "total_value": 7516448.73,
+      "points": 6,
+      "victim": {
+        "character_id": 2124771888,
+        "name": "Mister Pants",
+        "corporation_id": 1000169,
+        "corporation_name": "Center for Advanced Studies",
+        "ship_type_id": 607,
+        "ship_name": "Imicus"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 1024,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139589311,
+      "time": "2026-11-01T05:46:55Z",
+      "system_id": 31001272,
+      "system_name": "J134118",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2121905336,
+        "name": "Rimo Black",
+        "corporation_id": 98715924,
+        "corporation_name": "ARTEK CAMP",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 458,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139589291,
+      "time": "2026-11-01T05:46:14Z",
+      "system_id": 31001272,
+      "system_name": "J134118",
+      "total_value": 127082672.81,
+      "points": 1,
+      "victim": {
+        "character_id": 2121905336,
+        "name": "Rimo Black",
+        "corporation_id": 98715924,
+        "corporation_name": "ARTEK CAMP",
+        "ship_type_id": 77114,
+        "ship_name": "Metamorphosis"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 1269,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 139558059,
       "time": "2026-10-31T03:47:32Z",
@@ -1720,276 +1816,6 @@
           "damage_done": 458,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139414142,
-      "time": "2026-10-25T06:04:03Z",
-      "system_id": 31000372,
-      "system_name": "J144605",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124706684,
-        "name": "Andrei3v",
-        "corporation_id": 1000115,
-        "corporation_name": "University of Caille",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 421,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139414096,
-      "time": "2026-10-25T06:02:33Z",
-      "system_id": 31000372,
-      "system_name": "J144605",
-      "total_value": 111061896.35,
-      "points": 1,
-      "victim": {
-        "character_id": 2124706684,
-        "name": "Andrei3v",
-        "corporation_id": 1000115,
-        "corporation_name": "University of Caille",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 870,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139413299,
-      "time": "2026-10-25T05:22:14Z",
-      "system_id": 31001120,
-      "system_name": "J230905",
-      "total_value": 8462650.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2123784426,
-        "name": "T-27",
-        "corporation_id": 98815684,
-        "corporation_name": "CEP-INDUSTRIAL",
-        "ship_type_id": 33475,
-        "ship_name": "Mobile Tractor Unit"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 50056,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139411834,
-      "time": "2026-10-25T03:56:44Z",
-      "system_id": 31000260,
-      "system_name": "J170949",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2121650593,
-        "name": "JoeMartin",
-        "corporation_id": 98819592,
-        "corporation_name": "Galaxies Finest Holdings",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "final_blow": true,
-          "damage_done": 462,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        },
-        {
-          "character_id": 2112653898,
-          "name": "BranderBuddy Lemmont",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139411783,
-      "time": "2026-10-25T03:55:45Z",
-      "system_id": 31000260,
-      "system_name": "J170949",
-      "total_value": 11359987.99,
-      "points": 1,
-      "victim": {
-        "character_id": 2121650593,
-        "name": "JoeMartin",
-        "corporation_id": 98819592,
-        "corporation_name": "Galaxies Finest Holdings",
-        "ship_type_id": 623,
-        "ship_name": "Moa"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douche",
-          "final_blow": true,
-          "damage_done": 1501,
-          "ship_type_id": 12032,
-          "ship_name": "Manticore"
-        },
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "final_blow": false,
-          "damage_done": 1188,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        },
-        {
-          "character_id": 2116627622,
-          "name": "Phyve Solette",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 11969,
-          "ship_name": "Arazu"
-        },
-        {
-          "character_id": 204180361,
-          "name": "Raythor Venthian",
-          "final_blow": false,
-          "damage_done": 3597,
-          "ship_type_id": 29990,
-          "ship_name": "Loki"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139410878,
-      "time": "2026-10-25T03:08:44Z",
-      "system_id": 31000260,
-      "system_name": "J170949",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2121650593,
-        "name": "JoeMartin",
-        "corporation_id": 98819592,
-        "corporation_name": "Galaxies Finest Holdings",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 461,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        },
-        {
-          "character_id": 2112653898,
-          "name": "BranderBuddy Lemmont",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        },
-        {
-          "character_id": 2116627622,
-          "name": "Phyve Solette",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 11969,
-          "ship_name": "Arazu"
-        },
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douche",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 12032,
-          "ship_name": "Manticore"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139410867,
-      "time": "2026-10-25T03:07:56Z",
-      "system_id": 31000260,
-      "system_name": "J170949",
-      "total_value": 11359987.99,
-      "points": 1,
-      "victim": {
-        "character_id": 2121650593,
-        "name": "JoeMartin",
-        "corporation_id": 98819592,
-        "corporation_name": "Galaxies Finest Holdings",
-        "ship_type_id": 623,
-        "ship_name": "Moa"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 2057,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        },
-        {
-          "character_id": 2112653898,
-          "name": "BranderBuddy Lemmont",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        },
-        {
-          "character_id": 2116627622,
-          "name": "Phyve Solette",
-          "final_blow": false,
-          "damage_done": 330,
-          "ship_type_id": 11969,
-          "ship_name": "Arazu"
-        },
-        {
-          "character_id": 204180361,
-          "name": "Raythor Venthian",
-          "final_blow": false,
-          "damage_done": 3928,
-          "ship_type_id": 29990,
-          "ship_name": "Loki"
-        },
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douche",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 12032,
-          "ship_name": "Manticore"
         }
       ]
     }
