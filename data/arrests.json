@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-01T07:01:53Z",
+  "generated_at": "2026-11-02T07:01:55Z",
   "window": {
-    "start": "2026-10-25T07:01:53Z",
-    "end": "2026-11-01T07:01:53Z",
+    "start": "2026-10-26T07:01:55Z",
+    "end": "2026-11-02T07:01:55Z",
     "seconds": 604800
   },
   "source": {
@@ -14,82 +14,82 @@
     "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 45,
-    "suspects": 30,
-    "systems_protected": 23,
-    "total_value": 2314862048.98
+    "arrests": 53,
+    "suspects": 32,
+    "systems_protected": 19,
+    "total_value": 1814867528.39
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh Mabebu",
-      "arrests": 30,
-      "final_blows": 29,
-      "case_value": 1535404206.19,
+      "arrests": 32,
+      "final_blows": 32,
+      "case_value": 1099553437.24,
       "placement": 1
     },
     {
       "character_id": 96847792,
       "name": "Vinnegar Douche",
-      "arrests": 6,
+      "arrests": 8,
       "final_blows": 6,
-      "case_value": 123305892.08,
+      "case_value": 415330662.17,
       "placement": 2
-    },
-    {
-      "character_id": 987753095,
-      "name": "drako markam",
-      "arrests": 6,
-      "final_blows": 2,
-      "case_value": 636151452.17,
-      "placement": 3
-    },
-    {
-      "character_id": 2121223486,
-      "name": "Wallace Cornhose",
-      "arrests": 6,
-      "final_blows": 2,
-      "case_value": 393471187.81,
-      "placement": 4
-    },
-    {
-      "character_id": 95915934,
-      "name": "Delta Firestorm",
-      "arrests": 4,
-      "final_blows": 0,
-      "case_value": 383220792.12,
-      "placement": 5
     },
     {
       "character_id": 90817965,
       "name": "James Henry Rooster",
-      "arrests": 4,
-      "final_blows": 0,
-      "case_value": 383220792.12,
-      "placement": 6
-    },
-    {
-      "character_id": 2121450307,
-      "name": "Jesus Jim",
-      "arrests": 4,
-      "final_blows": 0,
-      "case_value": 383220792.12,
-      "placement": 7
-    },
-    {
-      "character_id": 2118986142,
-      "name": "Otuu Simbala",
-      "arrests": 4,
-      "final_blows": 0,
-      "case_value": 383220792.12,
-      "placement": 8
+      "arrests": 5,
+      "final_blows": 5,
+      "case_value": 33065895.9,
+      "placement": 3
     },
     {
       "character_id": 204180361,
       "name": "Raythor Venthian",
+      "arrests": 5,
+      "final_blows": 1,
+      "case_value": 481237862.03,
+      "placement": 4
+    },
+    {
+      "character_id": 2121450307,
+      "name": "Jesus Jim",
+      "arrests": 5,
+      "final_blows": 0,
+      "case_value": 401692624.17,
+      "placement": 5
+    },
+    {
+      "character_id": 1922855106,
+      "name": "10of15",
+      "arrests": 5,
+      "final_blows": 0,
+      "case_value": 394360161.97,
+      "placement": 6
+    },
+    {
+      "character_id": 2121223486,
+      "name": "Wallace Cornhose",
+      "arrests": 4,
+      "final_blows": 2,
+      "case_value": 302275165.78,
+      "placement": 7
+    },
+    {
+      "character_id": 1633218082,
+      "name": "Squizz Caphinator",
+      "arrests": 4,
+      "final_blows": 1,
+      "case_value": 394350161.97,
+      "placement": 8
+    },
+    {
+      "character_id": 2120163218,
+      "name": "BLiTzD86",
       "arrests": 4,
       "final_blows": 0,
-      "case_value": 383220792.12,
+      "case_value": 394350161.97,
       "placement": 9
     },
     {
@@ -97,7 +97,7 @@
       "name": "Richard Darkstar",
       "arrests": 4,
       "final_blows": 0,
-      "case_value": 383220792.12,
+      "case_value": 386686619.55,
       "placement": 10
     },
     {
@@ -109,23 +109,41 @@
       "placement": 11
     },
     {
-      "character_id": 2120163218,
-      "name": "BLiTzD86",
+      "character_id": 987753095,
+      "name": "drako markam",
       "arrests": 2,
-      "final_blows": 1,
-      "case_value": 252930660.05,
+      "final_blows": 0,
+      "case_value": 363549974.9,
       "placement": 12
     },
     {
-      "character_id": 1633218082,
-      "name": "Squizz Caphinator",
+      "character_id": 2123598334,
+      "name": "GoodTwin",
       "arrests": 1,
       "final_blows": 0,
-      "case_value": 1619710.84,
+      "case_value": 7774149.4,
       "placement": 13
     }
   ],
   "dirtbags": [
+    {
+      "character_id": 93214684,
+      "name": "Powny Black",
+      "corporation_id": 98234292,
+      "corporation_name": "Quantum Studies Institute",
+      "arrests": 3,
+      "total_value": 307286658.36,
+      "most_expensive_loss": {
+        "killmail_id": 139607491,
+        "time": "2026-11-01T19:04:43Z",
+        "total_value": 284250620.69,
+        "ship_type_id": 638,
+        "ship_name": "Raven",
+        "system_id": 31000872,
+        "system_name": "J112019"
+      },
+      "placement": 1
+    },
     {
       "character_id": 2124737469,
       "name": "Here2HulkOut220",
@@ -141,24 +159,6 @@
         "ship_name": "Capsule",
         "system_id": 31001075,
         "system_name": "J122854"
-      },
-      "placement": 1
-    },
-    {
-      "character_id": 2124706684,
-      "name": "Andrei3v",
-      "corporation_id": 1000115,
-      "corporation_name": "University of Caille",
-      "arrests": 2,
-      "total_value": 252930660.05,
-      "most_expensive_loss": {
-        "killmail_id": 139435759,
-        "time": "2026-10-25T21:48:56Z",
-        "total_value": 252920660.05,
-        "ship_type_id": 47466,
-        "ship_name": "Praxis",
-        "system_id": 31000783,
-        "system_name": "J163318"
       },
       "placement": 2
     },
@@ -199,6 +199,24 @@
       "placement": 4
     },
     {
+      "character_id": 860430430,
+      "name": "Manipulator",
+      "corporation_id": 98841977,
+      "corporation_name": "rawr inc revived",
+      "arrests": 2,
+      "total_value": 95093536.66,
+      "most_expensive_loss": {
+        "killmail_id": 139608917,
+        "time": "2026-11-01T19:51:48Z",
+        "total_value": 87319387.26,
+        "ship_type_id": 670,
+        "ship_name": "Capsule",
+        "system_id": 31000634,
+        "system_name": "J132048"
+      },
+      "placement": 5
+    },
+    {
       "character_id": 94012960,
       "name": "Karin Pride",
       "corporation_id": 1000182,
@@ -214,7 +232,7 @@
         "system_id": 31000388,
         "system_name": "J145715"
       },
-      "placement": 5
+      "placement": 6
     },
     {
       "character_id": 2115798768,
@@ -232,7 +250,25 @@
         "system_id": 31000401,
         "system_name": "J132557"
       },
-      "placement": 6
+      "placement": 7
+    },
+    {
+      "character_id": 2124794481,
+      "name": "Deskada",
+      "corporation_id": 1000169,
+      "corporation_name": "Center for Advanced Studies",
+      "arrests": 2,
+      "total_value": 25093967.97,
+      "most_expensive_loss": {
+        "killmail_id": 139615725,
+        "time": "2026-11-02T01:43:31Z",
+        "total_value": 25083967.97,
+        "ship_type_id": 72913,
+        "ship_name": "Imicus Navy Issue",
+        "system_id": 31000337,
+        "system_name": "J151332"
+      },
+      "placement": 8
     },
     {
       "character_id": 2118997613,
@@ -250,7 +286,7 @@
         "system_id": 31000669,
         "system_name": "J160305"
       },
-      "placement": 7
+      "placement": 9
     },
     {
       "character_id": 2120885441,
@@ -268,46 +304,55 @@
         "system_id": 31001152,
         "system_name": "J124327"
       },
-      "placement": 8
-    },
-    {
-      "character_id": 2123590221,
-      "name": "FluffyDuhArk",
-      "corporation_id": 98743337,
-      "corporation_name": "Mining Under the Influence",
-      "arrests": 2,
-      "total_value": 13837880.22,
-      "most_expensive_loss": {
-        "killmail_id": 139435644,
-        "time": "2026-10-25T21:44:01Z",
-        "total_value": 13827880.22,
-        "ship_type_id": 605,
-        "ship_name": "Heron",
-        "system_id": 31000828,
-        "system_name": "J121749"
-      },
-      "placement": 9
-    },
-    {
-      "character_id": 96237838,
-      "name": "Negotium Hominis",
-      "corporation_id": 1000045,
-      "corporation_name": "Science and Trade Institute",
-      "arrests": 2,
-      "total_value": 10250395.69,
-      "most_expensive_loss": {
-        "killmail_id": 139472571,
-        "time": "2026-10-27T14:30:02Z",
-        "total_value": 10240395.69,
-        "ship_type_id": 32880,
-        "ship_name": "Venture",
-        "system_id": 31000409,
-        "system_name": "J151231"
-      },
       "placement": 10
     }
   ],
   "hotspots": [
+    {
+      "system_id": 31000420,
+      "system_name": "J103839",
+      "arrests": 10,
+      "total_value": 7749323.15,
+      "top_killmail": {
+        "killmail_id": 139609959,
+        "time": "2026-11-01T20:27:50Z",
+        "total_value": 2726292.53,
+        "victim_name": "wojiao110",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "placement": 1
+    },
+    {
+      "system_id": 31000902,
+      "system_name": "J144621",
+      "arrests": 5,
+      "total_value": 33065895.9,
+      "top_killmail": {
+        "killmail_id": 139598948,
+        "time": "2026-11-01T14:22:11Z",
+        "total_value": 15741830.65,
+        "victim_name": "Nas Oloh",
+        "ship_type_id": 42685,
+        "ship_name": "Sunesis"
+      },
+      "placement": 2
+    },
+    {
+      "system_id": 31000872,
+      "system_name": "J112019",
+      "arrests": 4,
+      "total_value": 386586012.57,
+      "top_killmail": {
+        "killmail_id": 139607491,
+        "time": "2026-11-01T19:04:43Z",
+        "total_value": 284250620.69,
+        "victim_name": "Powny Black",
+        "ship_type_id": 638,
+        "ship_name": "Raven"
+      },
+      "placement": 3
+    },
     {
       "system_id": 31000401,
       "system_name": "J132557",
@@ -321,7 +366,7 @@
         "ship_type_id": 32880,
         "ship_name": "Venture"
       },
-      "placement": 1
+      "placement": 4
     },
     {
       "system_id": 31001243,
@@ -336,55 +381,798 @@
         "ship_type_id": 596,
         "ship_name": "Impairor"
       },
-      "placement": 2
-    },
-    {
-      "system_id": 31001075,
-      "system_name": "J122854",
-      "arrests": 3,
-      "total_value": 573564176.05,
-      "top_killmail": {
-        "killmail_id": 139529714,
-        "time": "2026-10-30T02:01:18Z",
-        "total_value": 483630630.35,
-        "victim_name": "Here2HulkOut220",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "placement": 3
-    },
-    {
-      "system_id": 31000892,
-      "system_name": "J205027",
-      "arrests": 2,
-      "total_value": 331671288.08,
-      "top_killmail": {
-        "killmail_id": 139429425,
-        "time": "2026-10-25T18:12:33Z",
-        "total_value": 185875686.97,
-        "victim_name": "Ganiel Drillex",
-        "ship_type_id": 33468,
-        "ship_name": "Astero"
-      },
-      "placement": 4
-    },
-    {
-      "system_id": 31000783,
-      "system_name": "J163318",
-      "arrests": 2,
-      "total_value": 252930660.05,
-      "top_killmail": {
-        "killmail_id": 139435759,
-        "time": "2026-10-25T21:48:56Z",
-        "total_value": 252920660.05,
-        "victim_name": "Andrei3v",
-        "ship_type_id": 47466,
-        "ship_name": "Praxis"
-      },
       "placement": 5
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139615749,
+      "time": "2026-11-02T01:45:03Z",
+      "system_id": 31000337,
+      "system_name": "J151332",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124794481,
+        "name": "Deskada",
+        "corporation_id": 1000169,
+        "corporation_name": "Center for Advanced Studies",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 425,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139615725,
+      "time": "2026-11-02T01:43:31Z",
+      "system_id": 31000337,
+      "system_name": "J151332",
+      "total_value": 25083967.97,
+      "points": 13,
+      "victim": {
+        "character_id": 2124794481,
+        "name": "Deskada",
+        "corporation_id": 1000169,
+        "corporation_name": "Center for Advanced Studies",
+        "ship_type_id": 72913,
+        "ship_name": "Imicus Navy Issue"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 1773,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139615289,
+      "time": "2026-11-02T01:15:42Z",
+      "system_id": 31000420,
+      "system_name": "J103839",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124727127,
+        "name": "Dante X X",
+        "corporation_id": 98845851,
+        "corporation_name": "4 Leremblompes Ltd.",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 522,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139615267,
+      "time": "2026-11-02T01:14:18Z",
+      "system_id": 31000420,
+      "system_name": "J103839",
+      "total_value": 860774.5,
+      "points": 1,
+      "victim": {
+        "character_id": 2124727127,
+        "name": "Dante X X",
+        "corporation_id": 98845851,
+        "corporation_name": "4 Leremblompes Ltd.",
+        "ship_type_id": 607,
+        "ship_name": "Imicus"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 1208,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139612907,
+      "time": "2026-11-01T22:40:40Z",
+      "system_id": 31000420,
+      "system_name": "J103839",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124759683,
+        "name": "Tostrere Cavin-Guang",
+        "corporation_id": 98843735,
+        "corporation_name": "21 Legion",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 497,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139612891,
+      "time": "2026-11-01T22:39:39Z",
+      "system_id": 31000420,
+      "system_name": "J103839",
+      "total_value": 928831.69,
+      "points": 1,
+      "victim": {
+        "character_id": 2124759683,
+        "name": "Tostrere Cavin-Guang",
+        "corporation_id": 98843735,
+        "corporation_name": "21 Legion",
+        "ship_type_id": 586,
+        "ship_name": "Probe"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 1071,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139611214,
+      "time": "2026-11-01T21:10:40Z",
+      "system_id": 31000420,
+      "system_name": "J103839",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124799856,
+        "name": "Alagai Karr",
+        "corporation_id": 1000171,
+        "corporation_name": "Republic University",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 496,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139611196,
+      "time": "2026-11-01T21:10:02Z",
+      "system_id": 31000420,
+      "system_name": "J103839",
+      "total_value": 1000828.41,
+      "points": 1,
+      "victim": {
+        "character_id": 2124799856,
+        "name": "Alagai Karr",
+        "corporation_id": 1000171,
+        "corporation_name": "Republic University",
+        "ship_type_id": 586,
+        "ship_name": "Probe"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 1070,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139610027,
+      "time": "2026-11-01T20:28:40Z",
+      "system_id": 31000420,
+      "system_name": "J103839",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124818499,
+        "name": "wojiao110",
+        "corporation_id": 98781311,
+        "corporation_name": "Dawn's LightP",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 522,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139609959,
+      "time": "2026-11-01T20:27:50Z",
+      "system_id": 31000420,
+      "system_name": "J103839",
+      "total_value": 2726292.53,
+      "points": 1,
+      "victim": {
+        "character_id": 2124818499,
+        "name": "wojiao110",
+        "corporation_id": 98781311,
+        "corporation_name": "Dawn's LightP",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 1000,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139608970,
+      "time": "2026-11-01T19:54:04Z",
+      "system_id": 31000634,
+      "system_name": "J132048",
+      "total_value": 7774149.4,
+      "points": 1,
+      "victim": {
+        "character_id": 860430430,
+        "name": "Manipulator",
+        "corporation_id": 98841977,
+        "corporation_name": "rawr inc revived",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 89607,
+          "ship_name": "Odysseus"
+        },
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 670,
+          "ship_name": "Capsule"
+        },
+        {
+          "character_id": 2123598334,
+          "name": "GoodTwin",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 2121450307,
+          "name": "Jesus Jim",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17930,
+          "ship_name": "Worm"
+        },
+        {
+          "character_id": 2121531380,
+          "name": "Richard Darkstar",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        },
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douche",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 2121223486,
+          "name": "Wallace Cornhose",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139608917,
+      "time": "2026-11-01T19:51:48Z",
+      "system_id": 31000634,
+      "system_name": "J132048",
+      "total_value": 87319387.26,
+      "points": 1,
+      "victim": {
+        "character_id": 860430430,
+        "name": "Manipulator",
+        "corporation_id": 98841977,
+        "corporation_name": "rawr inc revived",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
+          "final_blow": true,
+          "damage_done": 445,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 2121531380,
+          "name": "Richard Darkstar",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139607542,
+      "time": "2026-11-01T19:06:22Z",
+      "system_id": 31000872,
+      "system_name": "J112019",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 93214684,
+        "name": "Powny Black",
+        "corporation_id": 98234292,
+        "corporation_name": "Quantum Studies Institute",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 11194,
+          "ship_name": "Kitsune"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139607511,
+      "time": "2026-11-01T19:05:18Z",
+      "system_id": 31000872,
+      "system_name": "J112019",
+      "total_value": 79299354.21,
+      "points": 1,
+      "victim": {
+        "character_id": 2112740945,
+        "name": "Marek Dachowski",
+        "corporation_id": 98671183,
+        "corporation_name": "Hmm 2",
+        "ship_type_id": 11174,
+        "ship_name": "Keres"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "final_blow": false,
+          "damage_done": 121,
+          "ship_type_id": 11194,
+          "ship_name": "Kitsune"
+        },
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
+          "character_id": 987753095,
+          "name": "drako markam",
+          "final_blow": false,
+          "damage_done": 139,
+          "ship_type_id": 22456,
+          "ship_name": "Sabre"
+        },
+        {
+          "character_id": 2121450307,
+          "name": "Jesus Jim",
+          "final_blow": false,
+          "damage_done": 89,
+          "ship_type_id": 17930,
+          "ship_name": "Worm"
+        },
+        {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
+          "final_blow": false,
+          "damage_done": 117,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "final_blow": false,
+          "damage_done": 342,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139607497,
+      "time": "2026-11-01T19:04:52Z",
+      "system_id": 31000872,
+      "system_name": "J112019",
+      "total_value": 23026037.67,
+      "points": 1,
+      "victim": {
+        "character_id": 93214684,
+        "name": "Powny Black",
+        "corporation_id": 98234292,
+        "corporation_name": "Quantum Studies Institute",
+        "ship_type_id": 585,
+        "ship_name": "Slasher"
+      },
+      "officers": [
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "final_blow": true,
+          "damage_done": 396,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        },
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "final_blow": false,
+          "damage_done": 159,
+          "ship_type_id": 11194,
+          "ship_name": "Kitsune"
+        },
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "final_blow": false,
+          "damage_done": 183,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
+          "character_id": 2121450307,
+          "name": "Jesus Jim",
+          "final_blow": false,
+          "damage_done": 276,
+          "ship_type_id": 17930,
+          "ship_name": "Worm"
+        },
+        {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139607491,
+      "time": "2026-11-01T19:04:43Z",
+      "system_id": 31000872,
+      "system_name": "J112019",
+      "total_value": 284250620.69,
+      "points": 1,
+      "victim": {
+        "character_id": 93214684,
+        "name": "Powny Black",
+        "corporation_id": 98234292,
+        "corporation_name": "Quantum Studies Institute",
+        "ship_type_id": 638,
+        "ship_name": "Raven"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 11194,
+          "ship_name": "Kitsune"
+        },
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "final_blow": false,
+          "damage_done": 1266,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
+          "character_id": 987753095,
+          "name": "drako markam",
+          "final_blow": false,
+          "damage_done": 1341,
+          "ship_type_id": 22456,
+          "ship_name": "Sabre"
+        },
+        {
+          "character_id": 2121450307,
+          "name": "Jesus Jim",
+          "final_blow": false,
+          "damage_done": 942,
+          "ship_type_id": 17930,
+          "ship_name": "Worm"
+        },
+        {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
+          "final_blow": false,
+          "damage_done": 1490,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 2121531380,
+          "name": "Richard Darkstar",
+          "final_blow": false,
+          "damage_done": 874,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 1633218082,
+          "name": "Squizz Caphinator",
+          "final_blow": false,
+          "damage_done": 4108,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        },
+        {
+          "character_id": 96847792,
+          "name": "Vinnegar Douche",
+          "final_blow": false,
+          "damage_done": 191,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 2121223486,
+          "name": "Wallace Cornhose",
+          "final_blow": false,
+          "damage_done": 164,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139606746,
+      "time": "2026-11-01T18:41:13Z",
+      "system_id": 31000815,
+      "system_name": "J140722",
+      "total_value": 7342462.2,
+      "points": 1,
+      "victim": {
+        "character_id": 2118993909,
+        "name": "supercoolgamer97",
+        "corporation_id": 98750287,
+        "corporation_name": "Tibadux Air and Mining",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "officers": [
+        {
+          "character_id": 2121450307,
+          "name": "Jesus Jim",
+          "final_blow": false,
+          "damage_done": 314,
+          "ship_type_id": 17930,
+          "ship_name": "Worm"
+        },
+        {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        },
+        {
+          "character_id": 2121531380,
+          "name": "Richard Darkstar",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 17841,
+          "ship_name": "Federation Navy Comet"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139598948,
+      "time": "2026-11-01T14:22:11Z",
+      "system_id": 31000902,
+      "system_name": "J144621",
+      "total_value": 15741830.65,
+      "points": 1,
+      "victim": {
+        "character_id": 2116233640,
+        "name": "Nas Oloh",
+        "corporation_id": 98843821,
+        "corporation_name": "Holo Holdings",
+        "ship_type_id": 42685,
+        "ship_name": "Sunesis"
+      },
+      "officers": [
+        {
+          "character_id": 90817965,
+          "name": "James Henry Rooster",
+          "final_blow": true,
+          "damage_done": 2753,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139598217,
+      "time": "2026-11-01T13:59:56Z",
+      "system_id": 31000902,
+      "system_name": "J144621",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124808941,
+        "name": "Phantom404x",
+        "corporation_id": 1000045,
+        "corporation_name": "Science and Trade Institute",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 90817965,
+          "name": "James Henry Rooster",
+          "final_blow": true,
+          "damage_done": 413,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139598191,
+      "time": "2026-11-01T13:58:55Z",
+      "system_id": 31000902,
+      "system_name": "J144621",
+      "total_value": 7991817.37,
+      "points": 3,
+      "victim": {
+        "character_id": 2124808941,
+        "name": "Phantom404x",
+        "corporation_id": 1000045,
+        "corporation_name": "Science and Trade Institute",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "officers": [
+        {
+          "character_id": 90817965,
+          "name": "James Henry Rooster",
+          "final_blow": true,
+          "damage_done": 1549,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139597466,
+      "time": "2026-11-01T13:33:56Z",
+      "system_id": 31000902,
+      "system_name": "J144621",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124438260,
+        "name": "Monty Mont",
+        "corporation_id": 1000171,
+        "corporation_name": "Republic University",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 90817965,
+          "name": "James Henry Rooster",
+          "final_blow": true,
+          "damage_done": 427,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139597440,
+      "time": "2026-11-01T13:33:00Z",
+      "system_id": 31000902,
+      "system_name": "J144621",
+      "total_value": 9312247.88,
+      "points": 1,
+      "victim": {
+        "character_id": 2124438260,
+        "name": "Monty Mont",
+        "corporation_id": 1000171,
+        "corporation_name": "Republic University",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "officers": [
+        {
+          "character_id": 90817965,
+          "name": "James Henry Rooster",
+          "final_blow": true,
+          "damage_done": 1301,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 139589567,
       "time": "2026-11-01T06:02:47Z",
@@ -1204,618 +1992,6 @@
           "damage_done": 2288,
           "ship_type_id": 72904,
           "ship_name": "Heron Navy Issue"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139440314,
-      "time": "2026-10-26T02:44:11Z",
-      "system_id": 31000512,
-      "system_name": "J154515",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 97062088,
-        "name": "Magnus Kirkland",
-        "corporation_id": 1000072,
-        "corporation_name": "Imperial Shipment",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 439,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139440305,
-      "time": "2026-10-26T02:43:22Z",
-      "system_id": 31000512,
-      "system_name": "J154515",
-      "total_value": 6889070.98,
-      "points": 1,
-      "victim": {
-        "character_id": 97062088,
-        "name": "Magnus Kirkland",
-        "corporation_id": 1000072,
-        "corporation_name": "Imperial Shipment",
-        "ship_type_id": 32880,
-        "ship_name": "Venture"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 1657,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139439583,
-      "time": "2026-10-26T01:50:37Z",
-      "system_id": 31000831,
-      "system_name": "J102038",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124797226,
-        "name": "Epo Suras Kugisa",
-        "corporation_id": 1000044,
-        "corporation_name": "School of Applied Knowledge",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 413,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139439558,
-      "time": "2026-10-26T01:48:36Z",
-      "system_id": 31000831,
-      "system_name": "J102038",
-      "total_value": 1273469.05,
-      "points": 1,
-      "victim": {
-        "character_id": 2124797226,
-        "name": "Epo Suras Kugisa",
-        "corporation_id": 1000044,
-        "corporation_name": "School of Applied Knowledge",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 848,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139438716,
-      "time": "2026-10-26T00:57:04Z",
-      "system_id": 31000349,
-      "system_name": "J150325",
-      "total_value": 394551250.6,
-      "points": 1,
-      "victim": {
-        "character_id": 2124575947,
-        "name": "Dax Ledirus",
-        "corporation_id": 98839950,
-        "corporation_name": "Alpha And Omega Holdings",
-        "ship_type_id": 77114,
-        "ship_name": "Metamorphosis"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 1344,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139435778,
-      "time": "2026-10-25T21:49:48Z",
-      "system_id": 31000783,
-      "system_name": "J163318",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124706684,
-        "name": "Andrei3v",
-        "corporation_id": 1000115,
-        "corporation_name": "University of Caille",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 987753095,
-          "name": "drako markam",
-          "final_blow": true,
-          "damage_done": 422,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139435759,
-      "time": "2026-10-25T21:48:56Z",
-      "system_id": 31000783,
-      "system_name": "J163318",
-      "total_value": 252920660.05,
-      "points": 81,
-      "victim": {
-        "character_id": 2124706684,
-        "name": "Andrei3v",
-        "corporation_id": 1000115,
-        "corporation_name": "University of Caille",
-        "ship_type_id": 47466,
-        "ship_name": "Praxis"
-      },
-      "officers": [
-        {
-          "character_id": 987753095,
-          "name": "drako markam",
-          "final_blow": true,
-          "damage_done": 15581,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        },
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "final_blow": false,
-          "damage_done": 5803,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139435656,
-      "time": "2026-10-25T21:45:01Z",
-      "system_id": 31000828,
-      "system_name": "J121749",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2123590221,
-        "name": "FluffyDuhArk",
-        "corporation_id": 98743337,
-        "corporation_name": "Mining Under the Influence",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 458,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139435644,
-      "time": "2026-10-25T21:44:01Z",
-      "system_id": 31000828,
-      "system_name": "J121749",
-      "total_value": 13827880.22,
-      "points": 1,
-      "victim": {
-        "character_id": 2123590221,
-        "name": "FluffyDuhArk",
-        "corporation_id": 98743337,
-        "corporation_name": "Mining Under the Influence",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 985,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139430982,
-      "time": "2026-10-25T19:07:33Z",
-      "system_id": 31000846,
-      "system_name": "J103533",
-      "total_value": 49929793.2,
-      "points": 1,
-      "victim": {
-        "character_id": 2116831653,
-        "name": "Kalhia Shibasaki",
-        "corporation_id": 917701062,
-        "corporation_name": "EVE University",
-        "ship_type_id": 17478,
-        "ship_name": "Retriever"
-      },
-      "officers": [
-        {
-          "character_id": 95915934,
-          "name": "Delta Firestorm",
-          "final_blow": false,
-          "damage_done": 771,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 987753095,
-          "name": "drako markam",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 22456,
-          "ship_name": "Sabre"
-        },
-        {
-          "character_id": 90817965,
-          "name": "James Henry Rooster",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 11194,
-          "ship_name": "Kitsune"
-        },
-        {
-          "character_id": 2121450307,
-          "name": "Jesus Jim",
-          "final_blow": false,
-          "damage_done": 597,
-          "ship_type_id": 17930,
-          "ship_name": "Worm"
-        },
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 33697,
-          "ship_name": "Prospect"
-        },
-        {
-          "character_id": 2118986142,
-          "name": "Otuu Simbala",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17926,
-          "ship_name": "Cruor"
-        },
-        {
-          "character_id": 204180361,
-          "name": "Raythor Venthian",
-          "final_blow": false,
-          "damage_done": 576,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 2121531380,
-          "name": "Richard Darkstar",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 2121223486,
-          "name": "Wallace Cornhose",
-          "final_blow": false,
-          "damage_done": 991,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139430058,
-      "time": "2026-10-25T18:37:25Z",
-      "system_id": 31000892,
-      "system_name": "J205027",
-      "total_value": 145795601.11,
-      "points": 1,
-      "victim": {
-        "character_id": 96221587,
-        "name": "Roxicaro Doiderius",
-        "corporation_id": 98443106,
-        "corporation_name": "Digital Chess Session",
-        "ship_type_id": 640,
-        "ship_name": "Scorpion"
-      },
-      "officers": [
-        {
-          "character_id": 95915934,
-          "name": "Delta Firestorm",
-          "final_blow": false,
-          "damage_done": 1291,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 987753095,
-          "name": "drako markam",
-          "final_blow": false,
-          "damage_done": 1483,
-          "ship_type_id": 22456,
-          "ship_name": "Sabre"
-        },
-        {
-          "character_id": 90817965,
-          "name": "James Henry Rooster",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 11194,
-          "ship_name": "Kitsune"
-        },
-        {
-          "character_id": 2121450307,
-          "name": "Jesus Jim",
-          "final_blow": false,
-          "damage_done": 1275,
-          "ship_type_id": 17930,
-          "ship_name": "Worm"
-        },
-        {
-          "character_id": 2118986142,
-          "name": "Otuu Simbala",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17926,
-          "ship_name": "Cruor"
-        },
-        {
-          "character_id": 204180361,
-          "name": "Raythor Venthian",
-          "final_blow": false,
-          "damage_done": 2019,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 2121531380,
-          "name": "Richard Darkstar",
-          "final_blow": false,
-          "damage_done": 790,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 2121223486,
-          "name": "Wallace Cornhose",
-          "final_blow": false,
-          "damage_done": 1728,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139429738,
-      "time": "2026-10-25T18:24:20Z",
-      "system_id": 31000227,
-      "system_name": "J151601",
-      "total_value": 1619710.84,
-      "points": 1,
-      "victim": {
-        "character_id": 2124712491,
-        "name": "LazyKnight",
-        "corporation_id": 98742307,
-        "corporation_name": "Quantshure",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 95915934,
-          "name": "Delta Firestorm",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 987753095,
-          "name": "drako markam",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 22456,
-          "ship_name": "Sabre"
-        },
-        {
-          "character_id": 90817965,
-          "name": "James Henry Rooster",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 11194,
-          "ship_name": "Kitsune"
-        },
-        {
-          "character_id": 2121450307,
-          "name": "Jesus Jim",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17930,
-          "ship_name": "Worm"
-        },
-        {
-          "character_id": 2118986142,
-          "name": "Otuu Simbala",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17926,
-          "ship_name": "Cruor"
-        },
-        {
-          "character_id": 204180361,
-          "name": "Raythor Venthian",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 2121531380,
-          "name": "Richard Darkstar",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 1633218082,
-          "name": "Squizz Caphinator",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 0,
-          "ship_name": "Unknown ship"
-        },
-        {
-          "character_id": 2121223486,
-          "name": "Wallace Cornhose",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139429425,
-      "time": "2026-10-25T18:12:33Z",
-      "system_id": 31000892,
-      "system_name": "J205027",
-      "total_value": 185875686.97,
-      "points": 1,
-      "victim": {
-        "character_id": 2123425304,
-        "name": "Ganiel Drillex",
-        "corporation_id": 1000045,
-        "corporation_name": "Science and Trade Institute",
-        "ship_type_id": 33468,
-        "ship_name": "Astero"
-      },
-      "officers": [
-        {
-          "character_id": 95915934,
-          "name": "Delta Firestorm",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 987753095,
-          "name": "drako markam",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 22456,
-          "ship_name": "Sabre"
-        },
-        {
-          "character_id": 90817965,
-          "name": "James Henry Rooster",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 11194,
-          "ship_name": "Kitsune"
-        },
-        {
-          "character_id": 2121450307,
-          "name": "Jesus Jim",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17930,
-          "ship_name": "Worm"
-        },
-        {
-          "character_id": 2118986142,
-          "name": "Otuu Simbala",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17926,
-          "ship_name": "Cruor"
-        },
-        {
-          "character_id": 204180361,
-          "name": "Raythor Venthian",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 2121531380,
-          "name": "Richard Darkstar",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        },
-        {
-          "character_id": 2121223486,
-          "name": "Wallace Cornhose",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 17841,
-          "ship_name": "Federation Navy Comet"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139428369,
-      "time": "2026-10-25T17:29:31Z",
-      "system_id": 31000487,
-      "system_name": "J172556",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2120757104,
-        "name": "Badboy0047",
-        "corporation_id": 98574062,
-        "corporation_name": "Geizhals Holding",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "final_blow": true,
-          "damage_done": 458,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
         }
       ]
     }
