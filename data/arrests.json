@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-02T07:01:55Z",
+  "generated_at": "2026-11-03T07:26:17Z",
   "window": {
-    "start": "2026-10-26T07:01:55Z",
-    "end": "2026-11-02T07:01:55Z",
+    "start": "2026-10-27T07:26:17Z",
+    "end": "2026-11-03T07:26:17Z",
     "seconds": 604800
   },
   "source": {
@@ -14,18 +14,18 @@
     "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 53,
-    "suspects": 32,
-    "systems_protected": 19,
-    "total_value": 1814867528.39
+    "arrests": 54,
+    "suspects": 33,
+    "systems_protected": 20,
+    "total_value": 1823338711.72
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh Mabebu",
-      "arrests": 32,
-      "final_blows": 32,
-      "case_value": 1099553437.24,
+      "arrests": 33,
+      "final_blows": 33,
+      "case_value": 1108024620.57,
       "placement": 1
     },
     {
@@ -385,6 +385,32 @@
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139641384,
+      "time": "2026-11-03T05:01:33Z",
+      "system_id": 31001348,
+      "system_name": "J215326",
+      "total_value": 8471183.33,
+      "points": 1,
+      "victim": {
+        "character_id": 2124695428,
+        "name": "Togan Carr",
+        "corporation_id": 98758017,
+        "corporation_name": "Cryonic Origin",
+        "ship_type_id": 33475,
+        "ship_name": "Mobile Tractor Unit"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 49710,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 139615749,
       "time": "2026-11-02T01:45:03Z",
