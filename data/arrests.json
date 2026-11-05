@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-04T07:08:10Z",
+  "generated_at": "2026-11-05T07:37:07Z",
   "window": {
-    "start": "2026-10-28T07:08:10Z",
-    "end": "2026-11-04T07:08:10Z",
+    "start": "2026-10-29T07:37:07Z",
+    "end": "2026-11-05T07:37:07Z",
     "seconds": 604800
   },
   "source": {
@@ -14,19 +14,27 @@
     "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 58,
-    "suspects": 33,
-    "systems_protected": 19,
-    "total_value": 2405244388.8
+    "arrests": 61,
+    "suspects": 37,
+    "systems_protected": 22,
+    "total_value": 3068021548.02
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh Mabebu",
       "arrests": 37,
-      "final_blows": 36,
-      "case_value": 1645286461.18,
+      "final_blows": 34,
+      "case_value": 2062923691.3,
       "placement": 1
+    },
+    {
+      "character_id": 2120163218,
+      "name": "BLiTzD86",
+      "arrests": 9,
+      "final_blows": 3,
+      "case_value": 1150955953.99,
+      "placement": 2
     },
     {
       "character_id": 96847792,
@@ -34,15 +42,23 @@
       "arrests": 8,
       "final_blows": 6,
       "case_value": 415330662.17,
-      "placement": 2
+      "placement": 3
     },
     {
-      "character_id": 2120163218,
-      "name": "BLiTzD86",
+      "character_id": 1922855106,
+      "name": "10of15",
+      "arrests": 8,
+      "final_blows": 1,
+      "case_value": 1096071721.83,
+      "placement": 4
+    },
+    {
+      "character_id": 2112653898,
+      "name": "BranderBuddy Lemmont",
       "arrests": 7,
-      "final_blows": 2,
-      "case_value": 731126127.85,
-      "placement": 3
+      "final_blows": 1,
+      "case_value": 824082662.15,
+      "placement": 5
     },
     {
       "character_id": 204180361,
@@ -50,15 +66,7 @@
       "arrests": 6,
       "final_blows": 1,
       "case_value": 763119595.75,
-      "placement": 4
-    },
-    {
-      "character_id": 1922855106,
-      "name": "10of15",
-      "arrests": 6,
-      "final_blows": 0,
-      "case_value": 676241895.69,
-      "placement": 5
+      "placement": 6
     },
     {
       "character_id": 90817965,
@@ -66,14 +74,6 @@
       "arrests": 5,
       "final_blows": 5,
       "case_value": 33065895.9,
-      "placement": 6
-    },
-    {
-      "character_id": 2112653898,
-      "name": "BranderBuddy Lemmont",
-      "arrests": 5,
-      "final_blows": 1,
-      "case_value": 404252836.01,
       "placement": 7
     },
     {
@@ -93,12 +93,28 @@
       "placement": 9
     },
     {
+      "character_id": 2123598334,
+      "name": "GoodTwin",
+      "arrests": 4,
+      "final_blows": 0,
+      "case_value": 493889656.68,
+      "placement": 10
+    },
+    {
       "character_id": 2121531380,
       "name": "Richard Darkstar",
       "arrests": 4,
       "final_blows": 0,
       "case_value": 386686619.55,
-      "placement": 10
+      "placement": 11
+    },
+    {
+      "character_id": 2116627622,
+      "name": "Phyve Solette",
+      "arrests": 3,
+      "final_blows": 0,
+      "case_value": 701711559.86,
+      "placement": 12
     },
     {
       "character_id": 987753095,
@@ -106,7 +122,7 @@
       "arrests": 2,
       "final_blows": 0,
       "case_value": 363549974.9,
-      "placement": 11
+      "placement": 13
     },
     {
       "character_id": 2121223486,
@@ -114,23 +130,23 @@
       "arrests": 2,
       "final_blows": 0,
       "case_value": 292024770.09,
-      "placement": 12
-    },
-    {
-      "character_id": 2116627622,
-      "name": "Phyve Solette",
-      "arrests": 1,
-      "final_blows": 0,
-      "case_value": 281881733.72,
-      "placement": 13
-    },
-    {
-      "character_id": 2123598334,
-      "name": "GoodTwin",
-      "arrests": 1,
-      "final_blows": 0,
-      "case_value": 7774149.4,
       "placement": 14
+    },
+    {
+      "character_id": 1149811334,
+      "name": "Ouroborosg",
+      "arrests": 1,
+      "final_blows": 1,
+      "case_value": 171845985.54,
+      "placement": 15
+    },
+    {
+      "character_id": 95915934,
+      "name": "Delta Firestorm",
+      "arrests": 1,
+      "final_blows": 1,
+      "case_value": 7008262.42,
+      "placement": 16
     }
   ],
   "dirtbags": [
@@ -319,8 +335,8 @@
     {
       "system_id": 31000420,
       "system_name": "J103839",
-      "arrests": 10,
-      "total_value": 7749323.15,
+      "arrests": 8,
+      "total_value": 5556727.13,
       "top_killmail": {
         "killmail_id": 139609959,
         "time": "2026-11-01T20:27:50Z",
@@ -393,6 +409,216 @@
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139687691,
+      "time": "2026-11-05T06:23:16Z",
+      "system_id": 31002527,
+      "system_name": "J011563",
+      "total_value": 66285681.14,
+      "points": 3,
+      "victim": {
+        "character_id": 2123143236,
+        "name": "Unni Rin",
+        "corporation_id": 98793892,
+        "corporation_name": "Trinity Collective Corp",
+        "ship_type_id": 17476,
+        "ship_name": "Covetor"
+      },
+      "officers": [
+        {
+          "character_id": 2123598334,
+          "name": "GoodTwin",
+          "final_blow": false,
+          "damage_done": 3222,
+          "ship_type_id": 77114,
+          "ship_name": "Metamorphosis"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139686095,
+      "time": "2026-11-05T03:45:09Z",
+      "system_id": 31001129,
+      "system_name": "J235630",
+      "total_value": 171845985.54,
+      "points": 1,
+      "victim": {
+        "character_id": 2124588996,
+        "name": "Cenobios",
+        "corporation_id": 98840697,
+        "corporation_name": "Das unentdeckte Land",
+        "ship_type_id": 77114,
+        "ship_name": "Metamorphosis"
+      },
+      "officers": [
+        {
+          "character_id": 1149811334,
+          "name": "Ouroborosg",
+          "final_blow": true,
+          "damage_done": 1182,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139685874,
+      "time": "2026-11-05T03:26:19Z",
+      "system_id": 31002527,
+      "system_name": "J011563",
+      "total_value": 40267683.33,
+      "points": 1,
+      "victim": {
+        "character_id": 171841484,
+        "name": "XANDX",
+        "corporation_id": 98833110,
+        "corporation_name": "Avantur",
+        "ship_type_id": 33475,
+        "ship_name": "Mobile Tractor Unit"
+      },
+      "officers": [
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "final_blow": true,
+          "damage_done": 7074,
+          "ship_type_id": 29984,
+          "ship_name": "Tengu"
+        },
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "final_blow": false,
+          "damage_done": 5178,
+          "ship_type_id": 85086,
+          "ship_name": "Cenotaph"
+        },
+        {
+          "character_id": 2112653898,
+          "name": "BranderBuddy Lemmont",
+          "final_blow": false,
+          "damage_done": 1894,
+          "ship_type_id": 29988,
+          "ship_name": "Proteus"
+        },
+        {
+          "character_id": 2123598334,
+          "name": "GoodTwin",
+          "final_blow": false,
+          "damage_done": 1208,
+          "ship_type_id": 77114,
+          "ship_name": "Metamorphosis"
+        },
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": false,
+          "damage_done": 3636,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
+          "character_id": 2116627622,
+          "name": "Phyve Solette",
+          "final_blow": false,
+          "damage_done": 16603,
+          "ship_type_id": 29988,
+          "ship_name": "Proteus"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139685421,
+      "time": "2026-11-05T02:54:01Z",
+      "system_id": 31002527,
+      "system_name": "J011563",
+      "total_value": 379562142.81,
+      "points": 7,
+      "victim": {
+        "character_id": 2124561825,
+        "name": "Notional",
+        "corporation_id": 98840252,
+        "corporation_name": "Some Time Later",
+        "ship_type_id": 644,
+        "ship_name": "Typhoon"
+      },
+      "officers": [
+        {
+          "character_id": 2120163218,
+          "name": "BLiTzD86",
+          "final_blow": true,
+          "damage_done": 25058,
+          "ship_type_id": 85086,
+          "ship_name": "Cenotaph"
+        },
+        {
+          "character_id": 1922855106,
+          "name": "10of15",
+          "final_blow": false,
+          "damage_done": 4770,
+          "ship_type_id": 29984,
+          "ship_name": "Tengu"
+        },
+        {
+          "character_id": 2112653898,
+          "name": "BranderBuddy Lemmont",
+          "final_blow": false,
+          "damage_done": 4664,
+          "ship_type_id": 29988,
+          "ship_name": "Proteus"
+        },
+        {
+          "character_id": 2123598334,
+          "name": "GoodTwin",
+          "final_blow": false,
+          "damage_done": 1173,
+          "ship_type_id": 77114,
+          "ship_name": "Metamorphosis"
+        },
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": false,
+          "damage_done": 0,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        },
+        {
+          "character_id": 2116627622,
+          "name": "Phyve Solette",
+          "final_blow": false,
+          "damage_done": 1051,
+          "ship_type_id": 29988,
+          "ship_name": "Proteus"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139674931,
+      "time": "2026-11-04T16:08:46Z",
+      "system_id": 31000851,
+      "system_name": "J124449",
+      "total_value": 7008262.42,
+      "points": 1,
+      "victim": {
+        "character_id": 2124790095,
+        "name": "Chasiik",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 95915934,
+          "name": "Delta Firestorm",
+          "final_blow": true,
+          "damage_done": 676,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 139664087,
       "time": "2026-11-04T03:12:05Z",
@@ -2124,58 +2350,6 @@
           "name": "Vinnegar Douche",
           "final_blow": true,
           "damage_done": 5278,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139506773,
-      "time": "2026-10-29T02:18:24Z",
-      "system_id": 31000420,
-      "system_name": "J103839",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 837568987,
-        "name": "Gucky Loyd",
-        "corporation_id": 1000167,
-        "corporation_name": "State War Academy",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 543,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139506745,
-      "time": "2026-10-29T02:17:21Z",
-      "system_id": 31000420,
-      "system_name": "J103839",
-      "total_value": 2182596.02,
-      "points": 1,
-      "victim": {
-        "character_id": 837568987,
-        "name": "Gucky Loyd",
-        "corporation_id": 1000167,
-        "corporation_name": "State War Academy",
-        "ship_type_id": 649,
-        "ship_name": "Tayra"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 2980,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
