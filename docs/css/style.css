@@ -573,8 +573,9 @@ body:has(.memefleet-welcome[open]) {
 }
 
 .memefleet-welcome-actions {
+	position: relative;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	gap: var(--spacing-sm);
 	margin-top: var(--spacing-lg);
@@ -598,6 +599,48 @@ body:has(.memefleet-welcome[open]) {
 .memefleet-welcome-actions button:focus-visible {
 	outline: 2px solid var(--color-accent);
 	outline-offset: 3px;
+}
+
+.memefleet-welcome-tip {
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 0;
+	box-sizing: border-box;
+	width: min(320px, 100%);
+	padding: 1rem 1.125rem;
+	color: var(--color-text);
+	background: var(--color-bg-tertiary);
+	border: 1px solid var(--color-primary-light);
+	border-radius: var(--border-radius);
+	box-shadow: var(--shadow-xl);
+	font-size: 0.875rem;
+	line-height: 1.5;
+	visibility: hidden;
+}
+
+.memefleet-welcome-tip-right {
+	left: auto;
+	right: 0;
+}
+
+.memefleet-welcome-tip strong,
+.memefleet-welcome-tip span {
+	display: block;
+}
+
+.memefleet-welcome-tip strong {
+	margin-bottom: 0.5rem;
+	color: var(--color-accent);
+}
+
+.memefleet-welcome-tip span + span {
+	margin-top: 0.5rem;
+}
+
+.memefleet-welcome-option:hover .memefleet-welcome-tip,
+.memefleet-welcome-option:focus-within .memefleet-welcome-tip {
+	visibility: visible;
 }
 
 .memefleet-intro {

@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 		}
 		document.getElementById('memefleet-enter').addEventListener('click', enterFleetPage);
+		document.getElementById('memefleet-bomont').addEventListener('click', function() {
+			fleetWelcome.close();
+		});
 		fleetWelcome.addEventListener('cancel', function(event) {
 			event.preventDefault();
 			enterFleetPage();
