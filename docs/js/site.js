@@ -1,5 +1,23 @@
 // Mobile menu toggle
 document.addEventListener('DOMContentLoaded', function() {
+	const leaderboardControls = document.getElementById('leaderboard-controls');
+	if (leaderboardControls) {
+		const period = document.getElementById('leaderboard-period');
+		const metric = document.getElementById('leaderboard-metric');
+		const panels = document.querySelectorAll('.leaderboard-panel');
+		function updateLeaderboard() {
+			panels.forEach(function(panel) {
+				panel.hidden = panel.dataset.period !== period.value || panel.dataset.metric !== metric.value;
+				if (!panel.hidden) {
+					document.getElementById('leaderboard-status').textContent = panel.dataset.summary;
+				}
+			});
+		}
+		period.addEventListener('change', updateLeaderboard);
+		metric.addEventListener('change', updateLeaderboard);
+		leaderboardControls.hidden = false;
+		updateLeaderboard();
+	}
 	const menuToggle = document.getElementById('menu-toggle');
 	const navbar = document.getElementById('navbar');
 	const easternTimeZone = 'America/New_York';

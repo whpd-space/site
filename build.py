@@ -38,6 +38,7 @@ PAGES = [
     ('LegalLibrary.html', 'The Wormhole Police - Legal Library'),
     ('Arrests.html', 'The Wormhole Police - Arrests'),
     ('MemeFleet.html', 'The Wormhole Police - MemeFleet'),
+    ('MemeFleetLeaderboards.html', 'The Wormhole Police - MemeFleet Leaderboards'),
     ('MabelMotivation.html', 'The Wormhole Police - Mabel Motivation'),
     ('404.html', 'The Wormhole Police - 404'),
     ('legislation.html', 'The Wormhole Police - Legislation (Redirect)'),
@@ -300,7 +301,7 @@ def render_memefleet_stats(data_file=MEMEFLEETS_DATA_FILE):
                 f'<small>1–3 PM {escape(fleet["timezone"])}</small>',
                 '</th>',
                 f'<td class="memefleet-number" data-label="Participants">{int(fleet["participants_max"]):,}</td>',
-                f'<td class="memefleet-number" data-label="Systems Protected">{int(fleet["systems_protected"]):,}</td>' if 'systems_protected' in fleet else '<td class="memefleet-number" data-label="Systems Protected">—</td>',
+                f'<td class="memefleet-number" data-label="Systems Protected">{int(fleet["systems_protected"]):,}</td>' if 'systems_protected' in fleet else '<td class="memefleet-number" data-label="Systems Protected">N/A</td>',
                 f'<td class="memefleet-number" data-label="Arrests">{int(fleet["arrests"]):,}</td>',
                 f'<td class="memefleet-number" data-label="Total Cases Value">{escape(format_isk(fleet["total_value"]))}</td>',
                 '</tr>',
@@ -317,6 +318,86 @@ def render_memefleet_stats(data_file=MEMEFLEETS_DATA_FILE):
         '</section>',
     ])
     return '\n'.join(sections)
+
+
+def memefleet_rankings(fleets, names, year=None):
+    """Count one attendance per fleet and rank each metric independently."""
+    pilots = {}
+    for fleet in fleets:
+        if year is not None and fleet['date'][:4] != str(year):
+            continue
+        for pilot in fleet.get('pilots', []):
+            character_id = int(pilot['character_id'])
+            totals = pilots.setdefault(character_id, {
+                'character_id': character_id,
+                'name': names.get(str(character_id), f'Character {character_id}'),
+                'attendance': 0, 'arrests': 0, 'final_blows': 0, 'pod_kills': 0,
+            })
+            totals['attendance'] += 1
+            totals['arrests'] += pilot['arrests']
+            totals['final_blows'] += pilot['final_blows']
+            totals['pod_kills'] += pilot['pod_kills']
+    rankings = {}
+    for metric in ('attendance', 'arrests', 'final_blows', 'pod_kills'):
+        rows = sorted((p for p in pilots.values() if p[metric] > 0),
+                      key=lambda p: (-p[metric], p['name'].casefold(), p['character_id']))
+        rank = 0
+        previous = None
+        ranked = []
+        for index, pilot in enumerate(rows, 1):
+            if pilot[metric] != previous:
+                rank = index
+            previous = pilot[metric]
+            ranked.append({**pilot, 'rank': rank})
+        rankings[metric] = ranked
+    return rankings
+
+
+def render_memefleet_leaderboards(data_file=MEMEFLEETS_DATA_FILE):
+    with open(data_file, encoding='utf-8') as source:
+        data = json.load(source)
+    fleets = data.get('fleets', [])
+    if not fleets or any(
+        'pilots' not in fleet or any('arrests' not in pilot for pilot in fleet['pilots'])
+        for fleet in fleets
+    ):
+        return '<p>Pilot rankings are awaiting the historical data refresh.</p>'
+    escape = lambda value: html.escape(str(value), quote=True)
+    periods = [('all', 'All time')] + [(year, year) for year in sorted(
+        {fleet['date'][:4] for fleet in fleets}, reverse=True)]
+    metrics = [('attendance', 'Attendance'), ('arrests', 'Arrests'), ('final_blows', 'Final blows'), ('pod_kills', 'Pod kills')]
+    parts = ['<div id="leaderboard-controls" class="leaderboard-controls" hidden>',
+             '<label for="leaderboard-period">Period</label><select id="leaderboard-period">']
+    parts.extend(f'<option value="{key}">{label}</option>' for key, label in periods)
+    parts.extend(['</select><label for="leaderboard-metric">Rank by</label><select id="leaderboard-metric">'])
+    for key, label in metrics:
+        selected = ' selected' if key == 'attendance' else ''
+        parts.append(f'<option value="{key}"{selected}>{label}</option>')
+    parts.extend(['</select></div>', '<p id="leaderboard-status" role="status"></p>',
+                  f'<p class="memefleet-updated">Last refreshed {escape(format_timestamp(data["generated_at"]))}. '
+                  f'Coverage: {escape(data["history_start"])} through {escape(fleets[0]["date"])}.</p>'])
+    for period, label in periods:
+        rankings = memefleet_rankings(fleets, data.get('pilot_names', {}), None if period == 'all' else period)
+        for metric, title in metrics:
+            rows = rankings[metric]
+            parts.extend([f'<section class="leaderboard-panel" data-period="{period}" data-metric="{metric}" '
+                          f'data-summary="{escape(label)}: {title}, {len(rows):,} pilots">',
+                          f'<h2>{escape(label)}: {title}</h2>'])
+            if rows:
+                parts.extend(['<div class="memefleet-table-wrap"><table class="memefleet-table">',
+                              f'<caption>{escape(label)}: {title}</caption>',
+                              '<thead><tr><th scope="col">Rank</th><th scope="col">Pilot</th>',
+                              f'<th scope="col" class="memefleet-number">{title}</th></tr></thead><tbody>'])
+                for pilot in rows:
+                    parts.append(f'<tr><td data-label="Rank">{pilot["rank"]}</td>'
+                                 f'<th scope="row"><a href="https://zkillboard.com/character/{pilot["character_id"]}/">'
+                                 f'{escape(pilot["name"])}</a></th>'
+                                 f'<td class="memefleet-number" data-label="{title}">{pilot[metric]:,}</td></tr>')
+                parts.append('</tbody></table></div>')
+            else:
+                parts.append('<p>No recorded activity for this ranking.</p>')
+            parts.append('</section>')
+    return '\n'.join(parts)
 
 
 def get_content(filename):
@@ -387,6 +468,9 @@ def main():
         if filename == 'MemeFleet.html':
             content = content.replace('{{MEMEFLEET_STATS}}', render_memefleet_stats())
         
+        if filename == 'MemeFleetLeaderboards.html':
+            content = content.replace('{{MEMEFLEET_LEADERBOARDS}}', render_memefleet_leaderboards())
+
         # Build the page
         build_page(base_template, output_file, title, content)
         built_count += 1

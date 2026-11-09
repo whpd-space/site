@@ -52,7 +52,11 @@ python3 build.py
 
 `scripts/update_memefleet_stats.py` retrieves historical W-space kills for The Wormhole Police alliance from July 2020 onward, then keeps kills from completed Sunday 1–3 PM `America/New_York` fleet windows. Each report includes the maximum participant count, unique systems protected, arrests, and total case value. Weeks with no recorded value are omitted. Once a history exists, normal updates fetch only the current and previous months and merge them into the stored dataset; pass `--full` to rebuild the entire history.
 
-The **Update MemeFleet Stats** workflow runs Sundays at 23:00 UTC—at least three hours after the fleet ends in both standard and daylight time—commits the refreshed history to `main`, and republishes `MemeFleet.html`. It can also be run manually from GitHub Actions.
+The **Update MemeFleet Stats** workflow runs Sundays at 23:00 UTC, at least three hours after the fleet ends in both standard and daylight time, commits the refreshed history to `main`, and republishes `MemeFleet.html`. It can also be run manually from GitHub Actions.
+
+`MemeFleetLeaderboards.html` ranks pilots by attendance, arrests, final blows, and pod-kill participation for each year and all time. Attendance counts a pilot once per fleet with an attacking killmail appearance. Arrests count each distinct killmail a pilot participated in, including capsule kills. Capsule kills count for every participating pilot; final blows count only the credited attacker. Both standard and Genolution capsules count. Rankings include public fleet participants regardless of alliance membership, and tied scores share a rank. The same Sunday fleet windows and non-zero-value fleet history used in the weekly reports define leaderboard coverage.
+
+Schema version 4 stores per-fleet pilot counts and ESI names. Older datasets automatically trigger a full history backfill; subsequent refreshes replace only the current and previous months. The weekly workflow republishes both fleet pages.
 
 ```bash
 python3 scripts/update_memefleet_stats.py

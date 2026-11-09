@@ -9,9 +9,9 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 try:
-    from scripts.update_arrests import request_json, utc_timestamp
+    from scripts.update_arrests import request_json, resolve_names, utc_timestamp
 except ModuleNotFoundError:  # Direct execution adds scripts/, not the repository root.
-    from update_arrests import request_json, utc_timestamp
+    from update_arrests import request_json, resolve_names, utc_timestamp
 
 
 EASTERN = ZoneInfo('America/New_York')
@@ -21,6 +21,7 @@ FLEET_START_HOUR = 13
 FLEET_DURATION_HOURS = 2
 ZKILL_PAGE_SIZE = 200
 MAX_PAGES_PER_MONTH = 50
+CAPSULE_TYPE_IDS = {670, 33328}
 ZKILL_MONTH_URL = (
     'https://zkillboard.com/api/kills/w-space/{entity_type}/{entity_id}/'
     'year/{year}/month/{month}/page/{page}/'
@@ -141,6 +142,7 @@ def build_memefleet_dataset(killmails, now):
             'arrests': 0,
             'total_value': 0.0,
             '_system_ids': set(),
+            '_pilots': {},
         })
         participant_ids = {
             int(attacker['character_id'])
@@ -148,6 +150,19 @@ def build_memefleet_dataset(killmails, now):
             if attacker.get('character_id')
         }
         fleet['participants_max'] = max(fleet['participants_max'], len(participant_ids))
+        final_blow_ids = {
+            int(attacker['character_id'])
+            for attacker in killmail.get('attackers', [])
+            if attacker.get('character_id') and attacker.get('final_blow')
+        }
+        is_pod = killmail['victim'].get('ship_type_id') in CAPSULE_TYPE_IDS
+        for character_id in participant_ids:
+            pilot = fleet['_pilots'].setdefault(character_id, {
+                'character_id': character_id, 'arrests': 0, 'final_blows': 0, 'pod_kills': 0,
+            })
+            pilot['arrests'] += 1
+            pilot['final_blows'] += int(character_id in final_blow_ids)
+            pilot['pod_kills'] += int(is_pod)
         if killmail.get('solar_system_id'):
             fleet['_system_ids'].add(int(killmail['solar_system_id']))
         fleet['arrests'] += 1
@@ -158,9 +173,10 @@ def build_memefleet_dataset(killmails, now):
     for fleet in fleet_history:
         fleet['systems_protected'] = len(fleet.pop('_system_ids'))
         fleet['total_value'] = round(fleet['total_value'], 2)
+        fleet['pilots'] = sorted(fleet.pop('_pilots').values(), key=lambda pilot: pilot['character_id'])
 
     return {
-        'schema_version': 2,
+        'schema_version': 4,
         'generated_at': utc_timestamp(now),
         'history_start': HISTORY_START.isoformat(),
         'schedule': {
@@ -212,7 +228,11 @@ def main():
         'systems_protected' not in fleet
         for fleet in existing.get('fleets', [])
     )
-    full_refresh = args.full or not existing.get('fleets') or needs_systems_backfill
+    needs_pilots_backfill = any(
+        'pilots' not in fleet or any('arrests' not in pilot for pilot in fleet['pilots'])
+        for fleet in existing.get('fleets', [])
+    )
+    full_refresh = args.full or not existing.get('fleets') or needs_systems_backfill or needs_pilots_backfill
     months = (
         list(month_range(HISTORY_START, now.date()))
         if full_refresh
@@ -220,6 +240,8 @@ def main():
     )
     if needs_systems_backfill and not args.full:
         print('Existing history needs the Systems Protected backfill.')
+    if needs_pilots_backfill and not args.full:
+        print('Existing history needs the pilot leaderboard backfill.')
     print('Refresh mode:', 'full history' if full_refresh else 'current and previous month')
 
     raw_killmails = []
@@ -236,6 +258,8 @@ def main():
         if full_refresh
         else merge_memefleet_datasets(existing, refreshed, months)
     )
+    pilot_ids = {pilot['character_id'] for fleet in dataset['fleets'] for pilot in fleet['pilots']}
+    dataset['pilot_names'] = {str(key): value for key, value in resolve_names(pilot_ids).items()}
     args.output.parent.mkdir(parents=True, exist_ok=True)
     temporary_output = args.output.with_suffix(args.output.suffix + '.tmp')
     with open(temporary_output, 'w', encoding='utf-8') as output_file:

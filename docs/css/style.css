@@ -684,6 +684,39 @@ body:has(.memefleet-welcome[open]) {
 	margin-top: var(--spacing-2xl);
 }
 
+.leaderboard-controls:not([hidden]) {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	margin: 1.5rem 0 1rem;
+}
+
+.leaderboard-controls select {
+	font: inherit;
+	color: var(--color-text);
+	background: var(--color-surface);
+	border: 1px solid var(--color-text-muted);
+	border-radius: var(--border-radius-lg);
+	padding: 0.6rem 0.9rem;
+	max-width: 100%;
+}
+
+.leaderboard-definitions summary {
+	cursor: pointer;
+	color: var(--color-accent);
+}
+
+.leaderboard-panel[hidden] {
+	display: none;
+}
+
+.leaderboard-panel caption {
+	padding: 0.75rem;
+	text-align: left;
+	color: var(--color-text-muted);
+}
+
 .memefleet-history-heading {
 	display: flex;
 	align-items: end;

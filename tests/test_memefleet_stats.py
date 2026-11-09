@@ -3,18 +3,102 @@ import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from unittest.mock import patch
 
-from build import render_memefleet_stats
+from build import memefleet_rankings, render_memefleet_leaderboards, render_memefleet_stats
 from scripts.update_memefleet_stats import (
     build_memefleet_dataset,
     fleet_window,
     history_source,
+    main,
     merge_memefleet_datasets,
     recent_months,
 )
 
 
 class MemeFleetStatsTests(unittest.TestCase):
+    def test_legacy_history_is_backfilled_and_failed_names_preserve_previous_file(self):
+        kill = self.make_killmail(1, datetime(2026, 8, 23, 18, tzinfo=timezone.utc))
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'fleets.json'
+            original = json.dumps({'fleets': [{'date': '2026-08-23', 'systems_protected': 1, 'pilots': [{'character_id': 1, 'final_blows': 1, 'pod_kills': 0}]}]})
+            path.write_text(original)
+            with patch('sys.argv', ['update_memefleet_stats.py', '--output', str(path)]), \
+                 patch('scripts.update_memefleet_stats.month_range', return_value=[(2026, 8)]) as months, \
+                 patch('scripts.update_memefleet_stats.fetch_month_kills', return_value=[kill]), \
+                 patch('scripts.update_memefleet_stats.resolve_names', side_effect=RuntimeError('ESI unavailable')):
+                with self.assertRaisesRegex(RuntimeError, 'ESI unavailable'):
+                    main()
+                months.assert_called_once()
+                self.assertEqual(path.read_text(), original)
+            with patch('sys.argv', ['update_memefleet_stats.py', '--output', str(path)]), \
+                 patch('scripts.update_memefleet_stats.month_range', return_value=[(2026, 8)]), \
+                 patch('scripts.update_memefleet_stats.fetch_month_kills', return_value=[kill]), \
+                 patch('scripts.update_memefleet_stats.resolve_names', return_value={1: 'Pilot One', 2: 'Pilot Two'}):
+                main()
+            result = json.loads(path.read_text())
+            self.assertEqual(result['schema_version'], 4)
+            self.assertEqual(result['pilot_names']['1'], 'Pilot One')
+            self.assertEqual(len(result['fleets'][0]['pilots']), 2)
+
+    def test_pilot_counts_deduplicate_kills_and_count_both_capsule_types(self):
+        kills = []
+        for kill_id, ship_type in enumerate((670, 33328, 777), 1):
+            kill = self.make_killmail(kill_id, datetime(2026, 8, 23, 18, tzinfo=timezone.utc))
+            kill['victim']['ship_type_id'] = ship_type
+            kill['attackers'][0]['final_blow'] = True
+            kill['attackers'].append(dict(kill['attackers'][0]))
+            kill['attackers'].append({'final_blow': False})
+            kills.append(kill)
+        dataset = build_memefleet_dataset(kills + kills, datetime(2026, 8, 24, tzinfo=timezone.utc))
+        pilots = dataset['fleets'][0]['pilots']
+        self.assertEqual(pilots, [
+            {'character_id': 1, 'arrests': 3, 'final_blows': 3, 'pod_kills': 2},
+            {'character_id': 2, 'arrests': 3, 'final_blows': 0, 'pod_kills': 2},
+        ])
+        ranks = memefleet_rankings(dataset['fleets'], {})
+        self.assertEqual([p['attendance'] for p in ranks['attendance']], [1, 1])
+        self.assertEqual([p['rank'] for p in ranks['pod_kills']], [1, 1])
+
+    def test_years_ties_and_incremental_replacement(self):
+        def fleet(day, blows):
+            return {'date': day, 'pilots': [
+                {'character_id': 1, 'arrests': blows + 1, 'final_blows': blows, 'pod_kills': 1},
+                {'character_id': 2, 'arrests': 1, 'final_blows': 0, 'pod_kills': 1},
+            ]}
+        existing = {'fleets': [fleet('2025-12-28', 2), fleet('2026-01-04', 99)]}
+        refreshed = {'fleets': [fleet('2026-01-04', 3)]}
+        merged = merge_memefleet_datasets(existing, refreshed, [(2026, 1)])
+        all_time = memefleet_rankings(merged['fleets'], {'1': 'Zed', '2': 'Amy'})
+        year = memefleet_rankings(merged['fleets'], {}, '2026')
+        self.assertEqual(all_time['final_blows'][0]['final_blows'], 5)
+        self.assertEqual(year['final_blows'][0]['final_blows'], 3)
+        self.assertEqual(all_time['arrests'][0]['arrests'], 7)
+        self.assertEqual(year['arrests'][0]['arrests'], 4)
+        self.assertEqual([p['name'] for p in all_time['attendance']], ['Amy', 'Zed'])
+        self.assertEqual([p['rank'] for p in all_time['attendance']], [1, 1])
+        self.assertEqual(len(all_time['final_blows']), 1)
+        self.assertEqual(memefleet_rankings(merged['fleets'], {}, '2024')['attendance'], [])
+
+    def test_leaderboard_rendering_escapes_names_and_handles_missing_history(self):
+        dataset = build_memefleet_dataset([
+            self.make_killmail(1, datetime(2026, 8, 23, 18, tzinfo=timezone.utc))
+        ], datetime(2026, 8, 24, tzinfo=timezone.utc))
+        dataset['pilot_names'] = {'1': '<script>bad</script>'}
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'fleets.json'
+            path.write_text(json.dumps(dataset))
+            rendered = render_memefleet_leaderboards(path)
+            self.assertIn('&lt;script&gt;bad&lt;/script&gt;', rendered)
+            self.assertIn('data-period="all"', rendered)
+            self.assertIn('data-metric="arrests"', rendered)
+            self.assertIn('data-period="2026"', rendered)
+            self.assertIn('No recorded activity for this ranking.', rendered)
+            self.assertNotIn('—', rendered)
+            del dataset['fleets'][0]['pilots']
+            path.write_text(json.dumps(dataset))
+            self.assertIn('awaiting', render_memefleet_leaderboards(path))
+
     @staticmethod
     def make_killmail(
         killmail_id,

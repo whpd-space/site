@@ -48,6 +48,7 @@ jobs:
         run: |
           mkdir -p publish
           cp docs/MemeFleet.html publish/MemeFleet.html
+          cp docs/MemeFleetLeaderboards.html publish/MemeFleetLeaderboards.html
 
       - name: Deploy MemeFleet page
         uses: peaceiris/actions-gh-pages@v3
