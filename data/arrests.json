@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-10T07:56:04Z",
+  "generated_at": "2026-11-11T07:26:08Z",
   "window": {
-    "start": "2026-11-03T07:56:04Z",
-    "end": "2026-11-10T07:56:04Z",
+    "start": "2026-11-04T07:26:08Z",
+    "end": "2026-11-11T07:26:08Z",
     "seconds": 604800
   },
   "source": {
@@ -14,10 +14,10 @@
     "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 118,
-    "suspects": 68,
-    "systems_protected": 44,
-    "total_value": 11220757478.43
+    "arrests": 111,
+    "suspects": 66,
+    "systems_protected": 42,
+    "total_value": 10642253548.19
   },
   "rankings": [
     {
@@ -31,42 +31,26 @@
     {
       "character_id": 2120817710,
       "name": "Muh Mabebu",
-      "arrests": 42,
-      "final_blows": 28,
-      "case_value": 7017374983.62,
+      "arrests": 37,
+      "final_blows": 24,
+      "case_value": 6493765285.54,
       "placement": 2
     },
     {
       "character_id": 1922855106,
       "name": "10of15",
-      "arrests": 19,
+      "arrests": 18,
       "final_blows": 8,
-      "case_value": 5772340844.56,
+      "case_value": 5490459110.84,
       "placement": 3
     },
     {
       "character_id": 2120163218,
       "name": "BLiTzD86",
-      "arrests": 18,
-      "final_blows": 8,
-      "case_value": 7603453780.45,
+      "arrests": 15,
+      "final_blows": 6,
+      "case_value": 7266677814.57,
       "placement": 4
-    },
-    {
-      "character_id": 2112653898,
-      "name": "BranderBuddy Lemmont",
-      "arrests": 12,
-      "final_blows": 0,
-      "case_value": 4794057337.75,
-      "placement": 5
-    },
-    {
-      "character_id": 2116627622,
-      "name": "Phyve Solette",
-      "arrests": 11,
-      "final_blows": 5,
-      "case_value": 4867078199.3,
-      "placement": 6
     },
     {
       "character_id": 96847792,
@@ -74,6 +58,22 @@
       "arrests": 10,
       "final_blows": 9,
       "case_value": 69303471.94,
+      "placement": 5
+    },
+    {
+      "character_id": 2116627622,
+      "name": "Phyve Solette",
+      "arrests": 10,
+      "final_blows": 5,
+      "case_value": 4585196465.58,
+      "placement": 6
+    },
+    {
+      "character_id": 2112653898,
+      "name": "BranderBuddy Lemmont",
+      "arrests": 10,
+      "final_blows": 0,
+      "case_value": 4512165604.03,
       "placement": 7
     },
     {
@@ -95,9 +95,9 @@
     {
       "character_id": 204180361,
       "name": "Raythor Venthian",
-      "arrests": 6,
+      "arrests": 5,
       "final_blows": 3,
-      "case_value": 3604894237.8,
+      "case_value": 3323012504.08,
       "placement": 10
     },
     {
@@ -187,24 +187,6 @@
       "placement": 2
     },
     {
-      "character_id": 2115491755,
-      "name": "Misiek Skalniak",
-      "corporation_id": 1000172,
-      "corporation_name": "Pator Tech School",
-      "arrests": 4,
-      "total_value": 8302675.27,
-      "most_expensive_loss": {
-        "killmail_id": 139662494,
-        "time": "2026-11-04T01:34:15Z",
-        "total_value": 5230272.72,
-        "ship_type_id": 605,
-        "ship_name": "Heron",
-        "system_id": 31000811,
-        "system_name": "J141611"
-      },
-      "placement": 3
-    },
-    {
       "character_id": 2114244367,
       "name": "Queenie Audeles",
       "corporation_id": 98475338,
@@ -220,7 +202,7 @@
         "system_id": 31001161,
         "system_name": "J114358"
       },
-      "placement": 4
+      "placement": 3
     },
     {
       "character_id": 2114449458,
@@ -238,7 +220,7 @@
         "system_id": 31001161,
         "system_name": "J114358"
       },
-      "placement": 5
+      "placement": 4
     },
     {
       "character_id": 2112238546,
@@ -256,7 +238,7 @@
         "system_id": 31000390,
         "system_name": "J103339"
       },
-      "placement": 6
+      "placement": 5
     },
     {
       "character_id": 94829393,
@@ -274,7 +256,7 @@
         "system_id": 31000758,
         "system_name": "J140353"
       },
-      "placement": 7
+      "placement": 6
     },
     {
       "character_id": 2113629027,
@@ -292,7 +274,7 @@
         "system_id": 31000221,
         "system_name": "J113050"
       },
-      "placement": 8
+      "placement": 7
     },
     {
       "character_id": 2113714733,
@@ -310,7 +292,7 @@
         "system_id": 31001161,
         "system_name": "J114358"
       },
-      "placement": 9
+      "placement": 8
     },
     {
       "character_id": 2114437325,
@@ -327,6 +309,24 @@
         "ship_name": "Prospect",
         "system_id": 31001161,
         "system_name": "J114358"
+      },
+      "placement": 9
+    },
+    {
+      "character_id": 788475975,
+      "name": "Nosferatou",
+      "corporation_id": 98836211,
+      "corporation_name": "Todaki Minerals",
+      "arrests": 2,
+      "total_value": 336555523.57,
+      "most_expensive_loss": {
+        "killmail_id": 139698239,
+        "time": "2026-11-05T19:22:29Z",
+        "total_value": 336545523.57,
+        "ship_type_id": 33470,
+        "ship_name": "Stratios",
+        "system_id": 31000217,
+        "system_name": "J130322"
       },
       "placement": 10
     }
@@ -409,6 +409,84 @@
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 139826871,
+      "time": "2026-11-11T04:51:49Z",
+      "system_id": 31001132,
+      "system_name": "J152931",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2123914696,
+        "name": "Legion06130",
+        "corporation_id": 98817697,
+        "corporation_name": "Night Workers",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 454,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139826849,
+      "time": "2026-11-11T04:50:16Z",
+      "system_id": 31001132,
+      "system_name": "J152931",
+      "total_value": 117643069.18,
+      "points": 1,
+      "victim": {
+        "character_id": 2123914696,
+        "name": "Legion06130",
+        "corporation_id": 98817697,
+        "corporation_name": "Night Workers",
+        "ship_type_id": 11188,
+        "ship_name": "Anathema"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 1608,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 139825686,
+      "time": "2026-11-11T03:17:34Z",
+      "system_id": 31000869,
+      "system_name": "J113223",
+      "total_value": 8025796.68,
+      "points": 14,
+      "victim": {
+        "character_id": 1560649338,
+        "name": "wilbedoc2003",
+        "corporation_id": 1717491114,
+        "corporation_name": "Reverberation Inc",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 2811,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 139805653,
       "time": "2026-11-10T04:17:10Z",
@@ -3708,314 +3786,6 @@
           "name": "Delta Firestorm",
           "final_blow": true,
           "damage_done": 676,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139664087,
-      "time": "2026-11-04T03:12:05Z",
-      "system_id": 31000416,
-      "system_name": "J103217",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2123018512,
-        "name": "Brett Kilbride",
-        "corporation_id": 98345858,
-        "corporation_name": "Black Powder Ballistics",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "final_blow": true,
-          "damage_done": 458,
-          "ship_type_id": 95741,
-          "ship_name": "Akoman"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139664058,
-      "time": "2026-11-04T03:10:42Z",
-      "system_id": 31000416,
-      "system_name": "J103217",
-      "total_value": 54884232.16,
-      "points": 6,
-      "victim": {
-        "character_id": 2123018512,
-        "name": "Brett Kilbride",
-        "corporation_id": 98345858,
-        "corporation_name": "Black Powder Ballistics",
-        "ship_type_id": 1944,
-        "ship_name": "Bestower"
-      },
-      "officers": [
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "final_blow": true,
-          "damage_done": 1612,
-          "ship_type_id": 95741,
-          "ship_name": "Akoman"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139663971,
-      "time": "2026-11-04T03:05:05Z",
-      "system_id": 31000416,
-      "system_name": "J103217",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2118758973,
-        "name": "Kitten O'Malley",
-        "corporation_id": 98345858,
-        "corporation_name": "Black Powder Ballistics",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 461,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        },
-        {
-          "character_id": 2112653898,
-          "name": "BranderBuddy Lemmont",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 37480,
-          "ship_name": "Bifrost"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139663959,
-      "time": "2026-11-04T03:04:06Z",
-      "system_id": 31000416,
-      "system_name": "J103217",
-      "total_value": 281881733.72,
-      "points": 2,
-      "victim": {
-        "character_id": 2118758973,
-        "name": "Kitten O'Malley",
-        "corporation_id": 98345858,
-        "corporation_name": "Black Powder Ballistics",
-        "ship_type_id": 33151,
-        "ship_name": "Brutix Navy Issue"
-      },
-      "officers": [
-        {
-          "character_id": 1922855106,
-          "name": "10of15",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 29984,
-          "ship_name": "Tengu"
-        },
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "final_blow": false,
-          "damage_done": 16670,
-          "ship_type_id": 95741,
-          "ship_name": "Akoman"
-        },
-        {
-          "character_id": 2112653898,
-          "name": "BranderBuddy Lemmont",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 37480,
-          "ship_name": "Bifrost"
-        },
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        },
-        {
-          "character_id": 2116627622,
-          "name": "Phyve Solette",
-          "final_blow": false,
-          "damage_done": 15090,
-          "ship_type_id": 29988,
-          "ship_name": "Proteus"
-        },
-        {
-          "character_id": 204180361,
-          "name": "Raythor Venthian",
-          "final_blow": false,
-          "damage_done": 17278,
-          "ship_type_id": 29990,
-          "ship_name": "Loki"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139662869,
-      "time": "2026-11-04T01:55:40Z",
-      "system_id": 31001123,
-      "system_name": "J165153",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124692860,
-        "name": "Spinners Sin",
-        "corporation_id": 98840887,
-        "corporation_name": "Arbitrage Traders Corporation",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 506,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139662828,
-      "time": "2026-11-04T01:54:22Z",
-      "system_id": 31001123,
-      "system_name": "J165153",
-      "total_value": 359084154.95,
-      "points": 1,
-      "victim": {
-        "character_id": 2124692860,
-        "name": "Spinners Sin",
-        "corporation_id": 98840887,
-        "corporation_name": "Arbitrage Traders Corporation",
-        "ship_type_id": 33697,
-        "ship_name": "Prospect"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 3139,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139662570,
-      "time": "2026-11-04T01:40:23Z",
-      "system_id": 31000811,
-      "system_name": "J141611",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2115491755,
-        "name": "Misiek Skalniak",
-        "corporation_id": 1000172,
-        "corporation_name": "Pator Tech School",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 439,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139662560,
-      "time": "2026-11-04T01:39:09Z",
-      "system_id": 31000811,
-      "system_name": "J141611",
-      "total_value": 2543090.36,
-      "points": 9,
-      "victim": {
-        "character_id": 2115491755,
-        "name": "Misiek Skalniak",
-        "corporation_id": 1000172,
-        "corporation_name": "Pator Tech School",
-        "ship_type_id": 593,
-        "ship_name": "Tristan"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 3402,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139662497,
-      "time": "2026-11-04T01:34:23Z",
-      "system_id": 31000811,
-      "system_name": "J141611",
-      "total_value": 519312.19,
-      "points": 1,
-      "victim": {
-        "character_id": 2115491755,
-        "name": "Misiek Skalniak",
-        "corporation_id": 1000172,
-        "corporation_name": "Pator Tech School",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 439,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139662494,
-      "time": "2026-11-04T01:34:15Z",
-      "system_id": 31000811,
-      "system_name": "J141611",
-      "total_value": 5230272.72,
-      "points": 1,
-      "victim": {
-        "character_id": 2115491755,
-        "name": "Misiek Skalniak",
-        "corporation_id": 1000172,
-        "corporation_name": "Pator Tech School",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 944,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
