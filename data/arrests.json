@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-18T08:06:56Z",
+  "generated_at": "2026-11-19T08:16:08Z",
   "window": {
-    "start": "2026-11-11T08:06:56Z",
-    "end": "2026-11-18T08:06:56Z",
+    "start": "2026-11-12T08:16:08Z",
+    "end": "2026-11-19T08:16:08Z",
     "seconds": 604800
   },
   "source": {
@@ -14,34 +14,34 @@
     "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 101,
-    "suspects": 62,
-    "systems_protected": 48,
-    "total_value": 6606737084.19
+    "arrests": 80,
+    "suspects": 49,
+    "systems_protected": 41,
+    "total_value": 4695411236.43
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh Mabebu",
-      "arrests": 39,
-      "final_blows": 33,
-      "case_value": 2491282844.56,
+      "arrests": 34,
+      "final_blows": 29,
+      "case_value": 1453447049.2,
       "placement": 1
     },
     {
       "character_id": 1633218082,
       "name": "Squizz Caphinator",
-      "arrests": 35,
-      "final_blows": 33,
-      "case_value": 2154286329.61,
+      "arrests": 25,
+      "final_blows": 23,
+      "case_value": 1794964267.79,
       "placement": 2
     },
     {
       "character_id": 96847792,
       "name": "Vinnegar Douche",
-      "arrests": 13,
-      "final_blows": 9,
-      "case_value": 790112076.66,
+      "arrests": 10,
+      "final_blows": 6,
+      "case_value": 605309351.1,
       "placement": 3
     },
     {
@@ -69,36 +69,28 @@
       "placement": 6
     },
     {
-      "character_id": 95915934,
-      "name": "Delta Firestorm",
-      "arrests": 5,
-      "final_blows": 5,
-      "case_value": 802129187.74,
+      "character_id": 2123598334,
+      "name": "GoodTwin",
+      "arrests": 4,
+      "final_blows": 3,
+      "case_value": 647021118.71,
       "placement": 7
     },
     {
-      "character_id": 2123598334,
-      "name": "GoodTwin",
-      "arrests": 5,
-      "final_blows": 3,
-      "case_value": 1041782918.65,
+      "character_id": 2120163218,
+      "name": "BLiTzD86",
+      "arrests": 4,
+      "final_blows": 0,
+      "case_value": 772783385.24,
       "placement": 8
     },
     {
       "character_id": 1922855106,
       "name": "10of15",
-      "arrests": 5,
-      "final_blows": 1,
-      "case_value": 569979216.09,
-      "placement": 9
-    },
-    {
-      "character_id": 2120163218,
-      "name": "BLiTzD86",
-      "arrests": 5,
+      "arrests": 4,
       "final_blows": 0,
-      "case_value": 1167545185.18,
-      "placement": 10
+      "case_value": 175217416.15,
+      "placement": 9
     },
     {
       "character_id": 2121450307,
@@ -106,7 +98,7 @@
       "arrests": 4,
       "final_blows": 0,
       "case_value": 175217416.15,
-      "placement": 11
+      "placement": 10
     },
     {
       "character_id": 2118986142,
@@ -114,7 +106,7 @@
       "arrests": 4,
       "final_blows": 0,
       "case_value": 175217416.15,
-      "placement": 12
+      "placement": 11
     },
     {
       "character_id": 987753095,
@@ -122,6 +114,14 @@
       "arrests": 4,
       "final_blows": 0,
       "case_value": 149088575.36,
+      "placement": 12
+    },
+    {
+      "character_id": 95915934,
+      "name": "Delta Firestorm",
+      "arrests": 2,
+      "final_blows": 2,
+      "case_value": 472763922.72,
       "placement": 13
     },
     {
@@ -139,53 +139,9 @@
       "final_blows": 1,
       "case_value": 494255761.23,
       "placement": 15
-    },
-    {
-      "character_id": 2112653898,
-      "name": "BranderBuddy Lemmont",
-      "arrests": 1,
-      "final_blows": 0,
-      "case_value": 394761799.94,
-      "placement": 16
     }
   ],
   "dirtbags": [
-    {
-      "character_id": 2124753771,
-      "name": "CattusRex",
-      "corporation_id": 98669122,
-      "corporation_name": "Gruber und Partner GmbH",
-      "arrests": 3,
-      "total_value": 11729579.57,
-      "most_expensive_loss": {
-        "killmail_id": 139838941,
-        "time": "2026-11-11T17:30:32Z",
-        "total_value": 9848327.53,
-        "ship_type_id": 32880,
-        "ship_name": "Venture",
-        "system_id": 31001237,
-        "system_name": "J131245"
-      },
-      "placement": 1
-    },
-    {
-      "character_id": 2117806817,
-      "name": "Erimerranirsh",
-      "corporation_id": 98259065,
-      "corporation_name": "Tol-Vir",
-      "arrests": 2,
-      "total_value": 605354342.4,
-      "most_expensive_loss": {
-        "killmail_id": 139847846,
-        "time": "2026-11-12T01:21:03Z",
-        "total_value": 509134564.69,
-        "ship_type_id": 670,
-        "ship_name": "Capsule",
-        "system_id": 31001082,
-        "system_name": "J143513"
-      },
-      "placement": 2
-    },
     {
       "character_id": 2124741929,
       "name": "Kael Aion",
@@ -202,7 +158,7 @@
         "system_id": 31000796,
         "system_name": "J123540"
       },
-      "placement": 3
+      "placement": 1
     },
     {
       "character_id": 2118388563,
@@ -220,7 +176,7 @@
         "system_id": 31000897,
         "system_name": "J104654"
       },
-      "placement": 4
+      "placement": 2
     },
     {
       "character_id": 96525633,
@@ -238,7 +194,7 @@
         "system_id": 31002517,
         "system_name": "J013070"
       },
-      "placement": 5
+      "placement": 3
     },
     {
       "character_id": 2118296555,
@@ -256,7 +212,7 @@
         "system_id": 31000485,
         "system_name": "J131107"
       },
-      "placement": 6
+      "placement": 4
     },
     {
       "character_id": 2117087664,
@@ -274,43 +230,7 @@
         "system_id": 31000812,
         "system_name": "J113723"
       },
-      "placement": 7
-    },
-    {
-      "character_id": 2121456828,
-      "name": "Daniel Fouche",
-      "corporation_id": 98639548,
-      "corporation_name": "United Caldari Navy",
-      "arrests": 2,
-      "total_value": 189763697.83,
-      "most_expensive_loss": {
-        "killmail_id": 139845796,
-        "time": "2026-11-11T22:37:09Z",
-        "total_value": 159429815.01,
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard",
-        "system_id": 31001237,
-        "system_name": "J131245"
-      },
-      "placement": 8
-    },
-    {
-      "character_id": 96152951,
-      "name": "Chernii Mamba",
-      "corporation_id": 98423028,
-      "corporation_name": "Xenoris Corp",
-      "arrests": 2,
-      "total_value": 174371407.97,
-      "most_expensive_loss": {
-        "killmail_id": 139838151,
-        "time": "2026-11-11T17:00:34Z",
-        "total_value": 174361407.97,
-        "ship_type_id": 33468,
-        "ship_name": "Astero",
-        "system_id": 31000151,
-        "system_name": "J110906"
-      },
-      "placement": 9
+      "placement": 5
     },
     {
       "character_id": 1248951136,
@@ -328,40 +248,82 @@
         "system_id": 31000340,
         "system_name": "J112406"
       },
+      "placement": 6
+    },
+    {
+      "character_id": 2122169901,
+      "name": "Lou Loot",
+      "corporation_id": 98767258,
+      "corporation_name": "No Tax Relax",
+      "arrests": 2,
+      "total_value": 148243005.56,
+      "most_expensive_loss": {
+        "killmail_id": 139902309,
+        "time": "2026-11-14T07:27:40Z",
+        "total_value": 137671355.37,
+        "ship_type_id": 72904,
+        "ship_name": "Heron Navy Issue",
+        "system_id": 31001152,
+        "system_name": "J124327"
+      },
+      "placement": 7
+    },
+    {
+      "character_id": 2124803676,
+      "name": "Toyo Tayaris",
+      "corporation_id": 1000180,
+      "corporation_name": "State Protectorate",
+      "arrests": 2,
+      "total_value": 120691111.26,
+      "most_expensive_loss": {
+        "killmail_id": 139862641,
+        "time": "2026-11-12T18:18:04Z",
+        "total_value": 68391444.31,
+        "ship_type_id": 11192,
+        "ship_name": "Buzzard",
+        "system_id": 31000335,
+        "system_name": "J152257"
+      },
+      "placement": 8
+    },
+    {
+      "character_id": 2124745521,
+      "name": "Eru Eluvator",
+      "corporation_id": 1000045,
+      "corporation_name": "Science and Trade Institute",
+      "arrests": 2,
+      "total_value": 119672781.7,
+      "most_expensive_loss": {
+        "killmail_id": 139987485,
+        "time": "2026-11-17T15:05:24Z",
+        "total_value": 88077087.12,
+        "ship_type_id": 605,
+        "ship_name": "Heron",
+        "system_id": 31000897,
+        "system_name": "J104654"
+      },
+      "placement": 9
+    },
+    {
+      "character_id": 2124797027,
+      "name": "Zhen Xiaochou",
+      "corporation_id": 1000045,
+      "corporation_name": "Science and Trade Institute",
+      "arrests": 2,
+      "total_value": 76981581.01,
+      "most_expensive_loss": {
+        "killmail_id": 139927909,
+        "time": "2026-11-15T01:16:09Z",
+        "total_value": 76971581.01,
+        "ship_type_id": 11172,
+        "ship_name": "Helios",
+        "system_id": 31000144,
+        "system_name": "J105632"
+      },
       "placement": 10
     }
   ],
   "hotspots": [
-    {
-      "system_id": 31001237,
-      "system_name": "J131245",
-      "arrests": 9,
-      "total_value": 210009234.28,
-      "top_killmail": {
-        "killmail_id": 139845796,
-        "time": "2026-11-11T22:37:09Z",
-        "total_value": 159429815.01,
-        "victim_name": "Daniel Fouche",
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard"
-      },
-      "placement": 1
-    },
-    {
-      "system_id": 31000335,
-      "system_name": "J152257",
-      "arrests": 4,
-      "total_value": 158410764.28,
-      "top_killmail": {
-        "killmail_id": 139862641,
-        "time": "2026-11-12T18:18:04Z",
-        "total_value": 68391444.31,
-        "victim_name": "Toyo Tayaris",
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard"
-      },
-      "placement": 2
-    },
     {
       "system_id": 31000199,
       "system_name": "J102849",
@@ -375,7 +337,7 @@
         "ship_type_id": 24698,
         "ship_name": "Drake"
       },
-      "placement": 3
+      "placement": 1
     },
     {
       "system_id": 31000678,
@@ -390,7 +352,7 @@
         "ship_type_id": 32880,
         "ship_name": "Venture"
       },
-      "placement": 4
+      "placement": 2
     },
     {
       "system_id": 31000897,
@@ -404,6 +366,36 @@
         "victim_name": "El Kapetan",
         "ship_type_id": 33468,
         "ship_name": "Astero"
+      },
+      "placement": 3
+    },
+    {
+      "system_id": 31000805,
+      "system_name": "J100102",
+      "arrests": 3,
+      "total_value": 31435795.05,
+      "top_killmail": {
+        "killmail_id": 139900554,
+        "time": "2026-11-14T05:36:37Z",
+        "total_value": 21734656.81,
+        "victim_name": "Suslica",
+        "ship_type_id": 32880,
+        "ship_name": "Venture"
+      },
+      "placement": 4
+    },
+    {
+      "system_id": 31001431,
+      "system_name": "J132754",
+      "arrests": 3,
+      "total_value": 15043039.97,
+      "top_killmail": {
+        "killmail_id": 139860270,
+        "time": "2026-11-12T16:05:18Z",
+        "total_value": 10563663.93,
+        "victim_name": "PandaNoodle",
+        "ship_type_id": 19744,
+        "ship_name": "Sigil"
       },
       "placement": 5
     }
@@ -2814,584 +2806,6 @@
           "damage_done": 9150,
           "ship_type_id": 29988,
           "ship_name": "Proteus"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139850764,
-      "time": "2026-11-12T04:55:42Z",
-      "system_id": 31000335,
-      "system_name": "J152257",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2123977693,
-        "name": "larou Zabi",
-        "corporation_id": 98812344,
-        "corporation_name": "Morti's Flock",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 425,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139850746,
-      "time": "2026-11-12T04:54:29Z",
-      "system_id": 31000335,
-      "system_name": "J152257",
-      "total_value": 37709653.02,
-      "points": 1,
-      "victim": {
-        "character_id": 2123977693,
-        "name": "larou Zabi",
-        "corporation_id": 98812344,
-        "corporation_name": "Morti's Flock",
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 1170,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139849606,
-      "time": "2026-11-12T03:27:23Z",
-      "system_id": 31001173,
-      "system_name": "J213411",
-      "total_value": 394761799.94,
-      "points": 2,
-      "victim": {
-        "character_id": 2114851528,
-        "name": "Alex Dicer",
-        "corporation_id": 98616298,
-        "corporation_name": "Zero 2 Hero",
-        "ship_type_id": 12019,
-        "ship_name": "Sacrilege"
-      },
-      "officers": [
-        {
-          "character_id": 1922855106,
-          "name": "10of15",
-          "final_blow": true,
-          "damage_done": 3302,
-          "ship_type_id": 29984,
-          "ship_name": "Tengu"
-        },
-        {
-          "character_id": 2120163218,
-          "name": "BLiTzD86",
-          "final_blow": false,
-          "damage_done": 2709,
-          "ship_type_id": 85086,
-          "ship_name": "Cenotaph"
-        },
-        {
-          "character_id": 2112653898,
-          "name": "BranderBuddy Lemmont",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 670,
-          "ship_name": "Capsule"
-        },
-        {
-          "character_id": 2123598334,
-          "name": "GoodTwin",
-          "final_blow": false,
-          "damage_done": 363,
-          "ship_type_id": 77114,
-          "ship_name": "Metamorphosis"
-        },
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": false,
-          "damage_done": 0,
-          "ship_type_id": 29986,
-          "ship_name": "Legion"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139847846,
-      "time": "2026-11-12T01:21:03Z",
-      "system_id": 31001082,
-      "system_name": "J143513",
-      "total_value": 509134564.69,
-      "points": 1,
-      "victim": {
-        "character_id": 2117806817,
-        "name": "Erimerranirsh",
-        "corporation_id": 98259065,
-        "corporation_name": "Tol-Vir",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 461,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139847845,
-      "time": "2026-11-12T01:20:53Z",
-      "system_id": 31001082,
-      "system_name": "J143513",
-      "total_value": 96219777.71,
-      "points": 1,
-      "victim": {
-        "character_id": 2117806817,
-        "name": "Erimerranirsh",
-        "corporation_id": 98259065,
-        "corporation_name": "Tol-Vir",
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 1465,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139845856,
-      "time": "2026-11-11T22:40:06Z",
-      "system_id": 31001237,
-      "system_name": "J131245",
-      "total_value": 30333882.82,
-      "points": 1,
-      "victim": {
-        "character_id": 2121456828,
-        "name": "Daniel Fouche",
-        "corporation_id": 98639548,
-        "corporation_name": "United Caldari Navy",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 1633218082,
-          "name": "Squizz Caphinator",
-          "final_blow": true,
-          "damage_done": 502,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139845796,
-      "time": "2026-11-11T22:37:09Z",
-      "system_id": 31001237,
-      "system_name": "J131245",
-      "total_value": 159429815.01,
-      "points": 9,
-      "victim": {
-        "character_id": 2121456828,
-        "name": "Daniel Fouche",
-        "corporation_id": 98639548,
-        "corporation_name": "United Caldari Navy",
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard"
-      },
-      "officers": [
-        {
-          "character_id": 1633218082,
-          "name": "Squizz Caphinator",
-          "final_blow": true,
-          "damage_done": 1685,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139843774,
-      "time": "2026-11-11T21:07:00Z",
-      "system_id": 31001237,
-      "system_name": "J131245",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124296462,
-        "name": "MK2 UA",
-        "corporation_id": 98022595,
-        "corporation_name": "Syndicate Society",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 1633218082,
-          "name": "Squizz Caphinator",
-          "final_blow": true,
-          "damage_done": 470,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139843740,
-      "time": "2026-11-11T21:05:34Z",
-      "system_id": 31001237,
-      "system_name": "J131245",
-      "total_value": 2804.42,
-      "points": 1,
-      "victim": {
-        "character_id": 2124296462,
-        "name": "MK2 UA",
-        "corporation_id": 98022595,
-        "corporation_name": "Syndicate Society",
-        "ship_type_id": 601,
-        "ship_name": "Ibis"
-      },
-      "officers": [
-        {
-          "character_id": 1633218082,
-          "name": "Squizz Caphinator",
-          "final_blow": true,
-          "damage_done": 703,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139842398,
-      "time": "2026-11-11T20:04:42Z",
-      "system_id": 31001237,
-      "system_name": "J131245",
-      "total_value": 7290250.63,
-      "points": 1,
-      "victim": {
-        "character_id": 2121866720,
-        "name": "SathraL",
-        "corporation_id": 1000045,
-        "corporation_name": "Science and Trade Institute",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 1633218082,
-          "name": "Squizz Caphinator",
-          "final_blow": true,
-          "damage_done": 486,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139842395,
-      "time": "2026-11-11T20:04:33Z",
-      "system_id": 31001237,
-      "system_name": "J131245",
-      "total_value": 1212901.83,
-      "points": 1,
-      "victim": {
-        "character_id": 2121866720,
-        "name": "SathraL",
-        "corporation_id": 1000045,
-        "corporation_name": "Science and Trade Institute",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 1633218082,
-          "name": "Squizz Caphinator",
-          "final_blow": true,
-          "damage_done": 1245,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139841766,
-      "time": "2026-11-11T19:46:07Z",
-      "system_id": 31000939,
-      "system_name": "J153903",
-      "total_value": 149312827.54,
-      "points": 1,
-      "victim": {
-        "character_id": 1647169773,
-        "name": "Sophanes",
-        "corporation_id": 98806804,
-        "corporation_name": "Scrapyard Artificer's",
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard"
-      },
-      "officers": [
-        {
-          "character_id": 1633218082,
-          "name": "Squizz Caphinator",
-          "final_blow": true,
-          "damage_done": 1300,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139838941,
-      "time": "2026-11-11T17:30:32Z",
-      "system_id": 31001237,
-      "system_name": "J131245",
-      "total_value": 9848327.53,
-      "points": 1,
-      "victim": {
-        "character_id": 2124753771,
-        "name": "CattusRex",
-        "corporation_id": 98669122,
-        "corporation_name": "Gruber und Partner GmbH",
-        "ship_type_id": 32880,
-        "ship_name": "Venture"
-      },
-      "officers": [
-        {
-          "character_id": 1633218082,
-          "name": "Squizz Caphinator",
-          "final_blow": true,
-          "damage_done": 705,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139838188,
-      "time": "2026-11-11T17:02:02Z",
-      "system_id": 31000151,
-      "system_name": "J110906",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 96152951,
-        "name": "Chernii Mamba",
-        "corporation_id": 98423028,
-        "corporation_name": "Xenoris Corp",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douche",
-          "final_blow": true,
-          "damage_done": 461,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139838151,
-      "time": "2026-11-11T17:00:34Z",
-      "system_id": 31000151,
-      "system_name": "J110906",
-      "total_value": 174361407.97,
-      "points": 9,
-      "victim": {
-        "character_id": 96152951,
-        "name": "Chernii Mamba",
-        "corporation_id": 98423028,
-        "corporation_name": "Xenoris Corp",
-        "ship_type_id": 33468,
-        "ship_name": "Astero"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douche",
-          "final_blow": true,
-          "damage_done": 3738,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139837353,
-      "time": "2026-11-11T16:36:58Z",
-      "system_id": 31001237,
-      "system_name": "J131245",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124753771,
-        "name": "CattusRex",
-        "corporation_id": 98669122,
-        "corporation_name": "Gruber und Partner GmbH",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 1633218082,
-          "name": "Squizz Caphinator",
-          "final_blow": true,
-          "damage_done": 456,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139837337,
-      "time": "2026-11-11T16:36:14Z",
-      "system_id": 31001237,
-      "system_name": "J131245",
-      "total_value": 1871252.04,
-      "points": 1,
-      "victim": {
-        "character_id": 2124753771,
-        "name": "CattusRex",
-        "corporation_id": 98669122,
-        "corporation_name": "Gruber und Partner GmbH",
-        "ship_type_id": 607,
-        "ship_name": "Imicus"
-      },
-      "officers": [
-        {
-          "character_id": 1633218082,
-          "name": "Squizz Caphinator",
-          "final_blow": true,
-          "damage_done": 1118,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139835740,
-      "time": "2026-11-11T15:48:34Z",
-      "system_id": 31001657,
-      "system_name": "J125929",
-      "total_value": 10431317.59,
-      "points": 1,
-      "victim": {
-        "character_id": 252336992,
-        "name": "Ozonek",
-        "corporation_id": 1188406630,
-        "corporation_name": "Golden Point",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 96847792,
-          "name": "Vinnegar Douche",
-          "final_blow": true,
-          "damage_done": 857,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139833601,
-      "time": "2026-11-11T13:57:19Z",
-      "system_id": 31000838,
-      "system_name": "J134306",
-      "total_value": 5389260.13,
-      "points": 3,
-      "victim": {
-        "character_id": 1909745800,
-        "name": "Tomagafk",
-        "corporation_id": 1000115,
-        "corporation_name": "University of Caille",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 95915934,
-          "name": "Delta Firestorm",
-          "final_blow": true,
-          "damage_done": 929,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139832340,
-      "time": "2026-11-11T12:55:54Z",
-      "system_id": 31000838,
-      "system_name": "J134306",
-      "total_value": 142962283.59,
-      "points": 16,
-      "victim": {
-        "character_id": 2122138164,
-        "name": "Bugatu",
-        "corporation_id": 98686431,
-        "corporation_name": "Fixers Corporation",
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard"
-      },
-      "officers": [
-        {
-          "character_id": 95915934,
-          "name": "Delta Firestorm",
-          "final_blow": true,
-          "damage_done": 1328,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139831930,
-      "time": "2026-11-11T12:29:14Z",
-      "system_id": 31000838,
-      "system_name": "J134306",
-      "total_value": 181013721.3,
-      "points": 1,
-      "victim": {
-        "character_id": 2124674169,
-        "name": "Alden Vael",
-        "corporation_id": 1000045,
-        "corporation_name": "Science and Trade Institute",
-        "ship_type_id": 11172,
-        "ship_name": "Helios"
-      },
-      "officers": [
-        {
-          "character_id": 95915934,
-          "name": "Delta Firestorm",
-          "final_blow": true,
-          "damage_done": 1629,
-          "ship_type_id": 85087,
-          "ship_name": "Tholos"
         }
       ]
     }
