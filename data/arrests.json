@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-23T08:28:30Z",
+  "generated_at": "2026-11-24T10:36:06Z",
   "window": {
-    "start": "2026-11-16T08:28:30Z",
-    "end": "2026-11-23T08:28:30Z",
+    "start": "2026-11-17T10:36:06Z",
+    "end": "2026-11-24T10:36:06Z",
     "seconds": 604800
   },
   "source": {
@@ -14,18 +14,18 @@
     "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 63,
-    "suspects": 36,
-    "systems_protected": 30,
-    "total_value": 4708805509.99
+    "arrests": 61,
+    "suspects": 35,
+    "systems_protected": 29,
+    "total_value": 4700386130.44
   },
   "rankings": [
     {
       "character_id": 2120817710,
       "name": "Muh Mabebu",
-      "arrests": 21,
-      "final_blows": 15,
-      "case_value": 628403742.25,
+      "arrests": 19,
+      "final_blows": 13,
+      "case_value": 619984362.7,
       "placement": 1
     },
     {
@@ -2136,58 +2136,6 @@
           "damage_done": 905,
           "ship_type_id": 85087,
           "ship_name": "Tholos"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139975680,
-      "time": "2026-11-16T23:52:53Z",
-      "system_id": 31000495,
-      "system_name": "J231517",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124830587,
-        "name": "Gamusina Espacial",
-        "corporation_id": 1000045,
-        "corporation_name": "Science and Trade Institute",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 429,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 139975673,
-      "time": "2026-11-16T23:51:39Z",
-      "system_id": 31000495,
-      "system_name": "J231517",
-      "total_value": 8409379.55,
-      "points": 1,
-      "victim": {
-        "character_id": 2124830587,
-        "name": "Gamusina Espacial",
-        "corporation_id": 1000045,
-        "corporation_name": "Science and Trade Institute",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 1386,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
         }
       ]
     }
