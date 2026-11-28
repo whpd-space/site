@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-27T09:20:37Z",
+  "generated_at": "2026-11-28T08:36:44Z",
   "window": {
-    "start": "2026-11-20T09:20:37Z",
-    "end": "2026-11-27T09:20:37Z",
+    "start": "2026-11-21T08:36:44Z",
+    "end": "2026-11-28T08:36:44Z",
     "seconds": 604800
   },
   "source": {
@@ -14,10 +14,10 @@
     "membership": "zKillboard character stats info"
   },
   "summary": {
-    "arrests": 94,
-    "suspects": 55,
-    "systems_protected": 37,
-    "total_value": 10002320927.91
+    "arrests": 99,
+    "suspects": 58,
+    "systems_protected": 39,
+    "total_value": 11122746059.35
   },
   "rankings": [
     {
@@ -25,7 +25,7 @@
       "name": "Muh Mabebu",
       "arrests": 29,
       "final_blows": 20,
-      "case_value": 3321102617.12,
+      "case_value": 4337270907.81,
       "placement": 1
     },
     {
@@ -47,9 +47,9 @@
     {
       "character_id": 204180361,
       "name": "Raythor Venthian",
-      "arrests": 14,
-      "final_blows": 6,
-      "case_value": 3300357387.83,
+      "arrests": 19,
+      "final_blows": 11,
+      "case_value": 3404614228.58,
       "placement": 4
     },
     {
@@ -127,6 +127,24 @@
   ],
   "dirtbags": [
     {
+      "character_id": 2124790654,
+      "name": "Onereki Utsen Kurvora",
+      "corporation_id": 1000044,
+      "corporation_name": "School of Applied Knowledge",
+      "arrests": 4,
+      "total_value": 1654689305.2,
+      "most_expensive_loss": {
+        "killmail_id": 140151644,
+        "time": "2026-11-25T02:38:15Z",
+        "total_value": 860558631.7,
+        "ship_type_id": 11192,
+        "ship_name": "Buzzard",
+        "system_id": 31000031,
+        "system_name": "J153001"
+      },
+      "placement": 1
+    },
+    {
       "character_id": 2113428065,
       "name": "Yuki Isimatzu",
       "corporation_id": 98742144,
@@ -142,7 +160,7 @@
         "system_id": 31001137,
         "system_name": "J154634"
       },
-      "placement": 1
+      "placement": 2
     },
     {
       "character_id": 2124866925,
@@ -160,7 +178,7 @@
         "system_id": 31000823,
         "system_name": "J122732"
       },
-      "placement": 2
+      "placement": 3
     },
     {
       "character_id": 96567236,
@@ -178,7 +196,7 @@
         "system_id": 31000421,
         "system_name": "J152433"
       },
-      "placement": 3
+      "placement": 4
     },
     {
       "character_id": 2112616346,
@@ -195,24 +213,6 @@
         "ship_name": "Stratios",
         "system_id": 31000395,
         "system_name": "J121925"
-      },
-      "placement": 4
-    },
-    {
-      "character_id": 2124790654,
-      "name": "Onereki Utsen Kurvora",
-      "corporation_id": 1000044,
-      "corporation_name": "School of Applied Knowledge",
-      "arrests": 2,
-      "total_value": 860568631.7,
-      "most_expensive_loss": {
-        "killmail_id": 140151644,
-        "time": "2026-11-25T02:38:15Z",
-        "total_value": 860558631.7,
-        "ship_type_id": 11192,
-        "ship_name": "Buzzard",
-        "system_id": 31000031,
-        "system_name": "J153001"
       },
       "placement": 5
     },
@@ -309,6 +309,21 @@
   ],
   "hotspots": [
     {
+      "system_id": 31000698,
+      "system_name": "J215944",
+      "arrests": 7,
+      "total_value": 167542151.21,
+      "top_killmail": {
+        "killmail_id": 140159118,
+        "time": "2026-11-25T14:39:21Z",
+        "total_value": 147414607.06,
+        "victim_name": "Anzattevier Loutte",
+        "ship_type_id": 89648,
+        "ship_name": "Venture Consortium Issue"
+      },
+      "placement": 1
+    },
+    {
       "system_id": 31000372,
       "system_name": "J144605",
       "arrests": 6,
@@ -321,7 +336,7 @@
         "ship_type_id": 33468,
         "ship_name": "Astero"
       },
-      "placement": 1
+      "placement": 2
     },
     {
       "system_id": 31000517,
@@ -336,7 +351,7 @@
         "ship_type_id": 11188,
         "ship_name": "Anathema"
       },
-      "placement": 2
+      "placement": 3
     },
     {
       "system_id": 31000421,
@@ -351,7 +366,7 @@
         "ship_type_id": 645,
         "ship_name": "Dominix"
       },
-      "placement": 3
+      "placement": 4
     },
     {
       "system_id": 31000581,
@@ -366,25 +381,244 @@
         "ship_type_id": 33470,
         "ship_name": "Stratios"
       },
-      "placement": 4
-    },
-    {
-      "system_id": 31000021,
-      "system_name": "J135038",
-      "arrests": 5,
-      "total_value": 365885253.31,
-      "top_killmail": {
-        "killmail_id": 140159443,
-        "time": "2026-11-25T15:00:58Z",
-        "total_value": 117122554.62,
-        "victim_name": "Wi2Z",
-        "ship_type_id": 11182,
-        "ship_name": "Cheetah"
-      },
       "placement": 5
     }
   ],
   "arrests": [
+    {
+      "killmail_id": 140209644,
+      "time": "2026-11-28T04:15:20Z",
+      "system_id": 31000084,
+      "system_name": "J151106",
+      "total_value": 345995184.96,
+      "points": 6,
+      "victim": {
+        "character_id": 2124851541,
+        "name": "Alena Urbanova",
+        "corporation_id": 1000171,
+        "corporation_name": "Republic University",
+        "ship_type_id": 11188,
+        "ship_name": "Anathema"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 1527,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 140207627,
+      "time": "2026-11-28T02:08:20Z",
+      "system_id": 31001032,
+      "system_name": "J125741",
+      "total_value": 8444800.0,
+      "points": 1,
+      "victim": {
+        "character_id": 796805166,
+        "name": "Mek Infibious",
+        "corporation_id": 98818601,
+        "corporation_name": "Cult of Magik",
+        "ship_type_id": 33475,
+        "ship_name": "Mobile Tractor Unit"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 48075,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 140206371,
+      "time": "2026-11-28T00:45:31Z",
+      "system_id": 31000441,
+      "system_name": "J155307",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 94113556,
+        "name": "Korea Trucker",
+        "corporation_id": 98846063,
+        "corporation_name": "Supercluster Corporation",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
+          "final_blow": true,
+          "damage_done": 446,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 140206367,
+      "time": "2026-11-28T00:44:46Z",
+      "system_id": 31000441,
+      "system_name": "J155307",
+      "total_value": 85158066.85,
+      "points": 1,
+      "victim": {
+        "character_id": 94113556,
+        "name": "Korea Trucker",
+        "corporation_id": 98846063,
+        "corporation_name": "Supercluster Corporation",
+        "ship_type_id": 89240,
+        "ship_name": "Pioneer"
+      },
+      "officers": [
+        {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
+          "final_blow": true,
+          "damage_done": 3651,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 140203161,
+      "time": "2026-11-27T21:49:17Z",
+      "system_id": 31000698,
+      "system_name": "J215944",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124709419,
+        "name": "Bill Shepfield",
+        "corporation_id": 1000115,
+        "corporation_name": "University of Caille",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
+          "final_blow": true,
+          "damage_done": 432,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 140203140,
+      "time": "2026-11-27T21:48:07Z",
+      "system_id": 31000698,
+      "system_name": "J215944",
+      "total_value": 9225321.53,
+      "points": 6,
+      "victim": {
+        "character_id": 2124709419,
+        "name": "Bill Shepfield",
+        "corporation_id": 1000115,
+        "corporation_name": "University of Caille",
+        "ship_type_id": 72913,
+        "ship_name": "Imicus Navy Issue"
+      },
+      "officers": [
+        {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
+          "final_blow": true,
+          "damage_done": 1741,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 140203033,
+      "time": "2026-11-27T21:42:22Z",
+      "system_id": 31000698,
+      "system_name": "J215944",
+      "total_value": 9853452.37,
+      "points": 3,
+      "victim": {
+        "character_id": 2124819679,
+        "name": "Squeezy Meza",
+        "corporation_id": 98849255,
+        "corporation_name": "Squeezy Corp",
+        "ship_type_id": 605,
+        "ship_name": "Heron"
+      },
+      "officers": [
+        {
+          "character_id": 204180361,
+          "name": "Raythor Venthian",
+          "final_blow": true,
+          "damage_done": 947,
+          "ship_type_id": 85087,
+          "ship_name": "Tholos"
+        }
+      ]
+    },
+    {
+      "killmail_id": 140200599,
+      "time": "2026-11-27T20:01:57Z",
+      "system_id": 31000864,
+      "system_name": "J103619",
+      "total_value": 10000.0,
+      "points": 1,
+      "victim": {
+        "character_id": 2124790654,
+        "name": "Onereki Utsen Kurvora",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 670,
+        "ship_name": "Capsule"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 482,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
+    {
+      "killmail_id": 140200579,
+      "time": "2026-11-27T20:00:25Z",
+      "system_id": 31000864,
+      "system_name": "J103619",
+      "total_value": 794110673.5,
+      "points": 6,
+      "victim": {
+        "character_id": 2124790654,
+        "name": "Onereki Utsen Kurvora",
+        "corporation_id": 1000044,
+        "corporation_name": "School of Applied Knowledge",
+        "ship_type_id": 11188,
+        "ship_name": "Anathema"
+      },
+      "officers": [
+        {
+          "character_id": 2120817710,
+          "name": "Muh Mabebu",
+          "final_blow": true,
+          "damage_done": 1760,
+          "ship_type_id": 44993,
+          "ship_name": "Pacifier"
+        }
+      ]
+    },
     {
       "killmail_id": 140188452,
       "time": "2026-11-27T03:17:34Z",
@@ -2952,110 +3186,6 @@
           "name": "Vinnegar Douche",
           "final_blow": true,
           "damage_done": 891,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 140062584,
-      "time": "2026-11-21T06:09:26Z",
-      "system_id": 31000134,
-      "system_name": "J123047",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2124836225,
-        "name": "fokkei1",
-        "corporation_id": 98813850,
-        "corporation_name": "Sol Ringen",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 439,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 140062571,
-      "time": "2026-11-21T06:08:42Z",
-      "system_id": 31000134,
-      "system_name": "J123047",
-      "total_value": 50235342.74,
-      "points": 1,
-      "victim": {
-        "character_id": 2124836225,
-        "name": "fokkei1",
-        "corporation_id": 98813850,
-        "corporation_name": "Sol Ringen",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 939,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 140059285,
-      "time": "2026-11-21T02:18:58Z",
-      "system_id": 31000368,
-      "system_name": "J105951",
-      "total_value": 10000.0,
-      "points": 1,
-      "victim": {
-        "character_id": 2122090825,
-        "name": "GARAK3",
-        "corporation_id": 98571665,
-        "corporation_name": "Horizon Among The Stars",
-        "ship_type_id": 670,
-        "ship_name": "Capsule"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 435,
-          "ship_type_id": 44993,
-          "ship_name": "Pacifier"
-        }
-      ]
-    },
-    {
-      "killmail_id": 140059255,
-      "time": "2026-11-21T02:17:51Z",
-      "system_id": 31000368,
-      "system_name": "J105951",
-      "total_value": 82137025.03,
-      "points": 1,
-      "victim": {
-        "character_id": 2122090825,
-        "name": "GARAK3",
-        "corporation_id": 98571665,
-        "corporation_name": "Horizon Among The Stars",
-        "ship_type_id": 605,
-        "ship_name": "Heron"
-      },
-      "officers": [
-        {
-          "character_id": 2120817710,
-          "name": "Muh Mabebu",
-          "final_blow": true,
-          "damage_done": 920,
           "ship_type_id": 44993,
           "ship_name": "Pacifier"
         }
